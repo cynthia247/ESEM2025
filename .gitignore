@@ -8,3 +8,4 @@ mt-bert-satd-tool/dataset_four_artifacts/_issue_test.csv
 mt-bert-satd-tool/dataset_four_artifacts/_pr_test.csv
 mt-bert-satd-tool/dataset_four_artifacts/_code_comments_train.csv
 mt-bert-satd-tool/bert-base-uncased/pytorch_model.bin
+mt-bert-satd-tool/well_trained_model/pytorch_model.bin
