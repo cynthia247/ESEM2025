@@ -1,1 +1,10 @@
 .venv/
+mt-bert-satd-tool/mt-bert-satd/__pycache__
+CommunitySmell-and-SATD-model/
+mt-bert-satd-tool/mt-bert-satd/{model_checkpoints_save_path}/
+mt-bert-satd-tool/dataset_four_artifacts/_code_comments_test.csv
+mt-bert-satd-tool/dataset_four_artifacts/_commit_test.csv
+mt-bert-satd-tool/dataset_four_artifacts/_issue_test.csv
+mt-bert-satd-tool/dataset_four_artifacts/_pr_test.csv
+mt-bert-satd-tool/dataset_four_artifacts/_code_comments_train.csv
+mt-bert-satd-tool/bert-base-uncased/pytorch_model.bin

@@ -385,7 +385,7 @@ def main():
                         required=True,
                         help="The input data dir. Should contain the .tsv files (or other data files) for the task.")
     parser.add_argument("--bert_config_file",
-                        default="/home/uji657/Downloads/src/CommunitySmell_and_SATD/2023-MT-BERT-SATD/bert-base-uncased/config.json",
+                        default="/home/uji657/Downloads/src/CommunitySmell-and-SATD/mt-bert-satd-tool/bert-base-uncased/config.json",
                         type=str,
                         required=False,
                         help="The config json file corresponding to the pre-trained BERT model. \n"
@@ -396,7 +396,7 @@ def main():
                         required=False,
                         help="The name of the task to train.")
     parser.add_argument("--vocab_file",
-                        default="/home/uji657/Downloads/src/CommunitySmell_and_SATD/2023-MT-BERT-SATD/bert-base-uncased/vocab.txt",
+                        default="/home/uji657/Downloads/src/CommunitySmell-and-SATD/mt-bert-satd-tool/bert-base-uncased/vocab.txt",
                         type=str,
                         required=False,
                         help="The vocabulary file that the BERT model was trained on.")
@@ -408,7 +408,7 @@ def main():
 
     ## Other parameters
     parser.add_argument("--init_checkpoint",
-                        default="/home/uji657/Downloads/src/CommunitySmell_and_SATD/2023-MT-BERT-SATD/bert-base-uncased/pytorch_model.bin",
+                        default="/home/uji657/Downloads/src/CommunitySmell-and-SATD/mt-bert-satd-tool/bert-base-uncased/pytorch_model.bin",
                         type=str,
                         help="Initial checkpoint (usually from a pre-trained BERT model).")
     parser.add_argument("--do_lower_case",
@@ -434,7 +434,7 @@ def main():
                         action='store_true',
                         help="Whether to do discriminative fine-tuning.")
     parser.add_argument("--train_batch_size",
-                        default=32,
+                        default=16,
                         type=int,
                         help="Total batch size for training.")
     parser.add_argument("--eval_batch_size",
