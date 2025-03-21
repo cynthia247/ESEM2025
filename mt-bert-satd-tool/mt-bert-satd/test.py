@@ -12,4 +12,4 @@ print(os.environ.get("CUDA_VISIBLE_DEVICES"))  # Should return None or "0"
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import os
 os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
-
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
