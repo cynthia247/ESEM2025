@@ -89,7 +89,7 @@ class AllProcessor(DataProcessor):
 
     def get_predict_examples(self, data_dir, task):
         predict_data = pd.read_csv(
-            os.path.join("/home/uji657/Downloads/src/CommunitySmell-and-SATD/mt-bert-satd tool/unclassified_files/" +data_dir + '.csv'), header=None, sep=",").values
+            os.path.join("/home/uji657/Downloads/src/CommunitySmell-and-SATD/mt-bert-satd-tool/unclassified_files/" +data_dir + '.csv'), header=None, sep=",").values
         predict_data = np.delete(predict_data, 0, 0)
         print("=====================")
         print(predict_data)
@@ -287,12 +287,12 @@ def main():
     os.makedirs(args.output_dir, exist_ok=True)
 
     tokenizer = tokenization.FullTokenizer(
-        vocab_file="/home/uji657/Downloads/src/CommunitySmell-and-SATD/mt-bert-satd tool/well_trained_model/vocab.txt", do_lower_case=True)
-    bert_config = BertConfig.from_json_file("/home/uji657/Downloads/src/CommunitySmell-and-SATD/mt-bert-satd tool/well_trained_model/config.json")
+        vocab_file="/home/uji657/Downloads/src/CommunitySmell-and-SATD/mt-bert-satd-tool/well_trained_model/vocab.txt", do_lower_case=True)
+    bert_config = BertConfig.from_json_file("/home/uji657/Downloads/src/CommunitySmell-and-SATD/mt-bert-satd-tool/well_trained_model/config.json")
 
     model = BertForSequenceClassification(bert_config, len(label_list))
 
-    checkpoint = torch.load('/home/uji657/Downloads/src/CommunitySmell-and-SATD/mt-bert-satd tool/well_trained_model/pytorch_model.bin')
+    checkpoint = torch.load('/home/uji657/Downloads/src/CommunitySmell-and-SATD/mt-bert-satd-tool/well_trained_model/pytorch_model.bin')
     model.bert.load_state_dict(checkpoint['bert'])
     model.classifier_1.load_state_dict(checkpoint['classifier_1'])
     model.classifier_2.load_state_dict(checkpoint['classifier_2'])
@@ -366,7 +366,7 @@ def main():
 
     import pandas as pd
 
-    data = pd.read_csv('/home/uji657/Downloads/src/CommunitySmell-and-SATD/mt-bert-satd tool/unclassified_files/'+args.data_dir+'.csv')
+    data = pd.read_csv('/home/uji657/Downloads/src/CommunitySmell-and-SATD/mt-bert-satd-tool/unclassified_files/'+args.data_dir+'.csv')
     
     data['predict'] = predict_list
     data.to_csv( args.output_dir + '/predict_'+args.data_dir+'.csv', index=False)
