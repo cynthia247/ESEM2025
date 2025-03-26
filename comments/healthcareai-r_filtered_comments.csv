@@ -1,0 +1,92 @@
+Version,Commit Message
+v2.5.0,"return all matching elements in the set, or their descendants"
+v2.5.0,http://danielnouri.org/notes/2011/03/14/a-jquery-find-that-also-finds-the-root-element/
+v2.5.0,http://stackoverflow.com/a/12731439/358804
+v2.5.0,add suffix
+v2.5.0,check if ID already exists
+v2.5.0,"Find the first heading level (`<h1>`, then `<h2>`, etc.) that has more than one element. Defaults to 1 (for `<h1>`)."
+v2.5.0,"returns the elements for the top level, and the next below it"
+v2.5.0,determine the proper $context
+v2.5.0,use top level
+v2.5.0,create a new level of the tree and switch to it
+v2.5.0,"accepts a jQuery object, or an options object"
+v2.5.0,ensure that the data attribute is in place for styling
+v2.5.0,Ignore external links
+v2.5.0,"Add class to parent <li>, and enclosing <li> if in dropdown"
+v2.5.0,Returns -1 if not found
+v2.5.0,"Special case for length-0 haystack, since for loop won't run"
+v2.5.0,Insert copy buttons:
+v2.5.0,Initialize tooltips:
+v2.5.0,Initialize clipboard:
+v2.5.0,register a handler to move the focus to the search bar
+v2.5.0,"upon pressing shift + ""/"" (i.e. ""?"")"
+v2.5.0,do keyword highlighting
+v2.5.0,"loop to fetch from lvl0, lvl1, etc."
+v2.5.0,return unique words
+v2.4.0,Ignore external links
+v2.4.0,"Add class to parent <li>, and enclosing <li> if in dropdown"
+v2.4.0,Returns -1 if not found
+v2.4.0,"Special case for length-0 haystack, since for loop won't run"
+v2.4.0,Insert copy buttons:
+v2.4.0,Initialize tooltips:
+v2.4.0,Initialize clipboard:
+v2.4.0,register a handler to move the focus to the search bar
+v2.4.0,"upon pressing shift + ""/"" (i.e. ""?"")"
+v2.4.0,do keyword highlighting
+v2.4.0,"loop to fetch from lvl0, lvl1, etc."
+v2.4.0,return unique words
+2.3.0,"Add class to parent <li>, and enclosing <li> if in dropdown"
+2.3.0,"Special case for length-0 haystack, since for loop won't run"
+2.3.0,Insert copy buttons:
+2.3.0,Initialize tooltips:
+2.3.0,Initialize clipboard:
+2.3.0,register a handler to move the focus to the search bar
+2.3.0,"upon pressing shift + ""/"" (i.e. ""?"")"
+2.3.0,do keyword highlighting
+2.3.0,"loop to fetch from lvl0, lvl1, etc."
+2.3.0,return unique words
+v2.2.0,"Add class to parent <li>, and enclosing <li> if in dropdown"
+v2.2.0,"Special case for length-0 haystack, since for loop won't run"
+v2.2.0,Insert copy buttons:
+v2.2.0,Initialize tooltips:
+v2.2.0,Initialize clipboard:
+v2.2.0,register a handler to move the focus to the search bar
+v2.2.0,"upon pressing shift + ""/"" (i.e. ""?"")"
+v2.2.0,do keyword highlighting
+v2.2.0,"loop to fetch from lvl0, lvl1, etc."
+v2.2.0,return unique words
+v2.1.1,"Add class to parent <li>, and enclosing <li> if in dropdown"
+v2.1.1,"Special case for length-0 haystack, since for loop won't run"
+v2.1.1,Insert copy buttons:
+v2.1.1,Initialize tooltips:
+v2.1.1,Initialize clipboard:
+v2.1.1,register a handler to move the focus to the search bar
+v2.1.1,"upon pressing shift + ""/"" (i.e. ""?"")"
+v2.1.1,do keyword highlighting
+v2.1.1,"loop to fetch from lvl0, lvl1, etc."
+v2.1.1,return unique words
+v2.1.0,"Add class to parent <li>, and enclosing <li> if in dropdown"
+v2.1.0,"Special case for length-0 haystack, since for loop won't run"
+v2.1.0,Insert copy buttons:
+v2.1.0,Initialize tooltips:
+v2.1.0,Initialize clipboard:
+v2.1.0,register a handler to move the focus to the search bar
+v2.1.0,"upon pressing shift + ""/"" (i.e. ""?"")"
+v2.1.0,do keyword highlighting
+v2.1.0,"loop to fetch from lvl0, lvl1, etc."
+v2.1.0,return unique words
+2.0.0,"Add class to parent <li>, and enclosing <li> if in dropdown"
+2.0.0,"Special case for length-0 haystack, since for loop won't run"
+2.0.0,Insert copy buttons:
+2.0.0,Initialize tooltips:
+2.0.0,Initialize clipboard:
+v2.0.0.9000,"Add class to parent <li>, and enclosing <li> if in dropdown"
+v2.0.0.9000,"Special case for length-0 haystack, since for loop won't run"
+v2.0.0.9000,Insert copy buttons:
+v2.0.0.9000,Initialize tooltips:
+v2.0.0.9000,Initialize clipboard:
+v2.0.0.9000,"Add class to parent <li>, and enclosing <li> if in dropdown"
+v2.0.0.9000,"Special case for length-0 haystack, since for loop won't run"
+v2.0.0.9000,Insert copy buttons:
+v2.0.0.9000,Initialize tooltips:
+v2.0.0.9000,Initialize clipboard:
