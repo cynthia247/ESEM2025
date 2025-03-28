@@ -100,7 +100,6 @@ def matching_releases(repo):
 
 if __name__ == "__main__":
     df = pd.read_csv('csDetector-Result/project_names.csv')
-    df = df.iloc[-1:]
     print(df)
     for i, row in df.iterrows():
         owner = row['owner']

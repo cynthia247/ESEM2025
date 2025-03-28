@@ -16,10 +16,6 @@ def grouping_SATD(df):
 
 def merge_community_smell_SATD(satd_df,repo):
     cs_df = pd.read_csv(f'csDetector-Result/{repo}_combined-result.csv')
-    # cs_df["Release"] = cs_df["Release"].str.extract(r'(\d+\.\d+\.\d+)')
-    # satd_df["Release"] = satd_df["Release"].str.extract(r'(\d+\.\d+\.\d+)')
-    # print(cs_df['Release'])
-    # print(satd_df['Release'])
 
     merged_df = cs_df.merge(satd_df, on="Release", how="left")
 
@@ -44,7 +40,7 @@ if __name__ == "__main__":
         repo = row['repo']
         
         GITHUB_REPO = owner + '/' + repo
-        repo = 'LightGBM'
+      
 
         print("\n")
         print(f"Processing {repo}")
