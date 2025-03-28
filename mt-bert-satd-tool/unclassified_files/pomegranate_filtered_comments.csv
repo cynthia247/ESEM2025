@@ -1,0 +1,1454 @@
+Commit Message
+Configuration file for the Sphinx documentation builder.
+""
+"For the full list of built-in configuration values, see the documentation:"
+https://www.sphinx-doc.org/en/master/usage/configuration.html
+-- Project information -----------------------------------------------------
+https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
+-- General configuration ---------------------------------------------------
+https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
+-- Options for HTML output -------------------------------------------------
+https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
+test_bayes_classifier.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_bayesian_network.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+Inspiration from https://github.com/jmschrei/pomegranate/issues/1108
+tools.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+Use the same flag as unittest itself to prevent descent into these functions:
+""
+Expose assert* from unittest.TestCase
+- give them pep8 style names
+""
+test_bayes_classifier.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_kmeans.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+test_utils.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+""
+""
+def test_check_parameters_value_set_float():
+"x = torch.tensor([1.1, 6.0, 24.3], dtype=torch.float32)"
+"value_set = [1.1, 6.0, 24.3, 17.8]"
+""
+"_check_parameter(x, ""x"", value_set=tuple(value_set))"
+"_check_parameter(x, ""x"", value_set=list(value_set))"
+""
+"assert_raises(ValueError, _check_parameter, x, ""x"", value_set=[True, False])"
+"assert_raises(ValueError, _check_parameter, x, ""x"", value_set=[5.2, 1, 6])"
+##
+test_bayes_classifier.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+""
+test_bayesian_network_structure_learning.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_factor_graph.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+test_bayes_classifier.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+test_bayes_classifier.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+##
+##
+Data here is a 3D array of lists
+test_bayes_classifier.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+##
+test_joint_categorical.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_exponential.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_gamma.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_poisson.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_dirac_delta.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+_utils.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+test_normal_diagonal.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+def test_from_summaries_null():
+"d = Normal([1, 2], [1, 2], covariance_type='diag')"
+d.from_summaries()
+assert d.means[0] != 1 and d.means[1] != 2
+assert d.covs[0] != 1 and d.covs[1] != 2
+"assert_array_almost_equal(d._w_sum, [0.0, 0.0])"
+"assert_array_almost_equal(d._xw_sum, [0.0, 0.0])"
+"assert_array_almost_equal(d._xxw_sum, [0.0, 0.0])"
+""
+"d = Normal([1, 2], [1, 2], covariance_type='diag', inertia=0.5)"
+d.from_summaries()
+assert d.means[0] != 1 and d.means[1] != 2
+assert d.covs[0] != 1 and d.covs[1] != 2
+"assert_array_almost_equal(d._w_sum, [0.0, 0.0])"
+"assert_array_almost_equal(d._xw_sum, [0.0, 0.0])"
+"assert_array_almost_equal(d._xxw_sum, [0.0, 0.0])"
+""
+""
+"d = Normal([1, 2], [1, 2], covariance_type='diag', inertia=0.5, frozen=True)"
+d.from_summaries()
+"_test_fit_params(d, [1, 2], [1, 2])"
+test_independent_component.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_student_t.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+def test_from_summaries_null():
+"d = StudentT(3, [1, 2], [1, 2])"
+d.from_summaries()
+assert d.means[0] != 1 and d.means[1] != 2
+assert d.covs[0] != 1 and d.covs[1] != 2
+"assert_array_almost_equal(d._w_sum, [0.0, 0.0])"
+"assert_array_almost_equal(d._xw_sum, [0.0, 0.0])"
+"assert_array_almost_equal(d._xxw_sum, [0.0, 0.0])"
+""
+"d = StudentT(3, [1, 2], [1, 2], inertia=0.5)"
+d.from_summaries()
+assert d.means[0] != 1 and d.means[1] != 2
+assert d.covs[0] != 1 and d.covs[1] != 2
+"assert_array_almost_equal(d._w_sum, [0.0, 0.0])"
+"assert_array_almost_equal(d._xw_sum, [0.0, 0.0])"
+"assert_array_almost_equal(d._xxw_sum, [0.0, 0.0])"
+""
+""
+"d = StudentT(3, [1, 2], [1, 2], inertia=0.5, frozen=True)"
+d.from_summaries()
+"_test_fit_params(d, [1, 2], [1, 2])"
+test_normal_full.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_ConditionalCategorical.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+"assert_raises(ValueError, ConditionalCategorical, numpy.array(probs)+0.001) FIXME"
+"assert_raises(ValueError, ConditionalCategorical, numpy.array(probs)-0.001) FIXME"
+##
+##
+##
+test_uniform.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_bernoulli.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_categorical.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+bayesian_network.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+Create the marginal distribution in the factor graph
+Add the marginal and keep track of it
+"If a conditional distribution, calculate the joint distribution"
+assuming uniform distributions for all the parents
+Add the factor to the factor graph
+"Otherwise, we add the univariate distribution as the factor"
+Get the respective marginal and factor distributions and their idxs
+We need to keep this edge as the last one so pop it and re-add it
+Add the new edge and then the previous edge
+####
+factor_graph.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+Pull out the current distributions from factors and marginals
+Use the evidence in the data to set marginal distributions
+Set the original in and out messages along the edges
+Begin iterations
+Update the messages going into the nodes.
+Calculate the current estimates of the marginals
+Update the messages leaving based on the new marginals
+_utils.py
+Jacob Schreiber <jmschreiber91@gmail.com>
+"If a 3D tensor has been passed in, return it"
+"Otherwise, cast all elements in the list as a tensor"
+"If a list of 3D tensors has been passed in, return it"
+"Otherwise, group together same-sized examples"
+_bayes.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+markov_chain.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+gmm.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+BayesClassifier.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+kmeans.py
+Author: Jacob Schreiber
+_sparse_hmm.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+This should be something like
+"maxs, argmaxs = torch.scatter_max(...)"
+but that isn't implemented yet. Hopefully will come soon because
+pytorch-scatter is too difficult to install.
+dense_hmm.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+_base.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+Initialize by concatenating across sequences
+Train loop across all tensors
+Calculate and check improvement and optionally print it
+Calculate for the last iteration
+__init__.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+student_t.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+diracdelta.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+normal.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+Define some useful constants
+exponential.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+bernoulli.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+zero_inflated.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+conditional_categorical.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+gamma.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+_distribution.py
+Jacob Schreiber <jmschreiber91@gmail.com>
+joint_categorical.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+categorical.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+uniform.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+independent_components.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+poisson.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+normal.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+take the log of X
+normal.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+Define some useful constants
+the means are always zero for a half normal distribution
+-*- coding: utf-8 -*-
+""
+"pomegranate documentation build configuration file, created by"
+sphinx-quickstart on Sun Oct 30 18:10:26 2016.
+""
+This file is execfile()d with the current directory set to its
+containing dir.
+""
+Note that not all possible configuration values are present in this
+autogenerated file.
+""
+All configuration values have a default; values that are commented out
+serve to show the default.
+import mock
+"MOCK_MODULES = ['numpy', 'scipy', 'joblib', 'networkx', 'cython']"
+for mod_name in MOCK_MODULES:
+sys.modules[mod_name] = mock.Mock()
+"If extensions (or modules to document with autodoc) are in another directory,"
+add these directories to sys.path here. If the directory is relative to the
+"documentation root, use os.path.abspath to make it absolute, like shown here."
+-- General configuration ------------------------------------------------
+"If your documentation needs a minimal Sphinx version, state it here."
+needs_sphinx = '1.0'
+"Add any Sphinx extension module names here, as strings. They can be"
+extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
+ones.
+"Add any paths that contain templates here, relative to this directory."
+The suffix(es) of source filenames.
+You can specify multiple suffix as a list of string:
+"source_suffix = ['.rst', '.md']"
+The encoding of source files.
+source_encoding = 'utf-8-sig'
+The master toctree document.
+General information about the project.
+"The version info for the project you're documenting, acts as replacement for"
+"|version| and |release|, also used in various other places throughout the"
+built documents.
+""
+The short X.Y version.
+If you really want the short one use the next line.
+version = '.'.join(pomegranate.__version__.split('.')[0:2])
+Use this version if you want the full version string in the document
+"The full version, including alpha/beta/rc tags."
+The language for content autogenerated by Sphinx. Refer to documentation
+for a list of supported languages.
+""
+This is also used if you do content translation via gettext catalogs.
+"Usually you set ""language"" from the command line for these cases."
+"There are two options for replacing |today|: either, you set today to some"
+"non-false value, then it is used:"
+today = ''
+"Else, today_fmt is used as the format for a strftime call."
+"today_fmt = '%B %d, %Y'"
+"List of patterns, relative to source directory, that match files and"
+directories to ignore when looking for source files.
+The reST default role (used for this markup: `text`) to use for all
+documents.
+default_role = None
+"If true, '()' will be appended to :func: etc. cross-reference text."
+add_function_parentheses = True
+"If true, the current module name will be prepended to all description"
+unit titles (such as .. function::).
+add_module_names = True
+"If true, sectionauthor and moduleauthor directives will be shown in the"
+output. They are ignored by default.
+show_authors = False
+The name of the Pygments (syntax highlighting) style to use.
+A list of ignored prefixes for module index sorting.
+modindex_common_prefix = []
+"If true, keep warnings as ""system message"" paragraphs in the built documents."
+keep_warnings = False
+"If true, `todo` and `todoList` produce output, else they produce nothing."
+-- Options for HTML output ----------------------------------------------
+The theme to use for HTML and HTML Help pages.  See the documentation for
+a list of builtin themes.
+Theme options are theme-specific and customize the look and feel of a theme
+"further.  For a list of options available for each theme, see the"
+documentation.
+html_theme_options = {}
+"Add any paths that contain custom themes here, relative to this directory."
+html_theme_path = []
+"The name for this set of Sphinx documents.  If None, it defaults to"
+"""<project> v<release> documentation""."
+html_title = None
+A shorter title for the navigation bar.  Default is the same as html_title.
+html_short_title = None
+The name of an image file (relative to this directory) to place at the top
+of the sidebar.
+html_logo = None
+The name of an image file (within the static path) to use as favicon of the
+docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
+pixels large.
+html_favicon = None
+"Add any paths that contain custom static files (such as style sheets) here,"
+"relative to this directory. They are copied after the builtin static files,"
+"so a file named ""default.css"" will overwrite the builtin ""default.css""."
+Add any extra paths that contain custom files (such as robots.txt or
+".htaccess) here, relative to this directory. These files are copied"
+directly to the root of the documentation.
+html_extra_path = []
+"If not '', a 'Last updated on:' timestamp is inserted at every page bottom,"
+using the given strftime format.
+"html_last_updated_fmt = '%b %d, %Y'"
+"If true, SmartyPants will be used to convert quotes and dashes to"
+typographically correct entities.
+html_use_smartypants = True
+"Custom sidebar templates, maps document names to template names."
+html_sidebars = {}
+"Additional templates that should be rendered to pages, maps page names to"
+template names.
+html_additional_pages = {}
+"If false, no module index is generated."
+html_domain_indices = True
+"If false, no index is generated."
+html_use_index = True
+"If true, the index is split into individual pages for each letter."
+html_split_index = False
+"If true, links to the reST sources are added to the pages."
+html_show_sourcelink = True
+"If true, ""Created using Sphinx"" is shown in the HTML footer. Default is True."
+html_show_sphinx = True
+"If true, ""(C) Copyright ..."" is shown in the HTML footer. Default is True."
+html_show_copyright = True
+"If true, an OpenSearch description file will be output, and all pages will"
+contain a <link> tag referring to it.  The value of this option must be the
+base URL from which the finished HTML is served.
+html_use_opensearch = ''
+"This is the file name suffix for HTML files (e.g. "".xhtml"")."
+html_file_suffix = None
+Language to be used for generating the HTML full-text search index.
+Sphinx supports the following languages:
+"'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja'"
+"'nl', 'no', 'pt', 'ro', 'ru', 'sv', 'tr'"
+html_search_language = 'en'
+"A dictionary with options for the search language support, empty by default."
+Now only 'ja' uses this config value
+html_search_options = {'type': 'default'}
+The name of a javascript file (relative to the configuration directory) that
+"implements a search results scorer. If empty, the default will be used."
+html_search_scorer = 'scorer.js'
+Output file base name for HTML help builder.
+-- Options for LaTeX output ---------------------------------------------
+The paper size ('letterpaper' or 'a4paper').
+"'papersize': 'letterpaper',"
+"The font size ('10pt', '11pt' or '12pt')."
+"'pointsize': '10pt',"
+Additional stuff for the LaTeX preamble.
+"'preamble': '',"
+Latex figure (float) alignment
+"'figure_align': 'htbp',"
+Grouping the document tree into LaTeX files. List of tuples
+"(source start file, target name, title,"
+"author, documentclass [howto, manual, or own class])."
+The name of an image file (relative to this directory) to place at the top of
+the title page.
+latex_logo = None
+"For ""manual"" documents, if this is true, then toplevel headings are parts,"
+not chapters.
+latex_use_parts = False
+"If true, show page references after internal links."
+latex_show_pagerefs = False
+"If true, show URL addresses after external links."
+latex_show_urls = False
+Documents to append as an appendix to all manuals.
+latex_appendices = []
+"If false, no module index is generated."
+latex_domain_indices = True
+-- Options for manual page output ---------------------------------------
+One entry per manual page. List of tuples
+"(source start file, name, description, authors, manual section)."
+"If true, show URL addresses after external links."
+man_show_urls = False
+-- Options for Texinfo output -------------------------------------------
+Grouping the document tree into Texinfo files. List of tuples
+"(source start file, target name, title, author,"
+"dir menu entry, description, category)"
+Documents to append as an appendix to all manuals.
+texinfo_appendices = []
+"If false, no module index is generated."
+texinfo_domain_indices = True
+"How to display URL addresses: 'footnote', 'no', or 'inline'."
+texinfo_show_urls = 'footnote'
+"If true, do not generate a @detailmenu in the ""Top"" node's menu."
+texinfo_no_detailmenu = False
+test_bayes_classifier.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_bayesian_network.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+test_bayes_classifier.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_kmeans.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+test_utils.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+""
+""
+##
+test_bayes_classifier.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+""
+test_bayesian_network_structure_learning.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_factor_graph.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+test_bayes_classifier.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+test_bayes_classifier.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+##
+##
+test_bayes_classifier.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+##
+test_joint_categorical.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_exponential.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_gamma.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_poisson.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_dirac_delta.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+_utils.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+test_normal_diagonal.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_independent_component.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_student_t.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_normal_full.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_ConditionalCategorical.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+"assert_raises(ValueError, ConditionalCategorical, numpy.array(probs)+0.001) FIXME"
+"assert_raises(ValueError, ConditionalCategorical, numpy.array(probs)-0.001) FIXME"
+##
+##
+##
+test_uniform.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_bernoulli.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+test_categorical.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+##
+##
+##
+##
+bayesian_network.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+Create the marginal distribution in the factor graph
+Add the marginal and keep track of it
+"If a conditional distribution, calculate the joint distribution"
+assuming uniform distributions for all the parents
+Add the factor to the factor graph
+"Otherwise, we add the univariate distribution as the factor"
+Get the respective marginal and factor distributions and their idxs
+We need to keep this edge as the last one so pop it and re-add it
+Add the new edge and then the previous edge
+####
+factor_graph.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+Pull out the current distributions from factors and marginals
+Use the evidence in the data to set marginal distributions
+Set the original in and out messages along the edges
+Begin iterations
+Update the messages going into the nodes.
+Calculate the current estimates of the marginals
+Update the messages leaving based on the new marginals
+_utils.py
+Jacob Schreiber <jmschreiber91@gmail.com>
+"If a 3D tensor has been passed in, return it"
+"Otherwise, cast all elements in the list as a tensor"
+"If a list of 3D tensors has been passed in, return it"
+"Otherwise, group together same-sized examples"
+_bayes.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+markov_chain.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+gmm.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+BayesClassifier.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+kmeans.py
+Author: Jacob Schreiber
+_sparse_hmm.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+dense_hmm.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+_base.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+Initialize by concatenating across sequences
+Train loop across all tensors
+Calculate and check improvement and optionally print it
+Calculate for the last iteration
+__init__.py
+Author: Jacob Schreiber <jmschreiber91@gmail.com>
+student_t.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+diracdelta.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+normal.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+Define some useful constants
+exponential.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+bernoulli.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+zero_inflated.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+conditional_categorical.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+gamma.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+_distribution.py
+Jacob Schreiber <jmschreiber91@gmail.com>
+joint_categorical.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+categorical.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+uniform.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+independent_components.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+poisson.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+https://stackoverflow.com/a/11181607/541202
+import __builtin__ as __builtins__
+Prevent numpy from thinking it is still in its setup process:
+-*- coding: utf-8 -*-
+""
+"pomegranate documentation build configuration file, created by"
+sphinx-quickstart on Sun Oct 30 18:10:26 2016.
+""
+This file is execfile()d with the current directory set to its
+containing dir.
+""
+Note that not all possible configuration values are present in this
+autogenerated file.
+""
+All configuration values have a default; values that are commented out
+serve to show the default.
+import mock
+"MOCK_MODULES = ['numpy', 'scipy', 'joblib', 'networkx', 'cython']"
+for mod_name in MOCK_MODULES:
+sys.modules[mod_name] = mock.Mock()
+"If extensions (or modules to document with autodoc) are in another directory,"
+add these directories to sys.path here. If the directory is relative to the
+"documentation root, use os.path.abspath to make it absolute, like shown here."
+-- General configuration ------------------------------------------------
+"If your documentation needs a minimal Sphinx version, state it here."
+needs_sphinx = '1.0'
+"Add any Sphinx extension module names here, as strings. They can be"
+extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
+ones.
+"Add any paths that contain templates here, relative to this directory."
+The suffix(es) of source filenames.
+You can specify multiple suffix as a list of string:
+"source_suffix = ['.rst', '.md']"
+The encoding of source files.
+source_encoding = 'utf-8-sig'
+The master toctree document.
+General information about the project.
+"The version info for the project you're documenting, acts as replacement for"
+"|version| and |release|, also used in various other places throughout the"
+built documents.
+""
+The short X.Y version.
+If you really want the short one use the next line.
+version = '.'.join(pomegranate.__version__.split('.')[0:2])
+Use this version if you want the full version string in the document
+"The full version, including alpha/beta/rc tags."
+The language for content autogenerated by Sphinx. Refer to documentation
+for a list of supported languages.
+""
+This is also used if you do content translation via gettext catalogs.
+"Usually you set ""language"" from the command line for these cases."
+"There are two options for replacing |today|: either, you set today to some"
+"non-false value, then it is used:"
+today = ''
+"Else, today_fmt is used as the format for a strftime call."
+"today_fmt = '%B %d, %Y'"
+"List of patterns, relative to source directory, that match files and"
+directories to ignore when looking for source files.
+The reST default role (used for this markup: `text`) to use for all
+documents.
+default_role = None
+"If true, '()' will be appended to :func: etc. cross-reference text."
+add_function_parentheses = True
+"If true, the current module name will be prepended to all description"
+unit titles (such as .. function::).
+add_module_names = True
+"If true, sectionauthor and moduleauthor directives will be shown in the"
+output. They are ignored by default.
+show_authors = False
+The name of the Pygments (syntax highlighting) style to use.
+A list of ignored prefixes for module index sorting.
+modindex_common_prefix = []
+"If true, keep warnings as ""system message"" paragraphs in the built documents."
+keep_warnings = False
+"If true, `todo` and `todoList` produce output, else they produce nothing."
+-- Options for HTML output ----------------------------------------------
+The theme to use for HTML and HTML Help pages.  See the documentation for
+a list of builtin themes.
+Theme options are theme-specific and customize the look and feel of a theme
+"further.  For a list of options available for each theme, see the"
+documentation.
+html_theme_options = {}
+"Add any paths that contain custom themes here, relative to this directory."
+html_theme_path = []
+"The name for this set of Sphinx documents.  If None, it defaults to"
+"""<project> v<release> documentation""."
+html_title = None
+A shorter title for the navigation bar.  Default is the same as html_title.
+html_short_title = None
+The name of an image file (relative to this directory) to place at the top
+of the sidebar.
+html_logo = None
+The name of an image file (within the static path) to use as favicon of the
+docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
+pixels large.
+html_favicon = None
+"Add any paths that contain custom static files (such as style sheets) here,"
+"relative to this directory. They are copied after the builtin static files,"
+"so a file named ""default.css"" will overwrite the builtin ""default.css""."
+Add any extra paths that contain custom files (such as robots.txt or
+".htaccess) here, relative to this directory. These files are copied"
+directly to the root of the documentation.
+html_extra_path = []
+"If not '', a 'Last updated on:' timestamp is inserted at every page bottom,"
+using the given strftime format.
+"html_last_updated_fmt = '%b %d, %Y'"
+"If true, SmartyPants will be used to convert quotes and dashes to"
+typographically correct entities.
+html_use_smartypants = True
+"Custom sidebar templates, maps document names to template names."
+html_sidebars = {}
+"Additional templates that should be rendered to pages, maps page names to"
+template names.
+html_additional_pages = {}
+"If false, no module index is generated."
+html_domain_indices = True
+"If false, no index is generated."
+html_use_index = True
+"If true, the index is split into individual pages for each letter."
+html_split_index = False
+"If true, links to the reST sources are added to the pages."
+html_show_sourcelink = True
+"If true, ""Created using Sphinx"" is shown in the HTML footer. Default is True."
+html_show_sphinx = True
+"If true, ""(C) Copyright ..."" is shown in the HTML footer. Default is True."
+html_show_copyright = True
+"If true, an OpenSearch description file will be output, and all pages will"
+contain a <link> tag referring to it.  The value of this option must be the
+base URL from which the finished HTML is served.
+html_use_opensearch = ''
+"This is the file name suffix for HTML files (e.g. "".xhtml"")."
+html_file_suffix = None
+Language to be used for generating the HTML full-text search index.
+Sphinx supports the following languages:
+"'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja'"
+"'nl', 'no', 'pt', 'ro', 'ru', 'sv', 'tr'"
+html_search_language = 'en'
+"A dictionary with options for the search language support, empty by default."
+Now only 'ja' uses this config value
+html_search_options = {'type': 'default'}
+The name of a javascript file (relative to the configuration directory) that
+"implements a search results scorer. If empty, the default will be used."
+html_search_scorer = 'scorer.js'
+Output file base name for HTML help builder.
+-- Options for LaTeX output ---------------------------------------------
+The paper size ('letterpaper' or 'a4paper').
+"'papersize': 'letterpaper',"
+"The font size ('10pt', '11pt' or '12pt')."
+"'pointsize': '10pt',"
+Additional stuff for the LaTeX preamble.
+"'preamble': '',"
+Latex figure (float) alignment
+"'figure_align': 'htbp',"
+Grouping the document tree into LaTeX files. List of tuples
+"(source start file, target name, title,"
+"author, documentclass [howto, manual, or own class])."
+The name of an image file (relative to this directory) to place at the top of
+the title page.
+latex_logo = None
+"For ""manual"" documents, if this is true, then toplevel headings are parts,"
+not chapters.
+latex_use_parts = False
+"If true, show page references after internal links."
+latex_show_pagerefs = False
+"If true, show URL addresses after external links."
+latex_show_urls = False
+Documents to append as an appendix to all manuals.
+latex_appendices = []
+"If false, no module index is generated."
+latex_domain_indices = True
+-- Options for manual page output ---------------------------------------
+One entry per manual page. List of tuples
+"(source start file, name, description, authors, manual section)."
+"If true, show URL addresses after external links."
+man_show_urls = False
+-- Options for Texinfo output -------------------------------------------
+Grouping the document tree into Texinfo files. List of tuples
+"(source start file, target name, title, author,"
+"dir menu entry, description, category)"
+Documents to append as an appendix to all manuals.
+texinfo_appendices = []
+"If false, no module index is generated."
+texinfo_domain_indices = True
+"How to display URL addresses: 'footnote', 'no', or 'inline'."
+texinfo_show_urls = 'footnote'
+"If true, do not generate a @detailmenu in the ""Top"" node's menu."
+texinfo_no_detailmenu = False
+check raises no errors when converting values
+Check the probability calculation for a test variable.
+y = 0.
+y = 1.
+"Since the data is composed of binary values, `DiscreteDistribution` and"
+`BernoulliDistribution` should coincide.
+Work out expression analytically for a single test point.
+Check that all predictions are identical.
+raises no errors
+test going one state back
+test going two states back
+"if summarize and from summaries work, so does fit"
+split in four
+check if probabilities are correct
+split into four
+split in four
+split in four
+Test vector input instead of flat array.
+P(A) = 0.1*0.1 + 0.9*0.7 = 0.64
+P(B) = 0.1*0.9 + 0.9*0.3 = 0.36
+"when A is observed, it reduces to [0.1, 0.9]"
+Not true with actual seed
+"x = numpy.array(['B', 'A', 'B', 'B', 'A', 'B', 'A', 'A', 'B', 'A', 'A',"
+"'B', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A'])"
+test_bayes_net.py
+Authors: Jacob Schreiber <jmschreiber91@gmail.com>
+Nelson Liu <nelson@nelsonliu.me>
+""
+Build a model of the Monty Hall Problem
+Friends emissions are completely random
+The actual prize is independent of the other distributions
+Monty is dependent on both the guest and the prize.
+Make the states
+"Make the bayes net, add the states, and the conditional dependencies."
+Build a model of the titanic disaster
+Passengers on the Titanic either survive or perish
+"Gender, given survival data"
+"Class of travel, given survival data"
+"State objects hold both the distribution, and a high level name."
+Create the Bayesian network object with a useful name
+Add the three nodes to the network
+"Add transitions which represent conditional dependencies, where the"
+second node is conditionally dependent on the first node (Monty is
+dependent on both guest and prize)
+Build the huge monty hall large_monty_network. This is an example I made
+"up with which may not exactly flow logically, but tests a varied type of"
+tables ensures heterogeneous types of data work together.
+large_monty_Friend
+large_monty_Guest emissions are completely random
+Number of large_monty_remaining cars
+Whether they large_monty_randomize is dependent on the number of
+large_monty_remaining cars
+Where the large_monty_prize is depends on if they large_monty_randomize or
+not and also the large_monty_guests large_monty_friend
+Monty is dependent on both the large_monty_guest and the large_monty_prize.
+Make the states
+"Make the bayes net, add the states, and the conditional dependencies."
+Need to find where random seed is changed so next test can work
+"assert_array_equal(predictions,"
+"[['A', 'C', 'B'],"
+"['A', 'C', 'B'],"
+"['A', 'A', 'B'],"
+"['A', 'C', 'B'],"
+"['A', 'C', 'B'],"
+"['A', 'C', 'B'],"
+"['A', 'C', 'B'],"
+"['A', 'C', 'B'],"
+"['A', 'C', 'B'],"
+"['A', 'C', 'B']])"
+"evidences = [['A', None, 'B'],"
+"['A', None, 'C'],"
+"['A', 'B', 'C' ]]"
+will fail from time to time
+need to fix the seed
+Learn constrained network
+Learn constrained network
+Learn constrained network
+Learn constrained network
+Learn constrained network
+Node groups
+Constraint graph:
+Learn constrained network
+Node groups
+Constraint graph:
+Learn constrained network
+Node groups
+Constraint graph:
+Learn constrained network
+"model2 = BayesianNetwork.from_samples(X, algorithm='exact',"
+constraint_graph=cg)
+"assert_equal(model2.structure[-1], (d-2,))"
+Node groups
+Constraint graph:
+Learn constrained network
+Check structure constraints satisfied
+Node groups
+Constraint graph:
+Learn constrained network
+Check structure constraints satisfied
+Learn constrained network
+test_bayes_net.py
+Authors: Jacob Schreiber <jmschreiber91@gmail.com>
+Create the insert states
+Create the match states
+Create the delete states
+Add all the states to the model
+Create transitions from match states
+Create transitions from insert states
+Create transitions from delete states
+Call bake to finalize the structure of the model.
+should be able to pass list of weights
+We get non-zero end probabilities for each state
+We don't have end probabilities for each state
+Define the distribution for insertions
+Create the insert states
+Create the match states
+Create the delete states
+Add all the states to the model
+Create transitions from match states
+Create transitions from insert states
+Create transitions from delete states
+Call bake to finalize the structure of the model.
+Define the distribution for insertions
+Create the insert states
+Create the match states
+Create the delete states
+Add all the states to the model
+Create transitions from match states
+Create transitions from insert states
+Create transitions from delete states
+Call bake to finalize the structure of the model.
+Define the distribution for insertions
+Create the insert states
+Create the match states
+Create the delete states
+Add all the states to the model
+Create transitions from match states
+Create transitions from insert states
+Create transitions from delete states
+Call bake to finalize the structure of the model.
+Check weights of individual distributions.
+benchmark_distributions.py
+Contact: Jacob Schreiber ( jmschreiber91@gmail.com )
+benchmark_hmm.py
+Contact: Jacob Schreiber ( jmschreiber91@gmail.com )
+Reset the model
+Reset the model
+Reset the model
+callbacks.py
+Authors: Jacob Schreiber <jmschreiber91@gmail.com>
+__init__.py: pomegranate
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+NeuralNetworkWrapper.py
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+distributions/__init__.py: pomegranate
+Contact: Jacob Schreiber <jmschreiber91@gmail.com>
+-*- coding: utf-8 -*-
+""
+"pomegranate documentation build configuration file, created by"
+sphinx-quickstart on Thu Mar 24 14:15:33 2016.
+""
+This file is execfile()d with the current directory set to its
+containing dir.
+""
+Note that not all possible configuration values are present in this
+autogenerated file.
+""
+All configuration values have a default; values that are commented out
+serve to show the default.
+"If extensions (or modules to document with autodoc) are in another directory,"
+add these directories to sys.path here. If the directory is relative to the
+"documentation root, use os.path.abspath to make it absolute, like shown here."
+The suffix(es) of source filenames.
+-- General configuration ------------------------------------------------
+"If your documentation needs a minimal Sphinx version, state it here."
+needs_sphinx = '1.0'
+"Add any Sphinx extension module names here, as strings. They can be"
+extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
+ones.
+"Add any paths that contain templates here, relative to this directory."
+The encoding of source files.
+source_encoding = 'utf-8-sig'
+The master toctree document.
+General information about the project.
+"The version info for the project you're documenting, acts as replacement for"
+"|version| and |release|, also used in various other places throughout the"
+built documents.
+""
+The short X.Y version.
+"The full version, including alpha/beta/rc tags."
+The language for content autogenerated by Sphinx. Refer to documentation
+for a list of supported languages.
+""
+This is also used if you do content translation via gettext catalogs.
+"Usually you set ""language"" from the command line for these cases."
+"There are two options for replacing |today|: either, you set today to some"
+"non-false value, then it is used:"
+today = ''
+"Else, today_fmt is used as the format for a strftime call."
+"today_fmt = '%B %d, %Y'"
+"List of patterns, relative to source directory, that match files and"
+directories to ignore when looking for source files.
+The reST default role (used for this markup: `text`) to use for all
+documents.
+default_role = None
+"If true, '()' will be appended to :func: etc. cross-reference text."
+add_function_parentheses = True
+"If true, the current module name will be prepended to all description"
+unit titles (such as .. function::).
+add_module_names = True
+"If true, sectionauthor and moduleauthor directives will be shown in the"
+output. They are ignored by default.
+show_authors = False
+The name of the Pygments (syntax highlighting) style to use.
+A list of ignored prefixes for module index sorting.
+modindex_common_prefix = []
+"If true, keep warnings as ""system message"" paragraphs in the built documents."
+keep_warnings = False
+"If true, `todo` and `todoList` produce output, else they produce nothing."
+-- Options for HTML output ----------------------------------------------
+The theme to use for HTML and HTML Help pages.  See the documentation for
+a list of builtin themes.
+Theme options are theme-specific and customize the look and feel of a theme
+"further.  For a list of options available for each theme, see the"
+documentation.
+html_theme_options = {}
+"Add any paths that contain custom themes here, relative to this directory."
+html_theme_path = []
+"The name for this set of Sphinx documents.  If None, it defaults to"
+"""<project> v<release> documentation""."
+html_title = None
+A shorter title for the navigation bar.  Default is the same as html_title.
+html_short_title = None
+The name of an image file (relative to this directory) to place at the top
+of the sidebar.
+html_logo = None
+The name of an image file (within the static path) to use as favicon of the
+docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
+pixels large.
+html_favicon = None
+"Add any paths that contain custom static files (such as style sheets) here,"
+"relative to this directory. They are copied after the builtin static files,"
+"so a file named ""default.css"" will overwrite the builtin ""default.css""."
+Add any extra paths that contain custom files (such as robots.txt or
+".htaccess) here, relative to this directory. These files are copied"
+directly to the root of the documentation.
+html_extra_path = []
+"If not '', a 'Last updated on:' timestamp is inserted at every page bottom,"
+using the given strftime format.
+"html_last_updated_fmt = '%b %d, %Y'"
+"If true, SmartyPants will be used to convert quotes and dashes to"
+typographically correct entities.
+html_use_smartypants = True
+"Custom sidebar templates, maps document names to template names."
+html_sidebars = {}
+"Additional templates that should be rendered to pages, maps page names to"
+template names.
+html_additional_pages = {}
+"If false, no module index is generated."
+html_domain_indices = True
+"If false, no index is generated."
+html_use_index = True
+"If true, the index is split into individual pages for each letter."
+html_split_index = False
+"If true, links to the reST sources are added to the pages."
+html_show_sourcelink = True
+"If true, ""Created using Sphinx"" is shown in the HTML footer. Default is True."
+html_show_sphinx = True
+"If true, ""(C) Copyright ..."" is shown in the HTML footer. Default is True."
+html_show_copyright = True
+"If true, an OpenSearch description file will be output, and all pages will"
+contain a <link> tag referring to it.  The value of this option must be the
+base URL from which the finished HTML is served.
+html_use_opensearch = ''
+"This is the file name suffix for HTML files (e.g. "".xhtml"")."
+html_file_suffix = None
+Language to be used for generating the HTML full-text search index.
+Sphinx supports the following languages:
+"'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja'"
+"'nl', 'no', 'pt', 'ro', 'ru', 'sv', 'tr'"
+html_search_language = 'en'
+"A dictionary with options for the search language support, empty by default."
+Now only 'ja' uses this config value
+html_search_options = {'type': 'default'}
+The name of a javascript file (relative to the configuration directory) that
+"implements a search results scorer. If empty, the default will be used."
+html_search_scorer = 'scorer.js'
+Output file base name for HTML help builder.
+-- Options for LaTeX output ---------------------------------------------
+The paper size ('letterpaper' or 'a4paper').
+"'papersize': 'letterpaper',"
+"The font size ('10pt', '11pt' or '12pt')."
+"'pointsize': '10pt',"
+Additional stuff for the LaTeX preamble.
+"'preamble': '',"
+Latex figure (float) alignment
+"'figure_align': 'htbp',"
+Grouping the document tree into LaTeX files. List of tuples
+"(source start file, target name, title,"
+"author, documentclass [howto, manual, or own class])."
+The name of an image file (relative to this directory) to place at the top of
+the title page.
+latex_logo = None
+"For ""manual"" documents, if this is true, then toplevel headings are parts,"
+not chapters.
+latex_use_parts = False
+"If true, show page references after internal links."
+latex_show_pagerefs = False
+"If true, show URL addresses after external links."
+latex_show_urls = False
+Documents to append as an appendix to all manuals.
+latex_appendices = []
+"If false, no module index is generated."
+latex_domain_indices = True
+-- Options for manual page output ---------------------------------------
+One entry per manual page. List of tuples
+"(source start file, name, description, authors, manual section)."
+"If true, show URL addresses after external links."
+man_show_urls = False
+-- Options for Texinfo output -------------------------------------------
+Grouping the document tree into Texinfo files. List of tuples
+"(source start file, target name, title, author,"
+"dir menu entry, description, category)"
+Documents to append as an appendix to all manuals.
+texinfo_appendices = []
+"If false, no module index is generated."
+texinfo_domain_indices = True
+"How to display URL addresses: 'footnote', 'no', or 'inline'."
+texinfo_show_urls = 'footnote'
+"If true, do not generate a @detailmenu in the ""Top"" node's menu."
+texinfo_no_detailmenu = False
+-*- coding: utf-8 -*-
+test_bayes_net_monty.py
+Contact: Jacob Schreiber
+jmschreiber91@gmail.com
+Friends emisisons are completely random
+The actual prize is independent of the other distributions
+Monty is dependent on both the guest and the prize.
+Make the states
+"Make the bayes net, add the states, and the conditional dependencies."
+test_bayes_net_monty.py
+Contact: Jacob Schreiber
+jmschr@cs.washington.edu
+Passengers on the Titanic either survive or perish
+"Gender, given survival data"
+"Class of travel, given survival data"
+"State objects hold both the distribution, and a high level name."
+Create the Bayesian network object with a useful name
+Add the three nodes to the network
+"Add transitions which represent conditional depesndencies, where the second"
+node is conditionally dependent on the first node (Monty is dependent on both guest and prize)
+test_bayes_net_monty.py
+Contact: Jacob Schreiber
+jmschr@cs.washington.edu
+Create the states in the same way as you would an HMM
+Create a FiniteStateMachine object
+Add the states in the same way
+Add in transitions by using nickels
+Add in transitions using dimes
+Add in transitions using quarters
+Bake the model in the same way
+TODO: create test cases for bayesian networks
+check for value error when supplied no information
+check error is not thrown
+check if error is thrown
+"NaiveBayes([ normal, multi ])"
+"NaiveBayes([ indie, dumb ])"
+"NaiveBayes([ fait, uniform ])"
+TODO:nick check for proper error if two distributions with mismatching inputs are used
+TODO:nick check that predict throws error if input is mismatched and not hmms
+test univariate log probabilities
+test univariate probabilities
+test univariate classifications
+test multivariate log probabilities
+test multivariate probabilities
+test multivariate classifications
+test hmm log probabilities
+test hmm probabilities
+test hmm classifications
+run on all other cases that should raise errors in combination
+"example, constructing with objects with no parameters,"
+then running predict methods before fit
+check if fit first ValueError is thrown
+raises no errors
+test going one state back
+test going two states back
+"if summarize and from summaries work, so does fit"
+split in four
+check if probabilities are correct
+split into four
+split in four
+split in four
+The actual prize is independent of the other distributions
+Monty is dependent on both the guest and the prize.
+Define the distribution for insertions
+Create the insert states
+Create the match states
+Create the delete states
+Add all the states to the model
+Create transitions from match states
+Create transitions from insert states
+Create transitions from delete states
+Call bake to finalize the structure of the model.
+Define the distribution for insertions
+Create the insert states
+Create the match states
+Create the delete states
+Add all the states to the model
+Create transitions from match states
+Create transitions from insert states
+Create transitions from delete states
+Call bake to finalize the structure of the model.
+Define the distribution for insertions
+Create the insert states
+Create the match states
+Create the delete states
+Add all the states to the model
+Create transitions from match states
+Create transitions from insert states
+Create transitions from delete states
+Call bake to finalize the structure of the model.
+Define the distribution for insertions
+Create the insert states
+Create the match states
+Create the delete states
+Add all the states to the model
+Create transitions from match states
+Create transitions from insert states
+Create transitions from delete states
+Call bake to finalize the structure of the model.
+test_huge_monty_hall.py
+Contact: Jacob Schreiber
+jmschr@cs.washington.edu
+Friend
+Guest emisisons are completely random
+Number of remaining cars
+Whether they randomize is dependent on the numnber of remaining cars
+Where the prize is depends on if they randomize or not and also the guests friend
+Monty is dependent on both the guest and the prize.
+Make the states
+"Make the bayes net, add the states, and the conditional dependencies."
+benchmark_distributions.py
+Contact: Jacob Schreiber ( jmschreiber91@gmail.com )
+benchmark_hmm.py
+Contact: Jacob Schreiber ( jmschreiber91@gmail.com )
+Reset the model
+Reset the model
+Reset the model
+__init__.py: pomegranate
+Contact: Jacob Schreiber ( jmschreiber91@gmail.com )
+Adapted from Cython docs https://github.com/cython/cython/wiki/
+InstallingOnWindows#mingw--numpy--pyximport-at-runtime
+XXX: we're assuming that MinGW is installed in C:\MinGW (default)
+!/usr/bin/env python2.7
+example.py: Yet Another Hidden Markov Model library
+Contact: Jacob Schreiber ( jmschreiber91@gmail.com )
+infinite_hmm_sampling.py
+Contact: Jacob Schreiber
+jmschreiber91@gmail.com
+Define the states
+Define the transitions
+FSM test
+Contact: Jacob Schreiber
+jmschr@cs.washington.edu
+Create the states in the same way as you would an HMM
+Create a FiniteStateMachine object
+Add the states in the same way
+Add the transitions in the same manner
+Bake the model in the same way
+Take a sequence of observations
+Print out the model
+Print out where you start in the model
+Print out where the model is for each step
+rainy_sunny_hmm.py
+Contact: Jacob Schreiber
+jmschreiber91@gmail.com
+Emission probabilities
+"Transition matrix, with 0.05 subtracted from each probability to add to"
+the probability of exiting the hmm
+Add transitions to the end of the model
+Finalize the model structure
+Lets sample from this model.
+Lets call Bob every hour and see what he's doing!
+(aka build up a sequence of observations)
+What is the probability of seeing this sequence?
+tied_state_hmm.py
+Contact: Jacob Schreiber
+jmschreiber91@gmail.com
+Lets start off with an example without tied states and see what happens
+Define the four states
+Add all the transitions
+"Define the sequences. Training must be done on a list of lists, not on a string,"
+in order to allow strings of any length.
+Print the distributions before training
+Train
+Print the distributions after training
+Define the background distribution
+Define the four states. Pass the background distribution to the the two
+background states. This is the only change you need to make.
+Add all the transitions
+"Define the sequences. Training must be done on a list of lists, not on a string,"
+in order to allow strings of any length.
+Print the distributions before training
+Train
+Print the distributions after training
+Monty Hall Bayes Net Test
+Contact: Jacob Schreiber
+jmschr@cs.washington.edu
+Friends emisisons are completely random
+"The guest is conditioned on the friend, basically go against the friend"
+The actual prize is independent of the other distributions
+Monty is dependent on both the guest and the prize.
+Make the states
+"Make the bayes net, add the states, and the conditional dependencies."
+Asia Bayes Net
+Contact: Jacob Schreiber
+jmschr@cs.washington.edu
+Create the distributions
+Make the states. Note the name can be different than the name of the state
+can be different than the name of the distribution
+Create the Bayesian network
+Define the distribution for insertions
+Create the insert states
+Create the match states
+Create the delete states
+Add all the states to the model
+Create transitions from match states
+Create transitions from insert states
+Create transitions from delete states
+Call bake to finalize the structure of the model.
+Define the distribution for insertions
+Create the insert states
+Create the match states
+Create the delete states
+Add all the states to the model
+Create transitions from match states
+Create transitions from insert states
+Create transitions from delete states
+Call bake to finalize the structure of the model.
+Define the distribution for insertions
+Create the insert states
+Create the match states
+Create the delete states
+Add all the states to the model
+Create transitions from match states
+Create transitions from insert states
+Create transitions from delete states
+Call bake to finalize the structure of the model.
+Define the distribution for insertions
+Create the insert states
+Create the match states
+Create the delete states
+Add all the states to the model
+Create transitions from match states
+Create transitions from insert states
+Create transitions from delete states
+Call bake to finalize the structure of the model.
+__init__.py: pomegranate
+Contact: Jacob Schreiber ( jmschreiber91@gmail.com )
+Adapted from Cython docs https://github.com/cython/cython/wiki/
+InstallingOnWindows#mingw--numpy--pyximport-at-runtime
+XXX: we're assuming that MinGW is installed in C:\MinGW (default)
+from distributions import *

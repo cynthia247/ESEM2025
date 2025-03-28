@@ -1,0 +1,8 @@
+Project_names,Release,Date,OSE,BCE,PDE,SV,OS,SD,RS,TF,UI,TC
+CameraTraps,v4.1,2020-04-27,0,0,0,1,1,0,0,0,1,0
+CameraTraps,v5.0,2022-06-20,0,0,0,1,0,1,0,1,1,0
+CameraTraps,pw_v1.0.0.0,2023-11-22,0,0,1,0,0,0,1,1,0,1
+CameraTraps,pw_v1.0.1.0,2023-12-29,0,1,1,0,0,0,1,1,0,1
+CameraTraps,pw_v1.0.2.0,2024-02-16,0,1,1,0,0,0,1,1,0,1
+CameraTraps,pw_v1.0.2.4,2024-03-25,0,0,1,1,0,0,0,0,0,1
+CameraTraps,pw_v1.1.0,2024-11-08,0,1,0,0,0,0,1,1,0,1

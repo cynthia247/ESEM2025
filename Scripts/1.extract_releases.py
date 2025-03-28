@@ -32,7 +32,8 @@ def get_release_dates(owner, repo, token):
 
 # Example usage
 df = pd.read_csv('csDetector-Result/project_names.csv')
-
+df = df.iloc[-1:]
+print(df)
 for i, row in df.iterrows():
     owner = row["owner"]
     repo = row["repo"]

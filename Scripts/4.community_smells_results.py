@@ -9,7 +9,8 @@ def extracting_community_smells():
     
     for i, row in df.iterrows():
         # if i == 1: break  # Remove this later if you want to process all projects
-        project_name = row['Project_names']
+        project_name = row['repo']
+        project_name = 'LightGBM'
         print(f"\n📁 Processing project: {project_name}")
 
         df_date = pd.read_csv(f'csDetector-Result/{project_name}.csv')
