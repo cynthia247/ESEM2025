@@ -33,14 +33,15 @@ def merge_community_smell_SATD(satd_df,repo):
 
 
 if __name__ == "__main__":
-    df = pd.read_csv('csDetector-Result/project_names.csv')
+    df = pd.read_csv('csDetector-Result/Repos-with-release.csv')
     for i, row in df.iterrows():
-        if i == 1: break
+        # if i == 1: break
         owner = row['owner']
         repo = row['repo']
         
         GITHUB_REPO = owner + '/' + repo
       
+        # repo = 'MaixPy'
 
         print("\n")
         print(f"Processing {repo}")

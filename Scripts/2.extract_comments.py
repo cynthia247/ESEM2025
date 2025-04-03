@@ -4,6 +4,7 @@ from tqdm import tqdm
 import re
 import pandas as pd
 import json
+import shutil
 
 # Define which file types you want to extract comments from
 SOURCE_EXTENSIONS = ['.py', '.java', '.js', '.cpp', '.c']
@@ -95,17 +96,21 @@ def matching_releases(repo):
         json.dump(filtered_comments, f, indent=2)
 
     print(f"✅ Filtered {len(filtered_comments)} matched releases and saved to `filtered_comments.json`.")
+    os.remove(f"comments/{repo}_code_comments.json")
 
 
 
 if __name__ == "__main__":
-    df = pd.read_csv('csDetector-Result/project_names.csv')
+    df = pd.read_csv('csDetector-Result/Repos-with-release.csv')
+    # df = df.iloc[-2:]
     print(df)
+
     for i, row in df.iterrows():
         owner = row['owner']
         repo = row['repo']
         GITHUB_REPO = owner + '/' + repo
         extract_comments(GITHUB_REPO,repo)
         matching_releases(repo)
+        shutil.rmtree(f"comments/{repo}")
 
     

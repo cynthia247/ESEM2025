@@ -4,13 +4,14 @@ from datetime import datetime
 import re
 
 def extracting_community_smells():
-    df = pd.read_csv('csDetector-Result/project_names.csv')
+    df = pd.read_csv('csDetector-Result/Repos-with-release.csv')
     df_final_all = pd.DataFrame()
     
     for i, row in df.iterrows():
         # if i == 1: break  # Remove this later if you want to process all projects
         project_name = row['repo']
-      
+        # project_name = 'MaixPy'
+
         print(f"\n📁 Processing project: {project_name}")
 
         df_date = pd.read_csv(f'csDetector-Result/{project_name}.csv')

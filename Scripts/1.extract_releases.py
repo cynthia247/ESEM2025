@@ -31,13 +31,15 @@ def get_release_dates(owner, repo, token):
     return release_dates
 
 # Example usage
-df = pd.read_csv('csDetector-Result/project_names.csv')
+df = pd.read_csv('csDetector-Result/Repos-with-release.csv')
+print(df)
+# df = df.iloc[-2:]
 print(df)
 for i, row in df.iterrows():
     owner = row["owner"]
     repo = row["repo"]
     token = "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"  # Replace with your GitHub token
-
+    
     release_dates = get_release_dates(owner, repo, token)
 
     if release_dates:

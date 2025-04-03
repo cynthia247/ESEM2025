@@ -3,13 +3,13 @@ import pandas as pd
 import os
 
 # Example data (Replace with your actual data)
-directoy = 'Project-types/small'
+directoy = 'Project-types'
 
 for dirpath, dirnames, filenames in os.walk(directoy):
     for filename in filenames:
         print("\nFile:", filename)
         df = pd.read_csv(os.path.join(dirpath, filename))
-        community_smells = df['OS']
+        community_smells = df['PDE']
         satd_counts = df['SATD']
             
         # Mann-Kendall Test for Community Smells
