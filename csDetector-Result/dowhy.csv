@@ -1,0 +1,17 @@
+Release,published_at
+"v0.12: Python 3.12 compatibility, [experimental] support for time-series data, and extensions to new scenarios",2024-11-24T07:33:52Z
+v0.11.1: Bug fixes and improvements,2023-12-25T07:08:29Z
+v0.11: New GCM features and improved compatibility of GCM with CausalModel API,2023-12-06T08:12:27Z
+v0.10.1: Minor fixes to main 0.10 release,2023-09-05T04:59:40Z
+"v0.10: New user guide, causal prediction API, and two more refutations",2023-07-30T13:54:28Z
+v0.9.1: Python 3.10 support and dependency fixes,2022-12-17T06:13:06Z
+"v0.9: New functional API (preview), faster refutations, and better independence tests for GCMs",2022-12-06T09:17:34Z
+v0.8: GCM support and partial R2-based sensitivity analysis,2022-07-18T18:24:37Z
+"Graph refuters, support for dagitty, and creating your own estimators",2022-03-20T14:17:50Z
+"v0.7: Causal discovery, ID identification, and faster backdoor identification",2022-01-10T08:50:57Z
+Better refuters for unobserved confounding and placebo treatment,2021-03-03T03:44:46Z
+Bug fixes update,2020-12-12T15:25:38Z
+Enhanced documentation and support for causal mediation,2020-11-21T16:15:48Z
+Powerful refutations and better support for heterogeneous treatment effects,2020-05-11T15:57:47Z
+CATE estimation and integration with EconML,2020-01-08T12:04:34Z
+First release,2019-07-15T12:51:28Z

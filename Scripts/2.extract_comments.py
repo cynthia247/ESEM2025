@@ -26,12 +26,16 @@ def extract_comments_from_file(file_path):
         if not pattern:
             return []
 
-        with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
-            for line in f:
-                match = re.match(pattern, line)
-                if match:
-                    comments.append(match.group(1).strip())
-        return comments
+        try:
+            with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+                for line in f:
+                    match = re.match(pattern, line)
+                    if match:
+                        comments.append(match.group(1).strip())
+            return comments
+        except Exception as e:
+            print(f"⚠️ Error reading {file_path}: {e}")
+            return []
 
 # Traverse a folder and extract comments
 def extract_comments_from_release(path, extensions=SOURCE_EXTENSIONS):
@@ -105,7 +109,7 @@ if __name__ == "__main__":
     # df = df.iloc[-2:]
     print(df)
 
-    for i, row in df.iterrows():
+    for i, row in df.iloc[18:].iterrows():
         owner = row['owner']
         repo = row['repo']
         GITHUB_REPO = owner + '/' + repo

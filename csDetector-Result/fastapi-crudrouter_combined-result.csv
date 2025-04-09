@@ -1,0 +1,8 @@
+Project_names,Release,Date,OSE,BCE,PDE,SV,OS,SD,RS,TF,UI,TC
+fastapi-crudrouter,v0.3.0,2021-01-04,0,1,1,0,0,0,1,1,0,1
+fastapi-crudrouter,v0.4.0,2021-02-02,0,1,1,0,0,0,1,1,0,1
+fastapi-crudrouter,v0.5.0,2021-03-07,0,1,1,0,0,0,1,1,0,1
+fastapi-crudrouter,v0.6.0,2021-03-26,0,1,1,0,0,0,1,1,0,1
+fastapi-crudrouter,v0.7.0,2021-04-18,0,1,1,0,0,0,1,1,0,1
+fastapi-crudrouter,v0.8.0,2021-07-07,1,1,1,1,0,1,1,1,0,1
+fastapi-crudrouter,v0.8.5,2022-01-27,1,1,1,1,0,0,1,1,0,1

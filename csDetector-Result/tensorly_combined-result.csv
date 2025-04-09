@@ -1,0 +1,5 @@
+Project_names,Release,Date,OSE,BCE,PDE,SV,OS,SD,RS,TF,UI,TC
+tensorly,0.6.0,2021-04-14,0,1,1,1,0,0,0,1,0,1
+tensorly,0.7.0,2021-11-08,0,0,1,1,0,0,0,1,1,1
+tensorly,0.8.0,2023-01-15,0,1,1,1,0,0,0,0,0,1
+tensorly,0.8.2,2024-06-09,0,1,1,1,0,0,1,1,0,1

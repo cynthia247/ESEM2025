@@ -3,7 +3,7 @@ import pandas as pd
 import os
 
 # Example data (Replace with your actual data)
-directoy = 'Project-types'
+directoy = 'cs+satd-datasets'
 
 for dirpath, dirnames, filenames in os.walk(directoy):
     for filename in filenames:
