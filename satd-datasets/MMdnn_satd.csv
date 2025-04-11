@@ -1,0 +1,371 @@
+Version,Commit Message,SATD
+0.3.1,TODO: coredump,1
+0.3.1,"Temporarily disable 'inception_v4'  : [cntk_emit, coreml_emit, keras_emit, pytorch_emit, tensorflow_emit], # TODO mxnet_emit(Small error), caffe_emit(Crash for shape)",1
+0.3.1,"Temporarily disable 'xception'      : [coreml_emit, cntk_emit, mxnet_emit, pytorch_emit, tensorflow_emit], #  TODO: Caffe(Crash) keras_emit(too slow)",1
+0.3.1,TODO,1
+0.3.1,TODO,1
+0.3.1,TODO,1
+0.3.1,self.data_format ? TODO,1
+0.3.1,TODO dtype_map,1
+0.3.1,TODO,1
+0.3.1,TODO,1
+0.3.1,Future Module TODO,1
+0.3.1,!Alert! TODO,1
+0.3.1,TODO - remove style transfer 1D hack,1
+0.3.1,"TODO: We need to identify whether this is 4D image data, otherwise we shouldn't change the dimension order",1
+0.3.1,TODO: Unbiased,1
+0.3.1,TODO: The gamma parameter has to be set (in node.data?) and this should work.,1
+0.3.1,TODO: raise error,1
+0.3.1,TODO: raise error,1
+0.3.1,TODO: Find a better solution for this.,1
+0.3.1,TODO,1
+0.3.1,TODO,1
+0.3.1,TODO: Multiple inputs,1
+0.3.1,TODO: Multiple outputs,1
+0.3.1,TODO(alemi): Register intermediate endpoints,1
+0.3.1,TODO(alemi): register intermediate endpoints,1
+0.3.1,TODO(gpapan): Properly support output_stride for the rest of the net.,1
+0.3.1,TODO(alemi): register intermediate endpoints,1
+0.3.1,"TODO(sguada,arnoegw): Consider adding a parameter global_pool which",1
+0.3.1,"TODO: It works with +1, don't know why.",1
+0.3.1,TODO: use keras backend instead of tf.,1
+0.3.1,TODO: Current it is only for slice,1
+0.3.1,TODO:  only for 1D,1
+0.3.1,use_bias: TODO,1
+0.3.1,need the shape TODO,1
+0.3.1,TODO: Handle square,1
+0.3.1,"TODO: pytorch, mxnet, keras, cntk",1
+0.3.1,TODO: More activation functions,1
+0.3.1,Kit TODO : need to search the tf,1
+0.3.1,TODO,1
+0.3.1,TODO,1
+0.3.1,TODO: arguments won't be saved in keras export model,1
+0.3.1,Kit: TODO,1
+0.3.0,TODO: coredump,1
+0.3.0,"Temporarily disable 'inception_v4'  : [cntk_emit, coreml_emit, keras_emit, pytorch_emit, tensorflow_emit], # TODO mxnet_emit(Small error), caffe_emit(Crash for shape)",1
+0.3.0,"Temporarily disable 'xception'      : [coreml_emit, cntk_emit, mxnet_emit, pytorch_emit, tensorflow_emit], #  TODO: Caffe(Crash) keras_emit(too slow)",1
+0.3.0,TODO,1
+0.3.0,TODO,1
+0.3.0,TODO,1
+0.3.0,TODO,1
+0.3.0,self.data_format ? TODO,1
+0.3.0,TODO dtype_map,1
+0.3.0,TODO,1
+0.3.0,TODO,1
+0.3.0,Future Module TODO,1
+0.3.0,!Alert! TODO,1
+0.3.0,TODO - remove style transfer 1D hack,1
+0.3.0,"TODO: We need to identify whether this is 4D image data, otherwise we shouldn't change the dimension order",1
+0.3.0,TODO: Unbiased,1
+0.3.0,TODO: The gamma parameter has to be set (in node.data?) and this should work.,1
+0.3.0,TODO: raise error,1
+0.3.0,TODO: raise error,1
+0.3.0,TODO: Find a better solution for this.,1
+0.3.0,TODO,1
+0.3.0,TODO,1
+0.3.0,TODO: Multiple inputs,1
+0.3.0,TODO: Multiple outputs,1
+0.3.0,TODO(alemi): Register intermediate endpoints,1
+0.3.0,TODO(alemi): register intermediate endpoints,1
+0.3.0,TODO(gpapan): Properly support output_stride for the rest of the net.,1
+0.3.0,TODO(alemi): register intermediate endpoints,1
+0.3.0,"TODO(sguada,arnoegw): Consider adding a parameter global_pool which",1
+0.3.0,"TODO: It works with +1, don't know why.",1
+0.3.0,TODO: use keras backend instead of tf.,1
+0.3.0,TODO: Current it is only for slice,1
+0.3.0,TODO:  only for 1D,1
+0.3.0,use_bias: TODO,1
+0.3.0,need the shape TODO,1
+0.3.0,TODO: Handle square,1
+0.3.0,"TODO: pytorch, mxnet, keras, cntk",1
+0.3.0,TODO: More activation functions,1
+0.3.0,Kit TODO : need to search the tf,1
+0.3.0,TODO,1
+0.3.0,TODO,1
+0.3.0,TODO: arguments won't be saved in keras export model,1
+0.3.0,Kit: TODO,1
+0.2.5,TODO: coredump,1
+0.2.5,TODO,1
+0.2.5,TODO,1
+0.2.5,TODO,1
+0.2.5,TODO,1
+0.2.5,self.data_format ? TODO,1
+0.2.5,TODO dtype_map,1
+0.2.5,TODO,1
+0.2.5,TODO,1
+0.2.5,Future Module TODO,1
+0.2.5,!Alert! TODO,1
+0.2.5,TODO - remove style transfer 1D hack,1
+0.2.5,"TODO: We need to identify whether this is 4D image data, otherwise we shouldn't change the dimension order",1
+0.2.5,TODO: Unbiased,1
+0.2.5,TODO: The gamma parameter has to be set (in node.data?) and this should work.,1
+0.2.5,TODO: raise error,1
+0.2.5,TODO: raise error,1
+0.2.5,TODO: Find a better solution for this.,1
+0.2.5,TODO,1
+0.2.5,TODO,1
+0.2.5,TODO: Multiple inputs,1
+0.2.5,TODO: Multiple outputs,1
+0.2.5,TODO(alemi): Register intermediate endpoints,1
+0.2.5,TODO(alemi): register intermediate endpoints,1
+0.2.5,TODO(gpapan): Properly support output_stride for the rest of the net.,1
+0.2.5,TODO(alemi): register intermediate endpoints,1
+0.2.5,"TODO(sguada,arnoegw): Consider adding a parameter global_pool which",1
+0.2.5,"TODO: It works with +1, don't know why.",1
+0.2.5,TODO: use keras backend instead of tf.,1
+0.2.5,TODO: Current it is only for slice,1
+0.2.5,TODO:  only for 1D,1
+0.2.5,use_bias: TODO,1
+0.2.5,need the shape TODO,1
+0.2.5,TODO: Handle square,1
+0.2.5,"TODO: pytorch, mxnet, keras, cntk",1
+0.2.5,TODO: More activation functions,1
+0.2.5,Kit TODO : need to search the tf,1
+0.2.5,TODO,1
+0.2.5,TODO,1
+0.2.5,TODO: arguments won't be saved in keras export model,1
+0.2.5,Kit: TODO,1
+0.2.4,TODO: coredump,1
+0.2.4,TODO,1
+0.2.4,TODO,1
+0.2.4,TODO,1
+0.2.4,TODO,1
+0.2.4,self.data_format ? TODO,1
+0.2.4,TODO dtype_map,1
+0.2.4,TODO,1
+0.2.4,TODO,1
+0.2.4,Future Module TODO,1
+0.2.4,!Alert! TODO,1
+0.2.4,TODO - remove style transfer 1D hack,1
+0.2.4,"TODO: We need to identify whether this is 4D image data, otherwise we shouldn't change the dimension order",1
+0.2.4,TODO: Unbiased,1
+0.2.4,TODO: The gamma parameter has to be set (in node.data?) and this should work.,1
+0.2.4,TODO: raise error,1
+0.2.4,TODO: raise error,1
+0.2.4,TODO: Find a better solution for this.,1
+0.2.4,TODO,1
+0.2.4,TODO,1
+0.2.4,TODO: Multiple inputs,1
+0.2.4,TODO: Multiple outputs,1
+0.2.4,TODO(alemi): Register intermediate endpoints,1
+0.2.4,TODO(alemi): register intermediate endpoints,1
+0.2.4,TODO(gpapan): Properly support output_stride for the rest of the net.,1
+0.2.4,TODO(alemi): register intermediate endpoints,1
+0.2.4,"TODO(sguada,arnoegw): Consider adding a parameter global_pool which",1
+0.2.4,"TODO: It works with +1, don't know why.",1
+0.2.4,TODO: use keras backend instead of tf.,1
+0.2.4,TODO: Current it is only for slice,1
+0.2.4,TODO:  only for 1D,1
+0.2.4,use_bias: TODO,1
+0.2.4,need the shape TODO,1
+0.2.4,TODO: Handle square,1
+0.2.4,"TODO: pytorch, mxnet, keras, cntk",1
+0.2.4,TODO: More activation functions,1
+0.2.4,Kit TODO : need to search the tf,1
+0.2.4,TODO,1
+0.2.4,TODO,1
+0.2.4,TODO: arguments won't be saved in keras export model,1
+0.2.4,Kit: TODO,1
+0.2.3,TODO: coredump,1
+0.2.3,TODO,1
+0.2.3,TODO,1
+0.2.3,TODO,1
+0.2.3,TODO,1
+0.2.3,self.data_format ? TODO,1
+0.2.3,TODO dtype_map,1
+0.2.3,TODO,1
+0.2.3,TODO,1
+0.2.3,Future Module TODO,1
+0.2.3,!Alert! TODO,1
+0.2.3,TODO - remove style transfer 1D hack,1
+0.2.3,"TODO: We need to identify whether this is 4D image data, otherwise we shouldn't change the dimension order",1
+0.2.3,TODO: Unbiased,1
+0.2.3,TODO: The gamma parameter has to be set (in node.data?) and this should work.,1
+0.2.3,TODO: raise error,1
+0.2.3,TODO: raise error,1
+0.2.3,TODO: Find a better solution for this.,1
+0.2.3,TODO,1
+0.2.3,TODO,1
+0.2.3,TODO: Multiple inputs,1
+0.2.3,TODO: Multiple outputs,1
+0.2.3,TODO(alemi): Register intermediate endpoints,1
+0.2.3,TODO(alemi): register intermediate endpoints,1
+0.2.3,TODO(gpapan): Properly support output_stride for the rest of the net.,1
+0.2.3,TODO(alemi): register intermediate endpoints,1
+0.2.3,"TODO(sguada,arnoegw): Consider adding a parameter global_pool which",1
+0.2.3,"TODO: It works with +1, don't know why.",1
+0.2.3,TODO: use keras backend instead of tf.,1
+0.2.3,TODO: Current it is only for slice,1
+0.2.3,TODO:  only for 1D,1
+0.2.3,use_bias: TODO,1
+0.2.3,need the shape TODO,1
+0.2.3,TODO: Handle square,1
+0.2.3,"TODO: pytorch, mxnet, keras, cntk",1
+0.2.3,TODO: More activation functions,1
+0.2.3,Kit TODO : need to search the tf,1
+0.2.3,TODO,1
+0.2.3,TODO,1
+0.2.3,TODO: arguments won't be saved in keras export model,1
+0.2.3,Kit: TODO,1
+0.2.2,TODO: coredump,1
+0.2.2,TODO,1
+0.2.2,TODO,1
+0.2.2,TODO,1
+0.2.2,TODO,1
+0.2.2,self.data_format ? TODO,1
+0.2.2,TODO dtype_map,1
+0.2.2,TODO,1
+0.2.2,TODO,1
+0.2.2,Future Module TODO,1
+0.2.2,!Alert! TODO,1
+0.2.2,TODO - remove style transfer 1D hack,1
+0.2.2,"TODO: We need to identify whether this is 4D image data, otherwise we shouldn't change the dimension order",1
+0.2.2,TODO: Unbiased,1
+0.2.2,TODO: The gamma parameter has to be set (in node.data?) and this should work.,1
+0.2.2,TODO: raise error,1
+0.2.2,TODO: raise error,1
+0.2.2,TODO: Find a better solution for this.,1
+0.2.2,TODO,1
+0.2.2,TODO,1
+0.2.2,TODO: Multiple inputs,1
+0.2.2,TODO: Multiple outputs,1
+0.2.2,TODO(alemi): Register intermediate endpoints,1
+0.2.2,TODO(alemi): register intermediate endpoints,1
+0.2.2,TODO(gpapan): Properly support output_stride for the rest of the net.,1
+0.2.2,TODO(alemi): register intermediate endpoints,1
+0.2.2,"TODO(sguada,arnoegw): Consider adding a parameter global_pool which",1
+0.2.2,"TODO: It works with +1, don't know why.",1
+0.2.2,TODO: use keras backend instead of tf.,1
+0.2.2,TODO: Current it is only for slice,1
+0.2.2,TODO:  only for 1D,1
+0.2.2,use_bias: TODO,1
+0.2.2,need the shape TODO,1
+0.2.2,TODO: Handle square,1
+0.2.2,"TODO: pytorch, mxnet, keras, cntk",1
+0.2.2,TODO: More activation functions,1
+0.2.2,Kit TODO : need to search the tf,1
+0.2.2,TODO,1
+0.2.2,TODO,1
+0.2.2,TODO: arguments won't be saved in keras export model,1
+0.2.2,Kit: TODO,1
+0.2.1,"'inception_resnet_v2' : [TensorflowEmit], # TODO PytorchEmit",1
+0.2.1,TODO,1
+0.2.1,TODO,1
+0.2.1,TODO,1
+0.2.1,TODO,1
+0.2.1,self.data_format ? TODO,1
+0.2.1,TODO dtype_map,1
+0.2.1,TODO,1
+0.2.1,TODO,1
+0.2.1,Future Module TODO,1
+0.2.1,!Alert! TODO,1
+0.2.1,TODO - remove style transfer 1D hack,1
+0.2.1,"TODO: We need to identify whether this is 4D image data, otherwise we shouldn't change the dimension order",1
+0.2.1,TODO: Unbiased,1
+0.2.1,TODO: The gamma parameter has to be set (in node.data?) and this should work.,1
+0.2.1,TODO: raise error,1
+0.2.1,TODO: raise error,1
+0.2.1,TODO: Find a better solution for this.,1
+0.2.1,TODO,1
+0.2.1,TODO,1
+0.2.1,TODO: Multiple inputs,1
+0.2.1,TODO: Multiple outputs,1
+0.2.1,TODO(alemi): Register intermediate endpoints,1
+0.2.1,TODO(alemi): register intermediate endpoints,1
+0.2.1,TODO(gpapan): Properly support output_stride for the rest of the net.,1
+0.2.1,TODO(alemi): register intermediate endpoints,1
+0.2.1,"TODO(sguada,arnoegw): Consider adding a parameter global_pool which",1
+0.2.1,"TODO: It works with +1, don't know why.",1
+0.2.1,TODO: use keras backend instead of tf.,1
+0.2.1,TODO: Current it is only for slice,1
+0.2.1,TODO: Handle square,1
+0.2.1,TODO: More activation functions,1
+0.2.1,Kit TODO : need to search the tf,1
+0.2.1,TODO,1
+0.2.1,TODO,1
+0.2.1,TODO: arguments won't be saved in keras export model,1
+0.2.1,Kit: TODO,1
+0.2.0,"'inception_resnet_v2' : [TensorflowEmit], # TODO PytorchEmit",1
+0.2.0,TODO,1
+0.2.0,self.data_format ? TODO,1
+0.2.0,TODO dtype_map,1
+0.2.0,TODO,1
+0.2.0,TODO,1
+0.2.0,Future Module TODO,1
+0.2.0,!Alert! TODO,1
+0.2.0,TODO - remove style transfer 1D hack,1
+0.2.0,"TODO: We need to identify whether this is 4D image data, otherwise we shouldn't change the dimension order",1
+0.2.0,TODO: Unbiased,1
+0.2.0,TODO: The gamma parameter has to be set (in node.data?) and this should work.,1
+0.2.0,TODO: raise error,1
+0.2.0,TODO: raise error,1
+0.2.0,TODO: Find a better solution for this.,1
+0.2.0,TODO,1
+0.2.0,TODO,1
+0.2.0,TODO: Multiple inputs,1
+0.2.0,TODO: Multiple outputs,1
+0.2.0,TODO(alemi): Register intermediate endpoints,1
+0.2.0,TODO(alemi): register intermediate endpoints,1
+0.2.0,TODO(gpapan): Properly support output_stride for the rest of the net.,1
+0.2.0,TODO(alemi): register intermediate endpoints,1
+0.2.0,"TODO(sguada,arnoegw): Consider adding a parameter global_pool which",1
+0.2.0,"TODO: It works with +1, don't know why.",1
+0.2.0,TODO: use keras backend instead of tf.,1
+0.2.0,TODO: Current it is only for slice,1
+0.2.0,TODO: Handle square,1
+0.2.0,TODO: More activation functions,1
+0.2.0,Kit TODO : need to search the tf,1
+0.2.0,TODO,1
+0.2.0,TODO,1
+0.2.0,TODO: arguments won't be saved in keras export model,1
+0.2.0,Kit: TODO,1
+0.1.4,"'nasnet-a_large' : [TensorflowEmit, KerasEmit, PytorchEmit], # TODO",1
+0.1.4,TODO,1
+0.1.4,TODO - remove style transfer 1D hack,1
+0.1.4,"TODO: We need to identify whether this is 4D image data, otherwise we shouldn't change the dimension order",1
+0.1.4,TODO: Unbiased,1
+0.1.4,TODO: The gamma parameter has to be set (in node.data?) and this should work.,1
+0.1.4,TODO: raise error,1
+0.1.4,TODO: raise error,1
+0.1.4,TODO: Find a better solution for this.,1
+0.1.4,TODO(alemi): Register intermediate endpoints,1
+0.1.4,TODO(alemi): register intermediate endpoints,1
+0.1.4,TODO(gpapan): Properly support output_stride for the rest of the net.,1
+0.1.4,TODO(alemi): register intermediate endpoints,1
+0.1.4,"TODO(sguada,arnoegw): Consider adding a parameter global_pool which",1
+0.1.4,TODO: Handle square,1
+0.1.4,TODO: More activation functions,1
+0.1.4,Kit TODO : need to search the tf,1
+0.1.4,Kit: TODO,1
+0.1.3,"'nasnet-a_large' : [TensorflowEmit, KerasEmit, PytorchEmit], # TODO",1
+0.1.3,TODO - remove style transfer 1D hack,1
+0.1.3,"TODO: We need to identify whether this is 4D image data, otherwise we shouldn't change the dimension order",1
+0.1.3,TODO: Unbiased,1
+0.1.3,TODO: The gamma parameter has to be set (in node.data?) and this should work.,1
+0.1.3,TODO: raise error,1
+0.1.3,TODO: raise error,1
+0.1.3,TODO: Find a better solution for this.,1
+0.1.3,TODO(alemi): Register intermediate endpoints,1
+0.1.3,TODO(alemi): register intermediate endpoints,1
+0.1.3,TODO(gpapan): Properly support output_stride for the rest of the net.,1
+0.1.3,TODO(alemi): register intermediate endpoints,1
+0.1.3,"TODO(sguada,arnoegw): Consider adding a parameter global_pool which",1
+0.1.3,TODO: More activation functions,1
+0.1.3,Kit TODO : need to search the tf,1
+0.1.3,Kit: TODO,1
+0.1.2,"TODO: We need to identify whether this is 4D image data, otherwise we shouldn't change the dimension order",1
+0.1.2,TODO: Unbiased,1
+0.1.2,TODO: raise error,1
+0.1.2,TODO: raise error,1
+0.1.2,TODO: Find a better solution for this.,1
+0.1.2,TODO: More activation functions,1
+0.1.2,Kit TODO : need to search the tf,1
+0.1.2,Kit: TODO,1
+0.1.1,"TODO: We need to identify whether this is 4D image data, otherwise we shouldn't change the dimension order",1
+0.1.1,TODO: Unbiased,1
+0.1.1,TODO: raise error,1
+0.1.1,TODO: raise error,1
+0.1.1,TODO: Find a better solution for this.,1
+0.1.1,TODO: More activation functions,1
+0.1.1,Kit TODO : need to search the tf,1
+0.1.1,Kit: TODO,1

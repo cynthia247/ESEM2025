@@ -1,0 +1,619 @@
+Version,Commit Message,SATD
+1.0.28,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.28,TODO(nimrod): Reduce the tolerance if we can figure out why the tests,1
+1.0.28,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.28,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.28,TODO(b/129061424): Remove this method.,1
+1.0.28,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.28,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.28,TODO(b/266818670): support assets export into subdirectory,1
+1.0.28,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.28,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.28,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.28,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.28,TODO(b/124848293): add unit-test interception observables.,1
+1.0.28,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.28,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.28,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.28,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.28,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.28,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.28,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.28,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.28,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.28,!!LINE_REF make_broken_model.my_actuator,1
+1.0.26,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.26,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.26,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.26,TODO(b/129061424): Remove this method.,1
+1.0.26,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.26,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.26,TODO(b/266818670): support assets export into subdirectory,1
+1.0.26,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.26,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.26,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.26,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.26,TODO(b/124848293): add unit-test interception observables.,1
+1.0.26,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.26,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.26,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.26,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.26,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.26,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.26,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.26,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.26,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.26,!!LINE_REF make_broken_model.my_actuator,1
+1.0.25,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.25,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.25,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.25,TODO(b/129061424): Remove this method.,1
+1.0.25,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.25,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.25,TODO(b/266818670): support assets export into subdirectory,1
+1.0.25,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.25,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.25,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.25,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.25,TODO(b/124848293): add unit-test interception observables.,1
+1.0.25,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.25,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.25,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.25,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.25,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.25,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.25,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.25,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.25,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.25,!!LINE_REF make_broken_model.my_actuator,1
+1.0.24,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.24,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.24,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.24,TODO(b/129061424): Remove this method.,1
+1.0.24,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.24,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.24,TODO(b/266818670): support assets export into subdirectory,1
+1.0.24,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.24,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.24,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.24,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.24,TODO(b/124848293): add unit-test interception observables.,1
+1.0.24,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.24,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.24,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.24,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.24,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.24,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.24,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.24,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.24,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.24,!!LINE_REF make_broken_model.my_actuator,1
+1.0.23,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.23,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.23,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.23,TODO(b/129061424): Remove this method.,1
+1.0.23,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.23,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.23,TODO(b/266818670): support assets export into subdirectory,1
+1.0.23,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.23,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.23,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.23,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.23,TODO(b/124848293): add unit-test interception observables.,1
+1.0.23,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.23,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.23,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.23,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.23,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.23,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.23,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.23,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.23,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.23,!!LINE_REF make_broken_model.my_actuator,1
+1.0.22,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.22,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.22,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.22,TODO(b/129061424): Remove this method.,1
+1.0.22,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.22,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.22,TODO(b/266818670): support assets export into subdirectory,1
+1.0.22,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.22,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.22,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.22,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.22,TODO(b/124848293): add unit-test interception observables.,1
+1.0.22,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.22,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.22,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.22,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.22,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.22,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.22,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.22,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.22,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.22,!!LINE_REF make_broken_model.my_actuator,1
+1.0.21,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.21,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.21,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.21,TODO(b/129061424): Remove this method.,1
+1.0.21,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.21,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.21,TODO(b/266818670): support assets export into subdirectory,1
+1.0.21,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.21,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.21,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.21,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.21,TODO(b/124848293): add unit-test interception observables.,1
+1.0.21,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.21,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.21,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.21,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.21,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.21,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.21,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.21,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.21,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.21,!!LINE_REF make_broken_model.my_actuator,1
+1.0.20,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.20,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.20,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.20,TODO(b/129061424): Remove this method.,1
+1.0.20,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.20,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.20,TODO(b/266818670): support assets export into subdirectory,1
+1.0.20,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.20,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.20,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.20,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.20,TODO(b/124848293): add unit-test interception observables.,1
+1.0.20,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.20,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.20,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.20,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.20,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.20,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.20,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.20,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.20,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.20,!!LINE_REF make_broken_model.my_actuator,1
+1.0.19,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.19,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.19,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.19,TODO(b/129061424): Remove this method.,1
+1.0.19,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.19,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.19,TODO(b/266818670): support assets export into subdirectory,1
+1.0.19,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.19,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.19,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.19,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.19,TODO(b/124848293): add unit-test interception observables.,1
+1.0.19,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.19,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.19,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.19,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.19,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.19,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.19,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.19,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.19,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.19,!!LINE_REF make_broken_model.my_actuator,1
+1.0.18,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.18,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.18,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.18,TODO(b/129061424): Remove this method.,1
+1.0.18,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.18,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.18,TODO(b/266818670): support assets export into subdirectory,1
+1.0.18,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.18,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.18,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.18,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.18,TODO(b/124848293): add unit-test interception observables.,1
+1.0.18,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.18,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.18,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.18,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.18,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.18,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.18,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.18,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.18,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.18,!!LINE_REF make_broken_model.my_actuator,1
+1.0.17,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.17,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.17,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.17,TODO(b/129061424): Remove this method.,1
+1.0.17,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.17,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.17,TODO(b/266818670): support assets export into subdirectory,1
+1.0.17,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.17,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.17,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.17,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.17,TODO(b/124848293): add unit-test interception observables.,1
+1.0.17,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.17,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.17,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.17,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.17,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.17,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.17,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.17,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.17,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.17,!!LINE_REF make_broken_model.my_actuator,1
+1.0.16,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.16,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.16,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.16,TODO(b/129061424): Remove this method.,1
+1.0.16,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.16,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.16,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.16,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.16,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.16,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.16,TODO(b/124848293): add unit-test interception observables.,1
+1.0.16,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.16,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.16,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.16,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.16,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.16,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.16,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.16,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.16,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.16,!!LINE_REF make_broken_model.my_actuator,1
+1.0.15,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.15,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.15,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.15,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.15,TODO(b/129061424): Remove this method.,1
+1.0.15,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.15,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.15,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.15,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.15,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.15,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.15,TODO(b/124848293): add unit-test interception observables.,1
+1.0.15,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.15,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.15,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.15,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.15,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.15,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.15,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.15,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.15,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.15,!!LINE_REF make_broken_model.my_actuator,1
+1.0.14,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.14,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.14,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.14,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.14,TODO(b/129061424): Remove this method.,1
+1.0.14,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.14,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.14,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.14,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.14,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.14,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.14,TODO(b/124848293): add unit-test interception observables.,1
+1.0.14,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.14,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.14,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.14,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.14,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.14,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.14,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.14,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.14,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.14,!!LINE_REF make_broken_model.my_actuator,1
+1.0.13,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.13,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.13,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.13,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.13,TODO(b/129061424): Remove this method.,1
+1.0.13,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.13,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.13,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.13,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.13,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.13,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.13,TODO(b/124848293): add unit-test interception observables.,1
+1.0.13,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.13,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.13,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.13,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.13,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.13,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.13,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.13,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.13,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.13,!!LINE_REF make_broken_model.my_actuator,1
+1.0.12,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.12,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.12,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.12,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.12,TODO(b/129061424): Remove this method.,1
+1.0.12,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.12,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.12,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.12,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.12,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.12,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.12,TODO(b/124848293): add unit-test interception observables.,1
+1.0.12,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.12,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.12,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.12,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.12,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.12,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.12,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.12,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.12,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.12,!!LINE_REF make_broken_model.my_actuator,1
+1.0.11,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.11,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.11,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.11,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.11,TODO(b/129061424): Remove this method.,1
+1.0.11,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.11,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.11,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.11,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.11,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.11,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.11,TODO(b/124848293): add unit-test interception observables.,1
+1.0.11,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.11,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.11,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.11,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.11,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.11,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.11,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.11,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.11,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.11,!!LINE_REF make_broken_model.my_actuator,1
+1.0.10,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.10,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.10,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.10,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.10,TODO(b/129061424): Remove this method.,1
+1.0.10,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.10,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.10,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.10,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.10,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.10,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.10,TODO(b/124848293): add unit-test interception observables.,1
+1.0.10,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.10,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.10,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.10,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.10,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.10,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.10,TODO(zakka): Figure out how to detect high DPI displays on Linux.,1
+1.0.10,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.10,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.10,!!LINE_REF make_broken_model.my_actuator,1
+1.0.9,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.9,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.9,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.9,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.9,TODO(b/129061424): Remove this method.,1
+1.0.9,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.9,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.9,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.9,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.9,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.9,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.9,TODO(b/124848293): add unit-test interception observables.,1
+1.0.9,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.9,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.9,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.9,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.9,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.9,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.9,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.9,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.9,!!LINE_REF make_broken_model.my_actuator,1
+1.0.8,TODO(b/174603485): Re-enable once lint stops spuriously firing here.,1
+1.0.8,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.8,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.8,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.8,TODO(b/129061424): Remove this method.,1
+1.0.8,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.8,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.8,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.8,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.8,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.8,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.8,TODO(b/124848293): add unit-test interception observables.,1
+1.0.8,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.8,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.8,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.8,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.8,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.8,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.8,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.8,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.8,!!LINE_REF make_broken_model.my_actuator,1
+1.0.7,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.7,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.7,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.7,TODO(b/129061424): Remove this method.,1
+1.0.7,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.7,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.7,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.7,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.7,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.7,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.7,TODO(b/124848293): add unit-test interception observables.,1
+1.0.7,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.7,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.7,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.7,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.7,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.7,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.7,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.7,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.7,!!LINE_REF make_broken_model.my_actuator,1
+1.0.6,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.6,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.6,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.6,TODO(b/129061424): Remove this method.,1
+1.0.6,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.6,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.6,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.6,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.6,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.6,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.6,TODO(b/124848293): add unit-test interception observables.,1
+1.0.6,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.6,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.6,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.6,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.6,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.6,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.6,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.6,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.6,!!LINE_REF make_broken_model.my_actuator,1
+1.0.5,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.5,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.5,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.5,TODO(b/129061424): Remove this method.,1
+1.0.5,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.5,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.5,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.5,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.5,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.5,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.5,TODO(b/124848293): add unit-test interception observables.,1
+1.0.5,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.5,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.5,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.5,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.5,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.5,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.5,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.5,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.5,!!LINE_REF make_broken_model.my_actuator,1
+1.0.4,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.4,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.4,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.4,TODO(b/129061424): Remove this method.,1
+1.0.4,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.4,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.4,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.4,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.4,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.4,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.4,TODO(b/124848293): add unit-test interception observables.,1
+1.0.4,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.4,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.4,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.4,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.4,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.4,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.4,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.4,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.4,!!LINE_REF make_broken_model.my_actuator,1
+1.0.3.post1,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.3.post1,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.3.post1,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.3.post1,TODO(b/129061424): Remove this method.,1
+1.0.3.post1,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.3.post1,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.3.post1,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.3.post1,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.3.post1,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.3.post1,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.3.post1,TODO(b/124848293): add unit-test interception observables.,1
+1.0.3.post1,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.3.post1,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.3.post1,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.3.post1,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.3.post1,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.3.post1,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.3.post1,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.3.post1,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.3.post1,!!LINE_REF make_broken_model.my_actuator,1
+1.0.3,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.3,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.3,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.3,TODO(b/129061424): Remove this method.,1
+1.0.3,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.3,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.3,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.3,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.3,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.3,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.3,TODO(b/124848293): add unit-test interception observables.,1
+1.0.3,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.3,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.3,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.3,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.3,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.3,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.3,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.3,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.3,!!LINE_REF make_broken_model.my_actuator,1
+1.0.2,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.2,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.2,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.2,TODO(b/129061424): Remove this method.,1
+1.0.2,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.2,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.2,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.2,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.2,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.2,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.2,TODO(b/124848293): add unit-test interception observables.,1
+1.0.2,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.2,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.2,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.2,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.2,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.2,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.2,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.2,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.2,!!LINE_REF make_broken_model.my_actuator,1
+1.0.1,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.1,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.1,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.1,TODO(b/129061424): Remove this method.,1
+1.0.1,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.1,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.1,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.1,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.1,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.1,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.1,TODO(b/124848293): add unit-test interception observables.,1
+1.0.1,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.1,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.1,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.1,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.1,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.1,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.1,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.1,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.1,!!LINE_REF make_broken_model.my_actuator,1
+1.0.0,TODO(nimrod): Avoid allocating a new MjData just to replace it.,1
+1.0.0,TODO(b/78331644): It may be useful to log the size of `physics.model`,1
+1.0.0,TODO(b/121187817): Consolidate with dm_control/suite/explore.py,1
+1.0.0,TODO(b/129061424): Remove this method.,1
+1.0.0,so we might get a `PhysicsError` if the observation callable calls,1
+1.0.0,This is a temporary workaround due to the fact that the parser does not yet,1
+1.0.0,TODO(b/120829807): Consider returning a rotation matrix instead.,1
+1.0.0,TODO(b/120829077): Extend this test to other brick configurations.,1
+1.0.0,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.0,TODO(b/159974149): Investigate why the mass does not match the datasheet.,1
+1.0.0,TODO(b/124848293): add unit-test interception observables.,1
+1.0.0,TODO(b/124848293): consolidate environment stepping loop for task tests.,1
+1.0.0,TODO(b/132671988): Switch to using `get_pose` to get the quaternion once,1
+1.0.0,TODO(b/132759890): Remove `expectedFailure` decorator once `set_velocity`,1
+1.0.0,TODO(b/123065920): Consider using a `subtreelinvel` sensor instead.,1
+1.0.0,TODO(b/112141670): Generalize this to other entities besides sites.,1
+1.0.0,TODO(b/112141592): This does not take joint limits into consideration.,1
+1.0.0,TODO(b/110927854) Make this work with the offloading executor.,1
+1.0.0,!!LINE_REF make_broken_model.mjcf_model,1
+1.0.0,!!LINE_REF make_broken_model.my_actuator,1

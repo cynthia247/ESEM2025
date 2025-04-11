@@ -1,0 +1,2942 @@
+Version,Commit Message,SATD
+1.11.1,"TODO once MyST-NB 1.1.1/1.2.0 is out, this can be removed.",1
+1.11.1,ignoring this warning declaratively is a pain so do it here,1
+1.11.1,TODO: use deprecated decorator instead,1
+1.11.1,TODO: replace the following check with lint rule for all funtions eventually,1
+1.11.1,TODO: Check for warnings,1
+1.11.1,TODO: Make dask compatible,1
+1.11.1,"-h raises it, no args doesn’t. Maybe not ideal but meh.",1
+1.11.1,TODO: Make it work for sparse-in-dask,1
+1.11.1,"This test is flaky for old dask versions, but when `axis=None` it reliably fails",1
+1.11.1,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.11.1,TODO: Generalize test to more plotting types,1
+1.11.1,TODO: add other rank_genes_groups plots here once they work,1
+1.11.1,TODO: add other rank_genes_groups plots here once they work,1
+1.11.1,TODO: Make more generic,1
+1.11.1,TODO: raises ValueError about empty distance matrix – investigate,1
+1.11.1,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.11.1,TODO: add other rank_genes_groups plots here once they work,1
+1.11.1,TODO: Add support for sparse-in-dask,1
+1.11.1,"TODO: 'matplotlib.pyplot',",1
+1.11.1,"TODO (maybe): 'numba',",1
+1.11.1,TODO: write a test that costs less resources and is more meaningful,1
+1.11.1,TODO: Deprecate components kwarg,1
+1.11.1,"This is a bit flaky, so allow some mismatches:",1
+1.11.1,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.11.1,"TODO: This would fail: assert ""log1p"" not in adata.uns, ""ASV bug?""",1
+1.11.1,TODO: Report more context on the fields being compared on error,1
+1.11.1,TODO: Why these values exactly? Because they are high relative to the datatype?,1
+1.11.1,"TODO: implement diffxpy method, make singledispatch",1
+1.11.1,TODO: This should be made easier on the anndata side,1
+1.11.1,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.11.1,TODO: Figure out a better solution for documenting dispatched functions,1
+1.11.1,TODO: use overlapping blocks and reduction instead of `drop_axis`,1
+1.11.1,"TODO: At the moment, only works for int identifiers",1
+1.11.1,TODO: Loop over all groups instead of just taking one.,1
+1.11.1,"Use usual convention, better for looping later.",1
+1.11.1,TODO: Allow for sample weighting requires better mask access... later,1
+1.11.1,TODO: Subsample,1
+1.11.1,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.11.1,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.11.1,temporary hack for the broken forest storage,1
+1.11.1,TODO Evaluate whether to assign the variable or not,1
+1.11.1,hack for overestimating the variance for small groups,1
+1.11.1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.11.1,TODO catch the correct exception,1
+1.11.1,TODO: more,1
+1.11.1,the following is a Python 2 compatibility hack,1
+1.11.1,TODO: also replace pale colors if necessary,1
+1.11.1,TODO: is that all?,1
+1.11.1,This is a quick and dirty way for adapting scales across several,1
+1.11.1,TODO: Deprecate components kwarg,1
+1.11.1,TODO: Consider deprecating this,1
+1.11.1,TODO: Throw helpful error if this doesn't work,1
+1.11.1,TODO: Use dimensions here,1
+1.11.1,I don't know why this is necessary,1
+1.11.1,this is a super-weird hack that is necessary as igraph’s,1
+1.11.1,layout function seems to do some strange stuff here,1
+1.11.1,TODO use groupby or so instead of materialize_as_ndarray,1
+1.11.1,TODO figure out if we should use a numba kernel for this,1
+1.11.1,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.11.1,TODO: can/should this be parallelized?,1
+1.11.1,TODO: Check what other value could be,1
+1.11.1,TODO: are these copies needed?,1
+1.11.1,TODO: are these copies needed?,1
+1.11.1,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.11.1,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.11.0,"TODO once MyST-NB 1.1.1/1.2.0 is out, this can be removed.",1
+1.11.0,ignoring this warning declaratively is a pain so do it here,1
+1.11.0,TODO: use deprecated decorator instead,1
+1.11.0,TODO: replace the following check with lint rule for all funtions eventually,1
+1.11.0,TODO: Check for warnings,1
+1.11.0,TODO: Make dask compatible,1
+1.11.0,"-h raises it, no args doesn’t. Maybe not ideal but meh.",1
+1.11.0,TODO: Make it work for sparse-in-dask,1
+1.11.0,"This test is flaky for old dask versions, but when `axis=None` it reliably fails",1
+1.11.0,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.11.0,TODO: Generalize test to more plotting types,1
+1.11.0,TODO: add other rank_genes_groups plots here once they work,1
+1.11.0,TODO: add other rank_genes_groups plots here once they work,1
+1.11.0,TODO: Make more generic,1
+1.11.0,TODO: raises ValueError about empty distance matrix – investigate,1
+1.11.0,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.11.0,TODO: add other rank_genes_groups plots here once they work,1
+1.11.0,TODO: Add support for sparse-in-dask,1
+1.11.0,"TODO: 'matplotlib.pyplot',",1
+1.11.0,"TODO (maybe): 'numba',",1
+1.11.0,TODO: write a test that costs less resources and is more meaningful,1
+1.11.0,TODO: Deprecate components kwarg,1
+1.11.0,"This is a bit flaky, so allow some mismatches:",1
+1.11.0,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.11.0,"TODO: This would fail: assert ""log1p"" not in adata.uns, ""ASV bug?""",1
+1.11.0,TODO: Report more context on the fields being compared on error,1
+1.11.0,TODO: Why these values exactly? Because they are high relative to the datatype?,1
+1.11.0,"TODO: implement diffxpy method, make singledispatch",1
+1.11.0,TODO: This should be made easier on the anndata side,1
+1.11.0,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.11.0,TODO: Figure out a better solution for documenting dispatched functions,1
+1.11.0,TODO: use overlapping blocks and reduction instead of `drop_axis`,1
+1.11.0,"TODO: At the moment, only works for int identifiers",1
+1.11.0,TODO: Loop over all groups instead of just taking one.,1
+1.11.0,"Use usual convention, better for looping later.",1
+1.11.0,TODO: Allow for sample weighting requires better mask access... later,1
+1.11.0,TODO: Subsample,1
+1.11.0,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.11.0,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.11.0,temporary hack for the broken forest storage,1
+1.11.0,TODO Evaluate whether to assign the variable or not,1
+1.11.0,hack for overestimating the variance for small groups,1
+1.11.0,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.11.0,TODO catch the correct exception,1
+1.11.0,TODO: more,1
+1.11.0,the following is a Python 2 compatibility hack,1
+1.11.0,TODO: also replace pale colors if necessary,1
+1.11.0,TODO: is that all?,1
+1.11.0,This is a quick and dirty way for adapting scales across several,1
+1.11.0,TODO: Deprecate components kwarg,1
+1.11.0,TODO: Consider deprecating this,1
+1.11.0,TODO: Throw helpful error if this doesn't work,1
+1.11.0,TODO: Use dimensions here,1
+1.11.0,I don't know why this is necessary,1
+1.11.0,this is a super-weird hack that is necessary as igraph’s,1
+1.11.0,layout function seems to do some strange stuff here,1
+1.11.0,TODO use groupby or so instead of materialize_as_ndarray,1
+1.11.0,TODO figure out if we should use a numba kernel for this,1
+1.11.0,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.11.0,TODO: can/should this be parallelized?,1
+1.11.0,TODO: Check what other value could be,1
+1.11.0,TODO: are these copies needed?,1
+1.11.0,TODO: are these copies needed?,1
+1.11.0,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.11.0,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.11.0rc2,"TODO once MyST-NB 1.1.1/1.2.0 is out, this can be removed.",1
+1.11.0rc2,ignoring this warning declaratively is a pain so do it here,1
+1.11.0rc2,TODO: use deprecated decorator instead,1
+1.11.0rc2,TODO: replace the following check with lint rule for all funtions eventually,1
+1.11.0rc2,TODO: Check for warnings,1
+1.11.0rc2,TODO: Make dask compatible,1
+1.11.0rc2,"-h raises it, no args doesn’t. Maybe not ideal but meh.",1
+1.11.0rc2,TODO: Make it work for sparse-in-dask,1
+1.11.0rc2,"This test is flaky for old dask versions, but when `axis=None` it reliably fails",1
+1.11.0rc2,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.11.0rc2,TODO: Generalize test to more plotting types,1
+1.11.0rc2,TODO: add other rank_genes_groups plots here once they work,1
+1.11.0rc2,TODO: add other rank_genes_groups plots here once they work,1
+1.11.0rc2,TODO: Make more generic,1
+1.11.0rc2,TODO: raises ValueError about empty distance matrix – investigate,1
+1.11.0rc2,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.11.0rc2,TODO: add other rank_genes_groups plots here once they work,1
+1.11.0rc2,TODO: Add support for sparse-in-dask,1
+1.11.0rc2,"TODO: 'matplotlib.pyplot',",1
+1.11.0rc2,"TODO (maybe): 'numba',",1
+1.11.0rc2,TODO: write a test that costs less resources and is more meaningful,1
+1.11.0rc2,TODO: Deprecate components kwarg,1
+1.11.0rc2,"This is a bit flaky, so allow some mismatches:",1
+1.11.0rc2,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.11.0rc2,"TODO: This would fail: assert ""log1p"" not in adata.uns, ""ASV bug?""",1
+1.11.0rc2,TODO: Report more context on the fields being compared on error,1
+1.11.0rc2,TODO: Why these values exactly? Because they are high relative to the datatype?,1
+1.11.0rc2,"TODO: implement diffxpy method, make singledispatch",1
+1.11.0rc2,TODO: This should be made easier on the anndata side,1
+1.11.0rc2,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.11.0rc2,TODO: Figure out a better solution for documenting dispatched functions,1
+1.11.0rc2,TODO: use overlapping blocks and reduction instead of `drop_axis`,1
+1.11.0rc2,"TODO: At the moment, only works for int identifiers",1
+1.11.0rc2,TODO: Loop over all groups instead of just taking one.,1
+1.11.0rc2,"Use usual convention, better for looping later.",1
+1.11.0rc2,TODO: Allow for sample weighting requires better mask access... later,1
+1.11.0rc2,TODO: Subsample,1
+1.11.0rc2,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.11.0rc2,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.11.0rc2,temporary hack for the broken forest storage,1
+1.11.0rc2,TODO Evaluate whether to assign the variable or not,1
+1.11.0rc2,hack for overestimating the variance for small groups,1
+1.11.0rc2,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.11.0rc2,TODO catch the correct exception,1
+1.11.0rc2,TODO: more,1
+1.11.0rc2,the following is a Python 2 compatibility hack,1
+1.11.0rc2,TODO: also replace pale colors if necessary,1
+1.11.0rc2,TODO: is that all?,1
+1.11.0rc2,This is a quick and dirty way for adapting scales across several,1
+1.11.0rc2,TODO: Deprecate components kwarg,1
+1.11.0rc2,TODO: Consider deprecating this,1
+1.11.0rc2,TODO: Throw helpful error if this doesn't work,1
+1.11.0rc2,TODO: Use dimensions here,1
+1.11.0rc2,I don't know why this is necessary,1
+1.11.0rc2,this is a super-weird hack that is necessary as igraph’s,1
+1.11.0rc2,layout function seems to do some strange stuff here,1
+1.11.0rc2,TODO use groupby or so instead of materialize_as_ndarray,1
+1.11.0rc2,TODO figure out if we should use a numba kernel for this,1
+1.11.0rc2,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.11.0rc2,TODO: can/should this be parallelized?,1
+1.11.0rc2,TODO: Check what other value could be,1
+1.11.0rc2,TODO: are these copies needed?,1
+1.11.0rc2,TODO: are these copies needed?,1
+1.11.0rc2,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.11.0rc2,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.11.0rc1,"TODO once MyST-NB 1.1.1/1.2.0 is out, this can be removed.",1
+1.11.0rc1,ignoring this warning declaratively is a pain so do it here,1
+1.11.0rc1,TODO: use deprecated decorator instead,1
+1.11.0rc1,TODO: replace the following check with lint rule for all funtions eventually,1
+1.11.0rc1,TODO: Check for warnings,1
+1.11.0rc1,TODO: Make dask compatible,1
+1.11.0rc1,"-h raises it, no args doesn’t. Maybe not ideal but meh.",1
+1.11.0rc1,TODO: Make it work for sparse-in-dask,1
+1.11.0rc1,"This test is flaky for old dask versions, but when `axis=None` it reliably fails",1
+1.11.0rc1,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.11.0rc1,TODO: Generalize test to more plotting types,1
+1.11.0rc1,TODO: add other rank_genes_groups plots here once they work,1
+1.11.0rc1,TODO: add other rank_genes_groups plots here once they work,1
+1.11.0rc1,TODO: Make more generic,1
+1.11.0rc1,TODO: raises ValueError about empty distance matrix – investigate,1
+1.11.0rc1,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.11.0rc1,TODO: add other rank_genes_groups plots here once they work,1
+1.11.0rc1,TODO: Add support for sparse-in-dask,1
+1.11.0rc1,"TODO: 'matplotlib.pyplot',",1
+1.11.0rc1,"TODO (maybe): 'numba',",1
+1.11.0rc1,TODO: write a test that costs less resources and is more meaningful,1
+1.11.0rc1,TODO: Deprecate components kwarg,1
+1.11.0rc1,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.11.0rc1,"TODO: This would fail: assert ""log1p"" not in adata.uns, ""ASV bug?""",1
+1.11.0rc1,TODO: Report more context on the fields being compared on error,1
+1.11.0rc1,TODO: Why these values exactly? Because they are high relative to the datatype?,1
+1.11.0rc1,"TODO: implement diffxpy method, make singledispatch",1
+1.11.0rc1,TODO: This should be made easier on the anndata side,1
+1.11.0rc1,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.11.0rc1,TODO: Figure out a better solution for documenting dispatched functions,1
+1.11.0rc1,TODO: use overlapping blocks and reduction instead of `drop_axis`,1
+1.11.0rc1,"TODO: At the moment, only works for int identifiers",1
+1.11.0rc1,TODO: Loop over all groups instead of just taking one.,1
+1.11.0rc1,"Use usual convention, better for looping later.",1
+1.11.0rc1,TODO: Allow for sample weighting requires better mask access... later,1
+1.11.0rc1,TODO: Subsample,1
+1.11.0rc1,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.11.0rc1,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.11.0rc1,temporary hack for the broken forest storage,1
+1.11.0rc1,TODO Evaluate whether to assign the variable or not,1
+1.11.0rc1,hack for overestimating the variance for small groups,1
+1.11.0rc1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.11.0rc1,TODO catch the correct exception,1
+1.11.0rc1,TODO: more,1
+1.11.0rc1,the following is a Python 2 compatibility hack,1
+1.11.0rc1,TODO: also replace pale colors if necessary,1
+1.11.0rc1,TODO: is that all?,1
+1.11.0rc1,This is a quick and dirty way for adapting scales across several,1
+1.11.0rc1,TODO: Deprecate components kwarg,1
+1.11.0rc1,TODO: Consider deprecating this,1
+1.11.0rc1,TODO: Throw helpful error if this doesn't work,1
+1.11.0rc1,TODO: Use dimensions here,1
+1.11.0rc1,I don't know why this is necessary,1
+1.11.0rc1,this is a super-weird hack that is necessary as igraph’s,1
+1.11.0rc1,layout function seems to do some strange stuff here,1
+1.11.0rc1,TODO use groupby or so instead of materialize_as_ndarray,1
+1.11.0rc1,TODO figure out if we should use a numba kernel for this,1
+1.11.0rc1,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.11.0rc1,TODO: can/should this be parallelized?,1
+1.11.0rc1,TODO: Check what other value could be,1
+1.11.0rc1,TODO: are these copies needed?,1
+1.11.0rc1,TODO: are these copies needed?,1
+1.11.0rc1,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.11.0rc1,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.4,"TODO once MyST-NB 1.1.1/1.2.0 is out, this can be removed.",1
+1.10.4,TODO: use deprecated decorator instead,1
+1.10.4,TODO: replace the following check with lint rule for all funtions eventually,1
+1.10.4,TODO: Check for warnings,1
+1.10.4,TODO: Make dask compatible,1
+1.10.4,"-h raises it, no args doesn’t. Maybe not ideal but meh.",1
+1.10.4,TODO: Make it work for sparse-in-dask,1
+1.10.4,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.10.4,TODO: Generalize test to more plotting types,1
+1.10.4,TODO: add other rank_genes_groups plots here once they work,1
+1.10.4,TODO: add other rank_genes_groups plots here once they work,1
+1.10.4,TODO: Make more generic,1
+1.10.4,TODO: raises ValueError about empty distance matrix – investigate,1
+1.10.4,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.10.4,TODO: add other rank_genes_groups plots here once they work,1
+1.10.4,TODO: Add support for sparse-in-dask,1
+1.10.4,"TODO: 'matplotlib.pyplot',",1
+1.10.4,"TODO (maybe): 'numba',",1
+1.10.4,"TODO: Fix this case, maybe by increasing test data size.",1
+1.10.4,TODO: write a test that costs less resources and is more meaningful,1
+1.10.4,TODO: Deprecate components kwarg,1
+1.10.4,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.10.4,"TODO: This would fail: assert ""log1p"" not in adata.uns, ""ASV bug?""",1
+1.10.4,TODO: Report more context on the fields being compared on error,1
+1.10.4,TODO: Why these values exactly? Because they are high relative to the datatype?,1
+1.10.4,"TODO: implement diffxpy method, make singledispatch",1
+1.10.4,TODO: This should be made easier on the anndata side,1
+1.10.4,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.10.4,TODO: Figure out a better solution for documenting dispatched functions,1
+1.10.4,TODO: use overlapping blocks and reduction instead of `drop_axis`,1
+1.10.4,"TODO: At the moment, only works for int identifiers",1
+1.10.4,TODO: Loop over all groups instead of just taking one.,1
+1.10.4,"Use usual convention, better for looping later.",1
+1.10.4,TODO: Allow for sample weighting requires better mask access... later,1
+1.10.4,TODO: Subsample,1
+1.10.4,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.10.4,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.10.4,temporary hack for the broken forest storage,1
+1.10.4,TODO Evaluate whether to assign the variable or not,1
+1.10.4,hack for overestimating the variance for small groups,1
+1.10.4,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.10.4,TODO catch the correct exception,1
+1.10.4,TODO: more,1
+1.10.4,the following is a Python 2 compatibility hack,1
+1.10.4,TODO: also replace pale colors if necessary,1
+1.10.4,TODO: is that all?,1
+1.10.4,This is a quick and dirty way for adapting scales across several,1
+1.10.4,TODO: Deprecate components kwarg,1
+1.10.4,TODO: Consider deprecating this,1
+1.10.4,TODO: Throw helpful error if this doesn't work,1
+1.10.4,TODO: Use dimensions here,1
+1.10.4,I don't know why this is necessary,1
+1.10.4,this is a super-weird hack that is necessary as igraph’s,1
+1.10.4,layout function seems to do some strange stuff here,1
+1.10.4,TODO use groupby or so instead of materialize_as_ndarray,1
+1.10.4,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.10.4,TODO: Check what other value could be,1
+1.10.4,TODO: are these copies needed?,1
+1.10.4,TODO: are these copies needed?,1
+1.10.4,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.4,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.3,"TODO once MyST-NB 1.1.1/1.2.0 is out, this can be removed.",1
+1.10.3,TODO: use deprecated decorator instead,1
+1.10.3,TODO: replace the following check with lint rule for all funtions eventually,1
+1.10.3,TODO: Check for warnings,1
+1.10.3,TODO: Make dask compatible,1
+1.10.3,"-h raises it, no args doesn’t. Maybe not ideal but meh.",1
+1.10.3,TODO: Make it work for sparse-in-dask,1
+1.10.3,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.10.3,TODO: Generalize test to more plotting types,1
+1.10.3,TODO: add other rank_genes_groups plots here once they work,1
+1.10.3,TODO: add other rank_genes_groups plots here once they work,1
+1.10.3,TODO: Make more generic,1
+1.10.3,TODO: raises ValueError about empty distance matrix – investigate,1
+1.10.3,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.10.3,TODO: add other rank_genes_groups plots here once they work,1
+1.10.3,TODO: Add support for sparse-in-dask,1
+1.10.3,"TODO: 'matplotlib.pyplot',",1
+1.10.3,"TODO (maybe): 'numba',",1
+1.10.3,"TODO: Fix this case, maybe by increasing test data size.",1
+1.10.3,TODO: write a test that costs less resources and is more meaningful,1
+1.10.3,TODO: Deprecate components kwarg,1
+1.10.3,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.10.3,"TODO: This would fail: assert ""log1p"" not in adata.uns, ""ASV bug?""",1
+1.10.3,TODO: Report more context on the fields being compared on error,1
+1.10.3,TODO: Why these values exactly? Because they are high relative to the datatype?,1
+1.10.3,"TODO: implement diffxpy method, make singledispatch",1
+1.10.3,TODO: This should be made easier on the anndata side,1
+1.10.3,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.10.3,TODO: Figure out a better solution for documenting dispatched functions,1
+1.10.3,TODO: use overlapping blocks and reduction instead of `drop_axis`,1
+1.10.3,"TODO: At the moment, only works for int identifiers",1
+1.10.3,TODO: Loop over all groups instead of just taking one.,1
+1.10.3,"Use usual convention, better for looping later.",1
+1.10.3,TODO: Allow for sample weighting requires better mask access... later,1
+1.10.3,TODO: Subsample,1
+1.10.3,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.10.3,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.10.3,temporary hack for the broken forest storage,1
+1.10.3,TODO Evaluate whether to assign the variable or not,1
+1.10.3,hack for overestimating the variance for small groups,1
+1.10.3,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.10.3,TODO: more,1
+1.10.3,the following is a Python 2 compatibility hack,1
+1.10.3,TODO: also replace pale colors if necessary,1
+1.10.3,TODO: is that all?,1
+1.10.3,This is a quick and dirty way for adapting scales across several,1
+1.10.3,TODO: Deprecate components kwarg,1
+1.10.3,TODO: Consider deprecating this,1
+1.10.3,TODO: Throw helpful error if this doesn't work,1
+1.10.3,TODO: Use dimensions here,1
+1.10.3,I don't know why this is necessary,1
+1.10.3,this is a super-weird hack that is necessary as igraph’s,1
+1.10.3,layout function seems to do some strange stuff here,1
+1.10.3,TODO use groupby or so instead of materialize_as_ndarray,1
+1.10.3,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.10.3,TODO: Check what other value could be,1
+1.10.3,TODO: are these copies needed?,1
+1.10.3,TODO: are these copies needed?,1
+1.10.3,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.3,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.2,"TODO once MyST-NB 1.1.1/1.2.0 is out, this can be removed.",1
+1.10.2,TODO: use deprecated decorator instead,1
+1.10.2,TODO: replace the following check with lint rule for all funtions eventually,1
+1.10.2,TODO: Check for warnings,1
+1.10.2,TODO: Make dask compatible,1
+1.10.2,TODO: Make it work for sparse-in-dask,1
+1.10.2,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.10.2,TODO: Generalize test to more plotting types,1
+1.10.2,TODO: add other rank_genes_groups plots here once they work,1
+1.10.2,TODO: add other rank_genes_groups plots here once they work,1
+1.10.2,TODO: Make more generic,1
+1.10.2,TODO: raises ValueError about empty distance matrix – investigate,1
+1.10.2,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.10.2,TODO: add other rank_genes_groups plots here once they work,1
+1.10.2,TODO: Add support for sparse-in-dask,1
+1.10.2,"TODO: 'matplotlib.pyplot',",1
+1.10.2,"TODO (maybe): 'numba',",1
+1.10.2,TODO: are these right for sparse?,1
+1.10.2,"TODO: Fix this case, maybe by increasing test data size.",1
+1.10.2,TODO: write a test that costs less resources and is more meaningful,1
+1.10.2,TODO: Deprecate components kwarg,1
+1.10.2,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.10.2,"TODO: This would fail: assert ""log1p"" not in adata.uns, ""ASV bug?""",1
+1.10.2,TODO: Report more context on the fields being compared on error,1
+1.10.2,TODO: Why these values exactly? Because they are high relative to the datatype?,1
+1.10.2,"TODO: implement diffxpy method, make singledispatch",1
+1.10.2,TODO: This should be made easier on the anndata side,1
+1.10.2,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.10.2,TODO: Figure out a better solution for documenting dispatched functions,1
+1.10.2,TODO: use overlapping blocks and reduction instead of `drop_axis`,1
+1.10.2,"TODO: At the moment, only works for int identifiers",1
+1.10.2,TODO: Loop over all groups instead of just taking one.,1
+1.10.2,"Use usual convention, better for looping later.",1
+1.10.2,TODO: Allow for sample weighting requires better mask access... later,1
+1.10.2,TODO: Subsample,1
+1.10.2,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.10.2,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.10.2,temporary hack for the broken forest storage,1
+1.10.2,TODO Evaluate whether to assign the variable or not,1
+1.10.2,hack for overestimating the variance for small groups,1
+1.10.2,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.10.2,TODO: more,1
+1.10.2,the following is a Python 2 compatibility hack,1
+1.10.2,TODO: also replace pale colors if necessary,1
+1.10.2,TODO: is that all?,1
+1.10.2,This is a quick and dirty way for adapting scales across several,1
+1.10.2,TODO: Deprecate components kwarg,1
+1.10.2,TODO: Consider deprecating this,1
+1.10.2,TODO: Throw helpful error if this doesn't work,1
+1.10.2,TODO: Use dimensions here,1
+1.10.2,I don't know why this is necessary,1
+1.10.2,this is a super-weird hack that is necessary as igraph’s,1
+1.10.2,layout function seems to do some strange stuff here,1
+1.10.2,TODO use groupby or so instead of materialize_as_ndarray,1
+1.10.2,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.10.2,TODO: Check what other value could be,1
+1.10.2,TODO: are these copies needed?,1
+1.10.2,TODO: are these copies needed?,1
+1.10.2,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.2,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.1,TODO: Why these values exactly? Because they are high relative to the datatype?,1
+1.10.1,"TODO: implement diffxpy method, make singledispatch",1
+1.10.1,TODO: This should be made easier on the anndata side,1
+1.10.1,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.10.1,TODO: Figure out a better solution for documenting dispatched functions,1
+1.10.1,TODO: use overlapping blocks and reduction instead of `drop_axis`,1
+1.10.1,TODO: Report more context on the fields being compared on error,1
+1.10.1,"TODO: At the moment, only works for int identifiers",1
+1.10.1,TODO: Loop over all groups instead of just taking one.,1
+1.10.1,"Use usual convention, better for looping later.",1
+1.10.1,TODO: Allow for sample weighting requires better mask access... later,1
+1.10.1,TODO: Subsample,1
+1.10.1,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.10.1,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.10.1,temporary hack for the broken forest storage,1
+1.10.1,TODO Evaluate whether to assign the variable or not,1
+1.10.1,hack for overestimating the variance for small groups,1
+1.10.1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.10.1,TODO: use deprecated decorator instead,1
+1.10.1,TODO: replace the following check with lint rule for all funtions eventually,1
+1.10.1,TODO: Check for warnings,1
+1.10.1,TODO: Make dask compatible,1
+1.10.1,TODO: Make it work for sparse-in-dask,1
+1.10.1,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.10.1,TODO: Generalize test to more plotting types,1
+1.10.1,TODO: add other rank_genes_groups plots here once they work,1
+1.10.1,TODO: add other rank_genes_groups plots here once they work,1
+1.10.1,TODO: Make more generic,1
+1.10.1,TODO: raises ValueError about empty distance matrix – investigate,1
+1.10.1,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.10.1,TODO: add other rank_genes_groups plots here once they work,1
+1.10.1,TODO: Add support for sparse-in-dask,1
+1.10.1,"TODO: 'matplotlib.pyplot',",1
+1.10.1,"TODO (maybe): 'numba',",1
+1.10.1,TODO: are these right for sparse?,1
+1.10.1,"TODO: Fix this case, maybe by increasing test data size.",1
+1.10.1,TODO: write a test that costs less resources and is more meaningful,1
+1.10.1,TODO: Deprecate components kwarg,1
+1.10.1,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.10.1,the following is a Python 2 compatibility hack,1
+1.10.1,TODO: also replace pale colors if necessary,1
+1.10.1,TODO: is that all?,1
+1.10.1,This is a quick and dirty way for adapting scales across several,1
+1.10.1,TODO: Deprecate components kwarg,1
+1.10.1,TODO: Consider deprecating this,1
+1.10.1,TODO: Throw helpful error if this doesn't work,1
+1.10.1,TODO: Use dimensions here,1
+1.10.1,I don't know why this is necessary,1
+1.10.1,this is a super-weird hack that is necessary as igraph’s,1
+1.10.1,layout function seems to do some strange stuff here,1
+1.10.1,TODO use groupby or so instead of materialize_as_ndarray,1
+1.10.1,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.10.1,TODO: Check what other value could be,1
+1.10.1,TODO: are these copies needed?,1
+1.10.1,TODO: are these copies needed?,1
+1.10.1,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.1,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.0,TODO: Why these values exactly? Because they are high relative to the datatype?,1
+1.10.0,"TODO: implement diffxpy method, make singledispatch",1
+1.10.0,TODO: This should be made easier on the anndata side,1
+1.10.0,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.10.0,TODO: Figure out a better solution for documenting dispatched functions,1
+1.10.0,TODO: use overlapping blocks and reduction instead of `drop_axis`,1
+1.10.0,TODO: Report more context on the fields being compared on error,1
+1.10.0,"TODO: At the moment, only works for int identifiers",1
+1.10.0,TODO: Loop over all groups instead of just taking one.,1
+1.10.0,"Use usual convention, better for looping later.",1
+1.10.0,TODO: Allow for sample weighting requires better mask access... later,1
+1.10.0,TODO: Subsample,1
+1.10.0,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.10.0,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.10.0,temporary hack for the broken forest storage,1
+1.10.0,TODO Evaluate whether to assign the variable or not,1
+1.10.0,hack for overestimating the variance for small groups,1
+1.10.0,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.10.0,TODO: use deprecated decorator instead,1
+1.10.0,TODO: replace the following check with lint rule for all funtions eventually,1
+1.10.0,TODO: Check for warnings,1
+1.10.0,TODO: Make dask compatible,1
+1.10.0,TODO: Make it work for sparse-in-dask,1
+1.10.0,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.10.0,TODO: Generalize test to more plotting types,1
+1.10.0,TODO: add other rank_genes_groups plots here once they work,1
+1.10.0,TODO: add other rank_genes_groups plots here once they work,1
+1.10.0,TODO: Make more generic,1
+1.10.0,TODO: raises ValueError about empty distance matrix – investigate,1
+1.10.0,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.10.0,TODO: add other rank_genes_groups plots here once they work,1
+1.10.0,TODO: Add support for sparse-in-dask,1
+1.10.0,"TODO: 'matplotlib.pyplot',",1
+1.10.0,"TODO (maybe): 'numba',",1
+1.10.0,TODO: are these right for sparse?,1
+1.10.0,"TODO: Fix this case, maybe by increasing test data size.",1
+1.10.0,TODO: write a test that costs less resources and is more meaningful,1
+1.10.0,TODO: Deprecate components kwarg,1
+1.10.0,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.10.0,the following is a Python 2 compatibility hack,1
+1.10.0,TODO: also replace pale colors if necessary,1
+1.10.0,TODO: is that all?,1
+1.10.0,This is a quick and dirty way for adapting scales across several,1
+1.10.0,TODO: Deprecate components kwarg,1
+1.10.0,TODO: Consider deprecating this,1
+1.10.0,TODO: Throw helpful error if this doesn't work,1
+1.10.0,TODO: Use dimensions here,1
+1.10.0,I don't know why this is necessary,1
+1.10.0,this is a super-weird hack that is necessary as igraph’s,1
+1.10.0,layout function seems to do some strange stuff here,1
+1.10.0,TODO use groupby or so instead of materialize_as_ndarray,1
+1.10.0,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.10.0,TODO: Check what other value could be,1
+1.10.0,TODO: are these copies needed?,1
+1.10.0,TODO: are these copies needed?,1
+1.10.0,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.0,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.0rc2,TODO: Why these values exactly? Because they are high relative to the datatype?,1
+1.10.0rc2,"TODO: implement diffxpy method, make singledispatch",1
+1.10.0rc2,TODO: This should be made easier on the anndata side,1
+1.10.0rc2,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.10.0rc2,TODO: Figure out a better solution for documenting dispatched functions,1
+1.10.0rc2,TODO: use overlapping blocks and reduction instead of `drop_axis`,1
+1.10.0rc2,TODO: Report more context on the fields being compared on error,1
+1.10.0rc2,"TODO: At the moment, only works for int identifiers",1
+1.10.0rc2,TODO: Loop over all groups instead of just taking one.,1
+1.10.0rc2,"Use usual convention, better for looping later.",1
+1.10.0rc2,TODO: Allow for sample weighting requires better mask access... later,1
+1.10.0rc2,TODO: Subsample,1
+1.10.0rc2,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.10.0rc2,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.10.0rc2,temporary hack for the broken forest storage,1
+1.10.0rc2,TODO Evaluate whether to assign the variable or not,1
+1.10.0rc2,hack for overestimating the variance for small groups,1
+1.10.0rc2,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.10.0rc2,TODO: Add support for sparse-in-dask,1
+1.10.0rc2,TODO: use deprecated decorator instead,1
+1.10.0rc2,TODO: replace the following check with lint rule for all funtions eventually,1
+1.10.0rc2,TODO: Check for warnings,1
+1.10.0rc2,TODO: Make dask compatible,1
+1.10.0rc2,TODO: add support for dask-in-sparse,1
+1.10.0rc2,TODO: Make it work for sparse-in-dask,1
+1.10.0rc2,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.10.0rc2,TODO: Generalize test to more plotting types,1
+1.10.0rc2,TODO: add other rank_genes_groups plots here once they work,1
+1.10.0rc2,TODO: add other rank_genes_groups plots here once they work,1
+1.10.0rc2,TODO: Make more generic,1
+1.10.0rc2,TODO: raises ValueError about empty distance matrix – investigate,1
+1.10.0rc2,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.10.0rc2,TODO: add other rank_genes_groups plots here once they work,1
+1.10.0rc2,TODO: Add support for sparse-in-dask,1
+1.10.0rc2,"TODO: 'matplotlib.pyplot',",1
+1.10.0rc2,"TODO (maybe): 'numba',",1
+1.10.0rc2,TODO: are these right for sparse?,1
+1.10.0rc2,"TODO: Fix this case, maybe by increasing test data size.",1
+1.10.0rc2,TODO: write a test that costs less resources and is more meaningful,1
+1.10.0rc2,TODO: Deprecate components kwarg,1
+1.10.0rc2,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.10.0rc2,the following is a Python 2 compatibility hack,1
+1.10.0rc2,TODO: also replace pale colors if necessary,1
+1.10.0rc2,TODO: is that all?,1
+1.10.0rc2,This is a quick and dirty way for adapting scales across several,1
+1.10.0rc2,TODO: Deprecate components kwarg,1
+1.10.0rc2,TODO: Consider deprecating this,1
+1.10.0rc2,TODO: Throw helpful error if this doesn't work,1
+1.10.0rc2,TODO: Use dimensions here,1
+1.10.0rc2,I don't know why this is necessary,1
+1.10.0rc2,this is a super-weird hack that is necessary as igraph’s,1
+1.10.0rc2,layout function seems to do some strange stuff here,1
+1.10.0rc2,TODO use groupby or so instead of materialize_as_ndarray,1
+1.10.0rc2,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.10.0rc2,TODO: Check what other value could be,1
+1.10.0rc2,TODO: are these copies needed?,1
+1.10.0rc2,TODO: are these copies needed?,1
+1.10.0rc2,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.0rc2,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.0rc1,TODO: Why these values exactly? Because they are high relative to the datatype?,1
+1.10.0rc1,"TODO: implement diffxpy method, make singledispatch",1
+1.10.0rc1,TODO: This should be made easier on the anndata side,1
+1.10.0rc1,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.10.0rc1,TODO: Figure out a better solution for documenting dispatched functions,1
+1.10.0rc1,TODO: use overlapping blocks and reduction instead of `drop_axis`,1
+1.10.0rc1,TODO: Report more context on the fields being compared on error,1
+1.10.0rc1,"TODO: At the moment, only works for int identifiers",1
+1.10.0rc1,TODO: Loop over all groups instead of just taking one.,1
+1.10.0rc1,"Use usual convention, better for looping later.",1
+1.10.0rc1,TODO: Allow for sample weighting requires better mask access... later,1
+1.10.0rc1,TODO: Subsample,1
+1.10.0rc1,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.10.0rc1,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.10.0rc1,temporary hack for the broken forest storage,1
+1.10.0rc1,TODO Evaluate whether to assign the variable or not,1
+1.10.0rc1,hack for overestimating the variance for small groups,1
+1.10.0rc1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.10.0rc1,TODO: Add support for sparse-in-dask,1
+1.10.0rc1,TODO: use deprecated decorator instead,1
+1.10.0rc1,TODO: replace the following check with lint rule for all funtions eventually,1
+1.10.0rc1,TODO: Check for warnings,1
+1.10.0rc1,TODO: Make dask compatible,1
+1.10.0rc1,TODO: add support for dask-in-sparse,1
+1.10.0rc1,TODO: Make it work for sparse-in-dask,1
+1.10.0rc1,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.10.0rc1,TODO: Generalize test to more plotting types,1
+1.10.0rc1,TODO: add other rank_genes_groups plots here once they work,1
+1.10.0rc1,TODO: add other rank_genes_groups plots here once they work,1
+1.10.0rc1,TODO: Make more generic,1
+1.10.0rc1,TODO: raises ValueError about empty distance matrix – investigate,1
+1.10.0rc1,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.10.0rc1,TODO: add other rank_genes_groups plots here once they work,1
+1.10.0rc1,TODO: Add support for sparse-in-dask,1
+1.10.0rc1,"TODO: 'matplotlib.pyplot',",1
+1.10.0rc1,"TODO (maybe): 'numba',",1
+1.10.0rc1,TODO: are these right for sparse?,1
+1.10.0rc1,"TODO: Fix this case, maybe by increasing test data size.",1
+1.10.0rc1,TODO: write a test that costs less resources and is more meaningful,1
+1.10.0rc1,TODO: Deprecate components kwarg,1
+1.10.0rc1,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.10.0rc1,the following is a Python 2 compatibility hack,1
+1.10.0rc1,TODO: also replace pale colors if necessary,1
+1.10.0rc1,TODO: is that all?,1
+1.10.0rc1,This is a quick and dirty way for adapting scales across several,1
+1.10.0rc1,TODO: Deprecate components kwarg,1
+1.10.0rc1,TODO: Consider deprecating this,1
+1.10.0rc1,TODO: Throw helpful error if this doesn't work,1
+1.10.0rc1,TODO: Use dimensions here,1
+1.10.0rc1,I don't know why this is necessary,1
+1.10.0rc1,this is a super-weird hack that is necessary as igraph’s,1
+1.10.0rc1,layout function seems to do some strange stuff here,1
+1.10.0rc1,TODO use groupby or so instead of materialize_as_ndarray,1
+1.10.0rc1,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.10.0rc1,TODO: Check what other value could be,1
+1.10.0rc1,TODO: are these copies needed?,1
+1.10.0rc1,TODO: are these copies needed?,1
+1.10.0rc1,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.0rc1,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.8,"TODO: implement diffxpy method, make singledispatch",1
+1.9.8,TODO: This should be made easier on the anndata side,1
+1.9.8,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.9.8,TODO: Figure out a better solution for documenting dispatched functions,1
+1.9.8,TODO: Report more context on the fields being compared on error,1
+1.9.8,"TODO: At the moment, only works for int identifiers",1
+1.9.8,TODO: Loop over all groups instead of just taking one.,1
+1.9.8,"Use usual convention, better for looping later.",1
+1.9.8,TODO: Allow for sample weighting requires better mask access... later,1
+1.9.8,TODO: Subsample,1
+1.9.8,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.9.8,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.9.8,temporary hack for the broken forest storage,1
+1.9.8,hack for overestimating the variance for small groups,1
+1.9.8,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.9.8,TODO: Make arguments after groupby keyword only,1
+1.9.8,TODO: Check for warnings,1
+1.9.8,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.9.8,TODO: Generalize test to more plotting types,1
+1.9.8,TODO: add other rank_genes_groups plots here once they work,1
+1.9.8,TODO: add other rank_genes_groups plots here once they work,1
+1.9.8,TODO: Make more generic,1
+1.9.8,TODO: raises ValueError about empty distance matrix – investigate,1
+1.9.8,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.9.8,TODO: add other rank_genes_groups plots here once they work,1
+1.9.8,"TODO: 'matplotlib.pyplot',",1
+1.9.8,"TODO (maybe): 'numba',",1
+1.9.8,TODO: write a test that costs less resources and is more meaningful,1
+1.9.8,TODO: Deprecate components kwarg,1
+1.9.8,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.9.8,the following is a Python 2 compatibility hack,1
+1.9.8,TODO: also replace pale colors if necessary,1
+1.9.8,TODO: is that all?,1
+1.9.8,This is a quick and dirty way for adapting scales across several,1
+1.9.8,TODO: Deprecate components kwarg,1
+1.9.8,TODO: Consider deprecating this,1
+1.9.8,TODO: Use dimensions here,1
+1.9.8,I don't know why this is necessary,1
+1.9.8,this is a super-weird hack that is necessary as igraph’s,1
+1.9.8,layout function seems to do some strange stuff here,1
+1.9.8,TODO: This should throw an implicit modification warning,1
+1.9.8,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.9.8,TODO: Check what other value could be,1
+1.9.8,TODO: are these copies needed?,1
+1.9.8,TODO: are these copies needed?,1
+1.9.8,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.8,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.7,"TODO: implement diffxpy method, make singledispatch",1
+1.9.7,TODO: This should be made easier on the anndata side,1
+1.9.7,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.9.7,TODO: Figure out a better solution for documenting dispatched functions,1
+1.9.7,TODO: Report more context on the fields being compared on error,1
+1.9.7,"TODO: At the moment, only works for int identifiers",1
+1.9.7,TODO: Loop over all groups instead of just taking one.,1
+1.9.7,"Use usual convention, better for looping later.",1
+1.9.7,TODO: Allow for sample weighting requires better mask access... later,1
+1.9.7,TODO: Subsample,1
+1.9.7,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.9.7,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.9.7,temporary hack for the broken forest storage,1
+1.9.7,hack for overestimating the variance for small groups,1
+1.9.7,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.9.7,TODO: Make arguments after groupby keyword only,1
+1.9.7,TODO: Check for warnings,1
+1.9.7,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.9.7,TODO: Generalize test to more plotting types,1
+1.9.7,TODO: add other rank_genes_groups plots here once they work,1
+1.9.7,TODO: add other rank_genes_groups plots here once they work,1
+1.9.7,TODO: Make more generic,1
+1.9.7,TODO: raises ValueError about empty distance matrix – investigate,1
+1.9.7,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.9.7,TODO: add other rank_genes_groups plots here once they work,1
+1.9.7,"TODO: 'matplotlib.pyplot',",1
+1.9.7,"TODO (maybe): 'numba',",1
+1.9.7,TODO: write a test that costs less resources and is more meaningful,1
+1.9.7,TODO: Deprecate components kwarg,1
+1.9.7,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.9.7,the following is a Python 2 compatibility hack,1
+1.9.7,TODO: also replace pale colors if necessary,1
+1.9.7,TODO: is that all?,1
+1.9.7,This is a quick and dirty way for adapting scales across several,1
+1.9.7,TODO: Deprecate components kwarg,1
+1.9.7,TODO: Consider deprecating this,1
+1.9.7,TODO: Use dimensions here,1
+1.9.7,I don't know why this is necessary,1
+1.9.7,this is a super-weird hack that is necessary as igraph’s,1
+1.9.7,layout function seems to do some strange stuff here,1
+1.9.7,TODO: This should throw an implicit modification warning,1
+1.9.7,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.9.7,TODO: Check what other value could be,1
+1.9.7,TODO: are these copies needed?,1
+1.9.7,TODO: are these copies needed?,1
+1.9.7,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.7,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.6,"TODO: implement diffxpy method, make singledispatch",1
+1.9.6,TODO: This should be made easier on the anndata side,1
+1.9.6,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.9.6,TODO: Figure out a better solution for documenting dispatched functions,1
+1.9.6,TODO: Report more context on the fields being compared on error,1
+1.9.6,"TODO: At the moment, only works for int identifiers",1
+1.9.6,TODO: Loop over all groups instead of just taking one.,1
+1.9.6,"Use usual convention, better for looping later.",1
+1.9.6,TODO: Allow for sample weighting requires better mask access... later,1
+1.9.6,TODO: Subsample,1
+1.9.6,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.9.6,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.9.6,temporary hack for the broken forest storage,1
+1.9.6,hack for overestimating the variance for small groups,1
+1.9.6,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.9.6,TODO: Make arguments after groupby keyword only,1
+1.9.6,TODO: Check for warnings,1
+1.9.6,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.9.6,TODO: Generalize test to more plotting types,1
+1.9.6,TODO: add other rank_genes_groups plots here once they work,1
+1.9.6,TODO: add other rank_genes_groups plots here once they work,1
+1.9.6,TODO: Make more generic,1
+1.9.6,TODO: raises ValueError about empty distance matrix – investigate,1
+1.9.6,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.9.6,TODO: add other rank_genes_groups plots here once they work,1
+1.9.6,"TODO: 'matplotlib.pyplot',",1
+1.9.6,"TODO (maybe): 'numba',",1
+1.9.6,TODO: write a test that costs less resources and is more meaningful,1
+1.9.6,TODO: Deprecate components kwarg,1
+1.9.6,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.9.6,the following is a Python 2 compatibility hack,1
+1.9.6,TODO: also replace pale colors if necessary,1
+1.9.6,TODO: is that all?,1
+1.9.6,This is a quick and dirty way for adapting scales across several,1
+1.9.6,TODO: Deprecate components kwarg,1
+1.9.6,TODO: Consider deprecating this,1
+1.9.6,TODO: Use dimensions here,1
+1.9.6,I don't know why this is necessary,1
+1.9.6,this is a super-weird hack that is necessary as igraph’s,1
+1.9.6,layout function seems to do some strange stuff here,1
+1.9.6,TODO: This should throw an implicit modification warning,1
+1.9.6,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.9.6,TODO: Check what other value could be,1
+1.9.6,TODO: are these copies needed?,1
+1.9.6,TODO: are these copies needed?,1
+1.9.6,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.6,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.5,"TODO: implement diffxpy method, make singledispatch",1
+1.9.5,TODO: This should be made easier on the anndata side,1
+1.9.5,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.9.5,TODO: Figure out a better solution for documenting dispatched functions,1
+1.9.5,TODO: Report more context on the fields being compared on error,1
+1.9.5,"TODO: At the moment, only works for int identifiers",1
+1.9.5,TODO: Loop over all groups instead of just taking one.,1
+1.9.5,"Use usual convention, better for looping later.",1
+1.9.5,TODO: Allow for sample weighting requires better mask access... later,1
+1.9.5,TODO: Subsample,1
+1.9.5,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.9.5,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.9.5,temporary hack for the broken forest storage,1
+1.9.5,hack for overestimating the variance for small groups,1
+1.9.5,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.9.5,TODO: Make arguments after groupby keyword only,1
+1.9.5,TODO: Check for warnings,1
+1.9.5,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.9.5,TODO: Generalize test to more plotting types,1
+1.9.5,TODO: add other rank_genes_groups plots here once they work,1
+1.9.5,TODO: add other rank_genes_groups plots here once they work,1
+1.9.5,TODO: Make more generic,1
+1.9.5,TODO: raises ValueError about empty distance matrix – investigate,1
+1.9.5,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.9.5,TODO: add other rank_genes_groups plots here once they work,1
+1.9.5,"TODO: 'matplotlib.pyplot',",1
+1.9.5,"TODO (maybe): 'numba',",1
+1.9.5,TODO: write a test that costs less resources and is more meaningful,1
+1.9.5,TODO: Deprecate components kwarg,1
+1.9.5,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.9.5,the following is a Python 2 compatibility hack,1
+1.9.5,TODO: also replace pale colors if necessary,1
+1.9.5,TODO: is that all?,1
+1.9.5,This is a quick and dirty way for adapting scales across several,1
+1.9.5,TODO: Deprecate components kwarg,1
+1.9.5,TODO: Consider deprecating this,1
+1.9.5,TODO: Use dimensions here,1
+1.9.5,I don't know why this is necessary,1
+1.9.5,this is a super-weird hack that is necessary as igraph’s,1
+1.9.5,layout function seems to do some strange stuff here,1
+1.9.5,TODO: This should throw an implicit modification warning,1
+1.9.5,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.9.5,TODO: Check what other value could be,1
+1.9.5,TODO: are these copies needed?,1
+1.9.5,TODO: are these copies needed?,1
+1.9.5,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.5,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.4,"TODO: implement diffxpy method, make singledispatch",1
+1.9.4,TODO: This should be made easier on the anndata side,1
+1.9.4,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.9.4,TODO: Figure out a better solution for documenting dispatched functions,1
+1.9.4,TODO: Report more context on the fields being compared on error,1
+1.9.4,"TODO: At the moment, only works for int identifiers",1
+1.9.4,TODO: Loop over all groups instead of just taking one.,1
+1.9.4,"Use usual convention, better for looping later.",1
+1.9.4,TODO: Allow for sample weighting requires better mask access... later,1
+1.9.4,TODO: Subsample,1
+1.9.4,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.9.4,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.9.4,temporary hack for the broken forest storage,1
+1.9.4,hack for overestimating the variance for small groups,1
+1.9.4,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.9.4,TODO: Make arguments after groupby keyword only,1
+1.9.4,TODO: Check for warnings,1
+1.9.4,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.9.4,TODO: Generalize test to more plotting types,1
+1.9.4,TODO: add other rank_genes_groups plots here once they work,1
+1.9.4,TODO: add other rank_genes_groups plots here once they work,1
+1.9.4,TODO: Make more generic,1
+1.9.4,TODO: raises ValueError about empty distance matrix – investigate,1
+1.9.4,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.9.4,TODO: add other rank_genes_groups plots here once they work,1
+1.9.4,"TODO: 'matplotlib.pyplot',",1
+1.9.4,"TODO (maybe): 'numba',",1
+1.9.4,TODO: write a test that costs less resources and is more meaningful,1
+1.9.4,TODO: Deprecate components kwarg,1
+1.9.4,"TODO: currently needs skip if louvain isn't installed, do major rework",1
+1.9.4,the following is a Python 2 compatibility hack,1
+1.9.4,TODO: also replace pale colors if necessary,1
+1.9.4,TODO: is that all?,1
+1.9.4,This is a quick and dirty way for adapting scales across several,1
+1.9.4,TODO: Deprecate components kwarg,1
+1.9.4,TODO: Consider deprecating this,1
+1.9.4,TODO: Use dimensions here,1
+1.9.4,I don't know why this is necessary,1
+1.9.4,this is a super-weird hack that is necessary as igraph’s,1
+1.9.4,layout function seems to do some strange stuff here,1
+1.9.4,TODO: This should throw an implicit modification warning,1
+1.9.4,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.9.4,TODO: Check what other value could be,1
+1.9.4,TODO: are these copies needed?,1
+1.9.4,TODO: are these copies needed?,1
+1.9.4,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.4,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.3,"TODO: implement diffxpy method, make singledispatch",1
+1.9.3,TODO: This should be made easier on the anndata side,1
+1.9.3,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.9.3,TODO: Figure out a better solution for documenting dispatched functions,1
+1.9.3,"TODO: At the moment, only works for int identifiers",1
+1.9.3,TODO: Loop over all groups instead of just taking one.,1
+1.9.3,"Use usual convention, better for looping later.",1
+1.9.3,TODO: Allow for sample weighting requires better mask access... later,1
+1.9.3,TODO: Subsample,1
+1.9.3,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.9.3,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.9.3,temporary hack for the broken forest storage,1
+1.9.3,hack for overestimating the variance for small groups,1
+1.9.3,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.9.3,TODO: Make arguments after groupby keyword only,1
+1.9.3,TODO: Check for warnings,1
+1.9.3,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.9.3,TODO: Generalize test to more plotting types,1
+1.9.3,TODO: add other rank_genes_groups plots here once they work,1
+1.9.3,TODO: add other rank_genes_groups plots here once they work,1
+1.9.3,TODO: Make more generic,1
+1.9.3,TODO: raises ValueError about empty distance matrix – investigate,1
+1.9.3,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.9.3,TODO: add other rank_genes_groups plots here once they work,1
+1.9.3,"TODO: 'matplotlib.pyplot',",1
+1.9.3,"TODO (maybe): 'numba',",1
+1.9.3,TODO: write a test that costs less resources and is more meaningful,1
+1.9.3,TODO: Deprecate components kwarg,1
+1.9.3,TODO: Report more context on the fields being compared on error,1
+1.9.3,TODO: Fix for newly varying clustering results,1
+1.9.3,"TODO: skip if louvain isn't installed, needs major rework",1
+1.9.3,the following is a Python 2 compatibility hack,1
+1.9.3,TODO: also replace pale colors if necessary,1
+1.9.3,TODO: is that all?,1
+1.9.3,This is a quick and dirty way for adapting scales across several,1
+1.9.3,TODO: Deprecate components kwarg,1
+1.9.3,TODO: Consider deprecating this,1
+1.9.3,TODO: Use dimensions here,1
+1.9.3,I don't know why this is necessary,1
+1.9.3,this is a super-weird hack that is necessary as igraph’s,1
+1.9.3,layout function seems to do some strange stuff here,1
+1.9.3,TODO: This should throw an implicit modification warning,1
+1.9.3,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.9.3,TODO: Check what other value could be,1
+1.9.3,TODO: are these copies needed?,1
+1.9.3,TODO: are these copies needed?,1
+1.9.3,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.3,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.2,"TODO: implement diffxpy method, make singledispatch",1
+1.9.2,TODO: This should be made easier on the anndata side,1
+1.9.2,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.9.2,TODO: Figure out a better solution for documenting dispatched functions,1
+1.9.2,"TODO: At the moment, only works for int identifiers",1
+1.9.2,TODO: Loop over all groups instead of just taking one.,1
+1.9.2,"Use usual convention, better for looping later.",1
+1.9.2,TODO: Allow for sample weighting requires better mask access... later,1
+1.9.2,TODO: Subsample,1
+1.9.2,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.9.2,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.9.2,temporary hack for the broken forest storage,1
+1.9.2,hack for overestimating the variance for small groups,1
+1.9.2,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.9.2,TODO: Make arguments after groupby keyword only,1
+1.9.2,TODO: Check for warnings,1
+1.9.2,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.9.2,TODO: Generalize test to more plotting types,1
+1.9.2,TODO: add other rank_genes_groups plots here once they work,1
+1.9.2,TODO: add other rank_genes_groups plots here once they work,1
+1.9.2,TODO: Make more generic,1
+1.9.2,TODO: raises ValueError about empty distance matrix – investigate,1
+1.9.2,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.9.2,TODO: add other rank_genes_groups plots here once they work,1
+1.9.2,"TODO: 'matplotlib.pyplot',",1
+1.9.2,"TODO (maybe): 'numba',",1
+1.9.2,TODO: write a test that costs less resources and is more meaningful,1
+1.9.2,TODO: Deprecate components kwarg,1
+1.9.2,TODO: Report more context on the fields being compared on error,1
+1.9.2,TODO: Fix for newly varying clustering results,1
+1.9.2,"TODO: skip if louvain isn't installed, needs major rework",1
+1.9.2,the following is a Python 2 compatibility hack,1
+1.9.2,TODO: also replace pale colors if necessary,1
+1.9.2,TODO: is that all?,1
+1.9.2,This is a quick and dirty way for adapting scales across several,1
+1.9.2,TODO: Deprecate components kwarg,1
+1.9.2,TODO: Consider deprecating this,1
+1.9.2,TODO: Use dimensions here,1
+1.9.2,I don't know why this is necessary,1
+1.9.2,this is a super-weird hack that is necessary as igraph’s,1
+1.9.2,layout function seems to do some strange stuff here,1
+1.9.2,TODO: This should throw an implicit modification warning,1
+1.9.2,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.9.2,TODO: Check what other value could be,1
+1.9.2,TODO: are these copies needed?,1
+1.9.2,TODO: are these copies needed?,1
+1.9.2,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.2,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.1,"TODO: implement diffxpy method, make singledispatch",1
+1.9.1,TODO: This should be made easier on the anndata side,1
+1.9.1,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.9.1,TODO: Figure out a better solution for documenting dispatched functions,1
+1.9.1,"TODO: At the moment, only works for int identifiers",1
+1.9.1,TODO: Loop over all groups instead of just taking one.,1
+1.9.1,"Use usual convention, better for looping later.",1
+1.9.1,TODO: Allow for sample weighting requires better mask access... later,1
+1.9.1,TODO: Subsample,1
+1.9.1,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.9.1,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.9.1,temporary hack for the broken forest storage,1
+1.9.1,hack for overestimating the variance for small groups,1
+1.9.1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.9.1,TODO: Make arguments after groupby keyword only,1
+1.9.1,TODO: Check for warnings,1
+1.9.1,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.9.1,TODO: Generalize test to more plotting types,1
+1.9.1,TODO: add other rank_genes_groups plots here once they work,1
+1.9.1,TODO: add other rank_genes_groups plots here once they work,1
+1.9.1,TODO: Make more generic,1
+1.9.1,TODO: raises ValueError about empty distance matrix – investigate,1
+1.9.1,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.9.1,TODO: add other rank_genes_groups plots here once they work,1
+1.9.1,"TODO: 'matplotlib.pyplot',",1
+1.9.1,"TODO (maybe): 'numba',",1
+1.9.1,TODO: write a test that costs less resources and is more meaningful,1
+1.9.1,TODO: Deprecate components kwarg,1
+1.9.1,TODO: Report more context on the fields being compared on error,1
+1.9.1,"TODO: skip if louvain isn't installed, needs major rework",1
+1.9.1,the following is a Python 2 compatibility hack,1
+1.9.1,TODO: also replace pale colors if necessary,1
+1.9.1,TODO: is that all?,1
+1.9.1,This is a quick and dirty way for adapting scales across several,1
+1.9.1,TODO: Deprecate components kwarg,1
+1.9.1,TODO: Consider deprecating this,1
+1.9.1,TODO: Use dimensions here,1
+1.9.1,I don't know why this is necessary,1
+1.9.1,this is a super-weird hack that is necessary as igraph’s,1
+1.9.1,layout function seems to do some strange stuff here,1
+1.9.1,TODO: This should throw an implicit modification warning,1
+1.9.1,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.9.1,TODO: Check what other value could be,1
+1.9.1,TODO: are these copies needed?,1
+1.9.1,TODO: are these copies needed?,1
+1.9.1,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.1,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.0.dev0,"TODO: implement diffxpy method, make singledispatch",1
+1.10.0.dev0,TODO: This should be made easier on the anndata side,1
+1.10.0.dev0,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.10.0.dev0,TODO: Figure out a better solution for documenting dispatched functions,1
+1.10.0.dev0,"TODO: At the moment, only works for int identifiers",1
+1.10.0.dev0,TODO: Loop over all groups instead of just taking one.,1
+1.10.0.dev0,"Use usual convention, better for looping later.",1
+1.10.0.dev0,TODO: Allow for sample weighting requires better mask access... later,1
+1.10.0.dev0,TODO: Subsample,1
+1.10.0.dev0,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.10.0.dev0,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.10.0.dev0,temporary hack for the broken forest storage,1
+1.10.0.dev0,hack for overestimating the variance for small groups,1
+1.10.0.dev0,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.10.0.dev0,TODO: Make arguments after groupby keyword only,1
+1.10.0.dev0,TODO: Check for warnings,1
+1.10.0.dev0,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.10.0.dev0,TODO: Generalize test to more plotting types,1
+1.10.0.dev0,TODO: add other rank_genes_groups plots here once they work,1
+1.10.0.dev0,TODO: add other rank_genes_groups plots here once they work,1
+1.10.0.dev0,TODO: Make more generic,1
+1.10.0.dev0,TODO: raises ValueError about empty distance matrix – investigate,1
+1.10.0.dev0,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.10.0.dev0,TODO: add other rank_genes_groups plots here once they work,1
+1.10.0.dev0,"TODO: 'matplotlib.pyplot',",1
+1.10.0.dev0,"TODO (maybe): 'numba',",1
+1.10.0.dev0,TODO: write a test that costs less resources and is more meaningful,1
+1.10.0.dev0,TODO: Deprecate components kwarg,1
+1.10.0.dev0,TODO: Report more context on the fields being compared on error,1
+1.10.0.dev0,"TODO: skip if louvain isn't installed, needs major rework",1
+1.10.0.dev0,the following is a Python 2 compatibility hack,1
+1.10.0.dev0,TODO: also replace pale colors if necessary,1
+1.10.0.dev0,TODO: is that all?,1
+1.10.0.dev0,This is a quick and dirty way for adapting scales across several,1
+1.10.0.dev0,TODO: Deprecate components kwarg,1
+1.10.0.dev0,TODO: Consider deprecating this,1
+1.10.0.dev0,TODO: Use dimensions here,1
+1.10.0.dev0,I don't know why this is necessary,1
+1.10.0.dev0,this is a super-weird hack that is necessary as igraph’s,1
+1.10.0.dev0,layout function seems to do some strange stuff here,1
+1.10.0.dev0,TODO: This should throw an implicit modification warning,1
+1.10.0.dev0,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.10.0.dev0,TODO: Check what other value could be,1
+1.10.0.dev0,TODO: are these copies needed?,1
+1.10.0.dev0,TODO: are these copies needed?,1
+1.10.0.dev0,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.10.0.dev0,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.0,"TODO: implement diffxpy method, make singledispatch",1
+1.9.0,TODO: This should be made easier on the anndata side,1
+1.9.0,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.9.0,TODO: Figure out a better solution for documenting dispatched functions,1
+1.9.0,"TODO: At the moment, only works for int identifiers",1
+1.9.0,TODO: Loop over all groups instead of just taking one.,1
+1.9.0,"Use usual convention, better for looping later.",1
+1.9.0,TODO: Allow for sample weighting requires better mask access... later,1
+1.9.0,TODO: Subsample,1
+1.9.0,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.9.0,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.9.0,temporary hack for the broken forest storage,1
+1.9.0,hack for overestimating the variance for small groups,1
+1.9.0,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.9.0,TODO: Make arguments after groupby keyword only,1
+1.9.0,TODO: Check for warnings,1
+1.9.0,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.9.0,TODO: Generalize test to more plotting types,1
+1.9.0,TODO: add other rank_genes_groups plots here once they work,1
+1.9.0,TODO: add other rank_genes_groups plots here once they work,1
+1.9.0,TODO: Make more generic,1
+1.9.0,TODO: raises ValueError about empty distance matrix – investigate,1
+1.9.0,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.9.0,TODO: add other rank_genes_groups plots here once they work,1
+1.9.0,"TODO: 'matplotlib.pyplot',",1
+1.9.0,"TODO (maybe): 'numba',",1
+1.9.0,TODO: write a test that costs less resources and is more meaningful,1
+1.9.0,TODO: Deprecate components kwarg,1
+1.9.0,TODO: Report more context on the fields being compared on error,1
+1.9.0,"TODO: skip if louvain isn't installed, needs major rework",1
+1.9.0,the following is a Python 2 compatibility hack,1
+1.9.0,TODO: also replace pale colors if necessary,1
+1.9.0,TODO: is that all?,1
+1.9.0,This is a quick and dirty way for adapting scales across several,1
+1.9.0,TODO: Deprecate components kwarg,1
+1.9.0,TODO: Consider deprecating this,1
+1.9.0,TODO: Use dimensions here,1
+1.9.0,I don't know why this is necessary,1
+1.9.0,this is a super-weird hack that is necessary as igraph’s,1
+1.9.0,layout function seems to do some strange stuff here,1
+1.9.0,TODO: This should throw an implicit modification warning,1
+1.9.0,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.9.0,TODO: Check what other value could be,1
+1.9.0,TODO: are these copies needed?,1
+1.9.0,TODO: are these copies needed?,1
+1.9.0,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.9.0,"TODO: would ""underdispersion"" with negative theta make sense?",1
+1.8.2,"TODO: implement diffxpy method, make singledispatch",1
+1.8.2,TODO: This should be made easier on the anndata side,1
+1.8.2,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.8.2,TODO: Figure out a better solution for documenting dispatched functions,1
+1.8.2,"TODO: At the moment, only works for int identifiers",1
+1.8.2,TODO: Loop over all groups instead of just taking one.,1
+1.8.2,"Use usual convention, better for looping later.",1
+1.8.2,TODO: Allow for sample weighting requires better mask access... later,1
+1.8.2,TODO: Subsample,1
+1.8.2,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.8.2,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.8.2,temporary hack for the broken forest storage,1
+1.8.2,hack for overestimating the variance for small groups,1
+1.8.2,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.8.2,TODO: Make arguments after groupby keyword only,1
+1.8.2,TODO: Check for warnings,1
+1.8.2,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.8.2,TODO: What is the purpose of this test?,1
+1.8.2,TODO: Generalize test to more plotting types,1
+1.8.2,TODO: add other rank_genes_groups plots here once they work,1
+1.8.2,TODO: add other rank_genes_groups plots here once they work,1
+1.8.2,TODO: Make more generic,1
+1.8.2,TODO: raises ValueError about empty distance matrix – investigate,1
+1.8.2,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.8.2,TODO: add other rank_genes_groups plots here once they work,1
+1.8.2,"TODO: 'matplotlib.pyplot',",1
+1.8.2,"TODO (maybe): 'numba',",1
+1.8.2,TODO: write a test that costs less resources and is more meaningful,1
+1.8.2,TODO: Report more context on the fields being compared on error,1
+1.8.2,the following is a Python 2 compatibility hack,1
+1.8.2,TODO: also replace pale colors if necessary,1
+1.8.2,TODO: is that all?,1
+1.8.2,This is a quick and dirty way for adapting scales across several,1
+1.8.2,TODO: na_in_legend should have some effect here,1
+1.8.2,I don't know why this is necessary,1
+1.8.2,this is a super-weird hack that is necessary as igraph’s,1
+1.8.2,layout function seems to do some strange stuff here,1
+1.8.2,TODO: This should throw an implicit modification warning,1
+1.8.2,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.8.2,TODO: Check what other value could be,1
+1.8.1,"TODO: implement diffxpy method, make singledispatch",1
+1.8.1,TODO: This should be made easier on the anndata side,1
+1.8.1,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.8.1,TODO: Figure out a better solution for documenting dispatched functions,1
+1.8.1,"TODO: At the moment, only works for int identifiers",1
+1.8.1,TODO: Loop over all groups instead of just taking one.,1
+1.8.1,"Use usual convention, better for looping later.",1
+1.8.1,TODO: Allow for sample weighting requires better mask access... later,1
+1.8.1,TODO: Subsample,1
+1.8.1,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.8.1,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.8.1,temporary hack for the broken forest storage,1
+1.8.1,hack for overestimating the variance for small groups,1
+1.8.1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.8.1,TODO: Make arguments after groupby keyword only,1
+1.8.1,TODO: Check for warnings,1
+1.8.1,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.8.1,TODO: What is the purpose of this test?,1
+1.8.1,TODO: Generalize test to more plotting types,1
+1.8.1,TODO: add other rank_genes_groups plots here once they work,1
+1.8.1,TODO: add other rank_genes_groups plots here once they work,1
+1.8.1,TODO: Make more generic,1
+1.8.1,TODO: raises ValueError about empty distance matrix – investigate,1
+1.8.1,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.8.1,"TODO: 'matplotlib.pyplot',",1
+1.8.1,"TODO (maybe): 'numba',",1
+1.8.1,TODO: write a test that costs less resources and is more meaningful,1
+1.8.1,TODO: Report more context on the fields being compared on error,1
+1.8.1,the following is a Python 2 compatibility hack,1
+1.8.1,TODO: also replace pale colors if necessary,1
+1.8.1,TODO: is that all?,1
+1.8.1,This is a quick and dirty way for adapting scales across several,1
+1.8.1,TODO: na_in_legend should have some effect here,1
+1.8.1,I don't know why this is necessary,1
+1.8.1,this is a super-weird hack that is necessary as igraph’s,1
+1.8.1,layout function seems to do some strange stuff here,1
+1.8.1,TODO: This should throw an implicit modification warning,1
+1.8.1,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.8.1,TODO: Check what other value could be,1
+1.9.0.dev0,"TODO: implement diffxpy method, make singledispatch",1
+1.9.0.dev0,TODO: This should be made easier on the anndata side,1
+1.9.0.dev0,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.9.0.dev0,TODO: Figure out a better solution for documenting dispatched functions,1
+1.9.0.dev0,"TODO: At the moment, only works for int identifiers",1
+1.9.0.dev0,TODO: Loop over all groups instead of just taking one.,1
+1.9.0.dev0,"Use usual convention, better for looping later.",1
+1.9.0.dev0,TODO: Allow for sample weighting requires better mask access... later,1
+1.9.0.dev0,TODO: Subsample,1
+1.9.0.dev0,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.9.0.dev0,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.9.0.dev0,temporary hack for the broken forest storage,1
+1.9.0.dev0,hack for overestimating the variance for small groups,1
+1.9.0.dev0,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.9.0.dev0,TODO: Make arguments after groupby keyword only,1
+1.9.0.dev0,TODO: Check for warnings,1
+1.9.0.dev0,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.9.0.dev0,TODO: What is the purpose of this test?,1
+1.9.0.dev0,TODO: Generalize test to more plotting types,1
+1.9.0.dev0,TODO: add other rank_genes_groups plots here once they work,1
+1.9.0.dev0,TODO: add other rank_genes_groups plots here once they work,1
+1.9.0.dev0,TODO: Make more generic,1
+1.9.0.dev0,TODO: raises ValueError about empty distance matrix – investigate,1
+1.9.0.dev0,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.9.0.dev0,"TODO: 'matplotlib.pyplot',",1
+1.9.0.dev0,"TODO (maybe): 'numba',",1
+1.9.0.dev0,TODO: write a test that costs less resources and is more meaningful,1
+1.9.0.dev0,TODO: Report more context on the fields being compared on error,1
+1.9.0.dev0,the following is a Python 2 compatibility hack,1
+1.9.0.dev0,TODO: also replace pale colors if necessary,1
+1.9.0.dev0,TODO: is that all?,1
+1.9.0.dev0,This is a quick and dirty way for adapting scales across several,1
+1.9.0.dev0,TODO: na_in_legend should have some effect here,1
+1.9.0.dev0,TODO: wtf,1
+1.9.0.dev0,I don't know why this is necessary,1
+1.9.0.dev0,this is a super-weird hack that is necessary as igraph’s,1
+1.9.0.dev0,layout function seems to do some strange stuff here,1
+1.9.0.dev0,TODO: This should throw an implicit modification warning,1
+1.9.0.dev0,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.9.0.dev0,TODO: Check what other value could be,1
+1.8.0,"TODO: implement diffxpy method, make singledispatch",1
+1.8.0,TODO: This should be made easier on the anndata side,1
+1.8.0,"TODO: These are faster if we can compile them in parallel mode. However,",1
+1.8.0,TODO: Figure out a better solution for documenting dispatched functions,1
+1.8.0,"TODO: At the moment, only works for int identifiers",1
+1.8.0,TODO: Loop over all groups instead of just taking one.,1
+1.8.0,"Use usual convention, better for looping later.",1
+1.8.0,TODO: Allow for sample weighting requires better mask access... later,1
+1.8.0,TODO: Subsample,1
+1.8.0,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.8.0,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.8.0,temporary hack for the broken forest storage,1
+1.8.0,hack for overestimating the variance for small groups,1
+1.8.0,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.8.0,TODO: Make arguments after groupby keyword only,1
+1.8.0,TODO: Check for warnings,1
+1.8.0,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.8.0,TODO: What is the purpose of this test?,1
+1.8.0,TODO: Generalize test to more plotting types,1
+1.8.0,TODO: add other rank_genes_groups plots here once they work,1
+1.8.0,TODO: add other rank_genes_groups plots here once they work,1
+1.8.0,TODO: Make more generic,1
+1.8.0,TODO: raises ValueError about empty distance matrix – investigate,1
+1.8.0,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.8.0,"TODO: 'matplotlib.pyplot',",1
+1.8.0,"TODO (maybe): 'numba',",1
+1.8.0,TODO: write a test that costs less resources and is more meaningful,1
+1.8.0,TODO: Report more context on the fields being compared on error,1
+1.8.0,the following is a Python 2 compatibility hack,1
+1.8.0,TODO: also replace pale colors if necessary,1
+1.8.0,TODO: is that all?,1
+1.8.0,This is a quick and dirty way for adapting scales across several,1
+1.8.0,TODO: na_in_legend should have some effect here,1
+1.8.0,TODO: wtf,1
+1.8.0,I don't know why this is necessary,1
+1.8.0,this is a super-weird hack that is necessary as igraph’s,1
+1.8.0,layout function seems to do some strange stuff here,1
+1.8.0,TODO: This should throw an implicit modification warning,1
+1.8.0,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.8.0,TODO: Check what other value could be,1
+1.7.2,TODO: Figure out a better solution for documenting dispatched functions,1
+1.7.2,"TODO: implement diffxpy method, make singledispatch",1
+1.7.2,TODO: This should be made easier on the anndata side,1
+1.7.2,"TODO: At the moment, only works for int identifiers",1
+1.7.2,TODO: Loop over all groups instead of just taking one.,1
+1.7.2,"Use usual convention, better for looping later.",1
+1.7.2,TODO: Allow for sample weighting requires better mask access... later,1
+1.7.2,TODO: Subsample,1
+1.7.2,"TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.7.2,TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.7.2,temporary hack for the broken forest storage,1
+1.7.2,hack for overestimating the variance for small groups,1
+1.7.2,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.7.2,TODO: Make arguments after groupby keyword only,1
+1.7.2,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.7.2,TODO: What is the purpose of this test?,1
+1.7.2,TODO: Generalize test to more plotting types,1
+1.7.2,TODO: Make more generic,1
+1.7.2,TODO: raises ValueError about empty distance matrix – investigate,1
+1.7.2,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.7.2,"TODO: 'matplotlib.pyplot',",1
+1.7.2,"TODO (maybe): 'numba',",1
+1.7.2,TODO: write a test that costs less resources and is more meaningful,1
+1.7.2,the following is a Python 2 compatibility hack,1
+1.7.2,TODO: also replace pale colors if necessary,1
+1.7.2,TODO: is that all?,1
+1.7.2,This is a quick and dirty way for adapting scales across several,1
+1.7.2,TODO: na_in_legend should have some effect here,1
+1.7.2,TODO: wtf,1
+1.7.2,I don't know why this is necessary,1
+1.7.2,this is a super-weird hack that is necessary as igraph’s,1
+1.7.2,layout function seems to do some strange stuff here,1
+1.7.2,TODO: This should throw an implicit modification warning,1
+1.7.2,TODO: figure out how to test that this doesn't oversubscribe resources,1
+1.7.2,TODO: Check what other value could be,1
+1.7.2,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.7.1,TODO: Figure out a better solution for documenting dispatched functions,1
+1.7.1,"TODO: implement diffxpy method, make singledispatch",1
+1.7.1,TODO: This should be made easier on the anndata side,1
+1.7.1,"TODO: At the moment, only works for int identifiers",1
+1.7.1,TODO: Loop over all groups instead of just taking one.,1
+1.7.1,"Use usual convention, better for looping later.",1
+1.7.1,TODO: Allow for sample weighting requires better mask access... later,1
+1.7.1,TODO: Subsample,1
+1.7.1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.7.1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.7.1,temporary hack for the broken forest storage,1
+1.7.1,hack for overestimating the variance for small groups,1
+1.7.1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.7.1,TODO: Make arguments after groupby keyword only,1
+1.7.1,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.7.1,TODO: What is the purpose of this test?,1
+1.7.1,TODO: Generalize test to more plotting types,1
+1.7.1,TODO: Make more generic,1
+1.7.1,TODO: raises ValueError about empty distance matrix – investigate,1
+1.7.1,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.7.1,"TODO: 'matplotlib.pyplot',",1
+1.7.1,"TODO (maybe): 'numba',",1
+1.7.1,TODO: write a test that costs less resources and is more meaningful,1
+1.7.1,the following is a Python 2 compatibility hack,1
+1.7.1,TODO: also replace pale colors if necessary,1
+1.7.1,TODO: is that all?,1
+1.7.1,This is a quick and dirty way for adapting scales across several,1
+1.7.1,TODO: na_in_legend should have some effect here,1
+1.7.1,TODO: wtf,1
+1.7.1,I don't know why this is necessary,1
+1.7.1,this is a super-weird hack that is necessary as igraph’s,1
+1.7.1,layout function seems to do some strange stuff here,1
+1.7.1,TODO: This should throw an implicit modification warning,1
+1.7.1,TODO: Check what other value could be,1
+1.7.1,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.7.0,TODO: Figure out a better solution for documenting dispatched functions,1
+1.7.0,"TODO: implement diffxpy method, make singledispatch",1
+1.7.0,TODO: This should be made easier on the anndata side,1
+1.7.0,"TODO: At the moment, only works for int identifiers",1
+1.7.0,TODO: Loop over all groups instead of just taking one.,1
+1.7.0,"Use usual convention, better for looping later.",1
+1.7.0,TODO: Allow for sample weighting requires better mask access... later,1
+1.7.0,TODO: Subsample,1
+1.7.0,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.7.0,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.7.0,temporary hack for the broken forest storage,1
+1.7.0,hack for overestimating the variance for small groups,1
+1.7.0,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.7.0,TODO: Make arguments after groupby keyword only,1
+1.7.0,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.7.0,TODO: What is the purpose of this test?,1
+1.7.0,TODO: Generalize test to more plotting types,1
+1.7.0,TODO: Make more generic,1
+1.7.0,TODO: raises ValueError about empty distance matrix – investigate,1
+1.7.0,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.7.0,"TODO: 'matplotlib.pyplot',",1
+1.7.0,"TODO (maybe): 'numba',",1
+1.7.0,TODO: write a test that costs less resources and is more meaningful,1
+1.7.0,the following is a Python 2 compatibility hack,1
+1.7.0,TODO: also replace pale colors if necessary,1
+1.7.0,TODO: is that all?,1
+1.7.0,This is a quick and dirty way for adapting scales across several,1
+1.7.0,TODO: na_in_legend should have some effect here,1
+1.7.0,TODO: wtf,1
+1.7.0,I don't know why this is necessary,1
+1.7.0,this is a super-weird hack that is necessary as igraph’s,1
+1.7.0,layout function seems to do some strange stuff here,1
+1.7.0,TODO: This should throw an implicit modification warning,1
+1.7.0,TODO: Check what other value could be,1
+1.7.0,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.8.0.dev0,"TODO: implement diffxpy method, make singledispatch",1
+1.8.0.dev0,TODO: Figure out a better solution for documenting dispatched functions,1
+1.8.0.dev0,"TODO: At the moment, only works for int identifiers",1
+1.8.0.dev0,TODO: Loop over all groups instead of just taking one.,1
+1.8.0.dev0,"Use usual convention, better for looping later.",1
+1.8.0.dev0,TODO: Allow for sample weighting requires better mask access... later,1
+1.8.0.dev0,TODO: Subsample,1
+1.8.0.dev0,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.8.0.dev0,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.8.0.dev0,hack for overestimating the variance for small groups,1
+1.8.0.dev0,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.8.0.dev0,TODO: Make arguments after groupby keyword only,1
+1.8.0.dev0,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.8.0.dev0,TODO: What is the purpose of this test?,1
+1.8.0.dev0,TODO: Generalize test to more plotting types,1
+1.8.0.dev0,TODO: Make more generic,1
+1.8.0.dev0,TODO: raises ValueError about empty distance matrix – investigate,1
+1.8.0.dev0,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.8.0.dev0,"TODO: 'matplotlib.pyplot',",1
+1.8.0.dev0,"TODO (maybe): 'numba',",1
+1.8.0.dev0,TODO: write a test that costs less resources and is more meaningful,1
+1.8.0.dev0,the following is a Python 2 compatibility hack,1
+1.8.0.dev0,TODO: also replace pale colors if necessary,1
+1.8.0.dev0,TODO: is that all?,1
+1.8.0.dev0,This is a quick and dirty way for adapting scales across several,1
+1.8.0.dev0,TODO: na_in_legend should have some effect here,1
+1.8.0.dev0,TODO: wtf,1
+1.8.0.dev0,I don't know why this is necessary,1
+1.8.0.dev0,this is a super-weird hack that is necessary as igraph’s,1
+1.8.0.dev0,layout function seems to do some strange stuff here,1
+1.8.0.dev0,TODO: This should throw an implicit modification warning,1
+1.8.0.dev0,TODO: Check what other value could be,1
+1.8.0.dev0,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.7.0rc1,"TODO: implement diffxpy method, make singledispatch",1
+1.7.0rc1,TODO: Figure out a better solution for documenting dispatched functions,1
+1.7.0rc1,"TODO: At the moment, only works for int identifiers",1
+1.7.0rc1,TODO: Loop over all groups instead of just taking one.,1
+1.7.0rc1,"Use usual convention, better for looping later.",1
+1.7.0rc1,TODO: Allow for sample weighting requires better mask access... later,1
+1.7.0rc1,TODO: Subsample,1
+1.7.0rc1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.7.0rc1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.7.0rc1,hack for overestimating the variance for small groups,1
+1.7.0rc1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.7.0rc1,TODO: Make arguments after groupby keyword only,1
+1.7.0rc1,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.7.0rc1,TODO: What is the purpose of this test?,1
+1.7.0rc1,TODO: Generalize test to more plotting types,1
+1.7.0rc1,TODO: Make more generic,1
+1.7.0rc1,TODO: raises ValueError about empty distance matrix – investigate,1
+1.7.0rc1,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.7.0rc1,"TODO: 'matplotlib.pyplot',",1
+1.7.0rc1,"TODO (maybe): 'numba',",1
+1.7.0rc1,TODO: write a test that costs less resources and is more meaningful,1
+1.7.0rc1,the following is a Python 2 compatibility hack,1
+1.7.0rc1,TODO: also replace pale colors if necessary,1
+1.7.0rc1,TODO: is that all?,1
+1.7.0rc1,This is a quick and dirty way for adapting scales across several,1
+1.7.0rc1,TODO: na_in_legend should have some effect here,1
+1.7.0rc1,TODO: wtf,1
+1.7.0rc1,I don't know why this is necessary,1
+1.7.0rc1,this is a super-weird hack that is necessary as igraph’s,1
+1.7.0rc1,layout function seems to do some strange stuff here,1
+1.7.0rc1,TODO: This should throw an implicit modification warning,1
+1.7.0rc1,TODO: Check what other value could be,1
+1.7.0rc1,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.6.1,"TODO: implement diffxpy method, make singledispatch",1
+1.6.1,TODO: Figure out a better solution for documenting dispatched functions,1
+1.6.1,"TODO: At the moment, only works for int identifiers",1
+1.6.1,TODO: Loop over all groups instead of just taking one.,1
+1.6.1,"Use usual convention, better for looping later.",1
+1.6.1,TODO: Allow for sample weighting requires better mask access... later,1
+1.6.1,TODO: Subsample,1
+1.6.1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.6.1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.6.1,hack for overestimating the variance for small groups,1
+1.6.1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.6.1,TODO: Make arguments after groupby keyword only,1
+1.6.1,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.6.1,TODO: What is the purpose of this test?,1
+1.6.1,TODO: Make more generic,1
+1.6.1,TODO: raises ValueError about empty distance matrix – investigate,1
+1.6.1,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.6.1,"TODO: 'matplotlib.pyplot',",1
+1.6.1,"TODO (maybe): 'numba',",1
+1.6.1,TODO: write a test that costs less resources and is more meaningful,1
+1.6.1,the following is a Python 2 compatibility hack,1
+1.6.1,TODO: also replace pale colors if necessary,1
+1.6.1,TODO: is that all?,1
+1.6.1,This is a quick and dirty way for adapting scales across several,1
+1.6.1,don't really know why this gives a warning without passing `order`,1
+1.6.1,I don't know why this is necessary,1
+1.6.1,this is a super-weird hack that is necessary as igraph’s,1
+1.6.1,layout function seems to do some strange stuff here,1
+1.6.1,TODO: This should throw an implicit modification warning,1
+1.6.1,TODO: Check what other value could be,1
+1.6.1,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.6.0,"TODO: implement diffxpy method, make singledispatch",1
+1.6.0,TODO: Figure out a better solution for documenting dispatched functions,1
+1.6.0,"TODO: At the moment, only works for int identifiers",1
+1.6.0,TODO: Loop over all groups instead of just taking one.,1
+1.6.0,"Use usual convention, better for looping later.",1
+1.6.0,TODO: Allow for sample weighting requires better mask access... later,1
+1.6.0,TODO: Subsample,1
+1.6.0,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.6.0,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.6.0,hack for overestimating the variance for small groups,1
+1.6.0,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.6.0,TODO: Make arguments after groupby keyword only,1
+1.6.0,"Build files named ""prefix_XXX.xxx"" in a temporary directory.",1
+1.6.0,TODO: What is the purpose of this test?,1
+1.6.0,TODO: Make more generic,1
+1.6.0,TODO: raises ValueError about empty distance matrix – investigate,1
+1.6.0,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.6.0,"TODO: 'matplotlib.pyplot',",1
+1.6.0,"TODO (maybe): 'numba',",1
+1.6.0,TODO: write a test that costs less resources and is more meaningful,1
+1.6.0,the following is a Python 2 compatibility hack,1
+1.6.0,TODO: also replace pale colors if necessary,1
+1.6.0,TODO: is that all?,1
+1.6.0,This is a quick and dirty way for adapting scales across several,1
+1.6.0,don't really know why this gives a warning without passing `order`,1
+1.6.0,I don't know why this is necessary,1
+1.6.0,this is a super-weird hack that is necessary as igraph’s,1
+1.6.0,layout function seems to do some strange stuff here,1
+1.6.0,TODO: This should throw an implicit modification warning,1
+1.6.0,TODO: Check what other value could be,1
+1.6.0,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.5.1,"TODO: implement diffxpy method, make singledispatch",1
+1.5.1,TODO: Figure out a better solution for documenting dispatched functions,1
+1.5.1,"TODO: At the moment, only works for int identifiers",1
+1.5.1,TODO: Loop over all groups instead of just taking one.,1
+1.5.1,"Use usual convention, better for looping later.",1
+1.5.1,TODO: Allow for sample weighting requires better mask access... later,1
+1.5.1,TODO: Subsample,1
+1.5.1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.5.1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.5.1,TODO: Make arguments after groupby keyword only,1
+1.5.1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.5.1,TODO: What is the purpose of this test?,1
+1.5.1,TODO: Make more generic,1
+1.5.1,TODO: raises ValueError about empty distance matrix – investigate,1
+1.5.1,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.5.1,"TODO: 'matplotlib.pyplot',",1
+1.5.1,"TODO (maybe): 'numba',",1
+1.5.1,TODO: write a test that costs less resources and is more meaningful,1
+1.5.1,the following is a Python 2 compatibility hack,1
+1.5.1,TODO: also replace pale colors if necessary,1
+1.5.1,TODO: is that all?,1
+1.5.1,This is a quick and dirty way for adapting scales across several,1
+1.5.1,don't really know why this gives a warning without passing `order`,1
+1.5.1,I don't know why this is necessary,1
+1.5.1,this is a super-weird hack that is necessary as igraph’s,1
+1.5.1,layout function seems to do some strange stuff here,1
+1.5.1,TODO: This should throw an implicit modification warning,1
+1.5.1,TODO: Check what other value could be,1
+1.5.1,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.5.0,"TODO: implement diffxpy method, make singledispatch",1
+1.5.0,TODO: Figure out a better solution for documenting dispatched functions,1
+1.5.0,"TODO: At the moment, only works for int identifiers",1
+1.5.0,TODO: Loop over all groups instead of just taking one.,1
+1.5.0,"Use usual convention, better for looping later.",1
+1.5.0,TODO: Allow for sample weighting requires better mask access... later,1
+1.5.0,TODO: Subsample,1
+1.5.0,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.5.0,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.5.0,TODO: Make arguments after groupby keyword only,1
+1.5.0,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.5.0,TODO: What is the purpose of this test?,1
+1.5.0,TODO: Make more generic,1
+1.5.0,TODO: raises ValueError about empty distance matrix – investigate,1
+1.5.0,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.5.0,"TODO: 'matplotlib.pyplot',",1
+1.5.0,"TODO (maybe): 'numba',",1
+1.5.0,TODO: write a test that costs less resources and is more meaningful,1
+1.5.0,the following is a Python 2 compatibility hack,1
+1.5.0,TODO: also replace pale colors if necessary,1
+1.5.0,TODO: is that all?,1
+1.5.0,This is a quick and dirty way for adapting scales across several,1
+1.5.0,don't really know why this gives a warning without passing `order`,1
+1.5.0,I don't know why this is necessary,1
+1.5.0,this is a super-weird hack that is necessary as igraph’s,1
+1.5.0,layout function seems to do some strange stuff here,1
+1.5.0,TODO: This should throw an implicit modification warning,1
+1.5.0,TODO: Check what other value could be,1
+1.5.0,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.5.0a1,"TODO: implement diffxpy method, make singledispatch",1
+1.5.0a1,TODO: Figure out a better solution for documenting dispatched functions,1
+1.5.0a1,"TODO: At the moment, only works for int identifiers",1
+1.5.0a1,TODO: Loop over all groups instead of just taking one.,1
+1.5.0a1,"Use usual convention, better for looping later.",1
+1.5.0a1,TODO: Allow for sample weighting requires better mask access... later,1
+1.5.0a1,TODO: Subsample,1
+1.5.0a1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.5.0a1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.5.0a1,TODO: Make arguments after groupby keyword only,1
+1.5.0a1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.5.0a1,TODO: What is the purpose of this test?,1
+1.5.0a1,TODO: Make more generic,1
+1.5.0a1,TODO: raises ValueError about empty distance matrix – investigate,1
+1.5.0a1,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.5.0a1,"TODO: 'matplotlib.pyplot',",1
+1.5.0a1,"TODO (maybe): 'numba',",1
+1.5.0a1,TODO: write a test that costs less resources and is more meaningful,1
+1.5.0a1,the following is a Python 2 compatibility hack,1
+1.5.0a1,TODO: also replace pale colors if necessary,1
+1.5.0a1,TODO: is that all?,1
+1.5.0a1,This is a quick and dirty way for adapting scales across several,1
+1.5.0a1,don't really know why this gives a warning without passing `order`,1
+1.5.0a1,I don't know why this is necessary,1
+1.5.0a1,this is a super-weird hack that is necessary as igraph’s,1
+1.5.0a1,layout function seems to do some strange stuff here,1
+1.5.0a1,TODO: This should throw an implicit modification warning,1
+1.5.0a1,TODO: Check what other value could be,1
+1.5.0a1,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.4.6,"TODO: implement diffxpy method, make singledispatch",1
+1.4.6,"TODO: At the moment, only works for int identifiers",1
+1.4.6,TODO: Loop over all groups instead of just taking one.,1
+1.4.6,"Use usual convention, better for looping later.",1
+1.4.6,TODO: Allow for sample weighting requires better mask access... later,1
+1.4.6,TODO: Subsample,1
+1.4.6,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.4.6,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.4.6,TODO: Make arguments after groupby keyword only,1
+1.4.6,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.4.6,TODO: What is the purpose of this test?,1
+1.4.6,TODO: Make more generic,1
+1.4.6,TODO: raises ValueError about empty distance matrix – investigate,1
+1.4.6,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.4.6,"TODO: 'matplotlib.pyplot',",1
+1.4.6,"TODO (maybe): 'numba',",1
+1.4.6,TODO: write a test that costs less resources and is more meaningful,1
+1.4.6,the following is a Python 2 compatibility hack,1
+1.4.6,TODO: also replace pale colors if necessary,1
+1.4.6,TODO: is that all?,1
+1.4.6,This is a quick and dirty way for adapting scales across several,1
+1.4.6,don't really know why this gives a warning without passing `order`,1
+1.4.6,I don't know why this is necessary,1
+1.4.6,this is a super-weird hack that is necessary as igraph’s,1
+1.4.6,layout function seems to do some strange stuff here,1
+1.4.6,TODO: This should throw an implicit modification warning,1
+1.4.6,TODO: Check what other value could be,1
+1.4.6,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.4.5.1,"TODO: implement diffxpy method, make singledispatch",1
+1.4.5.1,"TODO: At the moment, only works for int identifiers",1
+1.4.5.1,TODO: Loop over all groups instead of just taking one.,1
+1.4.5.1,"Use usual convention, better for looping later.",1
+1.4.5.1,TODO: Allow for sample weighting requires better mask access... later,1
+1.4.5.1,TODO: Subsample,1
+1.4.5.1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.4.5.1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.4.5.1,TODO: Make arguments after groupby keyword only,1
+1.4.5.1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.4.5.1,TODO: Make more generic,1
+1.4.5.1,TODO: raises ValueError about empty distance matrix – investigate,1
+1.4.5.1,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.4.5.1,"TODO: 'matplotlib.pyplot',",1
+1.4.5.1,"TODO (maybe): 'numba',",1
+1.4.5.1,TODO: write a test that costs less resources and is more meaningful,1
+1.4.5.1,the following is a Python 2 compatibility hack,1
+1.4.5.1,TODO: also replace pale colors if necessary,1
+1.4.5.1,TODO: is that all?,1
+1.4.5.1,This is a quick and dirty way for adapting scales across several,1
+1.4.5.1,don't really know why this gives a warning without passing `order`,1
+1.4.5.1,I don't know why this is necessary,1
+1.4.5.1,this is a super-weird hack that is necessary as igraph’s,1
+1.4.5.1,layout function seems to do some strange stuff here,1
+1.4.5.1,TODO: This should throw an implicit modification warning,1
+1.4.5.1,TODO: Check what other value could be,1
+1.4.5.1,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.4.5.post3,"TODO: implement diffxpy method, make singledispatch",1
+1.4.5.post3,"TODO: At the moment, only works for int identifiers",1
+1.4.5.post3,TODO: Loop over all groups instead of just taking one.,1
+1.4.5.post3,"Use usual convention, better for looping later.",1
+1.4.5.post3,TODO: Allow for sample weighting requires better mask access... later,1
+1.4.5.post3,TODO: Subsample,1
+1.4.5.post3,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.4.5.post3,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.4.5.post3,TODO: Make arguments after groupby keyword only,1
+1.4.5.post3,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.4.5.post3,TODO: Make more generic,1
+1.4.5.post3,TODO: raises ValueError about empty distance matrix – investigate,1
+1.4.5.post3,"TODO: Generating a dendrogram modifies the object, this should be",1
+1.4.5.post3,"TODO: 'matplotlib.pyplot',",1
+1.4.5.post3,"TODO (maybe): 'numba',",1
+1.4.5.post3,TODO: write a test that costs less resources and is more meaningful,1
+1.4.5.post3,the following is a Python 2 compatibility hack,1
+1.4.5.post3,TODO: also replace pale colors if necessary,1
+1.4.5.post3,TODO: is that all?,1
+1.4.5.post3,This is a quick and dirty way for adapting scales across several,1
+1.4.5.post3,don't really know why this gives a warning without passing `order`,1
+1.4.5.post3,I don't know why this is necessary,1
+1.4.5.post3,this is a super-weird hack that is necessary as igraphs layout function,1
+1.4.5.post3,TODO: Check what other value could be,1
+1.4.5.post3,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.4.5.post2,"TODO: implement diffxpy method, make singledispatch",1
+1.4.5.post2,"TODO: At the moment, only works for int identifiers",1
+1.4.5.post2,TODO: Loop over all groups instead of just taking one.,1
+1.4.5.post2,"Use usual convention, better for looping later.",1
+1.4.5.post2,TODO: Allow for sample weighting requires better mask access... later,1
+1.4.5.post2,TODO: Subsample,1
+1.4.5.post2,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.4.5.post2,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.4.5.post2,TODO: Make arguments after groupby keyword only,1
+1.4.5.post2,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.4.5.post2,TODO: Make more generic,1
+1.4.5.post2,"TODO: 'matplotlib.pyplot',",1
+1.4.5.post2,"TODO (maybe): 'numba',",1
+1.4.5.post2,TODO: write a test that costs less resources and is more meaningful,1
+1.4.5.post2,the following is a Python 2 compatibility hack,1
+1.4.5.post2,TODO: also replace pale colors if necessary,1
+1.4.5.post2,TODO: is that all?,1
+1.4.5.post2,This is a quick and dirty way for adapting scales across several,1
+1.4.5.post2,don't really know why this gives a warning without passing `order`,1
+1.4.5.post2,I don't know why this is necessary,1
+1.4.5.post2,this is a super-weird hack that is necessary as igraphs layout function,1
+1.4.5.post2,TODO: Check what other value could be,1
+1.4.5.post2,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.4.5.post1,"TODO: implement diffxpy method, make singledispatch",1
+1.4.5.post1,"TODO: At the moment, only works for int identifiers",1
+1.4.5.post1,TODO: Loop over all groups instead of just taking one.,1
+1.4.5.post1,"Use usual convention, better for looping later.",1
+1.4.5.post1,TODO: Allow for sample weighting requires better mask access... later,1
+1.4.5.post1,TODO: Subsample,1
+1.4.5.post1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.4.5.post1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.4.5.post1,TODO: Make arguments after groupby keyword only,1
+1.4.5.post1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.4.5.post1,TODO: Make more generic,1
+1.4.5.post1,"TODO: 'matplotlib.pyplot',",1
+1.4.5.post1,"TODO (maybe): 'numba',",1
+1.4.5.post1,TODO: write a test that costs less resources and is more meaningful,1
+1.4.5.post1,the following is a Python 2 compatibility hack,1
+1.4.5.post1,TODO: also replace pale colors if necessary,1
+1.4.5.post1,TODO: is that all?,1
+1.4.5.post1,This is a quick and dirty way for adapting scales across several,1
+1.4.5.post1,don't really know why this gives a warning without passing `order`,1
+1.4.5.post1,I don't know why this is necessary,1
+1.4.5.post1,this is a super-weird hack that is necessary as igraphs layout function,1
+1.4.5.post1,TODO: Check what other value could be,1
+1.4.5.post1,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.4.5,"TODO: implement diffxpy method, make singledispatch",1
+1.4.5,"TODO: At the moment, only works for int identifiers",1
+1.4.5,TODO: Loop over all groups instead of just taking one.,1
+1.4.5,"Use usual convention, better for looping later.",1
+1.4.5,TODO: Allow for sample weighting requires better mask access... later,1
+1.4.5,TODO: Subsample,1
+1.4.5,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.4.5,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.4.5,TODO: Make arguments after groupby keyword only,1
+1.4.5,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.4.5,TODO: Make more generic,1
+1.4.5,"TODO: 'matplotlib.pyplot',",1
+1.4.5,"TODO (maybe): 'numba',",1
+1.4.5,TODO: write a test that costs less resources and is more meaningful,1
+1.4.5,the following is a Python 2 compatibility hack,1
+1.4.5,TODO: also replace pale colors if necessary,1
+1.4.5,TODO: is that all?,1
+1.4.5,This is a quick and dirty way for adapting scales across several,1
+1.4.5,don't really know why this gives a warning without passing `order`,1
+1.4.5,I don't know why this is necessary,1
+1.4.5,this is a super-weird hack that is necessary as igraphs layout function,1
+1.4.5,TODO: Check what other value could be,1
+1.4.5,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.4.4.post1,"TODO: implement diffxpy method, make singledispatch",1
+1.4.4.post1,"TODO: At the moment, only works for int identifiers",1
+1.4.4.post1,TODO: Loop over all groups instead of just taking one.,1
+1.4.4.post1,"Use usual convention, better for looping later.",1
+1.4.4.post1,TODO: Allow for sample weighting requires better mask access... later,1
+1.4.4.post1,TODO: Subsample,1
+1.4.4.post1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.4.4.post1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.4.4.post1,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.4.4.post1,TODO: Make more generic,1
+1.4.4.post1,TODO: write a test that costs less resources and is more meaningful,1
+1.4.4.post1,the following is a Python 2 compatibility hack,1
+1.4.4.post1,TODO: also replace pale colors if necessary,1
+1.4.4.post1,This is a quick and dirty way for adapting scales across several,1
+1.4.4.post1,don't really know why this gives a warning without passing `order`,1
+1.4.4.post1,"TODO: At the moment, noly works for int identifiers",1
+1.4.4.post1,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.4.4.post1,"TODO: Generalize. At the moment, only groups='all' works",1
+1.4.4.post1,TODO: Speed up if becomes a time issue,1
+1.4.4.post1,TODO: Speed up if becomes a time issue,1
+1.4.4.post1,TODO: Speed up if becomes a time issue,1
+1.4.4.post1,TODO: Speed up if becomes a time issue,1
+1.4.4.post1,TODO: Add AUC,1
+1.4.4.post1,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.4.4.post1,"#TODO: Add functionality for group, color thresholds.",1
+1.4.4.post1,I don't know why this is necessary,1
+1.4.4.post1,this is a super-weird hack that is necessary as igraphs layout function,1
+1.4.4.post1,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.4.4,"TODO: implement diffxpy method, make singledispatch",1
+1.4.4,"TODO: At the moment, only works for int identifiers",1
+1.4.4,TODO: Loop over all groups instead of just taking one.,1
+1.4.4,"Use usual convention, better for looping later.",1
+1.4.4,TODO: Allow for sample weighting requires better mask access... later,1
+1.4.4,TODO: Subsample,1
+1.4.4,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.4.4,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.4.4,TODO: Come up with better solution. Mask unexpressed genes?,1
+1.4.4,TODO: Make more generic,1
+1.4.4,TODO: write a test that costs less resources and is more meaningful,1
+1.4.4,the following is a Python 2 compatibility hack,1
+1.4.4,TODO: also replace pale colors if necessary,1
+1.4.4,This is a quick and dirty way for adapting scales across several,1
+1.4.4,don't really know why this gives a warning without passing `order`,1
+1.4.4,"TODO: At the moment, noly works for int identifiers",1
+1.4.4,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.4.4,"TODO: Generalize. At the moment, only groups='all' works",1
+1.4.4,TODO: Speed up if becomes a time issue,1
+1.4.4,TODO: Speed up if becomes a time issue,1
+1.4.4,TODO: Speed up if becomes a time issue,1
+1.4.4,TODO: Speed up if becomes a time issue,1
+1.4.4,TODO: Add AUC,1
+1.4.4,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.4.4,"#TODO: Add functionality for group, color thresholds.",1
+1.4.4,I don't know why this is necessary,1
+1.4.4,this is a super-weird hack that is necessary as igraphs layout function,1
+1.4.4,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.4.3,use the following hack...,1
+1.4.3,TODO: add checks,1
+1.4.3,"TODO: At the moment, only works for int identifiers",1
+1.4.3,TODO: Loop over all groups instead of just taking one.,1
+1.4.3,"Use usual convention, better for looping later.",1
+1.4.3,TODO: Allow for sample weighting requires better mask access... later,1
+1.4.3,TODO: Subsample,1
+1.4.3,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.4.3,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.4.3,TODO: write a test that costs less resources and is more meaningful,1
+1.4.3,the following is a Python 2 compatibility hack,1
+1.4.3,TODO: also replace pale colors if necessary,1
+1.4.3,This is a quick and dirty way for adapting scales across several,1
+1.4.3,don't really know why this gives a warning without passing `order`,1
+1.4.3,"TODO: At the moment, noly works for int identifiers",1
+1.4.3,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.4.3,"TODO: Generalize. At the moment, only groups='all' works",1
+1.4.3,TODO: Speed up if becomes a time issue,1
+1.4.3,TODO: Speed up if becomes a time issue,1
+1.4.3,TODO: Speed up if becomes a time issue,1
+1.4.3,TODO: Speed up if becomes a time issue,1
+1.4.3,TODO: Add AUC,1
+1.4.3,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.4.3,"#TODO: Add functionality for group, color thresholds.",1
+1.4.3,I don't know why this is necessary,1
+1.4.3,this is a super-weird hack that is necessary as igraphs layout function,1
+1.4.3,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.4.2,use the following hack...,1
+1.4.2,TODO: add checks,1
+1.4.2,"TODO: At the moment, only works for int identifiers",1
+1.4.2,TODO: Loop over all groups instead of just taking one.,1
+1.4.2,"Use usual convention, better for looping later.",1
+1.4.2,TODO: Allow for sample weighting requires better mask access... later,1
+1.4.2,TODO: Subsample,1
+1.4.2,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.4.2,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.4.2,TODO: write a test that costs less resources and is more meaningful,1
+1.4.2,the following is a Python 2 compatibility hack,1
+1.4.2,TODO: also replace pale colors if necessary,1
+1.4.2,This is a quick and dirty way for adapting scales across several,1
+1.4.2,don't really know why this gives a warning without passing `order`,1
+1.4.2,"TODO: At the moment, noly works for int identifiers",1
+1.4.2,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.4.2,"TODO: Generalize. At the moment, only groups='all' works",1
+1.4.2,TODO: Speed up if becomes a time issue,1
+1.4.2,TODO: Speed up if becomes a time issue,1
+1.4.2,TODO: Speed up if becomes a time issue,1
+1.4.2,TODO: Speed up if becomes a time issue,1
+1.4.2,TODO: Add AUC,1
+1.4.2,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.4.2,"#TODO: Add functionality for group, color thresholds.",1
+1.4.2,I don't know why this is necessary,1
+1.4.2,this is a super-weird hack that is necessary as igraphs layout function,1
+1.4.2,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.4.1,use the following hack...,1
+1.4.1,TODO: add checks,1
+1.4.1,"TODO: At the moment, only works for int identifiers",1
+1.4.1,TODO: Loop over all groups instead of just taking one.,1
+1.4.1,"Use usual convention, better for looping later.",1
+1.4.1,TODO: Allow for sample weighting requires better mask access... later,1
+1.4.1,TODO: Subsample,1
+1.4.1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.4.1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.4.1,TODO: write a test that costs less resources and is more meaningful,1
+1.4.1,TODO: Hacked values for now,1
+1.4.1,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.4.1,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.4.1,TODO: Hacked values for now,1
+1.4.1,Handle other array dtypes (TODO: do this properly),1
+1.4.1,the following is a Python 2 compatibility hack,1
+1.4.1,TODO: also replace pale colors if necessary,1
+1.4.1,This is a quick and dirty way for adapting scales across several,1
+1.4.1,don't really know why this gives a warning without passing `order`,1
+1.4.1,"TODO: At the moment, noly works for int identifiers",1
+1.4.1,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.4.1,"TODO: Generalize. At the moment, only groups='all' works",1
+1.4.1,TODO: Speed up if becomes a time issue,1
+1.4.1,TODO: Speed up if becomes a time issue,1
+1.4.1,TODO: Speed up if becomes a time issue,1
+1.4.1,TODO: Speed up if becomes a time issue,1
+1.4.1,TODO: Add AUC,1
+1.4.1,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.4.1,"#TODO: Add functionality for group, color thresholds.",1
+1.4.1,I don't know why this is necessary,1
+1.4.1,this is a super-weird hack that is necessary as igraphs layout function,1
+1.4.1,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.4,use the following hack...,1
+1.4,"TODO: At the moment, only works for int identifiers",1
+1.4,TODO: Loop over all groups instead of just taking one.,1
+1.4,"Use usual convention, better for looping later.",1
+1.4,TODO: Allow for sample weighting requires better mask access... later,1
+1.4,TODO: Subsample,1
+1.4,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.4,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.4,TODO: write a test that costs less resources and is more meaningful,1
+1.4,TODO: Hacked values for now,1
+1.4,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.4,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.4,TODO: Hacked values for now,1
+1.4,Handle other array dtypes (TODO: do this properly),1
+1.4,the following is a Python 2 compatibility hack,1
+1.4,TODO: also replace pale colors if necessary,1
+1.4,This is a quick and dirty way for adapting scales across several,1
+1.4,don't really know why this gives a warning without passing `order`,1
+1.4,"TODO: At the moment, noly works for int identifiers",1
+1.4,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.4,"TODO: Generalize. At the moment, only groups='all' works",1
+1.4,TODO: Speed up if becomes a time issue,1
+1.4,TODO: Speed up if becomes a time issue,1
+1.4,TODO: Speed up if becomes a time issue,1
+1.4,TODO: Speed up if becomes a time issue,1
+1.4,TODO: Add AUC,1
+1.4,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.4,"#TODO: Add functionality for group, color thresholds.",1
+1.4,I don't know why this is necessary,1
+1.4,this is a super-weird hack that is necessary as igraphs layout function,1
+1.4,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.3.8,use the following hack...,1
+1.3.8,"TODO: At the moment, only works for int identifiers",1
+1.3.8,TODO: Loop over all groups instead of just taking one.,1
+1.3.8,"Use usual convention, better for looping later.",1
+1.3.8,TODO: Allow for sample weighting requires better mask access... later,1
+1.3.8,TODO: Subsample,1
+1.3.8,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.3.8,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.3.8,TODO: write a test that costs less resources and is more meaningful,1
+1.3.8,TODO: Hacked values for now,1
+1.3.8,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.8,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.8,TODO: Hacked values for now,1
+1.3.8,Handle other array dtypes (TODO: do this properly),1
+1.3.8,the following is a Python 2 compatibility hack,1
+1.3.8,TODO: also replace pale colors if necessary,1
+1.3.8,This is a quick and dirty way for adapting scales across several,1
+1.3.8,don't really know why this gives a warning without passing `order`,1
+1.3.8,"TODO: At the moment, noly works for int identifiers",1
+1.3.8,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.3.8,"TODO: Generalize. At the moment, only groups='all' works",1
+1.3.8,TODO: Speed up if becomes a time issue,1
+1.3.8,TODO: Speed up if becomes a time issue,1
+1.3.8,TODO: Speed up if becomes a time issue,1
+1.3.8,TODO: Speed up if becomes a time issue,1
+1.3.8,TODO: Add AUC,1
+1.3.8,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.3.8,"#TODO: Add functionality for group, color thresholds.",1
+1.3.8,I don't know why this is necessary,1
+1.3.8,this is a super-weird hack that is necessary as igraphs layout function,1
+1.3.8,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.3.7,use the following hack...,1
+1.3.7,"TODO: At the moment, only works for int identifiers",1
+1.3.7,TODO: Loop over all groups instead of just taking one.,1
+1.3.7,"Use usual convention, better for looping later.",1
+1.3.7,TODO: Allow for sample weighting requires better mask access... later,1
+1.3.7,TODO: Subsample,1
+1.3.7,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.3.7,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.3.7,TODO: write a test that costs less resources and is more meaningful,1
+1.3.7,TODO: Hacked values for now,1
+1.3.7,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.7,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.7,TODO: Hacked values for now,1
+1.3.7,Handle other array dtypes (TODO: do this properly),1
+1.3.7,TODO: also replace pale colors if necessary,1
+1.3.7,"TODO: At the moment, noly works for int identifiers",1
+1.3.7,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.3.7,"TODO: Generalize. At the moment, only groups='all' works",1
+1.3.7,TODO: Speed up if becomes a time issue,1
+1.3.7,TODO: Speed up if becomes a time issue,1
+1.3.7,TODO: Speed up if becomes a time issue,1
+1.3.7,TODO: Speed up if becomes a time issue,1
+1.3.7,TODO: Add AUC,1
+1.3.7,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.3.7,"#TODO: Add functionality for group, color thresholds.",1
+1.3.7,the following is a Python 2 compatibility hack,1
+1.3.7,This is a quick and dirty way for adapting scales across several,1
+1.3.7,don't really know why this gives a warning without passing `order`,1
+1.3.7,I don't know why this is necessary,1
+1.3.7,this is a super-weird hack that is necessary as igraphs layout function,1
+1.3.7,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.3.7,both of the following two lines don't work,1
+1.3.6,use the following hack...,1
+1.3.6,"TODO: At the moment, only works for int identifiers",1
+1.3.6,TODO: Loop over all groups instead of just taking one.,1
+1.3.6,"Use usual convention, better for looping later.",1
+1.3.6,TODO: Allow for sample weighting requires better mask access... later,1
+1.3.6,TODO: Subsample,1
+1.3.6,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.3.6,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.3.6,TODO: write a test that costs less resources and is more meaningful,1
+1.3.6,TODO: Hacked values for now,1
+1.3.6,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.6,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.6,TODO: Hacked values for now,1
+1.3.6,Handle other array dtypes (TODO: do this properly),1
+1.3.6,TODO: also replace pale colors if necessary,1
+1.3.6,"TODO: At the moment, noly works for int identifiers",1
+1.3.6,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.3.6,"TODO: Generalize. At the moment, only groups='all' works",1
+1.3.6,TODO: Speed up if becomes a time issue,1
+1.3.6,TODO: Speed up if becomes a time issue,1
+1.3.6,TODO: Speed up if becomes a time issue,1
+1.3.6,TODO: Speed up if becomes a time issue,1
+1.3.6,TODO: Add AUC,1
+1.3.6,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.3.6,"#TODO: Add functionality for group, color thresholds.",1
+1.3.6,the following is a Python 2 compatibility hack,1
+1.3.6,This is a quick and dirty way for adapting scales across several,1
+1.3.6,don't really know why this gives a warning without passing `order`,1
+1.3.6,I don't know why this is necessary,1
+1.3.6,this is a super-weird hack that is necessary as igraphs layout function,1
+1.3.6,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.3.6,both of the following two lines don't work,1
+1.3.5,use the following hack...,1
+1.3.5,"TODO: At the moment, only works for int identifiers",1
+1.3.5,TODO: Loop over all groups instead of just taking one.,1
+1.3.5,"Use usual convention, better for looping later.",1
+1.3.5,TODO: Allow for sample weighting requires better mask access... later,1
+1.3.5,TODO: Subsample,1
+1.3.5,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.3.5,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.3.5,TODO: write a test that costs less resources and is more meaningful,1
+1.3.5,TODO: Hacked values for now,1
+1.3.5,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.5,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.5,TODO: Hacked values for now,1
+1.3.5,Handle other array dtypes (TODO: do this properly),1
+1.3.5,"TODO: At the moment, noly works for int identifiers",1
+1.3.5,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.3.5,"TODO: Generalize. At the moment, only groups='all' works",1
+1.3.5,TODO: Speed up if becomes a time issue,1
+1.3.5,TODO: Speed up if becomes a time issue,1
+1.3.5,TODO: Speed up if becomes a time issue,1
+1.3.5,TODO: Speed up if becomes a time issue,1
+1.3.5,TODO: Add AUC,1
+1.3.5,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.3.5,"#TODO: Add functionality for group, color thresholds.",1
+1.3.5,the following is a Python 2 compatibility hack,1
+1.3.5,This is a quick and dirty way for adapting scales across several,1
+1.3.5,don't really know why this gives a warning without passing `order`,1
+1.3.5,I don't know why this is necessary,1
+1.3.5,this is a super-weird hack that is necessary as igraphs layout function,1
+1.3.5,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.3.5,both of the following two lines don't work,1
+1.3.4,use the following hack...,1
+1.3.4,"TODO: At the moment, only works for int identifiers",1
+1.3.4,TODO: Loop over all groups instead of just taking one.,1
+1.3.4,"Use usual convention, better for looping later.",1
+1.3.4,TODO: Allow for sample weighting requires better mask access... later,1
+1.3.4,TODO: Subsample,1
+1.3.4,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.3.4,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.3.4,TODO: write a test that costs less resources and is more meaningful,1
+1.3.4,TODO: Hacked values for now,1
+1.3.4,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.4,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.4,TODO: Hacked values for now,1
+1.3.4,Handle other array dtypes (TODO: do this properly),1
+1.3.4,"TODO: At the moment, noly works for int identifiers",1
+1.3.4,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.3.4,"TODO: Generalize. At the moment, only groups='all' works",1
+1.3.4,TODO: Speed up if becomes a time issue,1
+1.3.4,TODO: Speed up if becomes a time issue,1
+1.3.4,TODO: Speed up if becomes a time issue,1
+1.3.4,TODO: Speed up if becomes a time issue,1
+1.3.4,TODO: Add AUC,1
+1.3.4,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.3.4,"#TODO: Add functionality for group, color thresholds.",1
+1.3.4,the following is a Python 2 compatibility hack,1
+1.3.4,This is a quick and dirty way for adapting scales across several,1
+1.3.4,don't really know why this gives a warning without passing `order`,1
+1.3.4,I don't know why this is necessary,1
+1.3.4,this is a super-weird hack that is necessary as igraphs layout function,1
+1.3.4,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.3.4,both of the following two lines don't work,1
+1.3.3,use the following hack...,1
+1.3.3,"TODO: At the moment, only works for int identifiers",1
+1.3.3,TODO: Loop over all groups instead of just taking one.,1
+1.3.3,"Use usual convention, better for looping later.",1
+1.3.3,TODO: Allow for sample weighting requires better mask access... later,1
+1.3.3,TODO: Subsample,1
+1.3.3,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.3.3,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.3.3,TODO: write a test that costs less resources and is more meaningful,1
+1.3.3,TODO: Hacked values for now,1
+1.3.3,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.3,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.3,TODO: Hacked values for now,1
+1.3.3,Handle other array dtypes (TODO: do this properly),1
+1.3.3,"TODO: At the moment, noly works for int identifiers",1
+1.3.3,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.3.3,"TODO: Generalize. At the moment, only groups='all' works",1
+1.3.3,TODO: Speed up if becomes a time issue,1
+1.3.3,TODO: Speed up if becomes a time issue,1
+1.3.3,TODO: Speed up if becomes a time issue,1
+1.3.3,TODO: Speed up if becomes a time issue,1
+1.3.3,TODO: Add AUC,1
+1.3.3,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.3.3,"#TODO: Add functionality for group, color thresholds.",1
+1.3.3,the following is a Python 2 compatibility hack,1
+1.3.3,This is a quick and dirty way for adapting scales across several,1
+1.3.3,don't really know why this gives a warning without passing `order`,1
+1.3.3,I don't know why this is necessary,1
+1.3.3,this is a super-weird hack that is necessary as igraphs layout function,1
+1.3.3,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.3.3,both of the following two lines don't work,1
+1.3.3,TODO: why?,1
+1.3.2,use the following hack...,1
+1.3.2,"TODO: At the moment, only works for int identifiers",1
+1.3.2,TODO: Loop over all groups instead of just taking one.,1
+1.3.2,"Use usual convention, better for looping later.",1
+1.3.2,TODO: Allow for sample weighting requires better mask access... later,1
+1.3.2,TODO: Subsample,1
+1.3.2,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.3.2,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.3.2,TODO: write a test that costs less resources and is more meaningful,1
+1.3.2,TODO: Hacked values for now,1
+1.3.2,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.2,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.2,TODO: Hacked values for now,1
+1.3.2,Handle other array dtypes (TODO: do this properly),1
+1.3.2,"TODO: At the moment, noly works for int identifiers",1
+1.3.2,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.3.2,"TODO: Generalize. At the moment, only groups='all' works",1
+1.3.2,TODO: Speed up if becomes a time issue,1
+1.3.2,TODO: Speed up if becomes a time issue,1
+1.3.2,TODO: Speed up if becomes a time issue,1
+1.3.2,TODO: Speed up if becomes a time issue,1
+1.3.2,TODO: Add AUC,1
+1.3.2,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.3.2,"#TODO: Add functionality for group, color thresholds.",1
+1.3.2,the following is a Python 2 compatibility hack,1
+1.3.2,This is a quick and dirty way for adapting scales across several,1
+1.3.2,don't really know why this gives a warning without passing `order`,1
+1.3.2,I don't know why this is necessary,1
+1.3.2,this is a super-weird hack that is necessary as igraphs layout function,1
+1.3.2,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.3.2,both of the following two lines don't work,1
+1.3.2,TODO: why?,1
+1.3.1,use the following hack...,1
+1.3.1,"TODO: At the moment, only works for int identifiers",1
+1.3.1,TODO: Loop over all groups instead of just taking one.,1
+1.3.1,"Use usual convention, better for looping later.",1
+1.3.1,TODO: Allow for sample weighting requires better mask access... later,1
+1.3.1,TODO: Subsample,1
+1.3.1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.3.1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.3.1,TODO: all of this is probably going to be removed,1
+1.3.1,TODO: write a test that costs less resources and is more meaningful,1
+1.3.1,TODO: Hacked values for now,1
+1.3.1,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.1,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3.1,TODO: Hacked values for now,1
+1.3.1,Handle other array dtypes (TODO: do this properly),1
+1.3.1,"TODO: At the moment, noly works for int identifiers",1
+1.3.1,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.3.1,"TODO: Generalize. At the moment, only groups='all' works",1
+1.3.1,TODO: Speed up if becomes a time issue,1
+1.3.1,TODO: Speed up if becomes a time issue,1
+1.3.1,TODO: Speed up if becomes a time issue,1
+1.3.1,TODO: Speed up if becomes a time issue,1
+1.3.1,TODO: Add AUC,1
+1.3.1,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.3.1,"#TODO: Add functionality for group, color thresholds.",1
+1.3.1,the following is a Python 2 compatibility hack,1
+1.3.1,This is a quick and dirty way for adapting scales across several,1
+1.3.1,don't really know why this gives a warning without passing `order`,1
+1.3.1,I don't know why this is necessary,1
+1.3.1,this is a super-weird hack that is necessary as igraphs layout function,1
+1.3.1,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.3.1,both of the following two lines don't work,1
+1.3.1,TODO: why?,1
+1.3,use the following hack...,1
+1.3,"TODO: At the moment, only works for int identifiers",1
+1.3,TODO: Loop over all groups instead of just taking one.,1
+1.3,"Use usual convention, better for looping later.",1
+1.3,TODO: Allow for sample weighting requires better mask access... later,1
+1.3,TODO: Subsample,1
+1.3,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.3,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.3,TODO: all of this is probably going to be removed,1
+1.3,TODO: write a test that costs less resources and is more meaningful,1
+1.3,TODO: Hacked values for now,1
+1.3,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.3,TODO: Hacked values for now,1
+1.3,Handle other array dtypes (TODO: do this properly),1
+1.3,"TODO: At the moment, noly works for int identifiers",1
+1.3,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.3,"TODO: Generalize. At the moment, only groups='all' works",1
+1.3,TODO: Speed up if becomes a time issue,1
+1.3,TODO: Speed up if becomes a time issue,1
+1.3,TODO: Speed up if becomes a time issue,1
+1.3,TODO: Speed up if becomes a time issue,1
+1.3,TODO: Add AUC,1
+1.3,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.3,"#TODO: Add functionality for group, color thresholds.",1
+1.3,the following is a Python 2 compatibility hack,1
+1.3,This is a quick and dirty way for adapting scales across several,1
+1.3,don't really know why this gives a warning without passing `order`,1
+1.3,I don't know why this is necessary,1
+1.3,this is a super-weird hack that is necessary as igraphs layout function,1
+1.3,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.3,both of the following two lines don't work,1
+1.3,TODO: why?,1
+1.2.2,use the following hack...,1
+1.2.2,"TODO: At the moment, only works for int identifiers",1
+1.2.2,TODO: Loop over all groups instead of just taking one.,1
+1.2.2,"Use usual convention, better for looping later.",1
+1.2.2,TODO: Allow for sample weighting requires better mask access... later,1
+1.2.2,TODO: Subsample,1
+1.2.2,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.2.2,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.2.2,TODO: all of this is probably going to be removed,1
+1.2.2,TODO: write a test that costs less resources and is more meaningful,1
+1.2.2,TODO: Hacked values for now,1
+1.2.2,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.2.2,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.2.2,TODO: Hacked values for now,1
+1.2.2,Handle other array dtypes (TODO: do this properly),1
+1.2.2,"TODO: At the moment, noly works for int identifiers",1
+1.2.2,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.2.2,"TODO: Generalize. At the moment, only groups='all' works",1
+1.2.2,TODO: Speed up if becomes a time issue,1
+1.2.2,TODO: Speed up if becomes a time issue,1
+1.2.2,TODO: Speed up if becomes a time issue,1
+1.2.2,TODO: Speed up if becomes a time issue,1
+1.2.2,TODO: Add AUC,1
+1.2.2,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.2.2,"#TODO: Add functionality for group, color thresholds.",1
+1.2.2,the following is a Python 2 compatibility hack,1
+1.2.2,don't really know why this gives a warning without passing `order`,1
+1.2.2,I don't know why this is necessary,1
+1.2.2,this is a super-weird hack that is necessary as igraphs layout function,1
+1.2.2,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.2.2,both of the following two lines don't work,1
+1.2.2,TODO: why?,1
+1.2.2,TODO: replace with sphinx.ext.napoleon,1
+1.2.1,use the following hack...,1
+1.2.1,"TODO: At the moment, only works for int identifiers",1
+1.2.1,TODO: Loop over all groups instead of just taking one.,1
+1.2.1,"Use usual convention, better for looping later.",1
+1.2.1,TODO: Allow for sample weighting requires better mask access... later,1
+1.2.1,TODO: Subsample,1
+1.2.1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.2.1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.2.1,TODO: all of this is probably going to be removed,1
+1.2.1,TODO: write a test that costs less resources and is more meaningful,1
+1.2.1,TODO: Hacked values for now,1
+1.2.1,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.2.1,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.2.1,TODO: Hacked values for now,1
+1.2.1,Handle other array dtypes (TODO: do this properly),1
+1.2.1,"TODO: At the moment, noly works for int identifiers",1
+1.2.1,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.2.1,"TODO: Generalize. At the moment, only groups='all' works",1
+1.2.1,TODO: Speed up if becomes a time issue,1
+1.2.1,TODO: Speed up if becomes a time issue,1
+1.2.1,TODO: Speed up if becomes a time issue,1
+1.2.1,TODO: Speed up if becomes a time issue,1
+1.2.1,TODO: Add AUC,1
+1.2.1,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.2.1,"#TODO: Add functionality for group, color thresholds.",1
+1.2.1,the following is a Python 2 compatibility hack,1
+1.2.1,don't really know why this gives a warning without passing `order`,1
+1.2.1,I don't know why this is necessary,1
+1.2.1,this is a super-weird hack that is necessary as igraphs layout function,1
+1.2.1,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+1.2.1,all copy and paste from above,1
+1.2.1,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.2.1,both of the following two lines don't work,1
+1.2.1,TODO: why?,1
+1.2.1,TODO: replace with sphinx.ext.napoleon,1
+1.2.0,use the following hack...,1
+1.2.0,"TODO: At the moment, only works for int identifiers",1
+1.2.0,TODO: Loop over all groups instead of just taking one.,1
+1.2.0,"Use usual convention, better for looping later.",1
+1.2.0,TODO: Allow for sample weighting requires better mask access... later,1
+1.2.0,TODO: Subsample,1
+1.2.0,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.2.0,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.2.0,TODO: all of this is probably going to be removed,1
+1.2.0,TODO: write a test that costs less resources and is more meaningful,1
+1.2.0,TODO: Hacked values for now,1
+1.2.0,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.2.0,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.2.0,TODO: Hacked values for now,1
+1.2.0,Handle other array dtypes (TODO: do this properly),1
+1.2.0,"TODO: At the moment, noly works for int identifiers",1
+1.2.0,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.2.0,"TODO: Generalize. At the moment, only groups='all' works",1
+1.2.0,TODO: Speed up if becomes a time issue,1
+1.2.0,TODO: Speed up if becomes a time issue,1
+1.2.0,TODO: Speed up if becomes a time issue,1
+1.2.0,TODO: Speed up if becomes a time issue,1
+1.2.0,TODO: Add AUC,1
+1.2.0,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.2.0,"#TODO: Add functionality for group, color thresholds.",1
+1.2.0,the following is a Python 2 compatibility hack,1
+1.2.0,don't really know why this gives a warning without passing `order`,1
+1.2.0,I don't know why this is necessary,1
+1.2.0,this is a super-weird hack that is necessary as igraphs layout function,1
+1.2.0,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+1.2.0,all copy and paste from above,1
+1.2.0,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.2.0,both of the following two lines don't work,1
+1.2.0,TODO: why?,1
+1.2.0,TODO: replace with sphinx.ext.napoleon,1
+1.1,use the following hack...,1
+1.1,"TODO: At the moment, only works for int identifiers",1
+1.1,TODO: Loop over all groups instead of just taking one.,1
+1.1,"Use usual convention, better for looping later.",1
+1.1,TODO: Allow for sample weighting requires better mask access... later,1
+1.1,TODO: Subsample,1
+1.1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.1,TODO: all of this is probably going to be removed,1
+1.1,TODO: write a test that costs less resources and is more meaningful,1
+1.1,TODO: Hacked values for now,1
+1.1,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.1,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.1,TODO: Hacked values for now,1
+1.1,Handle other array dtypes (TODO: do this properly),1
+1.1,"TODO: At the moment, noly works for int identifiers",1
+1.1,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.1,"TODO: Generalize. At the moment, only groups='all' works",1
+1.1,TODO: Speed up if becomes a time issue,1
+1.1,TODO: Speed up if becomes a time issue,1
+1.1,TODO: Speed up if becomes a time issue,1
+1.1,TODO: Speed up if becomes a time issue,1
+1.1,TODO: Add AUC,1
+1.1,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.1,"#TODO: Add functionality for group, color thresholds.",1
+1.1,the following is a Python 2 compatibility hack,1
+1.1,don't really know why this gives a warning without passing `order`,1
+1.1,I don't know why this is necessary,1
+1.1,this is a super-weird hack that is necessary as igraphs layout function,1
+1.1,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+1.1,all copy and paste from above,1
+1.1,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.1,both of the following two lines don't work,1
+1.1,TODO: why?,1
+1.1,TODO: replace with sphinx.ext.napoleon,1
+1.1a2,TODO: the following check seems fishy,1
+1.1a2,use the following hack...,1
+1.1a2,"TODO: At the moment, only works for int identifiers",1
+1.1a2,TODO: Loop over all groups instead of just taking one.,1
+1.1a2,"Use usual convention, better for looping later.",1
+1.1a2,TODO: Allow for sample weighting requires better mask access... later,1
+1.1a2,TODO: Subsample,1
+1.1a2,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.1a2,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.1a2,TODO: all of this is probably going to be removed,1
+1.1a2,TODO: write a test that costs less resources and is more meaningful,1
+1.1a2,TODO: Hacked values for now,1
+1.1a2,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.1a2,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.1a2,TODO: Hacked values for now,1
+1.1a2,Handle other array dtypes (TODO: do this properly),1
+1.1a2,"TODO: At the moment, noly works for int identifiers",1
+1.1a2,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.1a2,"TODO: Generalize. At the moment, only groups='all' works",1
+1.1a2,TODO: Speed up if becomes a time issue,1
+1.1a2,TODO: Speed up if becomes a time issue,1
+1.1a2,TODO: Speed up if becomes a time issue,1
+1.1a2,TODO: Speed up if becomes a time issue,1
+1.1a2,TODO: Add AUC,1
+1.1a2,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.1a2,"#TODO: Add functionality for group, color thresholds.",1
+1.1a2,the following is a Python 2 compatibility hack,1
+1.1a2,I don't know why this is necessary,1
+1.1a2,this is a super-weird hack that is necessary as igraphs layout function,1
+1.1a2,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+1.1a2,all copy and paste from above,1
+1.1a2,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.1a2,both of the following two lines don't work,1
+1.1a2,TODO: why?,1
+1.1a2,TODO: replace with sphinx.ext.napoleon,1
+1.1a1,TODO: the following check seems fishy,1
+1.1a1,use the following hack...,1
+1.1a1,"TODO: At the moment, only works for int identifiers",1
+1.1a1,TODO: Loop over all groups instead of just taking one.,1
+1.1a1,"Use usual convention, better for looping later.",1
+1.1a1,TODO: Allow for sample weighting requires better mask access... later,1
+1.1a1,TODO: Subsample,1
+1.1a1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.1a1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.1a1,TODO: all of this is probably going to be removed,1
+1.1a1,TODO: write a test that costs less resources and is more meaningful,1
+1.1a1,TODO: Hacked values for now,1
+1.1a1,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.1a1,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.1a1,TODO: Hacked values for now,1
+1.1a1,Handle other array dtypes (TODO: do this properly),1
+1.1a1,"TODO: At the moment, noly works for int identifiers",1
+1.1a1,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.1a1,"TODO: Generalize. At the moment, only groups='all' works",1
+1.1a1,TODO: Speed up if becomes a time issue,1
+1.1a1,TODO: Speed up if becomes a time issue,1
+1.1a1,TODO: Speed up if becomes a time issue,1
+1.1a1,TODO: Speed up if becomes a time issue,1
+1.1a1,TODO: Add AUC,1
+1.1a1,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.1a1,"#TODO: Add functionality for group, color thresholds.",1
+1.1a1,the following is a Python 2 compatibility hack,1
+1.1a1,I don't know why this is necessary,1
+1.1a1,this is a super-weird hack that is necessary as igraphs layout function,1
+1.1a1,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+1.1a1,all copy and paste from above,1
+1.1a1,"module""... putting setters and getters for all of them wouldn't be very nice",1
+1.1a1,both of the following two lines don't work,1
+1.1a1,TODO: also replace those for individual function pages:,1
+1.0.4,TODO: the following check seems fishy,1
+1.0.4,use the following hack...,1
+1.0.4,"TODO: At the moment, only works for int identifiers",1
+1.0.4,TODO: Loop over all groups instead of just taking one.,1
+1.0.4,"Use usual convention, better for looping later.",1
+1.0.4,TODO: Allow for sample weighting requires better mask access... later,1
+1.0.4,TODO: Subsample,1
+1.0.4,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.0.4,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.0.4,TODO: all of this is probably going to be removed,1
+1.0.4,TODO: write a test that costs less resources and is more meaningful,1
+1.0.4,TODO: Hacked values for now,1
+1.0.4,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.0.4,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.0.4,TODO: Hacked values for now,1
+1.0.4,Handle other array dtypes (TODO: do this properly),1
+1.0.4,"TODO: At the moment, noly works for int identifiers",1
+1.0.4,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.0.4,"TODO: Generalize. At the moment, only groups='all' works",1
+1.0.4,TODO: Speed up if becomes a time issue,1
+1.0.4,TODO: Speed up if becomes a time issue,1
+1.0.4,TODO: Speed up if becomes a time issue,1
+1.0.4,TODO: Speed up if becomes a time issue,1
+1.0.4,TODO: Add AUC,1
+1.0.4,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.0.4,"#TODO: Add functionality for group, color thresholds.",1
+1.0.4,the following is a Python 2 compatibility hack,1
+1.0.4,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+1.0.4,all copy and paste from above,1
+1.0.4,both of the following two lines don't work,1
+1.0.4,TODO: also replace those for individual function pages:,1
+1.0.3,TODO: the following check seems fishy,1
+1.0.3,use the following hack...,1
+1.0.3,"TODO: At the moment, only works for int identifiers",1
+1.0.3,TODO: Loop over all groups instead of just taking one.,1
+1.0.3,"Use usual convention, better for looping later.",1
+1.0.3,TODO: Allow for sample weighting requires better mask access... later,1
+1.0.3,TODO: Subsample,1
+1.0.3,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.0.3,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.0.3,TODO: all of this is probably going to be removed,1
+1.0.3,TODO: write a test that costs less resources and is more meaningful,1
+1.0.3,TODO: Hacked values for now,1
+1.0.3,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.0.3,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.0.3,TODO: Hacked values for now,1
+1.0.3,Handle other array dtypes (TODO: do this properly),1
+1.0.3,"TODO: At the moment, noly works for int identifiers",1
+1.0.3,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.0.3,"TODO: Generalize. At the moment, only groups='all' works",1
+1.0.3,TODO: Speed up if becomes a time issue,1
+1.0.3,TODO: Speed up if becomes a time issue,1
+1.0.3,TODO: Speed up if becomes a time issue,1
+1.0.3,TODO: Speed up if becomes a time issue,1
+1.0.3,TODO: Add AUC,1
+1.0.3,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.0.3,"#TODO: Add functionality for group, color thresholds.",1
+1.0.3,the following is a Python 2 compatibility hack,1
+1.0.3,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+1.0.3,all copy and paste from above,1
+1.0.3,both of the following two lines don't work,1
+1.0.3,TODO: also replace those for individual function pages:,1
+1.0.2,TODO: the following check seems fishy,1
+1.0.2,use the following hack...,1
+1.0.2,"TODO: At the moment, only works for int identifiers",1
+1.0.2,TODO: Loop over all groups instead of just taking one.,1
+1.0.2,"Use usual convention, better for looping later.",1
+1.0.2,TODO: Allow for sample weighting requires better mask access... later,1
+1.0.2,TODO: Subsample,1
+1.0.2,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.0.2,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.0.2,TODO: all of this is probably going to be removed,1
+1.0.2,TODO: write a test that costs less resources and is more meaningful,1
+1.0.2,TODO: Hacked values for now,1
+1.0.2,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.0.2,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.0.2,TODO: Hacked values for now,1
+1.0.2,Handle other array dtypes (TODO: do this properly),1
+1.0.2,"TODO: At the moment, noly works for int identifiers",1
+1.0.2,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.0.2,"TODO: Generalize. At the moment, only groups='all' works",1
+1.0.2,TODO: Speed up if becomes a time issue,1
+1.0.2,TODO: Speed up if becomes a time issue,1
+1.0.2,TODO: Speed up if becomes a time issue,1
+1.0.2,TODO: Speed up if becomes a time issue,1
+1.0.2,TODO: Add AUC,1
+1.0.2,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.0.2,"#TODO: Add functionality for group, color thresholds.",1
+1.0.2,the following is a Python 2 compatibility hack,1
+1.0.2,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+1.0.2,all copy and paste from above,1
+1.0.2,both of the following two lines don't work,1
+1.0.2,TODO: also replace those for individual function pages:,1
+1.0.1,TODO: the following check seems fishy,1
+1.0.1,use the following hack...,1
+1.0.1,TODO get rid of the following heuristics,1
+1.0.1,"TODO: At the moment, only works for int identifiers",1
+1.0.1,TODO: Loop over all groups instead of just taking one.,1
+1.0.1,"Use usual convention, better for looping later.",1
+1.0.1,TODO: Allow for sample weighting requires better mask access... later,1
+1.0.1,TODO: Subsample,1
+1.0.1,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.0.1,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.0.1,TODO: all of this is probably going to be removed,1
+1.0.1,TODO: write a test that costs less resources and is more meaningful,1
+1.0.1,TODO: Hacked values for now,1
+1.0.1,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.0.1,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.0.1,TODO: Hacked values for now,1
+1.0.1,Handle other array dtypes (TODO: do this properly),1
+1.0.1,"TODO: At the moment, noly works for int identifiers",1
+1.0.1,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.0.1,"TODO: Generalize. At the moment, only groups='all' works",1
+1.0.1,TODO: Speed up if becomes a time issue,1
+1.0.1,TODO: Speed up if becomes a time issue,1
+1.0.1,TODO: Speed up if becomes a time issue,1
+1.0.1,TODO: Speed up if becomes a time issue,1
+1.0.1,TODO: Add AUC,1
+1.0.1,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.0.1,"#TODO: Add functionality for group, color thresholds.",1
+1.0.1,the following is a Python 2 compatibility hack,1
+1.0.1,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+1.0.1,all copy and paste from above,1
+1.0.1,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+1.0.1,all copy and paste from above,1
+1.0.1,both of the following two lines don't work,1
+1.0.1,TODO: also replace those for individual function pages:,1
+1.0,TODO: the following check seems fishy,1
+1.0,use the following hack...,1
+1.0,TODO get rid of the following heuristics,1
+1.0,"TODO: At the moment, only works for int identifiers",1
+1.0,TODO: Loop over all groups instead of just taking one.,1
+1.0,"Use usual convention, better for looping later.",1
+1.0,TODO: Allow for sample weighting requires better mask access... later,1
+1.0,TODO: Subsample,1
+1.0,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+1.0,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+1.0,TODO: all of this is probably going to be removed,1
+1.0,TODO: write a test that costs less resources and is more meaningful,1
+1.0,TODO: Hacked values for now,1
+1.0,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.0,"TODO: This is very inefficient, but will do for now. FIXME",1
+1.0,TODO: Hacked values for now,1
+1.0,Handle other array dtypes (TODO: do this properly),1
+1.0,"TODO: At the moment, noly works for int identifiers",1
+1.0,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+1.0,"TODO: Generalize. At the moment, only groups='all' works",1
+1.0,TODO: Speed up if becomes a time issue,1
+1.0,TODO: Speed up if becomes a time issue,1
+1.0,TODO: Speed up if becomes a time issue,1
+1.0,TODO: Speed up if becomes a time issue,1
+1.0,TODO: Add AUC,1
+1.0,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+1.0,"#TODO: Add functionality for group, color thresholds.",1
+1.0,the following is a Python 2 compatibility hack,1
+1.0,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+1.0,all copy and paste from above,1
+1.0,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+1.0,all copy and paste from above,1
+1.0,both of the following two lines don't work,1
+1.0,TODO: also replace those for individual function pages:,1
+0.4.4,# hack for empty graph,1
+0.4.4,TODO: the following check seems fishy,1
+0.4.4,TODO get rid of the following heuristics,1
+0.4.4,"TODO: At the moment, only works for int identifiers",1
+0.4.4,TODO: Loop over all groups instead of just taking one.,1
+0.4.4,"Use usual convention, better for looping later.",1
+0.4.4,TODO: Allow for sample weighting requires better mask access... later,1
+0.4.4,TODO: Subsample,1
+0.4.4,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+0.4.4,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+0.4.4,TODO: write a test that costs less resources and is more meaningful,1
+0.4.4,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+0.4.4,all copy and paste from above,1
+0.4.4,"TODO: At the moment, noly works for int identifiers",1
+0.4.4,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+0.4.4,"TODO: Generalize. At the moment, only groups='all' works",1
+0.4.4,TODO: Speed up if becomes a time issue,1
+0.4.4,TODO: Speed up if becomes a time issue,1
+0.4.4,TODO: Speed up if becomes a time issue,1
+0.4.4,TODO: Speed up if becomes a time issue,1
+0.4.4,TODO: Add AUC,1
+0.4.4,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+0.4.4,"#TODO: Add functionality for group, color thresholds.",1
+0.4.4,the following is a Python 2 compatibility hack,1
+0.4.4,both of the following two lines don't work,1
+0.4.4,TODO: also replace those for individual function pages:,1
+0.4.3,# hack for empty graph,1
+0.4.3,TODO: the following check seems fishy,1
+0.4.3,TODO get rid of the following heuristics,1
+0.4.3,"TODO: At the moment, only works for int identifiers",1
+0.4.3,TODO: Loop over all groups instead of just taking one.,1
+0.4.3,"Use usual convention, better for looping later.",1
+0.4.3,TODO: Allow for sample weighting requires better mask access... later,1
+0.4.3,TODO: Subsample,1
+0.4.3,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+0.4.3,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+0.4.3,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+0.4.3,all copy and paste from above,1
+0.4.3,"TODO: At the moment, noly works for int identifiers",1
+0.4.3,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+0.4.3,"TODO: Generalize. At the moment, only groups='all' works",1
+0.4.3,TODO: Speed up if becomes a time issue,1
+0.4.3,TODO: Speed up if becomes a time issue,1
+0.4.3,TODO: Speed up if becomes a time issue,1
+0.4.3,TODO: Speed up if becomes a time issue,1
+0.4.3,TODO: Add AUC,1
+0.4.3,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+0.4.3,"#TODO: Add functionality for group, color thresholds.",1
+0.4.3,the following is a Python 2 compatibility hack,1
+0.4.3,both of the following two lines don't work,1
+0.4.3,TODO: also replace those for individual function pages:,1
+0.4.2.post2,# hack for empty graph,1
+0.4.2.post2,TODO: the following check seems fishy,1
+0.4.2.post2,TODO get rid of the following heuristics,1
+0.4.2.post2,"TODO: At the moment, only works for int identifiers",1
+0.4.2.post2,TODO: Loop over all groups instead of just taking one.,1
+0.4.2.post2,"Use usual convention, better for looping later.",1
+0.4.2.post2,TODO: Allow for sample weighting requires better mask access... later,1
+0.4.2.post2,TODO: Subsample,1
+0.4.2.post2,"# TODO: Potentially (But not till tomorrow), this can be adapted to only consider the AUC in the given",1
+0.4.2.post2,# TODO: Pass back a truncated adata object with only those genes that fullfill thresholding criterias,1
+0.4.2.post2,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+0.4.2.post2,all copy and paste from above,1
+0.4.2.post2,"TODO: At the moment, noly works for int identifiers",1
+0.4.2.post2,TODO: Check closely what of the below actions can be skipped and whats necessary,1
+0.4.2.post2,"TODO: Generalize. At the moment, only groups='all' works",1
+0.4.2.post2,TODO: Speed up if becomes a time issue,1
+0.4.2.post2,TODO: Speed up if becomes a time issue,1
+0.4.2.post2,TODO: Speed up if becomes a time issue,1
+0.4.2.post2,TODO: Speed up if becomes a time issue,1
+0.4.2.post2,TODO: Add AUC,1
+0.4.2.post2,"TODO: Until now, everything requires same number of n (i.e. all in name list). Shouldn't be the case. Resolve.",1
+0.4.2.post2,"#TODO: Add functionality for group, color thresholds.",1
+0.4.2.post2,the following is a Python 2 compatibility hack,1
+0.4.2.post2,"does not work in Rodeo, should be solved sometime soon",1
+0.4.2.post2,both of the following two lines don't work,1
+0.4.2.post2,TODO: also replace those for individual function pages:,1
+0.4.2.post1,# hack for empty graph,1
+0.4.2.post1,TODO: the following check seems fishy,1
+0.4.2.post1,TODO get rid of the following heuristics,1
+0.4.2.post1,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+0.4.2.post1,all copy and paste from above,1
+0.4.2.post1,the following is a Python 2 compatibility hack,1
+0.4.2.post1,"does not work in Rodeo, should be solved sometime soon",1
+0.4.2.post1,both of the following two lines don't work,1
+0.4.2,# hack for empty graph,1
+0.4.2,TODO: the following check seems fishy,1
+0.4.2,TODO get rid of the following heuristics,1
+0.4.2,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+0.4.2,all copy and paste from above,1
+0.4.2,the following is a Python 2 compatibility hack,1
+0.4.2,"does not work in Rodeo, should be solved sometime soon",1
+0.4.2,both of the following two lines don't work,1
+0.4.1,# hack for empty graph,1
+0.4.1,TODO: the following check seems fishy,1
+0.4.1,TODO get rid of the following heuristics,1
+0.4.1,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+0.4.1,all copy and paste from above,1
+0.4.1,the following is a Python 2 compatibility hack,1
+0.4.1,"does not work in Rodeo, should be solved sometime soon",1
+0.4.1,both of the following two lines don't work,1
+0.4,# hack for empty graph,1
+0.4,TODO: the following check seems fishy,1
+0.4,TODO get rid of the following heuristics,1
+0.4,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+0.4,all copy and paste from above,1
+0.4,the following is a Python 2 compatibility hack,1
+0.4,"does not work in Rodeo, should be solved sometime soon",1
+0.4,both of the following two lines don't work,1
+0.3.2,# hack for empty graph,1
+0.3.2,TODO: Change to logging,1
+0.3.2,"TODO: come up with a better way of solving this, see also below",1
+0.3.2,hack for storing dicts,1
+0.3.2,TODO get rid of the following heuristics,1
+0.3.2,"TODO: this is a terrible hack, but if we use the solution above (`not",1
+0.3.2,all copy and paste from above,1
+0.3.2,the following is a Python 2 compatibility hack,1
+0.3.2,"does not work in Rodeo, should be solved sometime soon",1
+0.3.2,both of the following two lines don't work,1
+0.3.1,# hack for empty graph,1
+0.3.1,TODO: Change to logging,1
+0.3.1,"TODO: come up with a better way of solving this, see also below",1
+0.3.1,hack for storing dicts,1
+0.3.1,TODO get rid of the following heuristics,1
+0.3.1,"TODO: this is a terrible hack, but if we use the solution above (``not",1
+0.3.1,all copy and paste from above,1
+0.3.1,the following is a Python 2 compatibility hack,1
+0.3.1,"does not work in Rodeo, should be solved sometime soon",1
+0.3.1,both of the following two lines don't work,1
+0.3,# hack for empty graph,1
+0.3,TODO: Change to logging,1
+0.3,"TODO: come up with a better way of solving this, see also below",1
+0.3,hack for storing dicts,1
+0.3,TODO get rid of the following heuristics,1
+0.3,"TODO: this is a terrible hack, but if we use the solution above (``not",1
+0.3,all copy and paste from above,1
+0.3,the following is a Python 2 compatibility hack,1
+0.3,"does not work in Rodeo, should be solved sometime soon",1
+0.3,both of the following two lines don't work,1
+0.2.9.1,# hack for empty graph,1
+0.2.9.1,TODO: (LATER:) Make sure that this works for sparse adata objects as well,1
+0.2.9.1,TODO: (LATER:) Include when everything else works. Check how to include efficiently,1
+0.2.9.1,TODO: Change to logging,1
+0.2.9.1,"TODO: come up with a better way of solving this, see also below",1
+0.2.9.1,TODO: this is not a good solution,1
+0.2.9.1,TODO get rid of the following heuristics,1
+0.2.9.1,TODO: remove logging and actually test values,1
+0.2.9.1,"TODO: this is a terrible hack, but if we use the solution above (``not",1
+0.2.9.1,all copy and paste from above,1
+0.2.9.1,the following is a Python 2 compatibility hack,1
+0.2.9.1,"does not work in Rodeo, should be solved sometime soon",1
+0.2.9.1,"sett.m(1, 'TODO: get nice waitbars also in interactive mode')",1
+0.2.9.1,TODO: fix compat with Python 2,1
+0.2.9.1,TODO: __delitem__ should be aware of _keys_multicol and _keys,1
+0.2.9.1,TODO: rewrite this in a nicer way!,1
+0.2.9.1,TODO: check that no-one accidentally overwrites the index?,1
+0.2.9.1,TODO: need to reallocate memory,1
+0.2.9.1,TODO: maybe use view on data attribute of sparse matrix,1
+0.2.9,# hack for empty graph,1
+0.2.9,"TODO: come up with a better way of solving this, see also below",1
+0.2.9,TODO: this is not a good solution,1
+0.2.9,TODO get rid of the following heuristics,1
+0.2.9,TODO: remove logging and actually test values,1
+0.2.9,"TODO: this is a terrible hack, but if we use the solution above (``not",1
+0.2.9,all copy and paste from above,1
+0.2.9,the following is a Python 2 compatibility hack,1
+0.2.9,"does not work in Rodeo, should be solved sometime soon",1
+0.2.9,"sett.m(1, 'TODO: get nice waitbars also in interactive mode')",1
+0.2.9,TODO: fix compat with Python 2,1
+0.2.9,TODO: __delitem__ should be aware of _keys_multicol and _keys,1
+0.2.9,TODO: rewrite this in a nicer way!,1
+0.2.9,TODO: check that no-one accidentally overwrites the index?,1
+0.2.9,TODO: need to reallocate memory,1
+0.2.9,TODO: maybe use view on data attribute of sparse matrix,1
+0.2.8,"TODO: come up with a better way of solving this, see also below",1
+0.2.8,"TODO: make these two hacks, which set the value in the _confidence fields",1
+0.2.8,TODO: this is not a good solution,1
+0.2.8,TODO get rid of the following heuristics,1
+0.2.8,TODO: remove logging and actually test values,1
+0.2.8,"TODO: this is a terrible hack, but if we use the solution above (``not",1
+0.2.8,all copy and paste from above,1
+0.2.8,the following is a Python 2 compatibility hack,1
+0.2.8,"does not work in Rodeo, should be solved sometime soon",1
+0.2.8,"sett.m(1, 'TODO: get nice waitbars also in interactive mode')",1
+0.2.8,TODO: fix compat with Python 2,1
+0.2.8,TODO: __delitem__ should be aware of _keys_multicol and _keys,1
+0.2.8,TODO: rewrite this in a nicer way!,1
+0.2.8,TODO: check that no-one accidentally overwrites the index?,1
+0.2.8,TODO: need to reallocate memory,1
+0.2.8,TODO: maybe use view on data attribute of sparse matrix,1
+0.2.7,"TODO: come up with a better way of solving this, see also below",1
+0.2.7,"TODO: make these two hacks, which set the value in the _confidence fields",1
+0.2.7,TODO: this is not a good solution,1
+0.2.7,TODO get rid of the following heuristics,1
+0.2.7,TODO: remove logging and actually test values,1
+0.2.7,"TODO: this is a terrible hack, but if we use the solution above (``not",1
+0.2.7,all copy and paste from above,1
+0.2.7,the following is a Python 2 compatibility hack,1
+0.2.7,"does not work in Rodeo, should be solved sometime soon",1
+0.2.7,"sett.m(1, 'TODO: get nice waitbars also in interactive mode')",1
+0.2.7,TODO: fix compat with Python 2,1
+0.2.7,TODO: __delitem__ should be aware of _keys_multicol and _keys,1
+0.2.7,TODO: rewrite this in a nicer way!,1
+0.2.7,TODO: check that no-one accidentally overwrites the index?,1
+0.2.7,TODO: need to reallocate memory,1
+0.2.7,TODO: maybe use view on data attribute of sparse matrix,1
+0.2.7,TODO: this duplicates scanpy.preprocessing.__init__,1
+0.2.6,"TODO: come up with a better way of solving this, see also below",1
+0.2.6,TODO: this is not a good solution,1
+0.2.6,TODO get rid of the following heuristics,1
+0.2.6,TODO: remove logging and actually test values,1
+0.2.6,"TODO: this is a terrible hack, but if we use the solution above, labels",1
+0.2.6,all copy and paste from above,1
+0.2.6,the following is a Python 2 compatibility hack,1
+0.2.6,"does not work in Rodeo, should be solved sometime soon",1
+0.2.6,"sett.m(1, 'TODO: get nice waitbars also in interactive mode')",1
+0.2.6,TODO: fix compat with Python 2,1
+0.2.6,TODO: __delitem__ should be aware of _keys_multicol and _keys,1
+0.2.6,TODO: rewrite this in a nicer way!,1
+0.2.6,TODO: check that no-one accidentally overwrites the index?,1
+0.2.6,TODO: need to reallocate memory,1
+0.2.6,TODO: maybe use view on data attribute of sparse matrix,1
+0.2.5,"TODO: come up with a better way of solving this, see also below",1
+0.2.5,TODO: this is not a good solution,1
+0.2.5,TODO get rid of the following heuristics,1
+0.2.5,TODO: remove logging and actually test values,1
+0.2.5,"TODO: this is a terrible hack, but if we use the solution above, labels",1
+0.2.5,all copy and paste from above,1
+0.2.5,the following is a Python 2 compatibility hack,1
+0.2.5,"does not work in Rodeo, should be solved sometime soon",1
+0.2.5,"sett.m(1, 'TODO: get nice waitbars also in interactive mode')",1
+0.2.5,TODO: fix compat with Python 2,1
+0.2.5,TODO: __delitem__ should be aware of _keys_multicol and _keys,1
+0.2.5,TODO: rewrite this in a nicer way!,1
+0.2.5,TODO: check that no-one accidentally overwrites the index?,1
+0.2.5,TODO: need to reallocate memory,1
+0.2.5,TODO: maybe use view on data attribute of sparse matrix,1
+0.2.4,"TODO: come up with a better way of solving this, see also below",1
+0.2.4,TODO: this is not a good solution,1
+0.2.4,TODO get rid of the following heuristics,1
+0.2.4,TODO: remove logging and actually test values,1
+0.2.4,"TODO: this is a terrible hack, but if we use the solution above, labels",1
+0.2.4,all copy and paste from above,1
+0.2.4,the following is a Python 2 compatibility hack,1
+0.2.4,"does not work in Rodeo, should be solved sometime soon",1
+0.2.4,"sett.m(1, 'TODO: get nice waitbars also in interactive mode')",1
+0.2.4,TODO: fix compat with Python 2,1
+0.2.4,TODO: __delitem__ should be aware of _keys_multicol and _keys,1
+0.2.4,TODO: rewrite this in a nicer way!,1
+0.2.4,TODO: check that no-one accidentally overwrites the index?,1
+0.2.4,TODO: need to reallocate memory,1
+0.2.4,TODO: maybe use view on data attribute of sparse matrix,1
+0.2.3.5,"TODO: come up with a better way of solving this, see also below",1
+0.2.3.5,TODO: this is not a good solution,1
+0.2.3.5,TODO get rid of the following heuristics,1
+0.2.3.5,"TODO: it makes not much of a difference, but we should keep this here",1
+0.2.3.5,TODO: remove logging and actually test values,1
+0.2.3.5,"TODO: this is a terrible hack, but if we use the solution above, labels",1
+0.2.3.5,all copy and paste from above,1
+0.2.3.5,the following is a Python 2 compatibility hack,1
+0.2.3.5,"does not work in Rodeo, should be solved sometime soon",1
+0.2.3.5,"sett.m(1, 'TODO: get nice waitbars also in interactive mode')",1
+0.2.3.5,TODO: fix compat with Python 2,1
+0.2.3.5,TODO: __delitem__ should be aware of _keys_multicol and _keys,1
+0.2.3.5,TODO: rewrite this in a nicer way!,1
+0.2.3.5,TODO: check that no-one accidentally overwrites the index?,1
+0.2.3.5,TODO: need to reallocate memory,1
+0.2.3.5,TODO: maybe use view on data attribute of sparse matrix,1
+0.2.3,"TODO: come up with a better way of solving this, see also below",1
+0.2.3,TODO: this is not a good solution,1
+0.2.3,TODO get rid of the following heuristics,1
+0.2.3,"TODO: it makes not much of a difference, but we should keep this here",1
+0.2.3,TODO: remove logging and actually test values,1
+0.2.3,"TODO: this is a terrible hack, but if we use the solution above, labels",1
+0.2.3,all copy and paste from above,1
+0.2.3,the following is a Python 2 compatibility hack,1
+0.2.3,"does not work in Rodeo, should be solved sometime soon",1
+0.2.3,"sett.m(1, 'TODO: get nice waitbars also in interactive mode')",1
+0.2.3,TODO: fix compat with Python 2,1
+0.2.3,TODO: __delitem__ should be aware of _keys_multicol and _keys,1
+0.2.3,TODO: rewrite this in a nicer way!,1
+0.2.3,TODO: check that no-one accidentally overwrites the index?,1
+0.2.3,TODO: need to reallocate memory,1
+0.2.3,TODO: maybe use view on data attribute of sparse matrix,1
+0.2.1,"TODO: come up with a better way of solving this, see also below",1
+0.2.1,TODO: this is not a good solution,1
+0.2.1,TODO get rid of the following heuristics,1
+0.2.1,"TODO: it makes not much of a difference, but we should keep this here",1
+0.2.1,TODO: remove logging and actually test values,1
+0.2.1,"TODO: this is a terrible hack, but if we use the solution above, labels",1
+0.2.1,all copy and paste from above,1
+0.2.1,the following is a Python 2 compatibility hack,1
+0.2.1,"does not work in Rodeo, should be solved sometime soon",1
+0.2.1,"sett.m(1, 'TODO: get nice waitbars also in interactive mode')",1
+0.2.1,TODO: fix compat with Python 2,1
+0.2.1,TODO: __delitem__ should be aware of _keys_multicol and _keys,1
+0.2.1,TODO: rewrite this in a nicer way!,1
+0.2.1,TODO: check that no-one accidentally overwrites the index?,1
+0.2.1,TODO: need to reallocate memory,1
+0.2.1,TODO: maybe use view on data attribute of sparse matrix,1
+0.2,"TODO: come up with a better way of solving this, see also below",1
+0.2,TODO: this is not a good solution,1
+0.2,TODO get rid of the following heuristics,1
+0.2,"TODO: it makes not much of a difference, but we should keep this here",1
+0.2,TODO: remove logging and actually test values,1
+0.2,"TODO: this is a terrible hack, but if we use the solution above, labels",1
+0.2,all copy and paste from above,1
+0.2,the following is a Python 2 compatibility hack,1
+0.2,"does not work in Rodeo, should be solved sometime soon",1
+0.2,"sett.m(1, 'TODO: get nice waitbars also in interactive mode')",1
+0.2,TODO: fix compat with Python 2,1
+0.2,TODO: __delitem__ should be aware of _keys_multicol and _keys,1
+0.2,TODO: rewrite this in a nicer way!,1
+0.2,TODO: check that no-one accidentally overwrites the index?,1
+0.2,TODO: need to reallocate memory,1
+0.2,TODO: maybe use view on data attribute of sparse matrix,1
+0.1,using iterators over numpy arrays doesn't work efficiently here,1
+0.1,"this is not a good solution, but it ensures that we can easily write",1
+0.1,TODO: treat negativity explicitly,1
+0.1,TODO: investigate quality of approximation!,1
+0.1,the following is a Python 2 compatibility hack,1
+0.1,TODO: don't save the adjacency matrix!!!,1
+0.1,"does not work in Rodeo, should be solved sometime soon",1
+0.1,"sett.m(1, 'TODO: get nice waitbars also in interactive mode')",1
+0.1,TODO: this should also be taken into account when slicing,1
+0.1,TODO: fix compat with Python 2,1
+0.1,TODO: __delitem__ should be aware of _keys_multicol and _keys,1
+0.1,TODO: rewrite this in a nicer way!,1
+0.1,TODO: check that no-one accidentally overwrites the index?,1
+0.1,TODO: need to reallocate memory,1
+0.1,TODO: this is no longer raised as we are truncating all strings at 50 bytes,1
+0.0,using iterators over numpy arrays doesn't work efficiently here,1
+0.0,TODO: check whether we always have to start with the 1st,1
+0.0,the following is a Python 2 compatibility hack,1
+0.0,TODO: this is not a good solution,1
+0.0,"TODO: solve this in a nicer way, also get an ordered dict for params",1
+0.0,TODO: Would be good to name the first argument dprev_or_ddata,1
+0.0,this is not actually needed,1
+0.0,TODO: treat negativity explicitly,1
+0.0,"this is not a good solution, but it ensures that we can easily write",1

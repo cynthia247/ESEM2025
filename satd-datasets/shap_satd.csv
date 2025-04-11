@@ -1,0 +1,1845 @@
+Version,Commit Message,SATD
+v0.47.1,This is copied from @robbuckley's fix for Panda's,1
+v0.47.1,TODO: better cloning :),1
+v0.47.1,work around for 2D feature_names since they are not yet slicer supported,1
+v0.47.1,TODO: support and deal with clusterings,1
+v0.47.1,TODO: heapq in numba does not yet support Typed Lists so we can move to them yet...,1
+v0.47.1,TODO: use TypeAlias (when we drop python 3.9),1
+v0.47.1,TODO: we need to do batching here,1
+v0.47.1,TODOmaybe: Is this okay? I am just assuming we want is_decoder when neither are set,1
+v0.47.1,TODOmaybe: SML: why move the model from where it was? the could mess with the user env (i.e. it breaks pipelines),1
+v0.47.1,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.47.1,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.47.1,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.47.1,this is untested,1
+v0.47.1,FIXME: The `link` and `linearize_link` arguments are ignored. GH #3513,1
+v0.47.1,TODO: raise an error in 0.48,1
+v0.47.1,TODO: add arguments for passing custom 'atol' and 'rtol' values to 'np.allclose',1
+v0.47.1,TODO: support predict for pyspark,1
+v0.47.1,TODO: Support random forest in XGBoost.,1
+v0.47.1,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.47.1,default Not supported with mlib? (TODO),1
+v0.47.1,"FIXME: ""leaf_count"" currently doesn't exist if we have a stump tree.",1
+v0.47.1,"train the model as the weight here, but unfortunately this info is",1
+v0.47.1,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.47.1,"total_evals = min(max_evals, (M-1)*M) # TODO: (M-1)*M is only right for balanced clusterings, but this is just for plotting progress...",1
+v0.47.1,work around for multi-class with a single class,1
+v0.47.1,todo: add legacy warning here.,1
+v0.47.1,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.47.1,todo: maybe add high-precision number,1
+v0.47.1,"todo: check for string, high precision number, array, object here",1
+v0.47.1,TODO: set a deprecation warning for this,1
+v0.47.1,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.47.1,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.47.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.47.1,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.47.1,TODO: Use dataclass(kw_only=True) when we drop Python 3.9,1
+v0.47.1,TODO: simplify this when we drop support for matplotlib 3.9,1
+v0.47.1,TODO: remove unused title argument / use title argument,1
+v0.47.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.47.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.47.1,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.47.1,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.47.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.47.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.47.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.47.1,TODO: simplify this when we drop support for matplotlib 3.9,1
+v0.47.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.47.1,FIXME: introduce beeswarm interaction values as a separate function `beeswarm_interaction()` (?),1
+v0.47.1,TODO: remove unused title argument / use title argument,1
+v0.47.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.47.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.47.1,TODO decide on style/size,1
+v0.47.1,todo: adjust to breaking changes made in #3318,1
+v0.47.1,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.47.1,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.47.1,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.47.1,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.47.1,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.47.1,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.47.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.47.1,FIXME: Remove this test in the future once the follow-ups from #3076,1
+v0.47.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.1,"""leaf_count"": 123,  # FIXME(upstream): microsoft/LightGBM#5962",1
+v0.47.1,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.47.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.1,todo: multi class classification + multi class regression tests,1
+v0.47.1,"todo: test binary classification with model_output=""predict_proba""",1
+v0.47.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.1,"todo: this is not correct, fix this",1
+v0.47.1,"TODO: Investigate the error when this line is `return shap.Explainer(model, X)``",1
+v0.47.1,"TODO: when the API is finalised, these functions will probably be",1
+v0.47.1,FIXME: remove once we migrate violin completely to the Explanation object,1
+v0.47.1,"TODO: reset tolerance to 3 when python 3.9 is dropped, and all tests use matplotlib 3.10+",1
+v0.47.0,This is copied from @robbuckley's fix for Panda's,1
+v0.47.0,TODO: better cloning :),1
+v0.47.0,work around for 2D feature_names since they are not yet slicer supported,1
+v0.47.0,TODO: support and deal with clusterings,1
+v0.47.0,TODO: heapq in numba does not yet support Typed Lists so we can move to them yet...,1
+v0.47.0,TODO: use TypeAlias (when we drop python 3.9),1
+v0.47.0,TODO: we need to do batching here,1
+v0.47.0,TODOmaybe: Is this okay? I am just assuming we want is_decoder when neither are set,1
+v0.47.0,TODOmaybe: SML: why move the model from where it was? the could mess with the user env (i.e. it breaks pipelines),1
+v0.47.0,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.47.0,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.47.0,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.47.0,this is untested,1
+v0.47.0,FIXME: The `link` and `linearize_link` arguments are ignored. GH #3513,1
+v0.47.0,TODO: raise an error in 0.48,1
+v0.47.0,TODO: support predict for pyspark,1
+v0.47.0,TODO: Support random forest in XGBoost.,1
+v0.47.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.47.0,default Not supported with mlib? (TODO),1
+v0.47.0,"FIXME: ""leaf_count"" currently doesn't exist if we have a stump tree.",1
+v0.47.0,"train the model as the weight here, but unfortunately this info is",1
+v0.47.0,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.47.0,"total_evals = min(max_evals, (M-1)*M) # TODO: (M-1)*M is only right for balanced clusterings, but this is just for plotting progress...",1
+v0.47.0,work around for multi-class with a single class,1
+v0.47.0,todo: add legacy warning here.,1
+v0.47.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.47.0,todo: maybe add high-precision number,1
+v0.47.0,"todo: check for string, high precision number, array, object here",1
+v0.47.0,TODO: set a deprecation warning for this,1
+v0.47.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.47.0,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.47.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.47.0,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.47.0,TODO: Use dataclass(kw_only=True) when we drop Python 3.9,1
+v0.47.0,TODO: remove unused title argument / use title argument,1
+v0.47.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.47.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.47.0,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.47.0,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.47.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.47.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.47.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.47.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.47.0,FIXME: introduce beeswarm interaction values as a separate function `beeswarm_interaction()` (?),1
+v0.47.0,TODO: remove unused title argument / use title argument,1
+v0.47.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.47.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.47.0,TODO decide on style/size,1
+v0.47.0,todo: adjust to breaking changes made in #3318,1
+v0.47.0,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.47.0,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.47.0,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.47.0,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.47.0,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.47.0,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.47.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.47.0,FIXME: Remove this test in the future once the follow-ups from #3076,1
+v0.47.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.0,"""leaf_count"": 123,  # FIXME(upstream): microsoft/LightGBM#5962",1
+v0.47.0,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.47.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.0,todo: multi class classification + multi class regression tests,1
+v0.47.0,"todo: test binary classification with model_output=""predict_proba""",1
+v0.47.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.47.0,"todo: this is not correct, fix this",1
+v0.47.0,"TODO: Investigate the error when this line is `return shap.Explainer(model, X)``",1
+v0.47.0,"TODO: when the API is finalised, these functions will probably be",1
+v0.47.0,FIXME: remove once we migrate violin completely to the Explanation object,1
+v0.47.0,"TODO: reset tolerance to 3 when python 3.9 is dropped, and all tests use matplotlib 3.10+",1
+v0.46.0,This is copied from @robbuckley's fix for Panda's,1
+v0.46.0,work around for 2D feature_names since they are not yet slicer supported,1
+v0.46.0,TODO: heapq in numba does not yet support Typed Lists so we can move to them yet...,1
+v0.46.0,TODO: we need to do batching here,1
+v0.46.0,"@njit # TODO: figure out how to jit this function, or most of it",1
+v0.46.0,TODOmaybe: Is this okay? I am just assuming we want is_decoder when neither are set,1
+v0.46.0,TODOmaybe: SML: why move the model from where it was? the could mess with the user env (i.e. it breaks pipelines),1
+v0.46.0,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.46.0,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.46.0,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.46.0,this is untested,1
+v0.46.0,FIXME: The `link` and `linearize_link` arguments are ignored. GH #3513,1
+v0.46.0,TODO: support predict for pyspark,1
+v0.46.0,TODO: Support random forest in XGBoost.,1
+v0.46.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.46.0,default Not supported with mlib? (TODO),1
+v0.46.0,"FIXME: ""leaf_count"" currently doesn't exist if we have a stump tree.",1
+v0.46.0,"train the model as the weight here, but unfortunately this info is",1
+v0.46.0,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.46.0,"total_evals = min(max_evals, (M-1)*M) # TODO: (M-1)*M is only right for balanced clusterings, but this is just for plotting progress...",1
+v0.46.0,work around for multi-class with a single class,1
+v0.46.0,todo: add legacy warning here.,1
+v0.46.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.46.0,todo: maybe add high-precision number,1
+v0.46.0,"todo: check for string, high precision number, array, object here",1
+v0.46.0,TODO: set a deprecation warning for this,1
+v0.46.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.46.0,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.46.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.46.0,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.46.0,TODO: remove unused title argument / use title argument,1
+v0.46.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.46.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.46.0,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.46.0,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.46.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.46.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.46.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.46.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.46.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.46.0,FIXME: introduce beeswarm interaction values as a separate function `beeswarm_interaction()` (?),1
+v0.46.0,TODO: remove unused title argument / use title argument,1
+v0.46.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.46.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.46.0,TODO decide on style/size,1
+v0.46.0,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.46.0,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.46.0,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.46.0,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.46.0,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.46.0,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.46.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.46.0,FIXME: Remove this test in the future once the follow-ups from #3076,1
+v0.46.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.46.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.46.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.46.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.46.0,"""leaf_count"": 123,  # FIXME(upstream): microsoft/LightGBM#5962",1
+v0.46.0,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.46.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.46.0,todo: multi class classification + multi class regression tests,1
+v0.46.0,"todo: test binary classification with model_output=""predict_proba""",1
+v0.46.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.46.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.46.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.46.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.46.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.46.0,"todo: this is not correct, fix this",1
+v0.46.0,FIXME: remove once we migrate violin completely to the Explanation object,1
+v0.45.1,This is copied from @robbuckley's fix for Panda's,1
+v0.45.1,work around for 2D feature_names since they are not yet slicer supported,1
+v0.45.1,TODO: heapq in numba does not yet support Typed Lists so we can move to them yet...,1
+v0.45.1,TODO: we need to do batching here,1
+v0.45.1,"@njit # TODO: figure out how to jit this function, or most of it",1
+v0.45.1,TODOmaybe: Is this okay? I am just assuming we want is_decoder when neither are set,1
+v0.45.1,TODOmaybe: SML: why move the model from where it was? the could mess with the user env (i.e. it breaks pipelines),1
+v0.45.1,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.45.1,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.45.1,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.45.1,this is untested,1
+v0.45.1,FIXME: The `link` and `linearize_link` arguments are ignored. GH #3513,1
+v0.45.1,TODO: support predict for pyspark,1
+v0.45.1,TODO: Support random forest in XGBoost.,1
+v0.45.1,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.45.1,default Not supported with mlib? (TODO),1
+v0.45.1,"FIXME: ""leaf_count"" currently doesn't exist if we have a stump tree.",1
+v0.45.1,"train the model as the weight here, but unfortunately this info is",1
+v0.45.1,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.45.1,"total_evals = min(max_evals, (M-1)*M) # TODO: (M-1)*M is only right for balanced clusterings, but this is just for plotting progress...",1
+v0.45.1,work around for multi-class with a single class,1
+v0.45.1,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.45.1,todo: maybe add high-precision number,1
+v0.45.1,"todo: check for string, high precision number, array, object here",1
+v0.45.1,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.45.1,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.45.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.45.1,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.45.1,TODO: remove unused title argument / use title argument,1
+v0.45.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.45.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.45.1,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.45.1,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.45.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.45.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.45.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.45.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.45.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.45.1,FIXME: introduce beeswarm interaction values as a separate function `beeswarm_interaction()` (?),1
+v0.45.1,TODO: remove unused title argument / use title argument,1
+v0.45.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.45.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.45.1,TODO decide on style/size,1
+v0.45.1,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.45.1,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.45.1,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.45.1,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.45.1,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.45.1,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.45.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.45.1,FIXME: Remove this test in the future once the follow-ups from #3076,1
+v0.45.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.1,"""leaf_count"": 123,  # FIXME(upstream): microsoft/LightGBM#5962",1
+v0.45.1,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.45.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.1,todo: multi class classification + multi class regression tests,1
+v0.45.1,"todo: test binary classification with model_output=""predict_proba""",1
+v0.45.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.1,"todo: this is not correct, fix this",1
+v0.45.1,FIXME: remove once we migrate violin completely to the Explanation object,1
+v0.45.0,This is copied from @robbuckley's fix for Panda's,1
+v0.45.0,work around for 2D feature_names since they are not yet slicer supported,1
+v0.45.0,TODO: heapq in numba does not yet support Typed Lists so we can move to them yet...,1
+v0.45.0,TODO: we need to do batching here,1
+v0.45.0,"@njit # TODO: figure out how to jit this function, or most of it",1
+v0.45.0,TODOmaybe: Is this okay? I am just assuming we want is_decoder when neither are set,1
+v0.45.0,TODOmaybe: SML: why move the model from where it was? the could mess with the user env (i.e. it breaks pipelines),1
+v0.45.0,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.45.0,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.45.0,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.45.0,this is untested,1
+v0.45.0,FIXME: The `link` and `linearize_link` arguments are ignored. GH #3513,1
+v0.45.0,TODO: support predict for pyspark,1
+v0.45.0,TODO: Support random forest in XGBoost.,1
+v0.45.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.45.0,default Not supported with mlib? (TODO),1
+v0.45.0,"FIXME: ""leaf_count"" currently doesn't exist if we have a stump tree.",1
+v0.45.0,"train the model as the weight here, but unfortunately this info is",1
+v0.45.0,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.45.0,"total_evals = min(max_evals, (M-1)*M) # TODO: (M-1)*M is only right for balanced clusterings, but this is just for plotting progress...",1
+v0.45.0,work around for multi-class with a single class,1
+v0.45.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.45.0,todo: maybe add high-precision number,1
+v0.45.0,"todo: check for string, high precision number, array, object here",1
+v0.45.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.45.0,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.45.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.45.0,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.45.0,TODO: remove unused title argument / use title argument,1
+v0.45.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.45.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.45.0,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.45.0,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.45.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.45.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.45.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.45.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.45.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.45.0,FIXME: introduce beeswarm interaction values as a separate function `beeswarm_interaction()` (?),1
+v0.45.0,TODO: remove unused title argument / use title argument,1
+v0.45.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.45.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.45.0,TODO decide on style/size,1
+v0.45.0,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.45.0,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.45.0,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.45.0,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.45.0,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.45.0,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.45.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.45.0,FIXME: Remove this test in the future once the follow-ups from #3076,1
+v0.45.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.0,"""leaf_count"": 123,  # FIXME(upstream): microsoft/LightGBM#5962",1
+v0.45.0,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.45.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.0,todo: multi class classification + multi class regression tests,1
+v0.45.0,"todo: test binary classification with model_output=""predict_proba""",1
+v0.45.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.45.0,"todo: this is not correct, fix this",1
+v0.45.0,FIXME: remove once we migrate violin completely to the Explanation object,1
+v0.44.1,This is copied from @robbuckley's fix for Panda's,1
+v0.44.1,work around for 2D feature_names since they are not yet slicer supported,1
+v0.44.1,TODO: heapq in numba does not yet support Typed Lists so we can move to them yet...,1
+v0.44.1,TODO: we need to do batching here,1
+v0.44.1,"@njit # TODO: figure out how to jit this function, or most of it",1
+v0.44.1,TODOmaybe: Is this okay? I am just assuming we want is_decoder when neither are set,1
+v0.44.1,TODOmaybe: SML: why move the model from where it was? the could mess with the user env (i.e. it breaks pipelines),1
+v0.44.1,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.44.1,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.44.1,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.44.1,TODO: support predict for pyspark,1
+v0.44.1,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.44.1,default Not supported with mlib? (TODO),1
+v0.44.1,"FIXME: ""leaf_count"" currently doesn't exist if we have a stump tree.",1
+v0.44.1,"train the model as the weight here, but unfortunately this info is",1
+v0.44.1,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.44.1,"total_evals = min(max_evals, (M-1)*M) # TODO: (M-1)*M is only right for balanced clusterings, but this is just for plotting progress...",1
+v0.44.1,work around for multi-class with a single class,1
+v0.44.1,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.44.1,todo: maybe add high-precision number,1
+v0.44.1,"todo: check for string, high precision number, array, object here",1
+v0.44.1,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.44.1,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.44.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.44.1,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.44.1,TODO: remove unused title argument / use title argument,1
+v0.44.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.44.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.44.1,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.44.1,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.44.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.44.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.44.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.44.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.44.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.44.1,FIXME: introduce beeswarm interaction values as a separate function `beeswarm_interaction()` (?),1
+v0.44.1,TODO: remove unused title argument / use title argument,1
+v0.44.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.44.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.44.1,TODO decide on style/size,1
+v0.44.1,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.44.1,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.44.1,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.44.1,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.44.1,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.44.1,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.44.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.44.1,FIXME: Remove this test in the future once the follow-ups from #3076,1
+v0.44.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.1,TODO: Test tree_limit argument,1
+v0.44.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.1,"""leaf_count"": 123,  # FIXME(upstream): microsoft/LightGBM#5962",1
+v0.44.1,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.44.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.1,"todo: this is not correct, fix this",1
+v0.44.1,FIXME: remove once we migrate violin completely to the Explanation object,1
+v0.44.0,This is copied from @robbuckley's fix for Panda's,1
+v0.44.0,work around for 2D feature_names since they are not yet slicer supported,1
+v0.44.0,TODO: heapq in numba does not yet support Typed Lists so we can move to them yet...,1
+v0.44.0,TODO: we need to do batching here,1
+v0.44.0,"@njit # TODO: figure out how to jit this function, or most of it",1
+v0.44.0,TODOmaybe: Is this okay? I am just assuming we want is_decoder when neither are set,1
+v0.44.0,TODOmaybe: SML: why move the model from where it was? the could mess with the user env (i.e. it breaks pipelines),1
+v0.44.0,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.44.0,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.44.0,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.44.0,TODO: support predict for pyspark,1
+v0.44.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.44.0,default Not supported with mlib? (TODO),1
+v0.44.0,"FIXME: ""leaf_count"" currently doesn't exist if we have a stump tree.",1
+v0.44.0,"train the model as the weight here, but unfortunately this info is",1
+v0.44.0,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.44.0,"total_evals = min(max_evals, (M-1)*M) # TODO: (M-1)*M is only right for balanced clusterings, but this is just for plotting progress...",1
+v0.44.0,work around for multi-class with a single class,1
+v0.44.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.44.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.44.0,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.44.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.44.0,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.44.0,TODO: remove unused title argument / use title argument,1
+v0.44.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.44.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.44.0,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.44.0,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.44.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.44.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.44.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.44.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.44.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.44.0,FIXME: introduce beeswarm interaction values as a separate function `beeswarm_interaction()` (?),1
+v0.44.0,TODO: remove unused title argument / use title argument,1
+v0.44.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.44.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.44.0,TODO decide on style/size,1
+v0.44.0,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.44.0,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.44.0,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.44.0,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.44.0,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.44.0,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.44.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.44.0,FIXME: Remove this test in the future once the follow-ups from #3076,1
+v0.44.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.0,TODO: Test tree_limit argument,1
+v0.44.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.0,"""leaf_count"": 123,  # FIXME(upstream): microsoft/LightGBM#5962",1
+v0.44.0,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.44.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.44.0,FIXME: remove once we migrate violin completely to the Explanation object,1
+v0.43.0,This is copied from @robbuckley's fix for Panda's,1
+v0.43.0,work around for 2D feature_names since they are not yet slicer supported,1
+v0.43.0,TODO: heapq in numba does not yet support Typed Lists so we can move to them yet...,1
+v0.43.0,TODO: we need to do batching here,1
+v0.43.0,"@njit # TODO: figure out how to jit this function, or most of it",1
+v0.43.0,TODOmaybe: Is this okay? I am just assuming we want is_decoder when neither are set,1
+v0.43.0,TODOmaybe: SML: why move the model from where it was? the could mess with the user env (i.e. it breaks pipelines),1
+v0.43.0,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.43.0,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.43.0,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.43.0,TODO: support predict for pyspark,1
+v0.43.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.43.0,default Not supported with mlib? (TODO),1
+v0.43.0,"FIXME: ""leaf_count"" currently doesn't exist if we have a stump tree.",1
+v0.43.0,"train the model as the weight here, but unfortunately this info is",1
+v0.43.0,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.43.0,"total_evals = min(max_evals, (M-1)*M) # TODO: (M-1)*M is only right for balanced clusterings, but this is just for plotting progress...",1
+v0.43.0,work around for multi-class with a single class,1
+v0.43.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.43.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.43.0,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.43.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.43.0,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.43.0,TODO: remove unused title argument / use title argument,1
+v0.43.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.43.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.43.0,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.43.0,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.43.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.43.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.43.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.43.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.43.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.43.0,FIXME: introduce beeswarm interaction values as a separate function `beeswarm_interaction()` (?),1
+v0.43.0,TODO: remove unused title argument / use title argument,1
+v0.43.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.43.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.43.0,TODO decide on style/size,1
+v0.43.0,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.43.0,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.43.0,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.43.0,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.43.0,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.43.0,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.43.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.43.0,FIXME: Remove this test in the future once the follow-ups from #3076,1
+v0.43.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.43.0,TODO: Test tree_limit argument,1
+v0.43.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.43.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.43.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.43.0,"""leaf_count"": 123,  # FIXME(upstream): microsoft/LightGBM#5962",1
+v0.43.0,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.43.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.43.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.43.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.43.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.43.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.43.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.43.0,FIXME: remove once we migrate violin completely to the Explanation object,1
+v0.42.1,This is copied from @robbuckley's fix for Panda's,1
+v0.42.1,work around for 2D feature_names since they are not yet slicer supported,1
+v0.42.1,TODO: heapq in numba does not yet support Typed Lists so we can move to them yet...,1
+v0.42.1,"q = numba.typed.List([(0, xmin, xmax, ymin, ymax, zmin, zmax, -1, False)]) # TODO: won't work until the next numba rel (as of dec 2021)",1
+v0.42.1,TODO: we need to do batching here,1
+v0.42.1,"@njit # TODO: figure out how to jit this function, or most of it",1
+v0.42.1,TODOmaybe: Is this okay? I am just assuming we want is_decoder when neither are set,1
+v0.42.1,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.42.1,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.42.1,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.42.1,TODO: support predict for pyspark,1
+v0.42.1,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.42.1,default Not supported with mlib? (TODO),1
+v0.42.1,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.42.1,"total_evals = min(max_evals, (M-1)*M) # TODO: (M-1)*M is only right for balanced clusterings, but this is just for plotting progress...",1
+v0.42.1,work around for multi-class with a single class,1
+v0.42.1,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.42.1,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.42.1,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.42.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.42.1,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.42.1,TODO: remove unused title argument / use title argument,1
+v0.42.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.42.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.42.1,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.42.1,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.42.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.42.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.42.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.42.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.42.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.42.1,FIXME: introduce beeswarm interaction values as a separate function `beeswarm_interaction()` (?),1
+v0.42.1,TODO: remove unused title argument / use title argument,1
+v0.42.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.42.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.42.1,TODO decide on style/size,1
+v0.42.1,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.42.1,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.42.1,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.42.1,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.42.1,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.42.1,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.42.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.42.1,FIXME: Remove this test in the future once the follow-ups from #3076,1
+v0.42.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.1,TODO: Test tree_limit argument,1
+v0.42.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.1,"FIXME: this test should NOT throw a KeyError, see #2044",1
+v0.42.1,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.42.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.1,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.1,FIXME: remove once we migrate violin completely to the Explanation object,1
+v0.42.0,This is copied from @robbuckley's fix for Panda's,1
+v0.42.0,work around for 2D feature_names since they are not yet slicer supported,1
+v0.42.0,TODO: heapq in numba does not yet support Typed Lists so we can move to them yet...,1
+v0.42.0,"q = numba.typed.List([(0, xmin, xmax, ymin, ymax, zmin, zmax, -1, False)]) # TODO: won't work until the next numba rel (as of dec 2021)",1
+v0.42.0,TODO: we need to do batching here,1
+v0.42.0,"@njit # TODO: figure out how to jit this function, or most of it",1
+v0.42.0,TODOmaybe: Is this okay? I am just assuming we want is_decoder when neither are set,1
+v0.42.0,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.42.0,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.42.0,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.42.0,TODO: support predict for pyspark,1
+v0.42.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.42.0,default Not supported with mlib? (TODO),1
+v0.42.0,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.42.0,"total_evals = min(max_evals, (M-1)*M) # TODO: (M-1)*M is only right for balanced clusterings, but this is just for plotting progress...",1
+v0.42.0,work around for multi-class with a single class,1
+v0.42.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.42.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.42.0,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.42.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.42.0,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.42.0,TODO: remove unused title argument / use title argument,1
+v0.42.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.42.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.42.0,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.42.0,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.42.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.42.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.42.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.42.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.42.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.42.0,FIXME: introduce beeswarm interaction values as a separate function `beeswarm_interaction()` (?),1
+v0.42.0,TODO: remove unused title argument / use title argument,1
+v0.42.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.42.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.42.0,TODO decide on style/size,1
+v0.42.0,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.42.0,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.42.0,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.42.0,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.42.0,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.42.0,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.42.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.42.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.0,TODO: Test tree_limit argument,1
+v0.42.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.0,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.42.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.0,FIXME: this test should ideally pass with any random seed. See #2960,1
+v0.42.0,FIXME: remove once we migrate violin completely to the Explanation object,1
+v0.41.0,This is copied from @robbuckley's fix for Panda's,1
+v0.41.0,work around for 2D feature_names since they are not yet slicer supported,1
+v0.41.0,TODO: heapq in numba does not yet support Typed Lists so we can move to them yet...,1
+v0.41.0,"q = numba.typed.List([(0, xmin, xmax, ymin, ymax, zmin, zmax, -1, False)]) # TODO: won't work until the next numba rel (as of dec 2021)",1
+v0.41.0,TODO: we need to do batching here,1
+v0.41.0,"@jit # TODO: figure out how to jit this function, or most of it",1
+v0.41.0,TODOmaybe: Is this okay? I am just assuming we want is_decoder when neither are set,1
+v0.41.0,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.41.0,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.41.0,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.41.0,TODO: support predict for pyspark,1
+v0.41.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.41.0,default Not supported with mlib? (TODO),1
+v0.41.0,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.41.0,"total_evals = min(max_evals, (M-1)*M) # TODO: (M-1)*M is only right for balanced clusterings, but this is just for plotting progress...",1
+v0.41.0,work around for multi-class with a single class,1
+v0.41.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.41.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.41.0,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.41.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.41.0,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.41.0,TODO: remove unused title argument / use title argument,1
+v0.41.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.41.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.41.0,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.41.0,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.41.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.41.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.41.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.41.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.41.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.41.0,TODO: remove unused title argument / use title argument,1
+v0.41.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.41.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.41.0,TODO decide on style/size,1
+v0.41.0,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.41.0,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.41.0,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.41.0,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.41.0,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.41.0,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.41.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.41.0,"pylint: disable=missing-function-docstring,too-many-lines,fixme",1
+v0.41.0,TODO: Test tree_limit argument,1
+v0.41.0,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.40.0,This is copied from @robbuckley's fix for Panda's,1
+v0.40.0,work around for 2D feature_names since they are not yet slicer supported,1
+v0.40.0,TODO: we need to do batching here,1
+v0.40.0,"@jit # TODO: figure out how to jit this function, or most of it",1
+v0.40.0,TODOmaybe: Is this okay? I am just assuming we want is_decoder when neither are set,1
+v0.40.0,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.40.0,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.40.0,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.40.0,TODO: support predict for pyspark,1
+v0.40.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.40.0,default Not supported with mlib? (TODO),1
+v0.40.0,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.40.0,"total_evals = min(max_evals, (M-1)*M) # TODO: (M-1)*M is only right for balanced clusterings, but this is just for plotting progress...",1
+v0.40.0,work around for multi-class with a single class,1
+v0.40.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.40.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.40.0,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.40.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.40.0,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.40.0,TODO: remove unused title argument / use title argument,1
+v0.40.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.40.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.40.0,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.40.0,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.40.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.40.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.40.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.40.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.40.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.40.0,TODO: remove unused title argument / use title argument,1
+v0.40.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.40.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.40.0,TODO decide on style/size,1
+v0.40.0,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.40.0,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.40.0,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.40.0,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.40.0,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.40.0,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.40.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.40.0,"pylint: disable=missing-function-docstring,too-many-lines,fixme",1
+v0.40.0,TODO: Test tree_limit argument,1
+v0.40.0,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.39.0,This is copied from @robbuckley's fix for Panda's,1
+v0.39.0,cloning. TODO: better cloning :),1
+v0.39.0,work around for 2D feature_names since they are not yet slicer supported,1
+v0.39.0,TODO: support and deal with clusterings,1
+v0.39.0,# TODO: we need to do batching here,1
+v0.39.0,TODO: we need to do batching here,1
+v0.39.0,"@jit # TODO: figure out how to jit this function, or most of it",1
+v0.39.0,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.39.0,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.39.0,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.39.0,TODO: support predict for pyspark,1
+v0.39.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.39.0,default Not supported with mlib? (TODO),1
+v0.39.0,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.39.0,work around for multi-class with a single class,1
+v0.39.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.39.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.39.0,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.39.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.39.0,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.39.0,TODO: remove unused title argument / use title argument,1
+v0.39.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.39.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.39.0,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.39.0,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.39.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.39.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.39.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.39.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.39.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.39.0,TODO: remove unused title argument / use title argument,1
+v0.39.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.39.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.39.0,TODO decide on style/size,1
+v0.39.0,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.39.0,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.39.0,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.39.0,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.39.0,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.39.0,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.39.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.39.0,"pylint: disable=missing-function-docstring,too-many-lines,fixme",1
+v0.39.0,TODO: Test tree_limit argument,1
+v0.39.0,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.38.1,This is copied from @robbuckley's fix for Panda's,1
+v0.38.1,cloning. TODO: better cloning :),1
+v0.38.1,TODO: support and deal with clusterings,1
+v0.38.1,# TODO: we need to do batching here,1
+v0.38.1,TODO: we need to do batching here,1
+v0.38.1,"@jit # TODO: figure out how to jit this function, or most of it",1
+v0.38.1,TODO: batch source_sentence_ids,1
+v0.38.1,TODO: check if X is text/image cause presently only when X=text is supported to use model decoder,1
+v0.38.1,TODO: batch source_sentence_ids,1
+v0.38.1,TODO: check if X is text/image cause presently only when X=text is supported to use model decoder,1
+v0.38.1,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.38.1,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.38.1,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.38.1,TODO: support predict for pyspark,1
+v0.38.1,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.38.1,default Not supported with mlib? (TODO),1
+v0.38.1,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.38.1,work around for multi-class with a single class,1
+v0.38.1,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.38.1,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.38.1,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.38.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.38.1,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.38.1,TODO: remove unused title argument / use title argument,1
+v0.38.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.38.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.38.1,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.38.1,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.38.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.38.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.38.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.38.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.38.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.38.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.38.1,TODO: remove unused title argument / use title argument,1
+v0.38.1,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.38.1,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.38.1,TODO decide on style/size,1
+v0.38.1,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.38.1,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.38.1,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.38.1,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.38.1,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.38.1,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.38.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.38.1,"pylint: disable=missing-function-docstring,too-many-lines,fixme",1
+v0.38.1,TODO: Test tree_limit argument,1
+v0.38.1,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.38.0,This is copied from @robbuckley's fix for Panda's,1
+v0.38.0,cloning. TODO: better cloning :),1
+v0.38.0,TODO: support and deal with clusterings,1
+v0.38.0,# TODO: we need to do batching here,1
+v0.38.0,TODO: we need to do batching here,1
+v0.38.0,"@jit # TODO: figure out how to jit this function, or most of it",1
+v0.38.0,TODO: batch source_sentence_ids,1
+v0.38.0,TODO: check if X is text/image cause presently only when X=text is supported to use model decoder,1
+v0.38.0,TODO: batch source_sentence_ids,1
+v0.38.0,TODO: check if X is text/image cause presently only when X=text is supported to use model decoder,1
+v0.38.0,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.38.0,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.38.0,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.38.0,TODO: support predict for pyspark,1
+v0.38.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.38.0,default Not supported with mlib? (TODO),1
+v0.38.0,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.38.0,work around for multi-class with a single class,1
+v0.38.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.38.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.38.0,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.38.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.38.0,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.38.0,TODO: remove unused title argument / use title argument,1
+v0.38.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.38.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.38.0,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.38.0,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.38.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.38.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.38.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.38.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.38.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.38.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.38.0,TODO: remove unused title argument / use title argument,1
+v0.38.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.38.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.38.0,TODO decide on style/size,1
+v0.38.0,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.38.0,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.38.0,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.38.0,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.38.0,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.38.0,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.38.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.38.0,"pylint: disable=missing-function-docstring,too-many-lines,fixme",1
+v0.38.0,TODO: Test tree_limit argument,1
+v0.38.0,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any",1
+v0.37.0,This is copied from @robbuckley's fix for Panda's,1
+v0.37.0,cloning. TODO: better cloning :),1
+v0.37.0,TODO: support and deal with clusterings,1
+v0.37.0,# TODO: we need to do batching here,1
+v0.37.0,TODO: we need to do batching here,1
+v0.37.0,"@jit # TODO: figure out how to jit this function, or most of it",1
+v0.37.0,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.37.0,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.37.0,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M TODO: still true?,1
+v0.37.0,TODO: support predict for pyspark,1
+v0.37.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.37.0,default Not supported with mlib? (TODO),1
+v0.37.0,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.37.0,work around for multi-class with a single class,1
+v0.37.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.37.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.37.0,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.37.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.37.0,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.37.0,TODO: remove unused title argument / use title argument,1
+v0.37.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.37.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.37.0,TODO: Make the color bar a one-sided beeswarm plot so we can see the density along the color axis,1
+v0.37.0,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.37.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.37.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.37.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.37.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.37.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.37.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.37.0,TODO: remove unused title argument / use title argument,1
+v0.37.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.37.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.37.0,TODO decide on style/size,1
+v0.37.0,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.37.0,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.37.0,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.37.0,TODO: Have the Explanation object track enough data so that we can tell (and so show) how many instances are in each cohort,1
+v0.37.0,TODO: check other attributes for equality? like feature names perhaps? probably clustering as well.,1
+v0.37.0,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.37.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.37.0,TODO: Test tree_limit argument,1
+v0.37.0,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any memory issues at some point...",1
+v0.36.0,This is copied from @robbuckley's fix for Panda's,1
+v0.36.0,cloning. TODO: better cloning :),1
+v0.36.0,# TODO: we need to do batching here,1
+v0.36.0,TODO: we need to do batching here,1
+v0.36.0,"@jit # TODO: figure out how to jit this function, or most of it",1
+v0.36.0,TODO: this should be a jit function... which would require preallocating the inds_lists (sizes are 2**depth of that ind),1
+v0.36.0,TODO: we could also probable avoid making the masks at all and just record the deltas if we want...,1
+v0.36.0,[TODO] This is shuffle does not work when inds is not a complete set of integers from 0 to M,1
+v0.36.0,TODO: support predict for pyspark,1
+v0.36.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+v0.36.0,default Not supported with mlib? (TODO),1
+v0.36.0,TODO: maybe? if we have a tabular masker then we build a PermutationExplainer that we,1
+v0.36.0,check we got just a single instance (TODO: use the masker to make this check robust to multi-dim inputs),1
+v0.36.0,work around for multi-class with a single class,1
+v0.36.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.36.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+v0.36.0,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+v0.36.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.36.0,"TODO: we should support text output explanations (from models that output text not numbers), this would require the force",1
+v0.36.0,TODO: remove unused title argument / use title argument,1
+v0.36.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.36.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.36.0,TODO: This stacking could be avoided if we use the new shap.utils.potential_interactions function,1
+v0.36.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.36.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.36.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.36.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.36.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.36.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.36.0,TODO: remove unused title argument / use title argument,1
+v0.36.0,TODO: Add support for hclustering based explanations where we sort the leaf order by magnitude and then show the dendrogram to the left,1
+v0.36.0,if out_names is None: # TODO: waiting for slicer support of this,1
+v0.36.0,TODO decide on style/size,1
+v0.36.0,TODO: If we make a JS version of this plot then we could let users click on a bar and then see the dependence,1
+v0.36.0,why a feature is pushing down or up. Perhaps the best way to do this would be with an ICE plot hanging off,1
+v0.36.0,TODO: improve the bar chart to look better like the waterfall plot with numbers inside the bars when they fit,1
+v0.36.0,"TODO: Rather than just show the ""1st token"", ""2nd token"", etc. it would be better to show the ""Instance 0's 1st but"", etc",1
+v0.36.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.36.0,Workarounds based on findings by Jim Driscoll,1
+v0.36.0,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.36.0,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.36.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.36.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.36.0,From the awesome hack by Dean Edwards,1
+v0.36.0,Work around by temporarily setting element display to inline-block,1
+v0.36.0,force reflow of newly added node in order to workaround delay,1
+v0.36.0,Workaround failure to string-cast null input,1
+v0.36.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.36.0,Is a given variable an arguments object?,1
+v0.36.0,TODO: Test tree_limit argument,1
+v0.36.0,"TODO: this has sometimes failed with strange answers, should run memcheck on this for any memory issues at some point...",1
+0.35.0,This is copied from @robbuckley's fix for Panda's,1
+0.35.0,TODO support predict for pyspark,1
+0.35.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+0.35.0,default Not supported with mlib? (TODO),1
+0.35.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.35.0,work around for multi-class with a single class,1
+0.35.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.35.0,TODO: unclear why some ops are not in the registry with TF 2.0 like TensorListReserve,1
+0.35.0,TODO decide on style/size,1
+0.35.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.35.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.35.0,TODO: remove unused title argument / use title argument,1
+0.35.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.35.0,Workarounds based on findings by Jim Driscoll,1
+0.35.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.35.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.35.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.35.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.35.0,From the awesome hack by Dean Edwards,1
+0.35.0,Work around by temporarily setting element display to inline-block,1
+0.35.0,force reflow of newly added node in order to workaround delay,1
+0.35.0,Workaround failure to string-cast null input,1
+0.35.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.35.0,Is a given variable an arguments object?,1
+0.35.0,TODO: Test tree_limit argument,1
+0.34.0,This is copied from @robbuckley's fix for Panda's,1
+0.34.0,TODO support predict for pyspark,1
+0.34.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+0.34.0,default Not supported with mlib? (TODO),1
+0.34.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.34.0,work around for multi-class with a single class,1
+0.34.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.34.0,TODO decide on style/size,1
+0.34.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.34.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.34.0,TODO: remove unused title argument / use title argument,1
+0.34.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.34.0,Workarounds based on findings by Jim Driscoll,1
+0.34.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.34.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.34.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.34.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.34.0,From the awesome hack by Dean Edwards,1
+0.34.0,Work around by temporarily setting element display to inline-block,1
+0.34.0,force reflow of newly added node in order to workaround delay,1
+0.34.0,Workaround failure to string-cast null input,1
+0.34.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.34.0,Is a given variable an arguments object?,1
+0.34.0,TODO: Test tree_limit argument,1
+0.33.0,This is copied from @robbuckley's fix for Panda's,1
+0.33.0,TODO support predict for pyspark,1
+0.33.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+0.33.0,default Not supported with mlib? (TODO),1
+0.33.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.33.0,work around for multi-class with a single class,1
+0.33.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.33.0,TODO decide on style/size,1
+0.33.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.33.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.33.0,TODO: remove unused title argument / use title argument,1
+0.33.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.33.0,Workarounds based on findings by Jim Driscoll,1
+0.33.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.33.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.33.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.33.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.33.0,From the awesome hack by Dean Edwards,1
+0.33.0,Work around by temporarily setting element display to inline-block,1
+0.33.0,force reflow of newly added node in order to workaround delay,1
+0.33.0,Workaround failure to string-cast null input,1
+0.33.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.33.0,Is a given variable an arguments object?,1
+0.33.0,TODO: Test tree_limit argument,1
+0.32.1,This is copied from @robbuckley's fix for Panda's,1
+0.32.1,TODO: place a warning here eventually that we made this switch?,1
+0.32.1,TODO support predict for pyspark,1
+0.32.1,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+0.32.1,default Not supported with mlib? (TODO),1
+0.32.1,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.32.1,work around for multi-class with a single class,1
+0.32.1,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.32.1,TODO decide on style/size,1
+0.32.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.32.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.32.1,TODO: remove unused title argument / use title argument,1
+0.32.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.32.1,Workarounds based on findings by Jim Driscoll,1
+0.32.1,"Workaround erroneous numeric interpretation of +""0x""",1
+0.32.1,"The broken getElementById methods don't pick up programatically-set names,",1
+0.32.1,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.32.1,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.32.1,From the awesome hack by Dean Edwards,1
+0.32.1,Work around by temporarily setting element display to inline-block,1
+0.32.1,force reflow of newly added node in order to workaround delay,1
+0.32.1,Workaround failure to string-cast null input,1
+0.32.1,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.32.1,Is a given variable an arguments object?,1
+0.32.1,TODO: Test tree_limit argument,1
+0.32.0,This is copied from @robbuckley's fix for Panda's,1
+0.32.0,TODO: place a warning here eventually that we made this switch?,1
+0.32.0,TODO support predict for pyspark,1
+0.32.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+0.32.0,default Not supported with mlib? (TODO),1
+0.32.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.32.0,work around for multi-class with a single class,1
+0.32.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.32.0,TODO decide on style/size,1
+0.32.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.32.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.32.0,TODO: remove unused title argument / use title argument,1
+0.32.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.32.0,Workarounds based on findings by Jim Driscoll,1
+0.32.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.32.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.32.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.32.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.32.0,From the awesome hack by Dean Edwards,1
+0.32.0,Work around by temporarily setting element display to inline-block,1
+0.32.0,force reflow of newly added node in order to workaround delay,1
+0.32.0,Workaround failure to string-cast null input,1
+0.32.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.32.0,Is a given variable an arguments object?,1
+0.32.0,TODO: Test tree_limit argument,1
+0.31.0,This is copied from @robbuckley's fix for Panda's,1
+0.31.0,TODO handle variance as loss?,1
+0.31.0,TODO base_offset?,1
+0.31.0,TODO support predict for pyspark,1
+0.31.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+0.31.0,default Not supported with mlib? (TODO),1
+0.31.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.31.0,work around for multi-class with a single class,1
+0.31.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.31.0,TODO decide on style/size,1
+0.31.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.31.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.31.0,TODO: remove unused title argument / use title argument,1
+0.31.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.31.0,Workarounds based on findings by Jim Driscoll,1
+0.31.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.31.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.31.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.31.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.31.0,From the awesome hack by Dean Edwards,1
+0.31.0,Work around by temporarily setting element display to inline-block,1
+0.31.0,force reflow of newly added node in order to workaround delay,1
+0.31.0,Workaround failure to string-cast null input,1
+0.31.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.31.0,Is a given variable an arguments object?,1
+0.31.0,TODO: Test tree_limit argument,1
+0.30.2,This is copied from @robbuckley's fix for Panda's,1
+0.30.2,TODO handle variance as loss?,1
+0.30.2,TODO base_offset?,1
+0.30.2,TODO support predict for pyspark,1
+0.30.2,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+0.30.2,default Not supported with mlib? (TODO),1
+0.30.2,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.30.2,work around for multi-class with a single class,1
+0.30.2,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.30.2,TODO decide on style/size,1
+0.30.2,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.30.2,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.30.2,TODO: remove unused title argument / use title argument,1
+0.30.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.30.2,Workarounds based on findings by Jim Driscoll,1
+0.30.2,"Workaround erroneous numeric interpretation of +""0x""",1
+0.30.2,"The broken getElementById methods don't pick up programatically-set names,",1
+0.30.2,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.30.2,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.30.2,From the awesome hack by Dean Edwards,1
+0.30.2,Work around by temporarily setting element display to inline-block,1
+0.30.2,force reflow of newly added node in order to workaround delay,1
+0.30.2,Workaround failure to string-cast null input,1
+0.30.2,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.30.2,Is a given variable an arguments object?,1
+0.30.2,TODO: Test tree_limit argument,1
+0.30.1,This is copied from @robbuckley's fix for Panda's,1
+0.30.1,TODO handle variance as loss?,1
+0.30.1,TODO base_offset?,1
+0.30.1,TODO support predict for pyspark,1
+0.30.1,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+0.30.1,default Not supported with mlib? (TODO),1
+0.30.1,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.30.1,work around for multi-class with a single class,1
+0.30.1,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.30.1,TODO decide on style/size,1
+0.30.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.30.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.30.1,TODO: remove unused title argument / use title argument,1
+0.30.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.30.1,Workarounds based on findings by Jim Driscoll,1
+0.30.1,"Workaround erroneous numeric interpretation of +""0x""",1
+0.30.1,"The broken getElementById methods don't pick up programatically-set names,",1
+0.30.1,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.30.1,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.30.1,From the awesome hack by Dean Edwards,1
+0.30.1,Work around by temporarily setting element display to inline-block,1
+0.30.1,force reflow of newly added node in order to workaround delay,1
+0.30.1,Workaround failure to string-cast null input,1
+0.30.1,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.30.1,Is a given variable an arguments object?,1
+0.30.1,TODO: Test tree_limit argument,1
+0.30.0,This is copied from @robbuckley's fix for Panda's,1
+0.30.0,TODO handle variance as loss?,1
+0.30.0,TODO base_offset?,1
+0.30.0,TODO support predict for pyspark,1
+0.30.0,"Categorical split isn't implemented, TODO: could fake it by creating a fake node to split on the exact value?",1
+0.30.0,default Not supported with mlib? (TODO),1
+0.30.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.30.0,work around for multi-class with a single class,1
+0.30.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.30.0,TODO decide on style/size,1
+0.30.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.30.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.30.0,TODO: remove unused title argument / use title argument,1
+0.30.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.30.0,Workarounds based on findings by Jim Driscoll,1
+0.30.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.30.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.30.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.30.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.30.0,From the awesome hack by Dean Edwards,1
+0.30.0,Work around by temporarily setting element display to inline-block,1
+0.30.0,force reflow of newly added node in order to workaround delay,1
+0.30.0,Workaround failure to string-cast null input,1
+0.30.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.30.0,Is a given variable an arguments object?,1
+0.30.0,TODO: Test tree_limit argument,1
+0.29.3,This is copied from @robbuckley's fix for Panda's,1
+0.29.3,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.29.3,work around for multi-class with a single class,1
+0.29.3,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.29.3,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.29.3,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.29.3,TODO: remove unused title argument / use title argument,1
+0.29.3,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.29.3,Workarounds based on findings by Jim Driscoll,1
+0.29.3,"Workaround erroneous numeric interpretation of +""0x""",1
+0.29.3,"The broken getElementById methods don't pick up programatically-set names,",1
+0.29.3,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.29.3,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.29.3,From the awesome hack by Dean Edwards,1
+0.29.3,Work around by temporarily setting element display to inline-block,1
+0.29.3,force reflow of newly added node in order to workaround delay,1
+0.29.3,Workaround failure to string-cast null input,1
+0.29.3,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.29.3,Is a given variable an arguments object?,1
+0.29.3,TODO: Test tree_limit argument,1
+0.29.2,This is copied from @robbuckley's fix for Panda's,1
+0.29.2,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.29.2,work around for multi-class with a single class,1
+0.29.2,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.29.2,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.29.2,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.29.2,TODO: remove unused title argument / use title argument,1
+0.29.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.29.2,Workarounds based on findings by Jim Driscoll,1
+0.29.2,"Workaround erroneous numeric interpretation of +""0x""",1
+0.29.2,"The broken getElementById methods don't pick up programatically-set names,",1
+0.29.2,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.29.2,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.29.2,From the awesome hack by Dean Edwards,1
+0.29.2,Work around by temporarily setting element display to inline-block,1
+0.29.2,force reflow of newly added node in order to workaround delay,1
+0.29.2,Workaround failure to string-cast null input,1
+0.29.2,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.29.2,Is a given variable an arguments object?,1
+0.29.2,TODO: Test tree_limit argument,1
+0.29.1,This is copied from @robbuckley's fix for Panda's,1
+0.29.1,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.29.1,work around for multi-class with a single class,1
+0.29.1,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.29.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.29.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.29.1,TODO: remove unused title argument / use title argument,1
+0.29.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.29.1,Workarounds based on findings by Jim Driscoll,1
+0.29.1,"Workaround erroneous numeric interpretation of +""0x""",1
+0.29.1,"The broken getElementById methods don't pick up programatically-set names,",1
+0.29.1,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.29.1,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.29.1,From the awesome hack by Dean Edwards,1
+0.29.1,Work around by temporarily setting element display to inline-block,1
+0.29.1,force reflow of newly added node in order to workaround delay,1
+0.29.1,Workaround failure to string-cast null input,1
+0.29.1,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.29.1,Is a given variable an arguments object?,1
+0.29.1,TODO: Test tree_limit argument,1
+0.29.0,This is copied from @robbuckley's fix for Panda's,1
+0.29.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.29.0,work around for multi-class with a single class,1
+0.29.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.29.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.29.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.29.0,TODO: remove unused title argument / use title argument,1
+0.29.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.29.0,Workarounds based on findings by Jim Driscoll,1
+0.29.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.29.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.29.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.29.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.29.0,From the awesome hack by Dean Edwards,1
+0.29.0,Work around by temporarily setting element display to inline-block,1
+0.29.0,force reflow of newly added node in order to workaround delay,1
+0.29.0,Workaround failure to string-cast null input,1
+0.29.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.29.0,Is a given variable an arguments object?,1
+0.29.0,TODO: Test tree_limit argument,1
+0.28.5,This is copied from @robbuckley's fix for Panda's,1
+0.28.5,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.28.5,work around for multi-class with a single class,1
+0.28.5,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.28.5,TODO: remove color argument / use color argument,1
+0.28.5,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.28.5,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.28.5,TODO: remove unused title argument / use title argument,1
+0.28.5,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.28.5,Workarounds based on findings by Jim Driscoll,1
+0.28.5,"Workaround erroneous numeric interpretation of +""0x""",1
+0.28.5,"The broken getElementById methods don't pick up programatically-set names,",1
+0.28.5,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.28.5,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.28.5,From the awesome hack by Dean Edwards,1
+0.28.5,Work around by temporarily setting element display to inline-block,1
+0.28.5,force reflow of newly added node in order to workaround delay,1
+0.28.5,Workaround failure to string-cast null input,1
+0.28.5,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.28.5,Is a given variable an arguments object?,1
+0.28.5,TODO: Test tree_limit argument,1
+0.28.4,This is copied from @robbuckley's fix for Panda's,1
+0.28.4,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.28.4,work around for multi-class with a single class,1
+0.28.4,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.28.4,TODO: remove color argument / use color argument,1
+0.28.4,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.28.4,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.28.4,TODO: remove unused title argument / use title argument,1
+0.28.4,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.28.4,Workarounds based on findings by Jim Driscoll,1
+0.28.4,"Workaround erroneous numeric interpretation of +""0x""",1
+0.28.4,"The broken getElementById methods don't pick up programatically-set names,",1
+0.28.4,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.28.4,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.28.4,From the awesome hack by Dean Edwards,1
+0.28.4,Work around by temporarily setting element display to inline-block,1
+0.28.4,force reflow of newly added node in order to workaround delay,1
+0.28.4,Workaround failure to string-cast null input,1
+0.28.4,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.28.4,Is a given variable an arguments object?,1
+0.28.4,TODO: Test tree_limit argument,1
+0.28.3,This is copied from @robbuckley's fix for Panda's,1
+0.28.3,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.28.3,work around for multi-class with a single class,1
+0.28.3,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.28.3,TODO: remove color argument / use color argument,1
+0.28.3,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.28.3,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.28.3,TODO: remove unused title argument / use title argument,1
+0.28.3,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.28.3,Workarounds based on findings by Jim Driscoll,1
+0.28.3,"Workaround erroneous numeric interpretation of +""0x""",1
+0.28.3,"The broken getElementById methods don't pick up programatically-set names,",1
+0.28.3,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.28.3,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.28.3,From the awesome hack by Dean Edwards,1
+0.28.3,Work around by temporarily setting element display to inline-block,1
+0.28.3,force reflow of newly added node in order to workaround delay,1
+0.28.3,Workaround failure to string-cast null input,1
+0.28.3,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.28.3,Is a given variable an arguments object?,1
+0.28.3,TODO: Test tree_limit argument,1
+0.28.2,This is copied from @robbuckley's fix for Panda's,1
+0.28.2,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.28.2,work around for multi-class with a single class,1
+0.28.2,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.28.2,TODO: remove color argument / use color argument,1
+0.28.2,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.28.2,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.28.2,TODO: remove unused title argument / use title argument,1
+0.28.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.28.2,Workarounds based on findings by Jim Driscoll,1
+0.28.2,"Workaround erroneous numeric interpretation of +""0x""",1
+0.28.2,"The broken getElementById methods don't pick up programatically-set names,",1
+0.28.2,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.28.2,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.28.2,From the awesome hack by Dean Edwards,1
+0.28.2,Work around by temporarily setting element display to inline-block,1
+0.28.2,force reflow of newly added node in order to workaround delay,1
+0.28.2,Workaround failure to string-cast null input,1
+0.28.2,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.28.2,Is a given variable an arguments object?,1
+0.28.2,TODO: Test tree_limit argument,1
+0.28.1,This is copied from @robbuckley's fix for Panda's,1
+0.28.1,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.28.1,work around for multi-class with a single class,1
+0.28.1,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.28.1,TODO: remove color argument / use color argument,1
+0.28.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.28.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.28.1,TODO: remove unused title argument / use title argument,1
+0.28.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.28.1,Workarounds based on findings by Jim Driscoll,1
+0.28.1,"Workaround erroneous numeric interpretation of +""0x""",1
+0.28.1,"The broken getElementById methods don't pick up programatically-set names,",1
+0.28.1,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.28.1,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.28.1,From the awesome hack by Dean Edwards,1
+0.28.1,Work around by temporarily setting element display to inline-block,1
+0.28.1,force reflow of newly added node in order to workaround delay,1
+0.28.1,Workaround failure to string-cast null input,1
+0.28.1,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.28.1,Is a given variable an arguments object?,1
+0.28.1,TODO: Test tree_limit argument,1
+0.28.0,This is copied from @robbuckley's fix for Panda's,1
+0.28.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.28.0,work around for multi-class with a single class,1
+0.28.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.28.0,TODO: remove color argument / use color argument,1
+0.28.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.28.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.28.0,TODO: remove unused title argument / use title argument,1
+0.28.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.28.0,Workarounds based on findings by Jim Driscoll,1
+0.28.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.28.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.28.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.28.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.28.0,From the awesome hack by Dean Edwards,1
+0.28.0,Work around by temporarily setting element display to inline-block,1
+0.28.0,force reflow of newly added node in order to workaround delay,1
+0.28.0,Workaround failure to string-cast null input,1
+0.28.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.28.0,Is a given variable an arguments object?,1
+0.28.0,TODO: Test tree_limit argument,1
+0.27.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.27.0,work around for multi-class with a single class,1
+0.27.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.27.0,TODO: remove color argument / use color argument,1
+0.27.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.27.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.27.0,TODO: remove unused title argument / use title argument,1
+0.27.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.27.0,Workarounds based on findings by Jim Driscoll,1
+0.27.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.27.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.27.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.27.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.27.0,From the awesome hack by Dean Edwards,1
+0.27.0,Work around by temporarily setting element display to inline-block,1
+0.27.0,force reflow of newly added node in order to workaround delay,1
+0.27.0,Workaround failure to string-cast null input,1
+0.27.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.27.0,Is a given variable an arguments object?,1
+0.27.0,TODO: Test tree_limit argument,1
+0.26.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.26.0,work around for multi-class with a single class,1
+0.26.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.26.0,TODO: remove color argument / use color argument,1
+0.26.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.26.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.26.0,TODO: remove unused title argument / use title argument,1
+0.26.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.26.0,Workarounds based on findings by Jim Driscoll,1
+0.26.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.26.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.26.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.26.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.26.0,From the awesome hack by Dean Edwards,1
+0.26.0,Work around by temporarily setting element display to inline-block,1
+0.26.0,force reflow of newly added node in order to workaround delay,1
+0.26.0,Workaround failure to string-cast null input,1
+0.26.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.26.0,Is a given variable an arguments object?,1
+0.26.0,TODO: Test tree_limit argument,1
+0.25.2,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+0.25.2,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.25.2,work around for multi-class with a single class,1
+0.25.2,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.25.2,TODO: remove color argument / use color argument,1
+0.25.2,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.25.2,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.25.2,TODO: remove unused title argument / use title argument,1
+0.25.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.25.2,Workarounds based on findings by Jim Driscoll,1
+0.25.2,"Workaround erroneous numeric interpretation of +""0x""",1
+0.25.2,"The broken getElementById methods don't pick up programatically-set names,",1
+0.25.2,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.25.2,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.25.2,From the awesome hack by Dean Edwards,1
+0.25.2,Work around by temporarily setting element display to inline-block,1
+0.25.2,force reflow of newly added node in order to workaround delay,1
+0.25.2,Workaround failure to string-cast null input,1
+0.25.2,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.25.2,Is a given variable an arguments object?,1
+0.25.2,TODO: Test tree_limit argument,1
+0.25.1,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+0.25.1,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.25.1,work around for multi-class with a single class,1
+0.25.1,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.25.1,TODO: remove color argument / use color argument,1
+0.25.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.25.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.25.1,TODO: remove unused title argument / use title argument,1
+0.25.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.25.1,Workarounds based on findings by Jim Driscoll,1
+0.25.1,"Workaround erroneous numeric interpretation of +""0x""",1
+0.25.1,"The broken getElementById methods don't pick up programatically-set names,",1
+0.25.1,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.25.1,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.25.1,From the awesome hack by Dean Edwards,1
+0.25.1,Work around by temporarily setting element display to inline-block,1
+0.25.1,force reflow of newly added node in order to workaround delay,1
+0.25.1,Workaround failure to string-cast null input,1
+0.25.1,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.25.1,Is a given variable an arguments object?,1
+0.25.1,TODO: Test tree_limit argument,1
+0.25.0,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+0.25.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.25.0,work around for multi-class with a single class,1
+0.25.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.25.0,TODO: remove color argument / use color argument,1
+0.25.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.25.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.25.0,TODO: remove unused title argument / use title argument,1
+0.25.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.25.0,Workarounds based on findings by Jim Driscoll,1
+0.25.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.25.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.25.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.25.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.25.0,From the awesome hack by Dean Edwards,1
+0.25.0,Work around by temporarily setting element display to inline-block,1
+0.25.0,force reflow of newly added node in order to workaround delay,1
+0.25.0,Workaround failure to string-cast null input,1
+0.25.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.25.0,Is a given variable an arguments object?,1
+0.25.0,TODO: Test tree_limit argument,1
+0.24.0,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+0.24.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.24.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.24.0,work around for multi-class with a single class,1
+0.24.0,TODO: remove color argument / use color argument,1
+0.24.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.24.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.24.0,TODO: remove unused title argument / use title argument,1
+0.24.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.24.0,Workarounds based on findings by Jim Driscoll,1
+0.24.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.24.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.24.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.24.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.24.0,From the awesome hack by Dean Edwards,1
+0.24.0,Work around by temporarily setting element display to inline-block,1
+0.24.0,force reflow of newly added node in order to workaround delay,1
+0.24.0,Workaround failure to string-cast null input,1
+0.24.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.24.0,Is a given variable an arguments object?,1
+0.24.0,TODO: Test tree_limit argument,1
+0.23.1,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+0.23.1,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.23.1,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.23.1,work around for multi-class with a single class,1
+0.23.1,TODO: remove color argument / use color argument,1
+0.23.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.23.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.23.1,TODO: remove unused title argument / use title argument,1
+0.23.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.23.1,Workarounds based on findings by Jim Driscoll,1
+0.23.1,"Workaround erroneous numeric interpretation of +""0x""",1
+0.23.1,"The broken getElementById methods don't pick up programatically-set names,",1
+0.23.1,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.23.1,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.23.1,From the awesome hack by Dean Edwards,1
+0.23.1,Work around by temporarily setting element display to inline-block,1
+0.23.1,force reflow of newly added node in order to workaround delay,1
+0.23.1,Workaround failure to string-cast null input,1
+0.23.1,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.23.1,Is a given variable an arguments object?,1
+0.23.1,TODO: Test tree_limit argument,1
+0.23.0,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+0.23.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+0.23.0,we do this by hacking our way into the registry (TODO: find a public API for this if it exists),1
+0.23.0,work around for multi-class with a single class,1
+0.23.0,TODO: remove color argument / use color argument,1
+0.23.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+0.23.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+0.23.0,TODO: remove unused title argument / use title argument,1
+0.23.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.23.0,Workarounds based on findings by Jim Driscoll,1
+0.23.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.23.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.23.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.23.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.23.0,From the awesome hack by Dean Edwards,1
+0.23.0,Work around by temporarily setting element display to inline-block,1
+0.23.0,force reflow of newly added node in order to workaround delay,1
+0.23.0,Workaround failure to string-cast null input,1
+0.23.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.23.0,Is a given variable an arguments object?,1
+0.23.0,TODO: Test tree_limit argument,1
+v0.22.3,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+v0.22.3,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.22.3,work around for multi-class with a single class,1
+v0.22.3,TODO: remove color argument / use color argument,1
+v0.22.3,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.22.3,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.22.3,TODO: remove unused title argument / use title argument,1
+v0.22.3,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.22.3,Workarounds based on findings by Jim Driscoll,1
+v0.22.3,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.22.3,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.22.3,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.22.3,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.22.3,From the awesome hack by Dean Edwards,1
+v0.22.3,Work around by temporarily setting element display to inline-block,1
+v0.22.3,force reflow of newly added node in order to workaround delay,1
+v0.22.3,Workaround failure to string-cast null input,1
+v0.22.3,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.22.3,Is a given variable an arguments object?,1
+v0.22.3,TODO: Test tree_limit argument,1
+v0.22.2,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+v0.22.2,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.22.2,work around for multi-class with a single class,1
+v0.22.2,TODO: remove color argument / use color argument,1
+v0.22.2,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.22.2,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.22.2,TODO: remove unused title argument / use title argument,1
+v0.22.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.22.2,Workarounds based on findings by Jim Driscoll,1
+v0.22.2,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.22.2,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.22.2,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.22.2,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.22.2,From the awesome hack by Dean Edwards,1
+v0.22.2,Work around by temporarily setting element display to inline-block,1
+v0.22.2,force reflow of newly added node in order to workaround delay,1
+v0.22.2,Workaround failure to string-cast null input,1
+v0.22.2,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.22.2,Is a given variable an arguments object?,1
+v0.22.2,TODO: Test tree_limit argument,1
+v0.22.1,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+v0.22.1,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.22.1,work around for multi-class with a single class,1
+v0.22.1,TODO: remove color argument / use color argument,1
+v0.22.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.22.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.22.1,TODO: remove unused title argument / use title argument,1
+v0.22.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.22.1,Workarounds based on findings by Jim Driscoll,1
+v0.22.1,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.22.1,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.22.1,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.22.1,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.22.1,From the awesome hack by Dean Edwards,1
+v0.22.1,Work around by temporarily setting element display to inline-block,1
+v0.22.1,force reflow of newly added node in order to workaround delay,1
+v0.22.1,Workaround failure to string-cast null input,1
+v0.22.1,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.22.1,Is a given variable an arguments object?,1
+v0.22.1,TODO: Test tree_limit argument,1
+v0.22.0,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+v0.22.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.22.0,work around for multi-class with a single class,1
+v0.22.0,TODO: remove color argument / use color argument,1
+v0.22.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.22.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.22.0,TODO: remove unused title argument / use title argument,1
+v0.22.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.22.0,Workarounds based on findings by Jim Driscoll,1
+v0.22.0,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.22.0,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.22.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.22.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.22.0,From the awesome hack by Dean Edwards,1
+v0.22.0,Work around by temporarily setting element display to inline-block,1
+v0.22.0,force reflow of newly added node in order to workaround delay,1
+v0.22.0,Workaround failure to string-cast null input,1
+v0.22.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.22.0,Is a given variable an arguments object?,1
+v0.22.0,TODO: Test tree_limit argument,1
+v0.21.0,TODO: remove color argument / use color argument,1
+v0.21.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.21.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.21.0,TODO: remove unused title argument / use title argument,1
+v0.21.0,"TODO: xv and yv not used, should the next line be changed to xv, yv?",1
+v0.21.0,TODO: remove interaction plot,1
+v0.21.0,TODO: remove plot,1
+v0.21.0,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+v0.21.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.21.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.21.0,Workarounds based on findings by Jim Driscoll,1
+v0.21.0,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.21.0,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.21.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.21.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.21.0,From the awesome hack by Dean Edwards,1
+v0.21.0,Work around by temporarily setting element display to inline-block,1
+v0.21.0,force reflow of newly added node in order to workaround delay,1
+v0.21.0,Workaround failure to string-cast null input,1
+v0.21.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.21.0,Is a given variable an arguments object?,1
+v0.21.0,TODO: Test tree_limit argument,1
+v0.20.2,TODO: remove color argument / use color argument,1
+v0.20.2,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.20.2,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.20.2,TODO: remove unused title argument / use title argument,1
+v0.20.2,"TODO: xv and yv not used, should the next line be changed to xv, yv?",1
+v0.20.2,TODO: remove interaction plot,1
+v0.20.2,TODO: remove plot,1
+v0.20.2,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+v0.20.2,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.20.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.20.2,Workarounds based on findings by Jim Driscoll,1
+v0.20.2,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.20.2,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.20.2,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.20.2,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.20.2,From the awesome hack by Dean Edwards,1
+v0.20.2,Work around by temporarily setting element display to inline-block,1
+v0.20.2,force reflow of newly added node in order to workaround delay,1
+v0.20.2,Workaround failure to string-cast null input,1
+v0.20.2,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.20.2,Is a given variable an arguments object?,1
+v0.20.2,TODO: Test tree_limit argument,1
+v0.20.1,TODO: remove color argument / use color argument,1
+v0.20.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.20.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.20.1,TODO: remove unused title argument / use title argument,1
+v0.20.1,"TODO: xv and yv not used, should the next line be changed to xv, yv?",1
+v0.20.1,TODO: remove interaction plot,1
+v0.20.1,TODO: remove plot,1
+v0.20.1,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+v0.20.1,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.20.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.20.1,Workarounds based on findings by Jim Driscoll,1
+v0.20.1,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.20.1,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.20.1,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.20.1,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.20.1,From the awesome hack by Dean Edwards,1
+v0.20.1,Work around by temporarily setting element display to inline-block,1
+v0.20.1,force reflow of newly added node in order to workaround delay,1
+v0.20.1,Workaround failure to string-cast null input,1
+v0.20.1,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.20.1,Is a given variable an arguments object?,1
+v0.20.1,TODO: Test tree_limit argument,1
+v0.20.0,TODO: remove color argument / use color argument,1
+v0.20.0,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.20.0,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.20.0,TODO: remove unused title argument / use title argument,1
+v0.20.0,"TODO: xv and yv not used, should the next line be changed to xv, yv?",1
+v0.20.0,TODO: remove interaction plot,1
+v0.20.0,TODO: remove plot,1
+v0.20.0,TODO: LightGBM models are attached to this object and this seems to cause pool.map to hang,1
+v0.20.0,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.20.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.20.0,Workarounds based on findings by Jim Driscoll,1
+v0.20.0,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.20.0,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.20.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.20.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.20.0,From the awesome hack by Dean Edwards,1
+v0.20.0,Work around by temporarily setting element display to inline-block,1
+v0.20.0,force reflow of newly added node in order to workaround delay,1
+v0.20.0,Workaround failure to string-cast null input,1
+v0.20.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.20.0,Is a given variable an arguments object?,1
+v0.20.0,TODO: Test tree_limit argument,1
+v0.19.5,TODO: remove color argument / use color argument,1
+v0.19.5,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.19.5,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.19.5,TODO: remove unused title argument / use title argument,1
+v0.19.5,"TODO: xv and yv not used, should the next line be changed to xv, yv?",1
+v0.19.5,TODO: remove interaction plot,1
+v0.19.5,TODO: remove plot,1
+v0.19.5,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.19.5,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.19.5,Workarounds based on findings by Jim Driscoll,1
+v0.19.5,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.19.5,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.19.5,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.19.5,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.19.5,From the awesome hack by Dean Edwards,1
+v0.19.5,Work around by temporarily setting element display to inline-block,1
+v0.19.5,force reflow of newly added node in order to workaround delay,1
+v0.19.5,Workaround failure to string-cast null input,1
+v0.19.5,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.19.5,Is a given variable an arguments object?,1
+v0.19.5,TODO: Test tree_limit argument,1
+v0.19.4,TODO: remove color argument / use color argument,1
+v0.19.4,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.19.4,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.19.4,TODO: remove unused title argument / use title argument,1
+v0.19.4,"TODO: xv and yv not used, should the next line be changed to xv, yv?",1
+v0.19.4,TODO: remove interaction plot,1
+v0.19.4,TODO: remove plot,1
+v0.19.4,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+v0.19.4,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.19.4,Workarounds based on findings by Jim Driscoll,1
+v0.19.4,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.19.4,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.19.4,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.19.4,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.19.4,From the awesome hack by Dean Edwards,1
+v0.19.4,Work around by temporarily setting element display to inline-block,1
+v0.19.4,force reflow of newly added node in order to workaround delay,1
+v0.19.4,Workaround failure to string-cast null input,1
+v0.19.4,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.19.4,Is a given variable an arguments object?,1
+v0.19.4,TODO: Test tree_limit argument,1
+V0.19.3,TODO: remove color argument / use color argument,1
+V0.19.3,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+V0.19.3,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+V0.19.3,TODO: remove unused title argument / use title argument,1
+V0.19.3,"TODO: xv and yv not used, should the next line be changed to xv, yv?",1
+V0.19.3,TODO: remove interaction plot,1
+V0.19.3,TODO: remove plot,1
+V0.19.3,TODO: this could be avoided by integrating between endpoints if no local smoothing is used,1
+V0.19.3,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+V0.19.3,Workarounds based on findings by Jim Driscoll,1
+V0.19.3,"Workaround erroneous numeric interpretation of +""0x""",1
+V0.19.3,"The broken getElementById methods don't pick up programatically-set names,",1
+V0.19.3,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+V0.19.3,"A tribute to the ""awesome hack by Dean Edwards""",1
+V0.19.3,From the awesome hack by Dean Edwards,1
+V0.19.3,Work around by temporarily setting element display to inline-block,1
+V0.19.3,force reflow of newly added node in order to workaround delay,1
+V0.19.3,Workaround failure to string-cast null input,1
+V0.19.3,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+V0.19.3,Is a given variable an arguments object?,1
+V0.19.3,TODO: Test tree_limit argument,1
+v0.19.2,TODO: remove color argument / use color argument,1
+v0.19.2,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.19.2,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.19.2,TODO: remove unused title argument / use title argument,1
+v0.19.2,"TODO: xv and yv not used, should the next line be changed to xv, yv?",1
+v0.19.2,TODO: remove interaction plot,1
+v0.19.2,TODO: remove plot,1
+v0.19.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.19.2,Workarounds based on findings by Jim Driscoll,1
+v0.19.2,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.19.2,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.19.2,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.19.2,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.19.2,From the awesome hack by Dean Edwards,1
+v0.19.2,Work around by temporarily setting element display to inline-block,1
+v0.19.2,force reflow of newly added node in order to workaround delay,1
+v0.19.2,Workaround failure to string-cast null input,1
+v0.19.2,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.19.2,Is a given variable an arguments object?,1
+v0.19.2,TODO: Test tree_limit argument,1
+v0.19.1,TODO: remove color argument / use color argument,1
+v0.19.1,TODO: remove recursion; generally the functions should be shorter for more maintainable code,1
+v0.19.1,"the actual scatter plot, TODO: adapt the dot_size to the number of data points?",1
+v0.19.1,TODO: remove unused title argument / use title argument,1
+v0.19.1,"TODO: xv and yv not used, should the next line be changed to xv, yv?",1
+v0.19.1,TODO: remove interaction plot,1
+v0.19.1,TODO: remove plot,1
+v0.19.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.19.1,Workarounds based on findings by Jim Driscoll,1
+v0.19.1,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.19.1,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.19.1,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.19.1,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.19.1,From the awesome hack by Dean Edwards,1
+v0.19.1,Work around by temporarily setting element display to inline-block,1
+v0.19.1,force reflow of newly added node in order to workaround delay,1
+v0.19.1,Workaround failure to string-cast null input,1
+v0.19.1,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.19.1,Is a given variable an arguments object?,1
+v0.19.1,TODO: Test tree_limit argument,1

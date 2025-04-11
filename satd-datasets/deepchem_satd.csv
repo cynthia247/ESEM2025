@@ -1,0 +1,2167 @@
+Version,Commit Message,SATD
+2.8.0,TODO: Once improved splitting API is merged in swap to simpler API,1
+2.8.0,TODO once improved splitting API is merged in swap out for simpler,1
+2.8.0,TODO: This should be swapped for simpler splitter API once that's merged in.,1
+2.8.0,TODO The below line should be fixes,1
+2.8.0,TODO(rbharath): Check that this operation is differentiable.,1
+2.8.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.8.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.8.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.8.0,TODO(rbharath): Commenting this out due to weird segfaults,1
+2.8.0,TODO(rbharath): How does distance need to be modified here to,1
+2.8.0,TODO(rbharath): This will cause an issue with duplicates!,1
+2.8.0,TODO(rbharath): Change this for tf 1.0,1
+2.8.0,TODO(rbharath):,1
+2.8.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.8.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.8.0,TODO(rbharath),1
+2.8.0,TODO(rbharath): Make this handle minibatches,1
+2.8.0,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+2.8.0,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+2.8.0,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+2.8.0,TODO(rbharath): Should weights for the support be used?,1
+2.8.0,TODO(rbharath): euclidean kernel is broken!,1
+2.8.0,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+2.8.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.8.0,TODO(rbharath): I believe this is total amount of data,1
+2.8.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.8.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.8.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.8.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.8.0,TODO(rbharath): I believe this is total amount of data,1
+2.8.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.8.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.8.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.8.0,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+2.8.0,TODO(rbharath): This class does not yet have a,1
+2.8.0,TODO(rbharath): This class does not yet have a,1
+2.8.0,TODO(rbharath): This class does not yet have a,1
+2.8.0,TODO (LESWING) Lazy Load,1
+2.8.0,TODO (LESWING) Lazy Load,1
+2.8.0,TODO (VIGS25): Account for the reload option,1
+2.8.0,TODO(user): median is not implemented yet in TensorFlow,1
+2.8.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.8.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.8.0,TODO(rbharath): Is setting train=False right here?,1
+2.8.0,TODO(rbharath): Verify this can be safely removed.,1
+2.8.0,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+2.8.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.8.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.8.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.8.0,TODO(rbharath): Is setting train=False right here?,1
+2.8.0,TODO(rbharath): Verify this can be safely removed.,1
+2.8.0,TODO: How to handle the failure here?,1
+2.8.0,TODO(rbharath): The autodock vina source computes surface distances,1
+2.8.0,TODO(rbharath: Does vina divide box dimensions by 2?,1
+2.8.0,FIXME: Incompatible types in assignment,1
+2.8.0,TODO don't convert all sequences into np array (allow shards),1
+2.8.0,"FIXME: Signature of ""_featurize_shard"" incompatible with supertype ""DataLoader""",1
+2.8.0,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+2.8.0,TODO(rbharath): Get rid of * import,1
+2.8.0,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+2.8.0,almost all cases. Need to understand a method to fix this.,1
+2.8.0,TODO: test with full uniprot file once sharding support is added.,1
+2.8.0,TODO(rbharath): Where are the color channels?,1
+2.8.0,Hack to allow for easy unpickling:,1
+2.8.0,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""__iter__"" (not iterable)",1
+2.8.0,TODO: This is duplicated! Clean up,1
+2.8.0,TODO: This is wrong. Should return all molecules,1
+2.8.0,TODO: Ideally we should catch AtomValenceException but Travis seems to choke on it for some reason.,1
+2.8.0,"FIXME: Argument 1 of ""__eq__"" is incompatible with supertype ""object""",1
+2.8.0,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""append""",1
+2.8.0,FIXME: Incompatible types in assignment,1
+2.8.0,"FIXME: Argument 1 to ""enumerate"" has incompatible type",1
+2.8.0,"FIXME Ideally, we should use something like a dictionary here to keep it independent",1
+2.8.0,TODO: the posdef check by largest eival only works for Hermitian/symmetric,1
+2.8.0,TODO: implement robust LOBPCG and put it here,1
+2.8.0,temporary solution to https://github.com/pytorch/pytorch/issues/47599,1
+2.8.0,TODO: optimize for large linear operator and strict min_eps,1
+2.8.0,"# TODO(rbharath): find better example, currently dicts are empty",1
+2.8.0,"TODO find better example, currently dicts are empty",1
+2.8.0,TODO: Fix this case with correct thresholding,1
+2.8.0,TODO: Fix this case with correct thresholding,1
+2.8.0,TODO(rbharath): Can this be removed?,1
+2.8.0,"FIXME: Signature of ""featurize"" incompatible with supertype ""Featurizer""",1
+2.8.0,FIXME Add support for multiple conformers (wip),1
+2.8.0,FIXME Add support for multiple conformers (wip),1
+2.8.0,FIXME Add support for multiple conformers (wip),1
+2.8.0,not implemented featurization types,1
+2.8.0,TODO(rbharath): Should this return a list?,1
+2.8.0,TODO: Is there a better handling procedure?,1
+2.8.0,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.8.0,# TODO: Add shape test,1
+2.8.0,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.8.0,# TODO: Add shape test,1
+2.8.0,"FIXME: Incompatible types in assignment (expression has type ""Dataset"", variable has type ""DiskDataset"")",1
+2.8.0,"FIXME: Signature of ""k_fold_split"" incompatible with supertype ""Splitter""",1
+2.8.0,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+2.8.0,Note: This wouldn't work for multitask str,1
+2.8.0,TODO: Incompability between TF and TFP means that TF doesn't track,1
+2.8.0,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+2.8.0,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+2.8.0,TODO(rbharath): Support batching,1
+2.8.0,TODO(rbharath): How does distance need to be modified here to,1
+2.8.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.8.0,TODO(rbharath): Shoddy handling of higher dimensions...,1
+2.8.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.8.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.8.0,"(TODO YTZ:) faster, less memory intensive way",1
+2.8.0,TODO We should clean up DMPNN and remove torch_geometric dependency during import,1
+2.8.0,TODO: This test is a little awkward. The Smiles2Vec model awkwardly depends on a dataset_file being available on disk. This needs to be cleaned up to match the standard model handling API.,1
+2.8.0,TODO: We need a cleaner usage example for this,1
+2.8.0,TODO The test is skipped as FakeGraphGenerator has to be updated,1
+2.8.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+2.8.0,TODO What should shape[1] be?  It's not documented.,1
+2.8.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.8.0,"TODO What should the output shape be?  It's not documented, and there",1
+2.8.0,TODO(rbharath): What is the shape of outputs supposed to be?,1
+2.8.0,TODO(rbharath): We need more documentation about why,1
+2.8.0,FIXME Transformers library has an api like AutoModel.from_pretrained. It allows to,1
+2.8.0,"FIXME For pretraining task, both model2d and model3d but the super class",1
+2.8.0,"TODO Ideally, we should use a lr schedule but we need to update lr_scheduler.step() method",1
+2.8.0,TODO Explain in detail what the four outcompes are,1
+2.8.0,FIXME This layer is similar to DMPNNEncoderLayer and they,1
+2.8.0,"FIXME When input_layer is none, for the first iteration of message passing, we should ideally",1
+2.8.0,FIXME We assume that we are using a hidden layer to transform the initial atom message,1
+2.8.0,using the following workaround,1
+2.8.0,TODO(rbharath): Support batching,1
+2.8.0,TODO(rbharath): How does distance need to be modified here to,1
+2.8.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.8.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.8.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.8.0,"FIXME In the above step, we initialize modular torch model but",1
+2.8.0,FIXME I am rewriting restore because the restore method in parent class,1
+2.8.0,FIXME self.loss_func is an incorrect argument for TorchModel.loss because,1
+2.8.0,FIXME This line is not needed as loss is computed inside the call to loss_func,1
+2.8.0,"TODO Write tests for undirected = True case, currently fails. for this case, we have",1
+2.8.0,"TODO For this dataset and model, the R2-scores are less than 0.3.",1
+2.8.0,TODO: Check for this,1
+2.8.0,TODO: Check if anything needs to be added,1
+2.8.0,FIXME: Incompatible types in assignment,1
+2.8.0.pre,TODO: Once improved splitting API is merged in swap to simpler API,1
+2.8.0.pre,TODO once improved splitting API is merged in swap out for simpler,1
+2.8.0.pre,TODO: This should be swapped for simpler splitter API once that's merged in.,1
+2.8.0.pre,TODO The below line should be fixes,1
+2.8.0.pre,TODO(rbharath): Check that this operation is differentiable.,1
+2.8.0.pre,TODO(rbharath): The test below only checks that shapes work out.,1
+2.8.0.pre,TODO(rbharath): The test below only checks that shapes work out.,1
+2.8.0.pre,TODO(rbharath): The test below only checks that shapes work out.,1
+2.8.0.pre,TODO(rbharath): Commenting this out due to weird segfaults,1
+2.8.0.pre,TODO(rbharath): How does distance need to be modified here to,1
+2.8.0.pre,TODO(rbharath): This will cause an issue with duplicates!,1
+2.8.0.pre,TODO(rbharath): Change this for tf 1.0,1
+2.8.0.pre,TODO(rbharath):,1
+2.8.0.pre,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.8.0.pre,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.8.0.pre,TODO(rbharath),1
+2.8.0.pre,TODO(rbharath): Make this handle minibatches,1
+2.8.0.pre,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+2.8.0.pre,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+2.8.0.pre,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+2.8.0.pre,TODO(rbharath): Should weights for the support be used?,1
+2.8.0.pre,TODO(rbharath): euclidean kernel is broken!,1
+2.8.0.pre,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+2.8.0.pre,TODO(rbharath): Find a way to get rid of this import?,1
+2.8.0.pre,TODO(rbharath): I believe this is total amount of data,1
+2.8.0.pre,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.8.0.pre,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.8.0.pre,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.8.0.pre,TODO(rbharath): Find a way to get rid of this import?,1
+2.8.0.pre,TODO(rbharath): I believe this is total amount of data,1
+2.8.0.pre,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.8.0.pre,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.8.0.pre,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.8.0.pre,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+2.8.0.pre,TODO(rbharath): This class does not yet have a,1
+2.8.0.pre,TODO(rbharath): This class does not yet have a,1
+2.8.0.pre,TODO(rbharath): This class does not yet have a,1
+2.8.0.pre,TODO (LESWING) Lazy Load,1
+2.8.0.pre,TODO (LESWING) Lazy Load,1
+2.8.0.pre,TODO (VIGS25): Account for the reload option,1
+2.8.0.pre,TODO(user): median is not implemented yet in TensorFlow,1
+2.8.0.pre,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.8.0.pre,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.8.0.pre,TODO(rbharath): Is setting train=False right here?,1
+2.8.0.pre,TODO(rbharath): Verify this can be safely removed.,1
+2.8.0.pre,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+2.8.0.pre,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.8.0.pre,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.8.0.pre,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.8.0.pre,TODO(rbharath): Is setting train=False right here?,1
+2.8.0.pre,TODO(rbharath): Verify this can be safely removed.,1
+2.8.0.pre,TODO: How to handle the failure here?,1
+2.8.0.pre,TODO(rbharath): The autodock vina source computes surface distances,1
+2.8.0.pre,TODO(rbharath: Does vina divide box dimensions by 2?,1
+2.8.0.pre,FIXME: Incompatible types in assignment,1
+2.8.0.pre,TODO don't convert all sequences into np array (allow shards),1
+2.8.0.pre,"FIXME: Signature of ""_featurize_shard"" incompatible with supertype ""DataLoader""",1
+2.8.0.pre,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+2.8.0.pre,TODO(rbharath): Get rid of * import,1
+2.8.0.pre,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+2.8.0.pre,almost all cases. Need to understand a method to fix this.,1
+2.8.0.pre,TODO: test with full uniprot file once sharding support is added.,1
+2.8.0.pre,TODO(rbharath): Where are the color channels?,1
+2.8.0.pre,Hack to allow for easy unpickling:,1
+2.8.0.pre,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""__iter__"" (not iterable)",1
+2.8.0.pre,TODO: This is duplicated! Clean up,1
+2.8.0.pre,TODO: This is wrong. Should return all molecules,1
+2.8.0.pre,TODO: Ideally we should catch AtomValenceException but Travis seems to choke on it for some reason.,1
+2.8.0.pre,"FIXME: Argument 1 of ""__eq__"" is incompatible with supertype ""object""",1
+2.8.0.pre,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""append""",1
+2.8.0.pre,FIXME: Incompatible types in assignment,1
+2.8.0.pre,"FIXME: Argument 1 to ""enumerate"" has incompatible type",1
+2.8.0.pre,"FIXME Ideally, we should use something like a dictionary here to keep it independent",1
+2.8.0.pre,TODO: the posdef check by largest eival only works for Hermitian/symmetric,1
+2.8.0.pre,TODO: implement robust LOBPCG and put it here,1
+2.8.0.pre,temporary solution to https://github.com/pytorch/pytorch/issues/47599,1
+2.8.0.pre,TODO: optimize for large linear operator and strict min_eps,1
+2.8.0.pre,"# TODO(rbharath): find better example, currently dicts are empty",1
+2.8.0.pre,"TODO find better example, currently dicts are empty",1
+2.8.0.pre,TODO: Fix this case with correct thresholding,1
+2.8.0.pre,TODO: Fix this case with correct thresholding,1
+2.8.0.pre,TODO(rbharath): Can this be removed?,1
+2.8.0.pre,"FIXME: Signature of ""featurize"" incompatible with supertype ""Featurizer""",1
+2.8.0.pre,FIXME Add support for multiple conformers (wip),1
+2.8.0.pre,FIXME Add support for multiple conformers (wip),1
+2.8.0.pre,FIXME Add support for multiple conformers (wip),1
+2.8.0.pre,not implemented featurization types,1
+2.8.0.pre,TODO(rbharath): Should this return a list?,1
+2.8.0.pre,TODO: Is there a better handling procedure?,1
+2.8.0.pre,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.8.0.pre,# TODO: Add shape test,1
+2.8.0.pre,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.8.0.pre,# TODO: Add shape test,1
+2.8.0.pre,"FIXME: Incompatible types in assignment (expression has type ""Dataset"", variable has type ""DiskDataset"")",1
+2.8.0.pre,"FIXME: Signature of ""k_fold_split"" incompatible with supertype ""Splitter""",1
+2.8.0.pre,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+2.8.0.pre,Note: This wouldn't work for multitask str,1
+2.8.0.pre,TODO: Incompability between TF and TFP means that TF doesn't track,1
+2.8.0.pre,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+2.8.0.pre,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+2.8.0.pre,TODO(rbharath): Support batching,1
+2.8.0.pre,TODO(rbharath): How does distance need to be modified here to,1
+2.8.0.pre,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.8.0.pre,TODO(rbharath): Shoddy handling of higher dimensions...,1
+2.8.0.pre,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.8.0.pre,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.8.0.pre,"(TODO YTZ:) faster, less memory intensive way",1
+2.8.0.pre,TODO We should clean up DMPNN and remove torch_geometric dependency during import,1
+2.8.0.pre,TODO: This test is a little awkward. The Smiles2Vec model awkwardly depends on a dataset_file being available on disk. This needs to be cleaned up to match the standard model handling API.,1
+2.8.0.pre,TODO: We need a cleaner usage example for this,1
+2.8.0.pre,TODO The test is skipped as FakeGraphGenerator has to be updated,1
+2.8.0.pre,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+2.8.0.pre,TODO What should shape[1] be?  It's not documented.,1
+2.8.0.pre,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.8.0.pre,"TODO What should the output shape be?  It's not documented, and there",1
+2.8.0.pre,TODO(rbharath): What is the shape of outputs supposed to be?,1
+2.8.0.pre,TODO(rbharath): We need more documentation about why,1
+2.8.0.pre,FIXME Transformers library has an api like AutoModel.from_pretrained. It allows to,1
+2.8.0.pre,"FIXME For pretraining task, both model2d and model3d but the super class",1
+2.8.0.pre,"TODO Ideally, we should use a lr schedule but we need to update lr_scheduler.step() method",1
+2.8.0.pre,TODO Explain in detail what the four outcompes are,1
+2.8.0.pre,FIXME This layer is similar to DMPNNEncoderLayer and they,1
+2.8.0.pre,"FIXME When input_layer is none, for the first iteration of message passing, we should ideally",1
+2.8.0.pre,FIXME We assume that we are using a hidden layer to transform the initial atom message,1
+2.8.0.pre,using the following workaround,1
+2.8.0.pre,TODO(rbharath): Support batching,1
+2.8.0.pre,TODO(rbharath): How does distance need to be modified here to,1
+2.8.0.pre,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.8.0.pre,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.8.0.pre,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.8.0.pre,"FIXME In the above step, we initialize modular torch model but",1
+2.8.0.pre,FIXME I am rewriting restore because the restore method in parent class,1
+2.8.0.pre,FIXME self.loss_func is an incorrect argument for TorchModel.loss because,1
+2.8.0.pre,FIXME This line is not needed as loss is computed inside the call to loss_func,1
+2.8.0.pre,"TODO Write tests for undirected = True case, currently fails. for this case, we have",1
+2.8.0.pre,"TODO For this dataset and model, the R2-scores are less than 0.3.",1
+2.8.0.pre,TODO: Check for this,1
+2.8.0.pre,TODO: Check if anything needs to be added,1
+2.8.0.pre,FIXME: Incompatible types in assignment,1
+2.7.1,TODO: Once improved splitting API is merged in swap to simpler API,1
+2.7.1,TODO once improved splitting API is merged in swap out for simpler,1
+2.7.1,TODO: This should be swapped for simpler splitter API once that's merged in.,1
+2.7.1,TODO The below line should be fixes,1
+2.7.1,TODO(rbharath): Check that this operation is differentiable.,1
+2.7.1,TODO(rbharath): The test below only checks that shapes work out.,1
+2.7.1,TODO(rbharath): The test below only checks that shapes work out.,1
+2.7.1,TODO(rbharath): The test below only checks that shapes work out.,1
+2.7.1,TODO(rbharath): Commenting this out due to weird segfaults,1
+2.7.1,TODO(rbharath): How does distance need to be modified here to,1
+2.7.1,TODO(rbharath): This will cause an issue with duplicates!,1
+2.7.1,TODO(rbharath): Change this for tf 1.0,1
+2.7.1,TODO(rbharath):,1
+2.7.1,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.7.1,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.7.1,TODO(rbharath),1
+2.7.1,TODO(rbharath): Make this handle minibatches,1
+2.7.1,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+2.7.1,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+2.7.1,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+2.7.1,TODO(rbharath): Should weights for the support be used?,1
+2.7.1,TODO(rbharath): euclidean kernel is broken!,1
+2.7.1,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+2.7.1,TODO(rbharath): Find a way to get rid of this import?,1
+2.7.1,TODO(rbharath): I believe this is total amount of data,1
+2.7.1,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.7.1,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.7.1,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.7.1,TODO(rbharath): Find a way to get rid of this import?,1
+2.7.1,TODO(rbharath): I believe this is total amount of data,1
+2.7.1,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.7.1,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.7.1,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.7.1,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+2.7.1,TODO(rbharath): This class does not yet have a,1
+2.7.1,TODO(rbharath): This class does not yet have a,1
+2.7.1,TODO(rbharath): This class does not yet have a,1
+2.7.1,TODO (LESWING) Lazy Load,1
+2.7.1,TODO (LESWING) Lazy Load,1
+2.7.1,TODO (VIGS25): Account for the reload option,1
+2.7.1,TODO(user): median is not implemented yet in TensorFlow,1
+2.7.1,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.7.1,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.7.1,TODO(rbharath): Is setting train=False right here?,1
+2.7.1,TODO(rbharath): Verify this can be safely removed.,1
+2.7.1,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+2.7.1,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.7.1,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.7.1,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.7.1,TODO(rbharath): Is setting train=False right here?,1
+2.7.1,TODO(rbharath): Verify this can be safely removed.,1
+2.7.1,TODO: How to handle the failure here?,1
+2.7.1,TODO(rbharath): The autodock vina source computes surface distances,1
+2.7.1,TODO(rbharath: Does vina divide box dimensions by 2?,1
+2.7.1,FIXME: Incompatible types in assignment,1
+2.7.1,TODO don't convert all sequences into np array (allow shards),1
+2.7.1,TODO(rbharath): Add support for more extensions,1
+2.7.1,"FIXME: Signature of ""_featurize_shard"" incompatible with supertype ""DataLoader""",1
+2.7.1,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+2.7.1,TODO(rbharath): Get rid of * import,1
+2.7.1,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+2.7.1,almost all cases. Need to understand a method to fix this.,1
+2.7.1,TODO: test with full uniprot file once sharding support is added.,1
+2.7.1,TODO(rbharath): Where are the color channels?,1
+2.7.1,Hack to allow for easy unpickling:,1
+2.7.1,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""__iter__"" (not iterable)",1
+2.7.1,TODO: This is duplicated! Clean up,1
+2.7.1,TODO: This is wrong. Should return all molecules,1
+2.7.1,TODO: Ideally we should catch AtomValenceException but Travis seems to choke on it for some reason.,1
+2.7.1,"FIXME: Argument 1 of ""__eq__"" is incompatible with supertype ""object""",1
+2.7.1,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""append""",1
+2.7.1,FIXME: Incompatible types in assignment,1
+2.7.1,"FIXME: Argument 1 to ""enumerate"" has incompatible type",1
+2.7.1,"FIXME Ideally, we should use something like a dictionary here to keep it independent",1
+2.7.1,"# TODO(rbharath): find better example, currently dicts are empty",1
+2.7.1,"TODO find better example, currently dicts are empty",1
+2.7.1,TODO: Fix this case with correct thresholding,1
+2.7.1,TODO: Fix this case with correct thresholding,1
+2.7.1,TODO(rbharath): Can this be removed?,1
+2.7.1,"FIXME: Signature of ""featurize"" incompatible with supertype ""Featurizer""",1
+2.7.1,not implemented featurization types,1
+2.7.1,TODO(rbharath): Should this return a list?,1
+2.7.1,TODO: Is there a better handling procedure?,1
+2.7.1,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.7.1,# TODO: Add shape test,1
+2.7.1,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.7.1,# TODO: Add shape test,1
+2.7.1,"FIXME: Incompatible types in assignment (expression has type ""Dataset"", variable has type ""DiskDataset"")",1
+2.7.1,"FIXME: Signature of ""k_fold_split"" incompatible with supertype ""Splitter""",1
+2.7.1,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+2.7.1,Note: This wouldn't work for multitask str,1
+2.7.1,TODO: Incompability between TF and TFP means that TF doesn't track,1
+2.7.1,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+2.7.1,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+2.7.1,TODO(rbharath): Support batching,1
+2.7.1,TODO(rbharath): How does distance need to be modified here to,1
+2.7.1,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.7.1,TODO(rbharath): Shoddy handling of higher dimensions...,1
+2.7.1,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.7.1,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.7.1,"(TODO YTZ:) faster, less memory intensive way",1
+2.7.1,TODO We should clean up DMPNN and remove torch_geometric dependency during import,1
+2.7.1,TODO: This test is a little awkward. The Smiles2Vec model awkwardly depends on a dataset_file being available on disk. This needs to be cleaned up to match the standard model handling API.,1
+2.7.1,TODO: We need a cleaner usage example for this,1
+2.7.1,TODO The test is skipped as FakeGraphGenerator has to be updated,1
+2.7.1,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+2.7.1,TODO What should shape[1] be?  It's not documented.,1
+2.7.1,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.7.1,"TODO What should the output shape be?  It's not documented, and there",1
+2.7.1,# TODO(rbharath): What is the shape of outputs supposed to be?,1
+2.7.1,TODO(rbharath): We need more documentation about why,1
+2.7.1,using the following workaround,1
+2.7.1,TODO(rbharath): Support batching,1
+2.7.1,TODO(rbharath): How does distance need to be modified here to,1
+2.7.1,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.7.1,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.7.1,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.7.1,TODO look for the loss function(Hamiltonian),1
+2.7.1,TODO replace this function with forward pass of the model in future,1
+2.7.1,"TODO For this dataset and model, the R2-scores are less than 0.3.",1
+2.7.1,TODO: Check for this,1
+2.7.1,TODO: Check if anything needs to be added,1
+2.7.1,FIXME: Incompatible types in assignment,1
+2.7.0,TODO: Once improved splitting API is merged in swap to simpler API,1
+2.7.0,TODO once improved splitting API is merged in swap out for simpler,1
+2.7.0,TODO: This should be swapped for simpler splitter API once that's merged in.,1
+2.7.0,TODO The below line should be fixes,1
+2.7.0,TODO(rbharath): Check that this operation is differentiable.,1
+2.7.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.7.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.7.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.7.0,TODO(rbharath): Commenting this out due to weird segfaults,1
+2.7.0,TODO(rbharath): How does distance need to be modified here to,1
+2.7.0,TODO(rbharath): This will cause an issue with duplicates!,1
+2.7.0,TODO(rbharath): Change this for tf 1.0,1
+2.7.0,TODO(rbharath):,1
+2.7.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.7.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.7.0,TODO(rbharath),1
+2.7.0,TODO(rbharath): Make this handle minibatches,1
+2.7.0,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+2.7.0,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+2.7.0,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+2.7.0,TODO(rbharath): Should weights for the support be used?,1
+2.7.0,TODO(rbharath): euclidean kernel is broken!,1
+2.7.0,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+2.7.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.7.0,TODO(rbharath): I believe this is total amount of data,1
+2.7.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.7.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.7.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.7.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.7.0,TODO(rbharath): I believe this is total amount of data,1
+2.7.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.7.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.7.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.7.0,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+2.7.0,TODO(rbharath): This class does not yet have a,1
+2.7.0,TODO(rbharath): This class does not yet have a,1
+2.7.0,TODO(rbharath): This class does not yet have a,1
+2.7.0,TODO (LESWING) Lazy Load,1
+2.7.0,TODO (LESWING) Lazy Load,1
+2.7.0,TODO (VIGS25): Account for the reload option,1
+2.7.0,TODO(user): median is not implemented yet in TensorFlow,1
+2.7.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.7.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.7.0,TODO(rbharath): Is setting train=False right here?,1
+2.7.0,TODO(rbharath): Verify this can be safely removed.,1
+2.7.0,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+2.7.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.7.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.7.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.7.0,TODO(rbharath): Is setting train=False right here?,1
+2.7.0,TODO(rbharath): Verify this can be safely removed.,1
+2.7.0,TODO: How to handle the failure here?,1
+2.7.0,TODO(rbharath): The autodock vina source computes surface distances,1
+2.7.0,TODO(rbharath: Does vina divide box dimensions by 2?,1
+2.7.0,FIXME: Incompatible types in assignment,1
+2.7.0,TODO don't convert all sequences into np array (allow shards),1
+2.7.0,TODO(rbharath): Add support for more extensions,1
+2.7.0,"FIXME: Signature of ""_featurize_shard"" incompatible with supertype ""DataLoader""",1
+2.7.0,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+2.7.0,TODO(rbharath): Get rid of * import,1
+2.7.0,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+2.7.0,almost all cases. Need to understand a method to fix this.,1
+2.7.0,TODO: test with full uniprot file once sharding support is added.,1
+2.7.0,TODO(rbharath): Where are the color channels?,1
+2.7.0,Hack to allow for easy unpickling:,1
+2.7.0,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""__iter__"" (not iterable)",1
+2.7.0,TODO: This is duplicated! Clean up,1
+2.7.0,TODO: This is wrong. Should return all molecules,1
+2.7.0,TODO: Ideally we should catch AtomValenceException but Travis seems to choke on it for some reason.,1
+2.7.0,"FIXME: Argument 1 of ""__eq__"" is incompatible with supertype ""object""",1
+2.7.0,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""append""",1
+2.7.0,FIXME: Incompatible types in assignment,1
+2.7.0,"FIXME: Argument 1 to ""enumerate"" has incompatible type",1
+2.7.0,"FIXME Ideally, we should use something like a dictionary here to keep it independent",1
+2.7.0,"# TODO(rbharath): find better example, currently dicts are empty",1
+2.7.0,"TODO find better example, currently dicts are empty",1
+2.7.0,TODO: Fix this case with correct thresholding,1
+2.7.0,TODO: Fix this case with correct thresholding,1
+2.7.0,TODO(rbharath): Can this be removed?,1
+2.7.0,"FIXME: Signature of ""featurize"" incompatible with supertype ""Featurizer""",1
+2.7.0,not implemented featurization types,1
+2.7.0,TODO(rbharath): Should this return a list?,1
+2.7.0,TODO: Is there a better handling procedure?,1
+2.7.0,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.7.0,# TODO: Add shape test,1
+2.7.0,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.7.0,# TODO: Add shape test,1
+2.7.0,"FIXME: Incompatible types in assignment (expression has type ""Dataset"", variable has type ""DiskDataset"")",1
+2.7.0,"FIXME: Signature of ""k_fold_split"" incompatible with supertype ""Splitter""",1
+2.7.0,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+2.7.0,Note: This wouldn't work for multitask str,1
+2.7.0,TODO: Incompability between TF and TFP means that TF doesn't track,1
+2.7.0,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+2.7.0,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+2.7.0,TODO(rbharath): Support batching,1
+2.7.0,TODO(rbharath): How does distance need to be modified here to,1
+2.7.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.7.0,TODO(rbharath): Shoddy handling of higher dimensions...,1
+2.7.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.7.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.7.0,"(TODO YTZ:) faster, less memory intensive way",1
+2.7.0,TODO We should clean up DMPNN and remove torch_geometric dependency during import,1
+2.7.0,TODO: This test is a little awkward. The Smiles2Vec model awkwardly depends on a dataset_file being available on disk. This needs to be cleaned up to match the standard model handling API.,1
+2.7.0,TODO: We need a cleaner usage example for this,1
+2.7.0,TODO The test is skipped as FakeGraphGenerator has to be updated,1
+2.7.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+2.7.0,TODO What should shape[1] be?  It's not documented.,1
+2.7.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.7.0,"TODO What should the output shape be?  It's not documented, and there",1
+2.7.0,# TODO(rbharath): What is the shape of outputs supposed to be?,1
+2.7.0,TODO(rbharath): We need more documentation about why,1
+2.7.0,using the following workaround,1
+2.7.0,TODO(rbharath): Support batching,1
+2.7.0,TODO(rbharath): How does distance need to be modified here to,1
+2.7.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.7.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.7.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.7.0,TODO look for the loss function(Hamiltonian),1
+2.7.0,TODO replace this function with forward pass of the model in future,1
+2.7.0,"TODO For this dataset and model, the R2-scores are less than 0.3.",1
+2.7.0,TODO: Check for this,1
+2.7.0,TODO: Check if anything needs to be added,1
+2.7.0,FIXME: Incompatible types in assignment,1
+2.6.1,TODO: Once improved splitting API is merged in swap to simpler API,1
+2.6.1,TODO once improved splitting API is merged in swap out for simpler,1
+2.6.1,TODO: This should be swapped for simpler splitter API once that's merged in.,1
+2.6.1,TODO The below line should be fixes,1
+2.6.1,TODO(rbharath): Check that this operation is differentiable.,1
+2.6.1,TODO(rbharath): The test below only checks that shapes work out.,1
+2.6.1,TODO(rbharath): The test below only checks that shapes work out.,1
+2.6.1,TODO(rbharath): The test below only checks that shapes work out.,1
+2.6.1,TODO(rbharath): Commenting this out due to weird segfaults,1
+2.6.1,TODO(rbharath): How does distance need to be modified here to,1
+2.6.1,TODO(rbharath): This will cause an issue with duplicates!,1
+2.6.1,TODO(rbharath): Change this for tf 1.0,1
+2.6.1,TODO(rbharath):,1
+2.6.1,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.6.1,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.6.1,TODO(rbharath),1
+2.6.1,TODO(rbharath): Make this handle minibatches,1
+2.6.1,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+2.6.1,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+2.6.1,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+2.6.1,TODO(rbharath): Should weights for the support be used?,1
+2.6.1,TODO(rbharath): euclidean kernel is broken!,1
+2.6.1,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+2.6.1,TODO(rbharath): Find a way to get rid of this import?,1
+2.6.1,TODO(rbharath): I believe this is total amount of data,1
+2.6.1,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.6.1,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.6.1,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.6.1,TODO(rbharath): Find a way to get rid of this import?,1
+2.6.1,TODO(rbharath): I believe this is total amount of data,1
+2.6.1,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.6.1,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.6.1,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.6.1,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+2.6.1,TODO(rbharath): This class does not yet have a,1
+2.6.1,TODO(rbharath): This class does not yet have a,1
+2.6.1,TODO(rbharath): This class does not yet have a,1
+2.6.1,TODO (LESWING) Lazy Load,1
+2.6.1,TODO (LESWING) Lazy Load,1
+2.6.1,TODO (VIGS25): Account for the reload option,1
+2.6.1,TODO(user): median is not implemented yet in TensorFlow,1
+2.6.1,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.6.1,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.6.1,TODO(rbharath): Is setting train=False right here?,1
+2.6.1,TODO(rbharath): Verify this can be safely removed.,1
+2.6.1,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+2.6.1,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.6.1,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.6.1,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.6.1,TODO(rbharath): Is setting train=False right here?,1
+2.6.1,TODO(rbharath): Verify this can be safely removed.,1
+2.6.1,TODO: How to handle the failure here?,1
+2.6.1,TODO(rbharath): The autodock vina source computes surface distances,1
+2.6.1,TODO(rbharath: Does vina divide box dimensions by 2?,1
+2.6.1,FIXME: Incompatible types in assignment,1
+2.6.1,TODO don't convert all sequences into np array (allow shards),1
+2.6.1,TODO(rbharath): Add support for more extensions,1
+2.6.1,"FIXME: Signature of ""_featurize_shard"" incompatible with supertype ""DataLoader""",1
+2.6.1,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+2.6.1,TODO(rbharath): Get rid of * import,1
+2.6.1,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+2.6.1,almost all cases. Need to understand a method to fix this.,1
+2.6.1,TODO: test with full uniprot file once sharding support is added.,1
+2.6.1,TODO(rbharath): Where are the color channels?,1
+2.6.1,Hack to allow for easy unpickling:,1
+2.6.1,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""__iter__"" (not iterable)",1
+2.6.1,TODO: This is duplicated! Clean up,1
+2.6.1,TODO: This is wrong. Should return all molecules,1
+2.6.1,TODO: Ideally we should catch AtomValenceException but Travis seems to choke on it for some reason.,1
+2.6.1,"FIXME: Argument 1 of ""__eq__"" is incompatible with supertype ""object""",1
+2.6.1,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""append""",1
+2.6.1,FIXME: Incompatible types in assignment,1
+2.6.1,"FIXME: Argument 1 to ""enumerate"" has incompatible type",1
+2.6.1,"# TODO(rbharath): find better example, currently dicts are empty",1
+2.6.1,"TODO find better example, currently dicts are empty",1
+2.6.1,TODO: Fix this case with correct thresholding,1
+2.6.1,TODO: Fix this case with correct thresholding,1
+2.6.1,TODO(rbharath): Can this be removed?,1
+2.6.1,"FIXME: Signature of ""featurize"" incompatible with supertype ""Featurizer""",1
+2.6.1,not implemented featurization types,1
+2.6.1,TODO(rbharath): Should this return a list?,1
+2.6.1,TODO: Is there a better handling procedure?,1
+2.6.1,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.6.1,# TODO: Add shape test,1
+2.6.1,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.6.1,# TODO: Add shape test,1
+2.6.1,"FIXME: Incompatible types in assignment (expression has type ""Dataset"", variable has type ""DiskDataset"")",1
+2.6.1,"FIXME: Signature of ""k_fold_split"" incompatible with supertype ""Splitter""",1
+2.6.1,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+2.6.1,Note: This wouldn't work for multitask str,1
+2.6.1,TODO: Incompability between TF and TFP means that TF doesn't track,1
+2.6.1,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+2.6.1,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+2.6.1,TODO(rbharath): Support batching,1
+2.6.1,TODO(rbharath): How does distance need to be modified here to,1
+2.6.1,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.6.1,TODO(rbharath): Shoddy handling of higher dimensions...,1
+2.6.1,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.6.1,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.6.1,"(TODO YTZ:) faster, less memory intensive way",1
+2.6.1,TODO: This test is a little awkward. The Smiles2Vec model awkwardly depends on a dataset_file being available on disk. This needs to be cleaned up to match the standard model handling API.,1
+2.6.1,TODO: We need a cleaner usage example for this,1
+2.6.1,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+2.6.1,TODO What should shape[1] be?  It's not documented.,1
+2.6.1,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.6.1,"TODO What should the output shape be?  It's not documented, and there",1
+2.6.1,# TODO(rbharath): What is the shape of outputs supposed to be?,1
+2.6.1,TODO(rbharath): We need more documentation about why,1
+2.6.1,"TODO For this dataset and model, the R2-scores are less than 0.3.",1
+2.6.1,TODO: Check for this,1
+2.6.1,TODO: Check if anything needs to be added,1
+2.6.1,FIXME: Incompatible types in assignment,1
+2.6.0,TODO: Once improved splitting API is merged in swap to simpler API,1
+2.6.0,TODO once improved splitting API is merged in swap out for simpler,1
+2.6.0,TODO: This should be swapped for simpler splitter API once that's merged in.,1
+2.6.0,TODO The below line should be fixes,1
+2.6.0,TODO(rbharath): Check that this operation is differentiable.,1
+2.6.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.6.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.6.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.6.0,TODO(rbharath): Commenting this out due to weird segfaults,1
+2.6.0,TODO(rbharath): How does distance need to be modified here to,1
+2.6.0,TODO(rbharath): This will cause an issue with duplicates!,1
+2.6.0,TODO(rbharath): Change this for tf 1.0,1
+2.6.0,TODO(rbharath):,1
+2.6.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.6.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.6.0,TODO(rbharath),1
+2.6.0,TODO(rbharath): Make this handle minibatches,1
+2.6.0,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+2.6.0,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+2.6.0,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+2.6.0,TODO(rbharath): Should weights for the support be used?,1
+2.6.0,TODO(rbharath): euclidean kernel is broken!,1
+2.6.0,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+2.6.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.6.0,TODO(rbharath): I believe this is total amount of data,1
+2.6.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.6.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.6.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.6.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.6.0,TODO(rbharath): I believe this is total amount of data,1
+2.6.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.6.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.6.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.6.0,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+2.6.0,TODO(rbharath): This class does not yet have a,1
+2.6.0,TODO(rbharath): This class does not yet have a,1
+2.6.0,TODO(rbharath): This class does not yet have a,1
+2.6.0,TODO (LESWING) Lazy Load,1
+2.6.0,TODO (LESWING) Lazy Load,1
+2.6.0,TODO (VIGS25): Account for the reload option,1
+2.6.0,TODO(user): median is not implemented yet in TensorFlow,1
+2.6.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.6.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.6.0,TODO(rbharath): Is setting train=False right here?,1
+2.6.0,TODO(rbharath): Verify this can be safely removed.,1
+2.6.0,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+2.6.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.6.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.6.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.6.0,TODO(rbharath): Is setting train=False right here?,1
+2.6.0,TODO(rbharath): Verify this can be safely removed.,1
+2.6.0,TODO: How to handle the failure here?,1
+2.6.0,TODO(rbharath): The autodock vina source computes surface distances,1
+2.6.0,TODO(rbharath: Does vina divide box dimensions by 2?,1
+2.6.0,FIXME: Incompatible types in assignment,1
+2.6.0,TODO don't convert all sequences into np array (allow shards),1
+2.6.0,TODO(rbharath): Add support for more extensions,1
+2.6.0,"FIXME: Signature of ""_featurize_shard"" incompatible with supertype ""DataLoader""",1
+2.6.0,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+2.6.0,TODO(rbharath): Get rid of * import,1
+2.6.0,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+2.6.0,almost all cases. Need to understand a method to fix this.,1
+2.6.0,TODO: test with full uniprot file once sharding support is added.,1
+2.6.0,TODO(rbharath): Where are the color channels?,1
+2.6.0,Hack to allow for easy unpickling:,1
+2.6.0,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""__iter__"" (not iterable)",1
+2.6.0,TODO: This is duplicated! Clean up,1
+2.6.0,TODO: This is wrong. Should return all molecules,1
+2.6.0,TODO: Ideally we should catch AtomValenceException but Travis seems to choke on it for some reason.,1
+2.6.0,"FIXME: Argument 1 of ""__eq__"" is incompatible with supertype ""object""",1
+2.6.0,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""append""",1
+2.6.0,FIXME: Incompatible types in assignment,1
+2.6.0,"FIXME: Argument 1 to ""enumerate"" has incompatible type",1
+2.6.0,"# TODO(rbharath): find better example, currently dicts are empty",1
+2.6.0,"TODO find better example, currently dicts are empty",1
+2.6.0,TODO: Fix this case with correct thresholding,1
+2.6.0,TODO: Fix this case with correct thresholding,1
+2.6.0,TODO(rbharath): Can this be removed?,1
+2.6.0,"FIXME: Signature of ""featurize"" incompatible with supertype ""Featurizer""",1
+2.6.0,not implemented featurization types,1
+2.6.0,TODO(rbharath): Should this return a list?,1
+2.6.0,TODO: Is there a better handling procedure?,1
+2.6.0,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.6.0,# TODO: Add shape test,1
+2.6.0,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.6.0,# TODO: Add shape test,1
+2.6.0,"FIXME: Incompatible types in assignment (expression has type ""Dataset"", variable has type ""DiskDataset"")",1
+2.6.0,"FIXME: Signature of ""k_fold_split"" incompatible with supertype ""Splitter""",1
+2.6.0,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+2.6.0,Note: This wouldn't work for multitask str,1
+2.6.0,TODO: Incompability between TF and TFP means that TF doesn't track,1
+2.6.0,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+2.6.0,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+2.6.0,TODO(rbharath): Support batching,1
+2.6.0,TODO(rbharath): How does distance need to be modified here to,1
+2.6.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.6.0,TODO(rbharath): Shoddy handling of higher dimensions...,1
+2.6.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.6.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.6.0,"(TODO YTZ:) faster, less memory intensive way",1
+2.6.0,TODO: This test is a little awkward. The Smiles2Vec model awkwardly depends on a dataset_file being available on disk. This needs to be cleaned up to match the standard model handling API.,1
+2.6.0,TODO: We need a cleaner usage example for this,1
+2.6.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+2.6.0,TODO What should shape[1] be?  It's not documented.,1
+2.6.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.6.0,"TODO What should the output shape be?  It's not documented, and there",1
+2.6.0,# TODO(rbharath): What is the shape of outputs supposed to be?,1
+2.6.0,TODO(rbharath): We need more documentation about why,1
+2.6.0,"TODO For this dataset and model, the R2-scores are less than 0.3.",1
+2.6.0,TODO: Check for this,1
+2.6.0,TODO: Check if anything needs to be added,1
+2.6.0,FIXME: Incompatible types in assignment,1
+2.5.0,TODO: Once improved splitting API is merged in swap to simpler API,1
+2.5.0,TODO once improved splitting API is merged in swap out for simpler,1
+2.5.0,TODO: This should be swapped for simpler splitter API once that's merged in.,1
+2.5.0,TODO(rbharath): Check that this operation is differentiable.,1
+2.5.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.5.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.5.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.5.0,TODO(rbharath): Commenting this out due to weird segfaults,1
+2.5.0,TODO(rbharath): How does distance need to be modified here to,1
+2.5.0,TODO(rbharath): This will cause an issue with duplicates!,1
+2.5.0,TODO(rbharath): Change this for tf 1.0,1
+2.5.0,TODO(rbharath):,1
+2.5.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.5.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.5.0,TODO(rbharath),1
+2.5.0,TODO(rbharath): Make this handle minibatches,1
+2.5.0,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+2.5.0,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+2.5.0,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+2.5.0,TODO(rbharath): Should weights for the support be used?,1
+2.5.0,TODO(rbharath): euclidean kernel is broken!,1
+2.5.0,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+2.5.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.5.0,TODO(rbharath): I believe this is total amount of data,1
+2.5.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.5.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.5.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.5.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.5.0,TODO(rbharath): I believe this is total amount of data,1
+2.5.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.5.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.5.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.5.0,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+2.5.0,TODO(rbharath): This class does not yet have a,1
+2.5.0,TODO(rbharath): This class does not yet have a,1
+2.5.0,TODO(rbharath): This class does not yet have a,1
+2.5.0,TODO (LESWING) Lazy Load,1
+2.5.0,TODO (LESWING) Lazy Load,1
+2.5.0,TODO (VIGS25): Account for the reload option,1
+2.5.0,TODO(user): median is not implemented yet in TensorFlow,1
+2.5.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.5.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.5.0,TODO(rbharath): Is setting train=False right here?,1
+2.5.0,TODO(rbharath): Verify this can be safely removed.,1
+2.5.0,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+2.5.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.5.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.5.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.5.0,TODO(rbharath): Is setting train=False right here?,1
+2.5.0,TODO(rbharath): Verify this can be safely removed.,1
+2.5.0,TODO: How to handle the failure here?,1
+2.5.0,TODO(rbharath): The autodock vina source computes surface distances,1
+2.5.0,TODO(rbharath: Does vina divide box dimensions by 2?,1
+2.5.0,"I'm not sure why specifying the args as a list fails on other platforms,",1
+2.5.0,FIXME: Incompatible types in assignment,1
+2.5.0,FIXME: We should use `subprocess.run` instead of `call`,1
+2.5.0,FIXME: Incompatible types in assignment,1
+2.5.0,TODO(rbharath): Add support for more extensions,1
+2.5.0,"FIXME: Signature of ""_featurize_shard"" incompatible with supertype ""DataLoader""",1
+2.5.0,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+2.5.0,TODO(rbharath): Get rid of * import,1
+2.5.0,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+2.5.0,almost all cases. Need to understand a method to fix this.,1
+2.5.0,TODO(rbharath): Where are the color channels?,1
+2.5.0,Hack to allow for easy unpickling:,1
+2.5.0,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""__iter__"" (not iterable)",1
+2.5.0,TODO: This is duplicated! Clean up,1
+2.5.0,TODO: This is wrong. Should return all molecules,1
+2.5.0,"FIXME: Argument 1 of ""__eq__"" is incompatible with supertype ""object""",1
+2.5.0,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""append""",1
+2.5.0,FIXME: Incompatible types in assignment,1
+2.5.0,"FIXME: Argument 1 to ""enumerate"" has incompatible type",1
+2.5.0,"# TODO(rbharath): find better example, currently dicts are empty",1
+2.5.0,"TODO find better example, currently dicts are empty",1
+2.5.0,TODO: Fix this case with correct thresholding,1
+2.5.0,TODO: Fix this case with correct thresholding,1
+2.5.0,TODO(rbharath): Can this be removed?,1
+2.5.0,TODO (VIGS25): Complete the description,1
+2.5.0,"FIXME: Signature of ""featurize"" incompatible with supertype ""Featurizer""",1
+2.5.0,not implemented featurization types,1
+2.5.0,TODO(rbharath): Should this return a list?,1
+2.5.0,TODO: Is there a better handling procedure?,1
+2.5.0,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.5.0,# TODO: Add shape test,1
+2.5.0,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.5.0,# TODO: Add shape test,1
+2.5.0,"FIXME: Incompatible types in assignment (expression has type ""Dataset"", variable has type ""DiskDataset"")",1
+2.5.0,"FIXME: Signature of ""k_fold_split"" incompatible with supertype ""Splitter""",1
+2.5.0,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+2.5.0,Note: This wouldn't work for multitask str,1
+2.5.0,TODO: Incompability between TF and TFP means that TF doesn't track,1
+2.5.0,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+2.5.0,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+2.5.0,TODO(rbharath): Support batching,1
+2.5.0,TODO(rbharath): How does distance need to be modified here to,1
+2.5.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.5.0,TODO(rbharath): Shoddy handling of higher dimensions...,1
+2.5.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.5.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.5.0,"(TODO YTZ:) faster, less memory intensive way",1
+2.5.0,TODO: This test is a little awkward. The Smiles2Vec model awkwardly depends on a dataset_file being available on disk. This needs to be cleaned up to match the standard model handling API.,1
+2.5.0,TODO: We need a cleaner usage example for this,1
+2.5.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+2.5.0,TODO What should shape[1] be?  It's not documented.,1
+2.5.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.5.0,"TODO What should the output shape be?  It's not documented, and there",1
+2.5.0,# TODO(rbharath): What is the shape of outputs supposed to be?,1
+2.5.0,TODO(rbharath): We need more documentation about why,1
+2.5.0,TODO: Check for this,1
+2.5.0,TODO: Check if anything needs to be added,1
+2.5.0,TODO: This dataset isn't saved to disk so reload doesn't happen.,1
+2.5.0,FIXME: Incompatible types in assignment,1
+2.4.0,TODO: Once improved splitting API is merged in swap to simpler API,1
+2.4.0,TODO once improved splitting API is merged in swap out for simpler,1
+2.4.0,TODO: This should be swapped for simpler splitter API once that's merged in.,1
+2.4.0,TODO(rbharath): Check that this operation is differentiable.,1
+2.4.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.4.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.4.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.4.0,TODO(rbharath): Commenting this out due to weird segfaults,1
+2.4.0,TODO(rbharath): How does distance need to be modified here to,1
+2.4.0,TODO(rbharath): This will cause an issue with duplicates!,1
+2.4.0,TODO(rbharath): Change this for tf 1.0,1
+2.4.0,TODO(rbharath):,1
+2.4.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.4.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.4.0,TODO(rbharath),1
+2.4.0,TODO(rbharath): Make this handle minibatches,1
+2.4.0,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+2.4.0,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+2.4.0,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+2.4.0,TODO(rbharath): Should weights for the support be used?,1
+2.4.0,TODO(rbharath): euclidean kernel is broken!,1
+2.4.0,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+2.4.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.4.0,TODO(rbharath): I believe this is total amount of data,1
+2.4.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.4.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.4.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.4.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.4.0,TODO(rbharath): I believe this is total amount of data,1
+2.4.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.4.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.4.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.4.0,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+2.4.0,TODO(rbharath): This class does not yet have a,1
+2.4.0,TODO(rbharath): This class does not yet have a,1
+2.4.0,TODO(rbharath): This class does not yet have a,1
+2.4.0,TODO (LESWING) Lazy Load,1
+2.4.0,TODO (LESWING) Lazy Load,1
+2.4.0,TODO (VIGS25): Account for the reload option,1
+2.4.0,TODO(user): median is not implemented yet in TensorFlow,1
+2.4.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.4.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.4.0,TODO(rbharath): Is setting train=False right here?,1
+2.4.0,TODO(rbharath): Verify this can be safely removed.,1
+2.4.0,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+2.4.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.4.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.4.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.4.0,TODO(rbharath): Is setting train=False right here?,1
+2.4.0,TODO(rbharath): Verify this can be safely removed.,1
+2.4.0,TODO: How to handle the failure here?,1
+2.4.0,TODO(rbharath): The autodock vina source computes surface distances,1
+2.4.0,TODO(rbharath: Does vina divide box dimensions by 2?,1
+2.4.0,"I'm not sure why specifying the args as a list fails on other platforms,",1
+2.4.0,FIXME: Incompatible types in assignment,1
+2.4.0,FIXME: We should use `subprocess.run` instead of `call`,1
+2.4.0,FIXME: Incompatible types in assignment,1
+2.4.0,TODO(rbharath): Add support for more extensions,1
+2.4.0,"FIXME: Signature of ""_featurize_shard"" incompatible with supertype ""DataLoader""",1
+2.4.0,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+2.4.0,TODO(rbharath): Get rid of * import,1
+2.4.0,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+2.4.0,almost all cases. Need to understand a method to fix this.,1
+2.4.0,TODO(rbharath): Where are the color channels?,1
+2.4.0,Hack to allow for easy unpickling:,1
+2.4.0,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""__iter__"" (not iterable)",1
+2.4.0,TODO: This is duplicated! Clean up,1
+2.4.0,TODO: This is wrong. Should return all molecules,1
+2.4.0,"FIXME: Argument 1 of ""__eq__"" is incompatible with supertype ""object""",1
+2.4.0,FIXME: Incompatible types in assignment,1
+2.4.0,"FIXME: Argument 1 to ""enumerate"" has incompatible type",1
+2.4.0,"FIXME: Item ""None"" of ""Optional[List[str]]"" has no attribute ""append""",1
+2.4.0,"# TODO(rbharath): find better example, currently dicts are empty",1
+2.4.0,"TODO find better example, currently dicts are empty",1
+2.4.0,TODO: Fix this case with correct thresholding,1
+2.4.0,TODO: Fix this case with correct thresholding,1
+2.4.0,TODO(rbharath): Can this be removed?,1
+2.4.0,TODO (VIGS25): Complete the description,1
+2.4.0,"FIXME: Signature of ""featurize"" incompatible with supertype ""Featurizer""",1
+2.4.0,TODO(LESWING),1
+2.4.0,not implemented featurization types,1
+2.4.0,TODO(rbharath): Is this squeeze OK?,1
+2.4.0,TODO(rbharath): Should this return a list?,1
+2.4.0,TODO: Is there a better handling procedure?,1
+2.4.0,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.4.0,# TODO: Add shape test,1
+2.4.0,"# TODO: This is failing, something about the hydrogen bond counting?",1
+2.4.0,# TODO: Add shape test,1
+2.4.0,"TODO check if function warns. There is assertWarns method in unittest,",1
+2.4.0,but it is not implemented in 2.7 and buggy in 3.5 (issue 29620),1
+2.4.0,FIXME might break with different version of rdkit,1
+2.4.0,FIXME might break with different version of rdkit,1
+2.4.0,"TODO find better example, currently dicts are empty",1
+2.4.0,"TODO find better example, currently dicts are empty",1
+2.4.0,TODO test if dict contains smiles,1
+2.4.0,TODO upperbound?,1
+2.4.0,TODO(rbharath): This test will be uncommented in the next PR up on the docket.,1
+2.4.0,"FIXME: Incompatible types in assignment (expression has type ""Dataset"", variable has type ""DiskDataset"")",1
+2.4.0,"FIXME: Signature of ""k_fold_split"" incompatible with supertype ""Splitter""",1
+2.4.0,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+2.4.0,Note: This wouldn't work for multitask str,1
+2.4.0,TODO: Incompability between TF and TFP means that TF doesn't track,1
+2.4.0,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+2.4.0,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+2.4.0,TODO(rbharath): Support batching,1
+2.4.0,TODO(rbharath): How does distance need to be modified here to,1
+2.4.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.4.0,TODO(rbharath): Shoddy handling of higher dimensions...,1
+2.4.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.4.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.4.0,"(TODO YTZ:) faster, less memory intensive way",1
+2.4.0,TODO: Turning off queue for now. Safe to re-activate?,1
+2.4.0,TODO: This test is a little awkward. The Smiles2Vec model awkwardly depends on a dataset_file being available on disk. This needs to be cleaned up to match the standard model handling API.,1
+2.4.0,TODO: We need a cleaner usage example for this,1
+2.4.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+2.4.0,TODO What should shape[1] be?  It's not documented.,1
+2.4.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.4.0,"TODO What should the output shape be?  It's not documented, and there",1
+2.4.0,# TODO(rbharath): What is the shape of outputs supposed to be?,1
+2.4.0,TODO(rbharath): We need more documentation about why,1
+2.4.0,TODO: Check for this,1
+2.4.0,TODO: Check if anything needs to be added,1
+2.4.0,TODO: This dataset isn't saved to disk so reload doesn't happen.,1
+2.4.0,FIXME: Incompatible types in assignment,1
+2.3.0,TODO(rbharath): Check that this operation is differentiable.,1
+2.3.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.3.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.3.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.3.0,TODO(rbharath): Commenting this out due to weird segfaults,1
+2.3.0,TODO(rbharath): How does distance need to be modified here to,1
+2.3.0,TODO(rbharath): This will cause an issue with duplicates!,1
+2.3.0,TODO(rbharath): Change this for tf 1.0,1
+2.3.0,TODO(rbharath):,1
+2.3.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.3.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.3.0,TODO(rbharath),1
+2.3.0,TODO(rbharath): Make this handle minibatches,1
+2.3.0,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+2.3.0,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+2.3.0,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+2.3.0,TODO(rbharath): Should weights for the support be used?,1
+2.3.0,TODO(rbharath): euclidean kernel is broken!,1
+2.3.0,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+2.3.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.3.0,TODO(rbharath): I believe this is total amount of data,1
+2.3.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.3.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.3.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.3.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.3.0,TODO(rbharath): I believe this is total amount of data,1
+2.3.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.3.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.3.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.3.0,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+2.3.0,TODO(rbharath): This class does not yet have a,1
+2.3.0,TODO(rbharath): This class does not yet have a,1
+2.3.0,TODO(rbharath): This class does not yet have a,1
+2.3.0,TODO (LESWING) Lazy Load,1
+2.3.0,TODO (LESWING) Lazy Load,1
+2.3.0,TODO (VIGS25): Account for the reload option,1
+2.3.0,TODO(user): median is not implemented yet in TensorFlow,1
+2.3.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.3.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.3.0,TODO(rbharath): Is setting train=False right here?,1
+2.3.0,TODO(rbharath): Verify this can be safely removed.,1
+2.3.0,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+2.3.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.3.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.3.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.3.0,TODO(rbharath): Is setting train=False right here?,1
+2.3.0,TODO(rbharath): Verify this can be safely removed.,1
+2.3.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+2.3.0,TODO(rbharath): Shift refined to full once trained.,1
+2.3.0,"# TODO(rbharath): For now, using a weak cutoff. Fix later.",1
+2.3.0,# TODO(LESWING),1
+2.3.0,TODO: add pi_stack and cation_pi to feature_types (it's not trivial,1
+2.3.0,TODO(rbharath): May want to move this file to S3 so we can ensure it's,1
+2.3.0,"TODO(rbharath): Need to add some way to identify binding pocket, or this is",1
+2.3.0,TODO(rbharath): Handle multiple pockets instead of arbitrarily selecting,1
+2.3.0,TODO(rbharath): Generalize this so can support mol2 files as well.,1
+2.3.0,TODO(rbharath): Let user specify the number of poses required.,1
+2.3.0,TODO(rbharath): Convert the output pdbqt to a pdb file.,1
+2.3.0,"TODO(rbharath, joegomes): This doesn't seem like it should be hard-coded as",1
+2.3.0,"TODO(rbharath, joegomes): What is this magic number?",1
+2.3.0,TODO (ytz) this is a bandage solution to reorder the atoms so,1
+2.3.0,TODO(rbharath): Add support for more extensions,1
+2.3.0,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+2.3.0,TODO(rbharath): Get rid of * import,1
+2.3.0,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+2.3.0,almost all cases. Need to understand a method to fix this.,1
+2.3.0,TODO(rbharath): Where are the color channels?,1
+2.3.0,Hack to allow for easy unpickling:,1
+2.3.0,"TODO (flee2): for transform_y, figure out weights",1
+2.3.0,TODO(rbharath): Untransform doesn't work properly for binary feature,1
+2.3.0,vectors. Need to figure out what's wrong here. (low priority),1
+2.3.0,TODO(rbharath): Use standard joblib once old-data has been regenerated.,1
+2.3.0,TODO: mol should be always sanitized when charges are calculated,1
+2.3.0,TODO(rbharath): This is now simple enough that we should probably get rid of,1
+2.3.0,TODO(bramsundar): Should this be __copy__?,1
+2.3.0,TODO(rbharath): Should this be an atom function?,1
+2.3.0,TODO(LESWING),1
+2.3.0,not implemented featurization types,1
+2.3.0,TODO(rbharath): Is this squeeze OK?,1
+2.3.0,TODO(rbharath): Can this be removed?,1
+2.3.0,TODO(rbharath): Should this return a list?,1
+2.3.0,TODO: Is there a better handling procedure?,1
+2.3.0,TODO (VIGS25): Complete the description,1
+2.3.0,"TODO check if function warns. There is assertWarns method in unittest,",1
+2.3.0,but it is not implemented in 2.7 and buggy in 3.5 (issue 29620),1
+2.3.0,FIXME might break with different version of rdkit,1
+2.3.0,FIXME might break with different version of rdkit,1
+2.3.0,"TODO find better example, currently dicts are empty",1
+2.3.0,"TODO find better example, currently dicts are empty",1
+2.3.0,TODO test if dict contains smiles,1
+2.3.0,TODO upperbound?,1
+2.3.0,"TODO(rbharath, joegomes): Why does AtomicCoordinates return a list? Is",1
+2.3.0,TODO(rbharath): Refactor this split method to match API of other,1
+2.3.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.3.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.3.0,TODO(rbharath): Get rid of * import,1
+2.3.0,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+2.3.0,Note: This wouldn't work for multitask str,1
+2.3.0,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+2.3.0,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+2.3.0,TODO(rbharath): Support batching,1
+2.3.0,TODO(rbharath): How does distance need to be modified here to,1
+2.3.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.3.0,TODO(rbharath): Shoddy handling of higher dimensions...,1
+2.3.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.3.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.3.0,"(TODO YTZ:) faster, less memory intensive way",1
+2.3.0,TODO(rbharath/enf): We need a structured way to deal with potential GPU,1
+2.3.0,TODO: Turning off queue for now. Safe to re-activate?,1
+2.3.0,TODO(rbharath): Note sure if this layer can be called with __call__,1
+2.3.0,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+2.3.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.3.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.3.0,TODO(rbharath): Add in support for additional,1
+2.3.0,TODO(rbharath): The TensorGraph can't be built until,1
+2.3.0,TODO(rbharath): Should probably swap this over to tf mode.,1
+2.3.0,"TODO(rbharath): Need to rename this. This makes a variable, not just creates",1
+2.3.0,"TODO Once we drop Python 2 support, turn outputs into a proper keyword arg",1
+2.3.0,instead of using the **kwargs hack.,1
+2.3.0,TODO What should shape[1] be?  It's not documented.,1
+2.3.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.3.0,"TODO What should the output shape be?  It's not documented, and there",1
+2.3.0,TODO(rbharath): Move this into a model directly,1
+2.3.0,"# TODO(rbharath): Mysteriously, the actual atom types aren't",1
+2.3.0,"# used in the current implementation. This is obviously wrong, but need",1
+2.3.0,TODO(rbharath): This test should pass. Fix it!,1
+2.3.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.3.0,# TODO(rbharath): Add a test with per-class weighting.,1
+2.3.0,TODO(LESWING) Add Dropout and regularization,1
+2.3.0,(ytz): this is really dirty but needed for restoring models,1
+2.3.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+2.3.0,TODO: Check for this,1
+2.3.0,This is kludgy way to add y to dataset. Can be done better?,1
+2.3.0,This is kludgy way to add y to dataset. Can be done better?,1
+2.3.0,TODO: Check if anything needs to be added,1
+2.3.0,TODO: This dataset isn't saved to disk so reload doesn't happen.,1
+2.3.0,TODO(rbharath): This should be modified to contain a cluster split so,1
+2.3.0,TODO(rbharath): This function is complicated and monolithic. Is there a nice,1
+2.3.0,way to refactor this?,1
+2.3.0,TODO (Bowen): make this function less memory intensive,1
+2.3.0,TODO(rbharath): BROKEN!,1
+2.3.0,"positional arguments yourself, this could do the wrong thing.",1
+2.3.0,TODO(aselle): Could check for a literal list of bools and try to convert,1
+2.3.0,after the '[' token which appears to be a bug. Workaround by,1
+2.3.0,TODO(aselle):,1
+2.3.0,TODO(aselle): We should scan backward to find the start of the,1
+2.2.0,TODO(rbharath): Check that this operation is differentiable.,1
+2.2.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.2.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.2.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.2.0,TODO(rbharath): Commenting this out due to weird segfaults,1
+2.2.0,TODO(rbharath): How does distance need to be modified here to,1
+2.2.0,TODO(rbharath): This will cause an issue with duplicates!,1
+2.2.0,TODO(rbharath): Change this for tf 1.0,1
+2.2.0,TODO(rbharath):,1
+2.2.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.2.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.2.0,TODO(rbharath),1
+2.2.0,TODO(rbharath): Make this handle minibatches,1
+2.2.0,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+2.2.0,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+2.2.0,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+2.2.0,TODO(rbharath): Should weights for the support be used?,1
+2.2.0,TODO(rbharath): euclidean kernel is broken!,1
+2.2.0,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+2.2.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.2.0,TODO(rbharath): I believe this is total amount of data,1
+2.2.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.2.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.2.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.2.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.2.0,TODO(rbharath): I believe this is total amount of data,1
+2.2.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.2.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.2.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.2.0,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+2.2.0,TODO(rbharath): This class does not yet have a,1
+2.2.0,TODO(rbharath): This class does not yet have a,1
+2.2.0,TODO(rbharath): This class does not yet have a,1
+2.2.0,TODO (LESWING) Lazy Load,1
+2.2.0,TODO (LESWING) Lazy Load,1
+2.2.0,TODO (VIGS25): Account for the reload option,1
+2.2.0,TODO(user): median is not implemented yet in TensorFlow,1
+2.2.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.2.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.2.0,TODO(rbharath): Is setting train=False right here?,1
+2.2.0,TODO(rbharath): Verify this can be safely removed.,1
+2.2.0,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+2.2.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.2.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.2.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.2.0,TODO(rbharath): Is setting train=False right here?,1
+2.2.0,TODO(rbharath): Verify this can be safely removed.,1
+2.2.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+2.2.0,TODO(rbharath): Shift refined to full once trained.,1
+2.2.0,"# TODO(rbharath): For now, using a weak cutoff. Fix later.",1
+2.2.0,# TODO(LESWING),1
+2.2.0,TODO: add pi_stack and cation_pi to feature_types (it's not trivial,1
+2.2.0,TODO(rbharath): May want to move this file to S3 so we can ensure it's,1
+2.2.0,"TODO(rbharath): Need to add some way to identify binding pocket, or this is",1
+2.2.0,TODO(rbharath): Handle multiple pockets instead of arbitrarily selecting,1
+2.2.0,TODO(rbharath): Generalize this so can support mol2 files as well.,1
+2.2.0,TODO(rbharath): Let user specify the number of poses required.,1
+2.2.0,TODO(rbharath): Convert the output pdbqt to a pdb file.,1
+2.2.0,"TODO(rbharath, joegomes): This doesn't seem like it should be hard-coded as",1
+2.2.0,"TODO(rbharath, joegomes): What is this magic number?",1
+2.2.0,TODO (ytz) this is a bandage solution to reorder the atoms so,1
+2.2.0,TODO(rbharath): Add support for more extensions,1
+2.2.0,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+2.2.0,TODO(rbharath): Get rid of * import,1
+2.2.0,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+2.2.0,almost all cases. Need to understand a method to fix this.,1
+2.2.0,TODO(rbharath): Where are the color channels?,1
+2.2.0,Hack to allow for easy unpickling:,1
+2.2.0,"TODO (flee2): for transform_y, figure out weights",1
+2.2.0,TODO(rbharath): Untransform doesn't work properly for binary feature,1
+2.2.0,vectors. Need to figure out what's wrong here. (low priority),1
+2.2.0,TODO(rbharath): Use standard joblib once old-data has been regenerated.,1
+2.2.0,TODO: mol should be always sanitized when charges are calculated,1
+2.2.0,TODO(rbharath): This is now simple enough that we should probably get rid of,1
+2.2.0,TODO(bramsundar): Should this be __copy__?,1
+2.2.0,TODO(rbharath): Should this be an atom function?,1
+2.2.0,TODO(LESWING),1
+2.2.0,not implemented featurization types,1
+2.2.0,TODO(rbharath): Is this squeeze OK?,1
+2.2.0,TODO(rbharath): Can this be removed?,1
+2.2.0,TODO(rbharath): Should this return a list?,1
+2.2.0,TODO: Is there a better handling procedure?,1
+2.2.0,TODO (VIGS25): Complete the description,1
+2.2.0,"TODO check if function warns. There is assertWarns method in unittest,",1
+2.2.0,but it is not implemented in 2.7 and buggy in 3.5 (issue 29620),1
+2.2.0,FIXME might break with different version of rdkit,1
+2.2.0,FIXME might break with different version of rdkit,1
+2.2.0,"TODO find better example, currently dicts are empty",1
+2.2.0,"TODO find better example, currently dicts are empty",1
+2.2.0,TODO test if dict contains smiles,1
+2.2.0,TODO upperbound?,1
+2.2.0,"TODO(rbharath, joegomes): Why does AtomicCoordinates return a list? Is",1
+2.2.0,TODO(rbharath): Refactor this split method to match API of other,1
+2.2.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.2.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.2.0,TODO(rbharath): Get rid of * import,1
+2.2.0,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+2.2.0,Note: This wouldn't work for multitask str,1
+2.2.0,TODO(rbharath/enf): We need a structured way to deal with potential GPU,1
+2.2.0,TODO(rbharath): Note sure if this layer can be called with __call__,1
+2.2.0,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+2.2.0,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+2.2.0,TODO(rbharath): Support batching,1
+2.2.0,TODO(rbharath): How does distance need to be modified here to,1
+2.2.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.2.0,TODO(rbharath): Shoddy handling of higher dimensions...,1
+2.2.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.2.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.2.0,"(TODO YTZ:) faster, less memory intensive way",1
+2.2.0,TODO(rbharath): Add in support for additional,1
+2.2.0,TODO(rbharath): The TensorGraph can't be built until,1
+2.2.0,TODO(rbharath): Should probably swap this over to tf mode.,1
+2.2.0,"TODO(rbharath): Need to rename this. This makes a variable, not just creates",1
+2.2.0,"TODO Once we drop Python 2 support, turn outputs into a proper keyword arg",1
+2.2.0,instead of using the **kwargs hack.,1
+2.2.0,TODO What should shape[1] be?  It's not documented.,1
+2.2.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.2.0,"TODO What should the output shape be?  It's not documented, and there",1
+2.2.0,TODO(rbharath): Move this into a model directly,1
+2.2.0,"# TODO(rbharath): Mysteriously, the actual atom types aren't",1
+2.2.0,"# used in the current implementation. This is obviously wrong, but need",1
+2.2.0,TODO(rbharath): This test should pass. Fix it!,1
+2.2.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.2.0,# TODO(rbharath): Add a test with per-class weighting.,1
+2.2.0,TODO(LESWING) Add Dropout and regularization,1
+2.2.0,(ytz): this is really dirty but needed for restoring models,1
+2.2.0,TODO: Turning off queue for now. Safe to re-activate?,1
+2.2.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+2.2.0,TODO: Check for this,1
+2.2.0,This is kludgy way to add y to dataset. Can be done better?,1
+2.2.0,This is kludgy way to add y to dataset. Can be done better?,1
+2.2.0,TODO: Check if anything needs to be added,1
+2.2.0,TODO: This dataset isn't saved to disk so reload doesn't happen.,1
+2.2.0,TODO(rbharath): This should be modified to contain a cluster split so,1
+2.2.0,TODO(rbharath): This function is complicated and monolithic. Is there a nice,1
+2.2.0,way to refactor this?,1
+2.2.0,TODO (Bowen): make this function less memory intensive,1
+2.2.0,TODO(rbharath): BROKEN!,1
+2.2.0,"positional arguments yourself, this could do the wrong thing.",1
+2.2.0,TODO(aselle): Could check for a literal list of bools and try to convert,1
+2.2.0,after the '[' token which appears to be a bug. Workaround by,1
+2.2.0,TODO(aselle):,1
+2.2.0,TODO(aselle): We should scan backward to find the start of the,1
+2.1.0,TODO(rbharath): Check that this operation is differentiable.,1
+2.1.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.1.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.1.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.1.0,TODO(rbharath): Commenting this out due to weird segfaults,1
+2.1.0,TODO(rbharath): How does distance need to be modified here to,1
+2.1.0,TODO(rbharath): This will cause an issue with duplicates!,1
+2.1.0,TODO(rbharath): Change this for tf 1.0,1
+2.1.0,TODO(rbharath):,1
+2.1.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.1.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.1.0,TODO(rbharath),1
+2.1.0,TODO(rbharath): Make this handle minibatches,1
+2.1.0,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+2.1.0,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+2.1.0,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+2.1.0,TODO(rbharath): Should weights for the support be used?,1
+2.1.0,TODO(rbharath): euclidean kernel is broken!,1
+2.1.0,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+2.1.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.1.0,TODO(rbharath): I believe this is total amount of data,1
+2.1.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.1.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.1.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.1.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.1.0,TODO(rbharath): I believe this is total amount of data,1
+2.1.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.1.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.1.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.1.0,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+2.1.0,TODO(rbharath): This class does not yet have a,1
+2.1.0,TODO(rbharath): This class does not yet have a,1
+2.1.0,TODO(rbharath): This class does not yet have a,1
+2.1.0,TODO (LESWING) Lazy Load,1
+2.1.0,TODO (LESWING) Lazy Load,1
+2.1.0,TODO(user): median is not implemented yet in TensorFlow,1
+2.1.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.1.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.1.0,TODO(rbharath): Is setting train=False right here?,1
+2.1.0,TODO(rbharath): Verify this can be safely removed.,1
+2.1.0,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+2.1.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.1.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.1.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.1.0,TODO(rbharath): Is setting train=False right here?,1
+2.1.0,TODO(rbharath): Verify this can be safely removed.,1
+2.1.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+2.1.0,TODO(rbharath): Shift refined to full once trained.,1
+2.1.0,"# TODO(rbharath): For now, using a weak cutoff. Fix later.",1
+2.1.0,# TODO(LESWING),1
+2.1.0,TODO: add pi_stack and cation_pi to feature_types (it's not trivial,1
+2.1.0,TODO(rbharath): May want to move this file to S3 so we can ensure it's,1
+2.1.0,"TODO(rbharath): Need to add some way to identify binding pocket, or this is",1
+2.1.0,TODO(rbharath): Handle multiple pockets instead of arbitrarily selecting,1
+2.1.0,TODO(rbharath): Generalize this so can support mol2 files as well.,1
+2.1.0,TODO(rbharath): Let user specify the number of poses required.,1
+2.1.0,TODO(rbharath): Convert the output pdbqt to a pdb file.,1
+2.1.0,"TODO(rbharath, joegomes): This doesn't seem like it should be hard-coded as",1
+2.1.0,"TODO(rbharath, joegomes): What is this magic number?",1
+2.1.0,TODO (ytz) this is a bandage solution to reorder the atoms so,1
+2.1.0,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+2.1.0,TODO(rbharath): Get rid of * import,1
+2.1.0,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+2.1.0,almost all cases. Need to understand a method to fix this.,1
+2.1.0,Hack to allow for easy unpickling:,1
+2.1.0,"TODO (flee2): for transform_y, figure out weights",1
+2.1.0,TODO(rbharath): Untransform doesn't work properly for binary feature,1
+2.1.0,vectors. Need to figure out what's wrong here. (low priority),1
+2.1.0,TODO(rbharath): Use standard joblib once old-data has been regenerated.,1
+2.1.0,TODO: mol should be always sanitized when charges are calculated,1
+2.1.0,TODO(rbharath): Commenting out this file for now. Will be moved to a new repository.,1
+2.1.0,TODO(rbharath): This is now simple enough that we should probably get rid of,1
+2.1.0,TODO(bramsundar): Should this be __copy__?,1
+2.1.0,TODO(rbharath): Should this be an atom function?,1
+2.1.0,TODO(LESWING),1
+2.1.0,not implemented featurization types,1
+2.1.0,TODO(rbharath): Can this be removed?,1
+2.1.0,TODO(rbharath): Should this return a list?,1
+2.1.0,"TODO check if function warns. There is assertWarns method in unittest,",1
+2.1.0,but it is not implemented in 2.7 and buggy in 3.5 (issue 29620),1
+2.1.0,FIXME might break with different version of rdkit,1
+2.1.0,FIXME might break with different version of rdkit,1
+2.1.0,"TODO find better example, currently dicts are empty",1
+2.1.0,"TODO find better example, currently dicts are empty",1
+2.1.0,TODO test if dict contains smiles,1
+2.1.0,TODO upperbound?,1
+2.1.0,"TODO(rbharath, joegomes): Why does AtomicCoordinates return a list? Is",1
+2.1.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.1.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.1.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.1.0,TODO(rbharath): Get rid of * import,1
+2.1.0,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+2.1.0,Note: This wouldn't work for multitask str,1
+2.1.0,TODO(rbharath/enf): We need a structured way to deal with potential GPU,1
+2.1.0,TODO(rbharath): Note sure if this layer can be called with __call__,1
+2.1.0,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+2.1.0,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+2.1.0,TODO(rbharath): Support batching,1
+2.1.0,TODO(rbharath): How does distance need to be modified here to,1
+2.1.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.1.0,TODO(rbharath): Shoddy handling of higher dimensions...,1
+2.1.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.1.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.1.0,"(TODO YTZ:) faster, less memory intensive way",1
+2.1.0,TODO(rbharath): Add in support for additional,1
+2.1.0,TODO(rbharath): The TensorGraph can't be built until,1
+2.1.0,TODO(rbharath): Should probably swap this over to tf mode.,1
+2.1.0,"TODO(rbharath): Need to rename this. This makes a variable, not just creates",1
+2.1.0,"TODO Once we drop Python 2 support, turn outputs into a proper keyword arg",1
+2.1.0,instead of using the **kwargs hack.,1
+2.1.0,TODO What should shape[1] be?  It's not documented.,1
+2.1.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.1.0,"TODO What should the output shape be?  It's not documented, and there",1
+2.1.0,TODO(rbharath): Move this into a model directly,1
+2.1.0,"# TODO(rbharath): Mysteriously, the actual atom types aren't",1
+2.1.0,"# used in the current implementation. This is obviously wrong, but need",1
+2.1.0,TODO(rbharath): This test should pass. Fix it!,1
+2.1.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.1.0,# TODO(rbharath): Add a test with per-class weighting.,1
+2.1.0,TODO(LESWING) Add Dropout and regularization,1
+2.1.0,(ytz): this is really dirty but needed for restoring models,1
+2.1.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+2.1.0,TODO(rbharath): This function is complicated and monolithic. Is there a nice,1
+2.1.0,way to refactor this?,1
+2.1.0,TODO (Bowen): make this function less memory intensive,1
+2.1.0,TODO(rbharath): BROKEN!,1
+2.1.0,"positional arguments yourself, this could do the wrong thing.",1
+2.1.0,TODO(aselle): Could check for a literal list of bools and try to convert,1
+2.1.0,after the '[' token which appears to be a bug. Workaround by,1
+2.1.0,TODO(aselle):,1
+2.1.0,TODO(aselle): We should scan backward to find the start of the,1
+2.0.0,TODO(rbharath): Check that this operation is differentiable.,1
+2.0.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.0.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.0.0,TODO(rbharath): The test below only checks that shapes work out.,1
+2.0.0,TODO(rbharath): Commenting this out due to weird segfaults,1
+2.0.0,TODO(rbharath): How does distance need to be modified here to,1
+2.0.0,TODO(rbharath): This will cause an issue with duplicates!,1
+2.0.0,TODO(rbharath): Change this for tf 1.0,1
+2.0.0,TODO(rbharath):,1
+2.0.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.0.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.0.0,TODO(rbharath),1
+2.0.0,TODO(rbharath): Make this handle minibatches,1
+2.0.0,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+2.0.0,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+2.0.0,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+2.0.0,TODO(rbharath): Should weights for the support be used?,1
+2.0.0,TODO(rbharath): euclidean kernel is broken!,1
+2.0.0,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+2.0.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.0.0,TODO(rbharath): I believe this is total amount of data,1
+2.0.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.0.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.0.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.0.0,TODO(rbharath): Find a way to get rid of this import?,1
+2.0.0,TODO(rbharath): I believe this is total amount of data,1
+2.0.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+2.0.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+2.0.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+2.0.0,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+2.0.0,TODO(rbharath): This class does not yet have a,1
+2.0.0,TODO(rbharath): This class does not yet have a,1
+2.0.0,TODO(rbharath): This class does not yet have a,1
+2.0.0,TODO (LESWING) Lazy Load,1
+2.0.0,TODO (LESWING) Lazy Load,1
+2.0.0,TODO(user): median is not implemented yet in TensorFlow,1
+2.0.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.0.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+2.0.0,TODO(rbharath): Is setting train=False right here?,1
+2.0.0,TODO(rbharath): Verify this can be safely removed.,1
+2.0.0,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+2.0.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.0.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.0.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.0.0,TODO(rbharath): Is setting train=False right here?,1
+2.0.0,TODO(rbharath): Verify this can be safely removed.,1
+2.0.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+2.0.0,TODO(rbharath): Shift refined to full once trained.,1
+2.0.0,"# TODO(rbharath): For now, using a weak cutoff. Fix later.",1
+2.0.0,# TODO(LESWING),1
+2.0.0,TODO: add pi_stack and cation_pi to feature_types (it's not trivial,1
+2.0.0,TODO(rbharath): May want to move this file to S3 so we can ensure it's,1
+2.0.0,"TODO(rbharath): Need to add some way to identify binding pocket, or this is",1
+2.0.0,TODO(rbharath): Handle multiple pockets instead of arbitrarily selecting,1
+2.0.0,TODO(rbharath): Generalize this so can support mol2 files as well.,1
+2.0.0,TODO(rbharath): Let user specify the number of poses required.,1
+2.0.0,TODO(rbharath): Convert the output pdbqt to a pdb file.,1
+2.0.0,"TODO(rbharath, joegomes): This doesn't seem like it should be hard-coded as",1
+2.0.0,"TODO(rbharath, joegomes): What is this magic number?",1
+2.0.0,TODO(rbharath): This has been a major source of bugs. Is there a more,1
+2.0.0,TODO (ytz) this is a bandage solution to reorder the atoms so,1
+2.0.0,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+2.0.0,TODO(rbharath): Get rid of * import,1
+2.0.0,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+2.0.0,almost all cases. Need to understand a method to fix this.,1
+2.0.0,Hack to allow for easy unpickling:,1
+2.0.0,"TODO (flee2): for transform_y, figure out weights",1
+2.0.0,TODO(rbharath): Untransform doesn't work properly for binary feature,1
+2.0.0,vectors. Need to figure out what's wrong here. (low priority),1
+2.0.0,TODO(rbharath): Use standard joblib once old-data has been regenerated.,1
+2.0.0,TODO(rbharath): Unlike the DRAGONN implementation from which this,1
+2.0.0,TODO: mol should be always sanitized when charges are calculated,1
+2.0.0,TODO(rbharath): Commenting out this file for now. Will be moved to a new repository.,1
+2.0.0,TODO(rbharath): This is now simple enough that we should probably get rid of,1
+2.0.0,TODO(bramsundar): Should this be __copy__?,1
+2.0.0,TODO(rbharath): Should this be an atom function?,1
+2.0.0,TODO(LESWING),1
+2.0.0,not implemented featurization types,1
+2.0.0,TODO(rbharath): Can this be removed?,1
+2.0.0,TODO(rbharath): Should this return a list?,1
+2.0.0,"TODO check if function warns. There is assertWarns method in unittest,",1
+2.0.0,but it is not implemented in 2.7 and buggy in 3.5 (issue 29620),1
+2.0.0,FIXME might break with different version of rdkit,1
+2.0.0,FIXME might break with different version of rdkit,1
+2.0.0,"TODO find better example, currently dicts are empty",1
+2.0.0,"TODO find better example, currently dicts are empty",1
+2.0.0,TODO test if dict contains smiles,1
+2.0.0,TODO upperbound?,1
+2.0.0,"TODO(rbharath, joegomes): Why does AtomicCoordinates return a list? Is",1
+2.0.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+2.0.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+2.0.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+2.0.0,TODO(rbharath): Get rid of * import,1
+2.0.0,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+2.0.0,Note: This wouldn't work for multitask str,1
+2.0.0,TODO(rbharath/enf): We need a structured way to deal with potential GPU,1
+2.0.0,TODO(rbharath): Note sure if this layer can be called with __call__,1
+2.0.0,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+2.0.0,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+2.0.0,TODO(rbharath): Support batching,1
+2.0.0,TODO(rbharath): How does distance need to be modified here to,1
+2.0.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+2.0.0,TODO(rbharath): Shoddy handling of higher dimensions...,1
+2.0.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+2.0.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+2.0.0,"(TODO YTZ:) faster, less memory intensive way",1
+2.0.0,TODO(rbharath): Add in support for additional,1
+2.0.0,TODO(rbharath): The TensorGraph can't be built until,1
+2.0.0,TODO(rbharath): Should probably swap this over to tf mode.,1
+2.0.0,"TODO(rbharath): Need to rename this. This makes a variable, not just creates",1
+2.0.0,TODO(rbharath): Move this into a model directly,1
+2.0.0,"# TODO(rbharath): Mysteriously, the actual atom types aren't",1
+2.0.0,"# used in the current implementation. This is obviously wrong, but need",1
+2.0.0,TODO(rbharath): This test should pass. Fix it!,1
+2.0.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+2.0.0,# TODO(rbharath): Add a test with per-class weighting.,1
+2.0.0,TODO(LESWING) Add Dropout and regularization,1
+2.0.0,(ytz): this is really dirty but needed for restoring models,1
+2.0.0,TODO(rbharath): This model only supports one-conv layer. Extend,1
+2.0.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+2.0.0,TODO(rbharath): This function is complicated and monolithic. Is there a nice,1
+2.0.0,way to refactor this?,1
+2.0.0,TODO (Bowen): make this function less memory intensive,1
+2.0.0,TODO(rbharath): BROKEN!,1
+2.0.0,"positional arguments yourself, this could do the wrong thing.",1
+2.0.0,TODO(aselle): Could check for a literal list of bools and try to convert,1
+2.0.0,after the '[' token which appears to be a bug. Workaround by,1
+2.0.0,TODO(aselle):,1
+2.0.0,TODO(aselle): We should scan backward to find the start of the,1
+1.3.1,TODO: add pi_stack and cation_pi to feature_types (it's not trivial,1
+1.3.1,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+1.3.1,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+1.3.1,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+1.3.1,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+1.3.1,TODO(rbharath): Is setting train=False right here?,1
+1.3.1,TODO(rbharath): Verify this can be safely removed.,1
+1.3.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.3.1,TODO(rbharath): It's not clear where nb_affine comes from.,1
+1.3.1,TODO(rbharath): What does this line do?,1
+1.3.1,TODO(rbharath): REMOVE GLOBAL VARS! BREAKS DEEPCHEM STYLE!,1
+1.3.1,TODO(rbharath): Should probably swap this over to tf mode.,1
+1.3.1,"TODO(rbharath): Need to rename this. This makes a variable, not just creates",1
+1.3.1,TODO(rbharath): Keras uses a global var here to maintain,1
+1.3.1,unique counts. This seems dangerous. How does tensorflow handle?,1
+1.3.1,TODO(rbharath): Support this type of functional API.,1
+1.3.1,TODO(rbharath): Shift refined to full once trained.,1
+1.3.1,"# TODO(rbharath): For now, using a weak cutoff. Fix later.",1
+1.3.1,# TODO(LESWING),1
+1.3.1,TODO: add pi_stack and cation_pi to feature_types (it's not trivial,1
+1.3.1,TODO(rbharath): May want to move this file to S3 so we can ensure it's,1
+1.3.1,"TODO(rbharath): Need to add some way to identify binding pocket, or this is",1
+1.3.1,TODO(rbharath): Handle multiple pockets instead of arbitrarily selecting,1
+1.3.1,TODO(rbharath): Generalize this so can support mol2 files as well.,1
+1.3.1,TODO(rbharath): Let user specify the number of poses required.,1
+1.3.1,TODO(rbharath): Convert the output pdbqt to a pdb file.,1
+1.3.1,"TODO(rbharath, joegomes): This doesn't seem like it should be hard-coded as",1
+1.3.1,"TODO(rbharath, joegomes): What is this magic number?",1
+1.3.1,TODO(rbharath): This has been a major source of bugs. Is there a more,1
+1.3.1,TODO (ytz) this is a bandage solution to reorder the atoms so,1
+1.3.1,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+1.3.1,TODO(rbharath): Get rid of * import,1
+1.3.1,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+1.3.1,almost all cases. Need to understand a method to fix this.,1
+1.3.1,Hack to allow for easy unpickling:,1
+1.3.1,"TODO (flee2): for transform_y, figure out weights",1
+1.3.1,TODO(rbharath): Untransform doesn't work properly for binary feature,1
+1.3.1,vectors. Need to figure out what's wrong here. (low priority),1
+1.3.1,TODO(rbharath): Use standard joblib once old-data has been regenerated.,1
+1.3.1,TODO: mol should be always sanitized when charges are calculated,1
+1.3.1,TODO(rbharath): Commenting out this file for now. Will be moved to a new repository.,1
+1.3.1,TODO(rbharath): This is now simple enough that we should probably get rid of,1
+1.3.1,TODO(bramsundar): Should this be __copy__?,1
+1.3.1,TODO(rbharath): Should this be an atom function?,1
+1.3.1,TODO(LESWING),1
+1.3.1,not implemented featurization types,1
+1.3.1,TODO(rbharath): Can this be removed?,1
+1.3.1,TODO(rbharath): Should this return a list?,1
+1.3.1,"TODO check if function warns. There is assertWarns method in unittest,",1
+1.3.1,but it is not implemented in 2.7 and buggy in 3.5 (issue 29620),1
+1.3.1,FIXME might break with different version of rdkit,1
+1.3.1,FIXME might break with different version of rdkit,1
+1.3.1,"TODO find better example, currently dicts are empty",1
+1.3.1,"TODO find better example, currently dicts are empty",1
+1.3.1,TODO test if dict contains smiles,1
+1.3.1,TODO upperbound?,1
+1.3.1,"TODO(rbharath, joegomes): Why does AtomicCoordinates return a list? Is",1
+1.3.1,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+1.3.1,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+1.3.1,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+1.3.1,TODO(rbharath): Get rid of * import,1
+1.3.1,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+1.3.1,Note: This wouldn't work for multitask str,1
+1.3.1,TODO(rbharath): Don't support example weighting yet.,1
+1.3.1,TODO(rbharath/enf): We need a structured way to deal with potential GPU,1
+1.3.1,TODO(rbharath): Note sure if this layer can be called with __call__,1
+1.3.1,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+1.3.1,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+1.3.1,TODO(rbharath): Support batching,1
+1.3.1,TODO(rbharath): How does distance need to be modified here to,1
+1.3.1,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+1.3.1,TODO(rbharath): Shoddy handling of higher dimensions...,1
+1.3.1,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+1.3.1,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+1.3.1,"(TODO YTZ:) faster, less memory intensive way",1
+1.3.1,TODO(rbharath): Move this into a model directly,1
+1.3.1,"# TODO(rbharath): Mysteriously, the actual atom types aren't",1
+1.3.1,"# used in the current implementation. This is obviously wrong, but need",1
+1.3.1,TODO(rbharath): This test should pass. Fix it!,1
+1.3.1,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+1.3.1,TODO(LESWING) Add Dropout and regularization,1
+1.3.1,(ytz): this is really dirty but needed for restoring models,1
+1.3.1,TODO (LESWING) Lazy Load,1
+1.3.1,TODO (LESWING) Lazy Load,1
+1.3.1,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+1.3.1,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+1.3.1,TODO(rbharath): Check if something went wrong here...,1
+1.3.1,TODO(rbharath): Check if something went wrong here...,1
+1.3.1,TODO(rbharath): Check if something went wrong here...,1
+1.3.1,TODO(user): median is not implemented yet in TensorFlow,1
+1.3.1,TODO(rbharath): Might want to make it feasible to have multiple,1
+1.3.1,TODO(rbharath): Might want to make it feasible to have multiple,1
+1.3.1,TODO(rbharath): Is setting train=False right here?,1
+1.3.1,TODO(rbharath): Verify this can be safely removed.,1
+1.3.1,TODO(rbharath): Should weights for the support be used?,1
+1.3.1,TODO(rbharath): euclidean kernel is broken!,1
+1.3.1,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+1.3.1,TODO(rbharath): Find a way to get rid of this import?,1
+1.3.1,TODO(rbharath): I believe this is total amount of data,1
+1.3.1,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+1.3.1,TODO(rbharath): Figure out how to handle phase appropriately,1
+1.3.1,TODO(rbharath): Disabling saving for now to try to debug.,1
+1.3.1,TODO(rbharath): Find a way to get rid of this import?,1
+1.3.1,TODO(rbharath): I believe this is total amount of data,1
+1.3.1,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+1.3.1,TODO(rbharath): Figure out how to handle phase appropriately,1
+1.3.1,TODO(rbharath): Disabling saving for now to try to debug.,1
+1.3.1,TODO(rbharath): How does distance need to be modified here to,1
+1.3.1,TODO(rbharath): This will cause an issue with duplicates!,1
+1.3.1,TODO(rbharath): Change this for tf 1.0,1
+1.3.1,TODO(rbharath):,1
+1.3.1,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+1.3.1,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+1.3.1,TODO(rbharath),1
+1.3.1,TODO(rbharath): Make this handle minibatches,1
+1.3.1,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+1.3.1,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+1.3.1,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+1.3.1,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+1.3.1,TODO(rbharath): Check that this operation is differentiable.,1
+1.3.1,TODO(rbharath): The test below only checks that shapes work out.,1
+1.3.1,TODO(rbharath): The test below only checks that shapes work out.,1
+1.3.1,TODO(rbharath): The test below only checks that shapes work out.,1
+1.3.1,TODO(rbharath): Commenting this out due to weird segfaults,1
+1.3.1,TODO(rbharath): This function is complicated and monolithic. Is there a nice,1
+1.3.1,way to refactor this?,1
+1.3.1,TODO (Bowen): make this function less memory intensive,1
+1.3.1,TODO(rbharath): BROKEN!,1
+1.3.1,"positional arguments yourself, this could do the wrong thing.",1
+1.3.1,TODO(aselle): Could check for a literal list of bools and try to convert,1
+1.3.1,after the '[' token which appears to be a bug. Workaround by,1
+1.3.1,TODO(aselle):,1
+1.3.1,TODO(aselle): We should scan backward to find the start of the,1
+1.3.0,"TODO(rbharath, enf, leswing): Figure out why pi_stack and cation_pi",1
+1.3.0,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+1.3.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+1.3.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+1.3.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+1.3.0,TODO(rbharath): Is setting train=False right here?,1
+1.3.0,TODO(rbharath): Verify this can be safely removed.,1
+1.3.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.3.0,TODO(rbharath): It's not clear where nb_affine comes from.,1
+1.3.0,TODO(rbharath): What does this line do?,1
+1.3.0,TODO(rbharath): REMOVE GLOBAL VARS! BREAKS DEEPCHEM STYLE!,1
+1.3.0,TODO(rbharath): Should probably swap this over to tf mode.,1
+1.3.0,"TODO(rbharath): Need to rename this. This makes a variable, not just creates",1
+1.3.0,TODO(rbharath): Keras uses a global var here to maintain,1
+1.3.0,unique counts. This seems dangerous. How does tensorflow handle?,1
+1.3.0,TODO(rbharath): Support this type of functional API.,1
+1.3.0,TODO(rbharath): Shift refined to full once trained.,1
+1.3.0,"# TODO(rbharath): For now, using a weak cutoff. Fix later.",1
+1.3.0,# TODO(LESWING),1
+1.3.0,"TODO(rbharath, enf): Figure out why pi_stack is slow and cation_pi",1
+1.3.0,TODO(rbharath): May want to move this file to S3 so we can ensure it's,1
+1.3.0,"TODO(rbharath): Need to add some way to identify binding pocket, or this is",1
+1.3.0,TODO(rbharath): Handle multiple pockets instead of arbitrarily selecting,1
+1.3.0,TODO(rbharath): Generalize this so can support mol2 files as well.,1
+1.3.0,TODO(rbharath): Let user specify the number of poses required.,1
+1.3.0,TODO(rbharath): Convert the output pdbqt to a pdb file.,1
+1.3.0,"TODO(rbharath, joegomes): This doesn't seem like it should be hard-coded as",1
+1.3.0,"TODO(rbharath, joegomes): What is this magic number?",1
+1.3.0,TODO(rbharath): This has been a major source of bugs. Is there a more,1
+1.3.0,TODO (ytz) this is a bandage solution to reorder the atoms so,1
+1.3.0,"TODO(rbharath): This happens in tests sometimes, but don't understand why?",1
+1.3.0,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+1.3.0,TODO(rbharath): Get rid of * import,1
+1.3.0,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+1.3.0,almost all cases. Need to understand a method to fix this.,1
+1.3.0,Hack to allow for easy unpickling:,1
+1.3.0,"TODO (flee2): for transform_y, figure out weights",1
+1.3.0,TODO(rbharath): Untransform doesn't work properly for binary feature,1
+1.3.0,vectors. Need to figure out what's wrong here. (low priority),1
+1.3.0,TODO(rbharath): Use standard joblib once old-data has been regenerated.,1
+1.3.0,TODO(rbharath): Commenting out this file for now. Will be moved to a new repository.,1
+1.3.0,TODO(rbharath): This is now simple enough that we should probably get rid of,1
+1.3.0,TODO(bramsundar): Should this be __copy__?,1
+1.3.0,TODO(rbharath): Should this be an atom function?,1
+1.3.0,TODO(LESWING),1
+1.3.0,TODO(rbharath): Can this be removed?,1
+1.3.0,TODO(rbharath): Should this return a list?,1
+1.3.0,TODO test if dict contains smiles,1
+1.3.0,TODO upperbound?,1
+1.3.0,"TODO check if function warns. There is assertWarns method in unittest,",1
+1.3.0,but it is not implemented in 2.7 and buggy in 3.5 (issue 29620),1
+1.3.0,"TODO(rbharath, joegomes): Why does AtomicCoordinates return a list? Is",1
+1.3.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+1.3.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+1.3.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+1.3.0,TODO(rbharath): Get rid of * import,1
+1.3.0,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+1.3.0,Note: This wouldn't work for multitask str,1
+1.3.0,TODO(rbharath): Don't support example weighting yet.,1
+1.3.0,TODO(rbharath/enf): We need a structured way to deal with potential GPU,1
+1.3.0,TODO(rbharath): Note sure if this layer can be called with __call__,1
+1.3.0,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+1.3.0,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+1.3.0,TODO(rbharath): Support batching,1
+1.3.0,TODO(rbharath): How does distance need to be modified here to,1
+1.3.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+1.3.0,TODO(rbharath): Shoddy handling of higher dimensions...,1
+1.3.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+1.3.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+1.3.0,"(TODO YTZ:) faster, less memory intensive way",1
+1.3.0,TODO(rbharath): Move this into a model directly,1
+1.3.0,"# TODO(rbharath): Mysteriously, the actual atom types aren't",1
+1.3.0,"# used in the current implementation. This is obviously wrong, but need",1
+1.3.0,TODO(rbharath): This test should pass. Fix it!,1
+1.3.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+1.3.0,TODO(LESWING) Add Dropout and regularization,1
+1.3.0,(ytz): this is really dirty but needed for restoring models,1
+1.3.0,TODO (LESWING) Lazy Load,1
+1.3.0,TODO (LESWING) Lazy Load,1
+1.3.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+1.3.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+1.3.0,TODO(rbharath): Check if something went wrong here...,1
+1.3.0,TODO(rbharath): Check if something went wrong here...,1
+1.3.0,TODO(rbharath): Check if something went wrong here...,1
+1.3.0,TODO(user): median is not implemented yet in TensorFlow,1
+1.3.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+1.3.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+1.3.0,TODO(rbharath): Is setting train=False right here?,1
+1.3.0,TODO(rbharath): Verify this can be safely removed.,1
+1.3.0,TODO(rbharath): Should weights for the support be used?,1
+1.3.0,TODO(rbharath): euclidean kernel is broken!,1
+1.3.0,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+1.3.0,TODO(rbharath): Find a way to get rid of this import?,1
+1.3.0,TODO(rbharath): I believe this is total amount of data,1
+1.3.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+1.3.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+1.3.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+1.3.0,TODO(rbharath): Find a way to get rid of this import?,1
+1.3.0,TODO(rbharath): I believe this is total amount of data,1
+1.3.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+1.3.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+1.3.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+1.3.0,TODO(rbharath): How does distance need to be modified here to,1
+1.3.0,TODO(rbharath): This will cause an issue with duplicates!,1
+1.3.0,TODO(rbharath): Change this for tf 1.0,1
+1.3.0,TODO(rbharath):,1
+1.3.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+1.3.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+1.3.0,TODO(rbharath),1
+1.3.0,TODO(rbharath): Make this handle minibatches,1
+1.3.0,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+1.3.0,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+1.3.0,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+1.3.0,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+1.3.0,TODO(rbharath): Check that this operation is differentiable.,1
+1.3.0,TODO(rbharath): The test below only checks that shapes work out.,1
+1.3.0,TODO(rbharath): The test below only checks that shapes work out.,1
+1.3.0,TODO(rbharath): The test below only checks that shapes work out.,1
+1.3.0,TODO(rbharath): Commenting this out due to weird segfaults,1
+1.3.0,TODO(rbharath): This function is complicated and monolithic. Is there a nice,1
+1.3.0,way to refactor this?,1
+1.3.0,TODO (Bowen): make this function less memory intensive,1
+1.3.0,TODO(rbharath): BROKEN!,1
+1.3.0,"positional arguments yourself, this could do the wrong thing.",1
+1.3.0,TODO(aselle): Could check for a literal list of bools and try to convert,1
+1.3.0,after the '[' token which appears to be a bug. Workaround by,1
+1.3.0,TODO(aselle):,1
+1.3.0,TODO(aselle): We should scan backward to find the start of the,1
+1.2.0,"TODO(rbharath, enf, leswing): Figure out why pi_stack and cation_pi",1
+1.2.0,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+1.2.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+1.2.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+1.2.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+1.2.0,TODO(rbharath): Is setting train=False right here?,1
+1.2.0,TODO(rbharath): Verify this can be safely removed.,1
+1.2.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.2.0,TODO(rbharath): It's not clear where nb_affine comes from.,1
+1.2.0,TODO(rbharath): What does this line do?,1
+1.2.0,TODO(rbharath): REMOVE GLOBAL VARS! BREAKS DEEPCHEM STYLE!,1
+1.2.0,TODO(rbharath): Should probably swap this over to tf mode.,1
+1.2.0,"TODO(rbharath): Need to rename this. This makes a variable, not just creates",1
+1.2.0,TODO(rbharath): Keras uses a global var here to maintain,1
+1.2.0,unique counts. This seems dangerous. How does tensorflow handle?,1
+1.2.0,TODO(rbharath): Support this type of functional API.,1
+1.2.0,TODO(rbharath): Shift refined to full once trained.,1
+1.2.0,"# TODO(rbharath): For now, using a weak cutoff. Fix later.",1
+1.2.0,# TODO(LESWING),1
+1.2.0,"TODO(rbharath, enf): Figure out why pi_stack is slow and cation_pi",1
+1.2.0,TODO(rbharath): May want to move this file to S3 so we can ensure it's,1
+1.2.0,"TODO(rbharath): Need to add some way to identify binding pocket, or this is",1
+1.2.0,TODO(rbharath): Handle multiple pockets instead of arbitrarily selecting,1
+1.2.0,TODO(rbharath): Generalize this so can support mol2 files as well.,1
+1.2.0,TODO(rbharath): Let user specify the number of poses required.,1
+1.2.0,TODO(rbharath): Convert the output pdbqt to a pdb file.,1
+1.2.0,"TODO(rbharath, joegomes): This doesn't seem like it should be hard-coded as",1
+1.2.0,"TODO(rbharath, joegomes): What is this magic number?",1
+1.2.0,TODO(rbharath): This has been a major source of bugs. Is there a more,1
+1.2.0,TODO (ytz) this is a bandage solution to reorder the atoms so,1
+1.2.0,"TODO(rbharath): This happens in tests sometimes, but don't understand why?",1
+1.2.0,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+1.2.0,TODO(rbharath): Get rid of * import,1
+1.2.0,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+1.2.0,almost all cases. Need to understand a method to fix this.,1
+1.2.0,Hack to allow for easy unpickling:,1
+1.2.0,"TODO (flee2): for transform_y, figure out weights",1
+1.2.0,TODO(rbharath): Untransform doesn't work properly for binary feature,1
+1.2.0,vectors. Need to figure out what's wrong here. (low priority),1
+1.2.0,TODO(rbharath): Use standard joblib once old-data has been regenerated.,1
+1.2.0,TODO(rbharath): Commenting out this file for now. Will be moved to a new repository.,1
+1.2.0,TODO(rbharath): This is now simple enough that we should probably get rid of,1
+1.2.0,TODO(bramsundar): Should this be __copy__?,1
+1.2.0,TODO(rbharath): Should this be an atom function?,1
+1.2.0,TODO(LESWING),1
+1.2.0,TODO(enf): make array index checking not a try-catch statement.,1
+1.2.0,TODO(rbharath): Can this be removed?,1
+1.2.0,TODO(rbharath): Should this return a list?,1
+1.2.0,"TODO(rbharath, joegomes): Why does AtomicCoordinates return a list? Is",1
+1.2.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+1.2.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+1.2.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+1.2.0,TODO(rbharath): Get rid of * import,1
+1.2.0,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+1.2.0,Note: This wouldn't work for multitask str,1
+1.2.0,TODO(rbharath): Don't support example weighting yet.,1
+1.2.0,TODO(rbharath/enf): We need a structured way to deal with potential GPU,1
+1.2.0,TODO(rbharath): Note sure if this layer can be called with __call__,1
+1.2.0,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+1.2.0,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+1.2.0,TODO(rbharath): Support batching,1
+1.2.0,TODO(rbharath): How does distance need to be modified here to,1
+1.2.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+1.2.0,TODO(rbharath): Shoddy handling of higher dimensions...,1
+1.2.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+1.2.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+1.2.0,TODO(rbharath): Move this into a model directly,1
+1.2.0,"# TODO(rbharath): Mysteriously, the actual atom types aren't",1
+1.2.0,"# used in the current implementation. This is obviously wrong, but need",1
+1.2.0,TODO(rbharath): This test should pass. Fix it!,1
+1.2.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+1.2.0,TODO(LESWING) Add Dropout and regularization,1
+1.2.0,TODO (LESWING) Lazy Load,1
+1.2.0,TODO (LESWING) Lazy Load,1
+1.2.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+1.2.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+1.2.0,TODO(rbharath): Check if something went wrong here...,1
+1.2.0,TODO(rbharath): Check if something went wrong here...,1
+1.2.0,TODO(rbharath): Check if something went wrong here...,1
+1.2.0,TODO(rbharath): BROKEN! THIS DOESN'T WORK!,1
+1.2.0,TODO(user): median is not implemented yet in TensorFlow,1
+1.2.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+1.2.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+1.2.0,TODO(rbharath): Is setting train=False right here?,1
+1.2.0,TODO(rbharath): Verify this can be safely removed.,1
+1.2.0,TODO(rbharath): Should weights for the support be used?,1
+1.2.0,TODO(rbharath): euclidean kernel is broken!,1
+1.2.0,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+1.2.0,TODO(rbharath): Find a way to get rid of this import?,1
+1.2.0,TODO(rbharath): I believe this is total amount of data,1
+1.2.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+1.2.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+1.2.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+1.2.0,TODO(rbharath): Find a way to get rid of this import?,1
+1.2.0,TODO(rbharath): I believe this is total amount of data,1
+1.2.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+1.2.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+1.2.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+1.2.0,TODO(rbharath): How does distance need to be modified here to,1
+1.2.0,TODO(rbharath): This will cause an issue with duplicates!,1
+1.2.0,TODO(rbharath): Change this for tf 1.0,1
+1.2.0,TODO(rbharath):,1
+1.2.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+1.2.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+1.2.0,TODO(rbharath),1
+1.2.0,TODO(rbharath): Make this handle minibatches,1
+1.2.0,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+1.2.0,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+1.2.0,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+1.2.0,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+1.2.0,TODO(rbharath): Check that this operation is differentiable.,1
+1.2.0,TODO(rbharath): The test below only checks that shapes work out.,1
+1.2.0,TODO(rbharath): The test below only checks that shapes work out.,1
+1.2.0,TODO(rbharath): The test below only checks that shapes work out.,1
+1.2.0,TODO(rbharath): Commenting this out due to weird segfaults,1
+1.2.0,TODO(rbharath): This function is complicated and monolithic. Is there a nice,1
+1.2.0,way to refactor this?,1
+1.2.0,TODO (Bowen): make this function less memory intensive,1
+1.2.0,TODO(rbharath): BROKEN!,1
+1.2.0,"positional arguments yourself, this could do the wrong thing.",1
+1.2.0,TODO(aselle): Could check for a literal list of bools and try to convert,1
+1.2.0,after the '[' token which appears to be a bug. Workaround by,1
+1.2.0,TODO(aselle):,1
+1.2.0,TODO(aselle): We should scan backward to find the start of the,1
+1.1.0,"TODO(rbharath, enf, leswing): Figure out why pi_stack and cation_pi",1
+1.1.0,TODO(JSG): Implement non-PBC version.  For now this seems fine ..,1
+1.1.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+1.1.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+1.1.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+1.1.0,TODO(rbharath): Is setting train=False right here?,1
+1.1.0,TODO(rbharath): Verify this can be safely removed.,1
+1.1.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.1.0,TODO(rbharath): It's not clear where nb_affine comes from.,1
+1.1.0,TODO(rbharath): What does this line do?,1
+1.1.0,TODO(rbharath): REMOVE GLOBAL VARS! BREAKS DEEPCHEM STYLE!,1
+1.1.0,TODO(rbharath): Should probably swap this over to tf mode.,1
+1.1.0,"TODO(rbharath): Need to rename this. This makes a variable, not just creates",1
+1.1.0,TODO(rbharath): Keras uses a global var here to maintain,1
+1.1.0,unique counts. This seems dangerous. How does tensorflow handle?,1
+1.1.0,TODO(rbharath): Support this type of functional API.,1
+1.1.0,TODO(rbharath): Shift refined to full once trained.,1
+1.1.0,"# TODO(rbharath): For now, using a weak cutoff. Fix later.",1
+1.1.0,# TODO(LESWING),1
+1.1.0,"TODO(rbharath, enf): Figure out why pi_stack is slow and cation_pi",1
+1.1.0,TODO(rbharath): May want to move this file to S3 so we can ensure it's,1
+1.1.0,"TODO(rbharath): Need to add some way to identify binding pocket, or this is",1
+1.1.0,TODO(rbharath): Handle multiple pockets instead of arbitrarily selecting,1
+1.1.0,TODO(rbharath): Generalize this so can support mol2 files as well.,1
+1.1.0,TODO(rbharath): Let user specify the number of poses required.,1
+1.1.0,TODO(rbharath): Convert the output pdbqt to a pdb file.,1
+1.1.0,"TODO(rbharath, joegomes): This doesn't seem like it should be hard-coded as",1
+1.1.0,"TODO(rbharath, joegomes): What is this magic number?",1
+1.1.0,TODO(rbharath): This has been a major source of bugs. Is there a more,1
+1.1.0,TODO (ytz) this is a bandage solution to reorder the atoms so,1
+1.1.0,"TODO(rbharath): This happens in tests sometimes, but don't understand why?",1
+1.1.0,TODO (ytz): Under what condition does this exist but the file itself doesn't?,1
+1.1.0,TODO(rbharath): Get rid of * import,1
+1.1.0,"TODO(rbharath): Transformers don't play nice with reload! Namely,",1
+1.1.0,almost all cases. Need to understand a method to fix this.,1
+1.1.0,Hack to allow for easy unpickling:,1
+1.1.0,"TODO (flee2): for transform_y, figure out weights",1
+1.1.0,TODO(rbharath): Untransform doesn't work properly for binary feature,1
+1.1.0,vectors. Need to figure out what's wrong here. (low priority),1
+1.1.0,TODO(rbharath): Use standard joblib once old-data has been regenerated.,1
+1.1.0,TODO(rbharath): Commenting out this file for now. Will be moved to a new repository.,1
+1.1.0,TODO(rbharath): This is now simple enough that we should probably get rid of,1
+1.1.0,TODO(bramsundar): Should this be __copy__?,1
+1.1.0,TODO(rbharath): Should this be an atom function?,1
+1.1.0,TODO(LESWING),1
+1.1.0,TODO(enf): make array index checking not a try-catch statement.,1
+1.1.0,TODO(rbharath): Can this be removed?,1
+1.1.0,TODO(rbharath): Should this return a list?,1
+1.1.0,"TODO(rbharath, joegomes): Why does AtomicCoordinates return a list? Is",1
+1.1.0,TODO(rbharath): Refactor this split method to match API of other splits (or,1
+1.1.0,"TODO (ytz): really, we want at least one active and inactive in both scenarios.",1
+1.1.0,TODO (Ytz): for regression tasks we'd stop after only one cluster.,1
+1.1.0,TODO(rbharath): Get rid of * import,1
+1.1.0,TODO(rbharath): The IndexSplitter() had a bug with splitting sharded,1
+1.1.0,Note: This wouldn't work for multitask str,1
+1.1.0,TODO(rbharath): Don't support example weighting yet.,1
+1.1.0,TODO(rbharath/enf): We need a structured way to deal with potential GPU,1
+1.1.0,TODO(rbharath): Note sure if this layer can be called with __call__,1
+1.1.0,TODO(rbharath): Vina actually sets this per-molecule. See if makes,1
+1.1.0,TODO(rbharath): This layer shouldn't be neighbor-listing. Make,1
+1.1.0,TODO(rbharath): Support batching,1
+1.1.0,TODO(rbharath): How does distance need to be modified here to,1
+1.1.0,TODO(rbharath): FRAGILE! Uses fact that identity seems to be the first,1
+1.1.0,TODO(rbharath): Shoddy handling of higher dimensions...,1
+1.1.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+1.1.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+1.1.0,TODO(rbharath): Move this into a model directly,1
+1.1.0,"# TODO(rbharath): Mysteriously, the actual atom types aren't",1
+1.1.0,"# used in the current implementation. This is obviously wrong, but need",1
+1.1.0,TODO(rbharath): This test should pass. Fix it!,1
+1.1.0,TODO(rbharath): Why is it 2*n_features instead of n_features?,1
+1.1.0,TODO(LESWING) Add Dropout and regularization,1
+1.1.0,TODO (LESWING) Lazy Load,1
+1.1.0,TODO (LESWING) Lazy Load,1
+1.1.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+1.1.0,"TODO(rbharath): This breaks with optimizer=""momentum"". Why?",1
+1.1.0,TODO(rbharath): Check if something went wrong here...,1
+1.1.0,TODO(rbharath): Check if something went wrong here...,1
+1.1.0,TODO(rbharath): Check if something went wrong here...,1
+1.1.0,TODO(rbharath): BROKEN! THIS DOESN'T WORK!,1
+1.1.0,TODO(user): median is not implemented yet in TensorFlow,1
+1.1.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+1.1.0,TODO(rbharath): Might want to make it feasible to have multiple,1
+1.1.0,TODO(rbharath): Is setting train=False right here?,1
+1.1.0,TODO(rbharath): Verify this can be safely removed.,1
+1.1.0,TODO(rbharath): Should weights for the support be used?,1
+1.1.0,TODO(rbharath): euclidean kernel is broken!,1
+1.1.0,TODO(rbharath): Add test for get_task_dataset_minus_support for,1
+1.1.0,TODO(rbharath): Find a way to get rid of this import?,1
+1.1.0,TODO(rbharath): I believe this is total amount of data,1
+1.1.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+1.1.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+1.1.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+1.1.0,TODO(rbharath): Find a way to get rid of this import?,1
+1.1.0,TODO(rbharath): I believe this is total amount of data,1
+1.1.0,"TODO (hraut->rhbarath): num_datapoints should be a vector, with ith element being",1
+1.1.0,TODO(rbharath): Figure out how to handle phase appropriately,1
+1.1.0,TODO(rbharath): Disabling saving for now to try to debug.,1
+1.1.0,TODO(rbharath): How does distance need to be modified here to,1
+1.1.0,TODO(rbharath): This will cause an issue with duplicates!,1
+1.1.0,TODO(rbharath): Change this for tf 1.0,1
+1.1.0,TODO(rbharath):,1
+1.1.0,TODO(rbharath): Do we need to handle periodic boundary conditions,1
+1.1.0,TODO(rbharath): This doesn't handle boundaries well. We hard-code,1
+1.1.0,TODO(rbharath),1
+1.1.0,TODO(rbharath): Make this handle minibatches,1
+1.1.0,TODO(rbharath): Need to subtract out Van-der-Waals radii from dists,1
+1.1.0,TODO(rbharath): Use RDKit to compute number of rotatable bonds in ligand.,1
+1.1.0,TODO(rbharath): Autodock Vina only uses protein-ligand interactions in,1
+1.1.0,TODO(rbharath): Should this be 0 to max_deg inclusive?,1
+1.1.0,TODO(rbharath): Check that this operation is differentiable.,1
+1.1.0,TODO(rbharath): The test below only checks that shapes work out.,1
+1.1.0,TODO(rbharath): The test below only checks that shapes work out.,1
+1.1.0,TODO(rbharath): The test below only checks that shapes work out.,1
+1.1.0,TODO(rbharath): Commenting this out due to weird segfaults,1
+1.1.0,TODO(rbharath): This function is complicated and monolithic. Is there a nice,1
+1.1.0,way to refactor this?,1
+1.1.0,TODO (Bowen): make this function less memory intensive,1
+1.1.0,TODO(rbharath): BROKEN!,1
+1.1.0,"positional arguments yourself, this could do the wrong thing.",1
+1.1.0,TODO(aselle): Could check for a literal list of bools and try to convert,1
+1.1.0,after the '[' token which appears to be a bug. Workaround by,1
+1.1.0,TODO(aselle):,1
+1.1.0,TODO(aselle): We should scan backward to find the start of the,1
+0.0.4,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.0.4,TODO(rbharath): Use standard joblib once old-data has been regenerated.,1
+0.0.4,TODO(rbharath): The semantics of this class are very difficult to debug.,1
+0.0.4,TODO(rbharath): Still a bit of information leakage.,1
+0.0.4,TODO(rbharath): FeaturizedSamples should not be responsible for,1
+0.0.4,TODO(rbharath): There is a dangerous mixup in semantics. If itershards() is,1
+0.0.4,TODO(rbharath): These lines are puzzling. Better way to avoid storage,1
+0.0.4,TODO(rbharath): This is a hack. clean up.,1
+0.0.4,TODO(rbharath): Should X be saved to out_X_transformed as well? Since,1
+0.0.4,TODO(rbharath): This is a hack based on fact that multi-tasktype models,1
+0.0.4,TODO(rbharath): There should be some automatic check to ensure that all,1
+0.0.4,"TODO(rbharath): If we change away from axis-size 32, this code will break.",1
+0.0.4,TODO(rbharath): This does not work with very large datasets! sklearn does,1
+0.0.4,TODO(rbharath/enf): We need a structured way to deal with potential GPU,1
+0.0.4,complicated. Better way to model?,1
+0.0.4,TODO(rbharath): This feels like a total hack. Is there a structured way,1
+0.0.4,to deal with this instead?,1
+0.0.4,TODO(bramsundar): What are units of,1
+0.0.4,TODO(rbharath): This is a horrible inner-loop search. Can,1
+0.0.4,"TODO(rbharath): Rather than using this heuristic, it seems like",1
+0.0.4,it might be better to just report the angle in the feature,1
+0.0.4,TODO(rbharath): This if-else is confusing.,1
+0.0.4,TODO(rbharath): What is atom type A here?,1
+0.0.4,TODO(bramsundar): Should this be __copy__?,1
+0.0.4,TODO(rbharath): Should this be an atom function?,1
+0.0.4,TODO(rbharath): Might this be inefficient?,1
+0.0.4,### TODO(rbharath): Disabling loading of non,1
+0.0.4,TODO(rbharath): Is picking the first non-nitrogen atom,1
+0.0.4,TODO(rbharath): Why magic number 8?,1
+0.0.4,TODO(rbharath): Ugly code right here...,1
+0.0.4,TODO(rbharath): Charges are not computed correctly for certain,1
+0.0.3,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.0.3,TODO(rbharath): Use standard joblib once old-data has been regenerated.,1
+0.0.3,TODO(rbharath): The semantics of this class are very difficult to debug.,1
+0.0.3,TODO(rbharath): Still a bit of information leakage.,1
+0.0.3,TODO(rbharath): FeaturizedSamples should not be responsible for,1
+0.0.3,TODO(rbharath): There is a dangerous mixup in semantics. If itershards() is,1
+0.0.3,TODO(rbharath): These lines are puzzling. Better way to avoid storage,1
+0.0.3,TODO(rbharath): This is a hack. clean up.,1
+0.0.3,TODO(rbharath): Should X be saved to out_X_transformed as well? Since,1
+0.0.3,TODO(rbharath): This is a hack based on fact that multi-tasktype models,1
+0.0.3,TODO(rbharath): There should be some automatic check to ensure that all,1
+0.0.3,"TODO(rbharath): If we change away from axis-size 32, this code will break.",1
+0.0.3,TODO(rbharath): This does not work with very large datasets! sklearn does,1
+0.0.3,TODO(rbharath/enf): We need a structured way to deal with potential GPU,1
+0.0.3,complicated. Better way to model?,1
+0.0.3,TODO(rbharath): This feels like a total hack. Is there a structured way,1
+0.0.3,to deal with this instead?,1
+0.0.3,TODO(bramsundar): What are units of,1
+0.0.3,TODO(rbharath): This is a horrible inner-loop search. Can,1
+0.0.3,"TODO(rbharath): Rather than using this heuristic, it seems like",1
+0.0.3,it might be better to just report the angle in the feature,1
+0.0.3,TODO(rbharath): This if-else is confusing.,1
+0.0.3,TODO(rbharath): What is atom type A here?,1
+0.0.3,TODO(bramsundar): Should this be __copy__?,1
+0.0.3,TODO(rbharath): Should this be an atom function?,1
+0.0.3,TODO(rbharath): Might this be inefficient?,1
+0.0.3,### TODO(rbharath): Disabling loading of non,1
+0.0.3,TODO(rbharath): Is picking the first non-nitrogen atom,1
+0.0.3,TODO(rbharath): Why magic number 8?,1
+0.0.3,TODO(rbharath): Ugly code right here...,1
+0.0.3,TODO(rbharath): Charges are not computed correctly for certain,1
+0.0.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.0.2,TODO(rbharath): Use standard joblib once old-data has been regenerated.,1
+0.0.2,TODO(rbharath): The semantics of this class are very difficult to debug.,1
+0.0.2,TODO(rbharath): Still a bit of information leakage.,1
+0.0.2,TODO(rbharath): FeaturizedSamples should not be responsible for,1
+0.0.2,TODO(rbharath): There is a dangerous mixup in semantics. If itershards() is,1
+0.0.2,TODO(rbharath): These lines are puzzling. Better way to avoid storage,1
+0.0.2,TODO(rbharath): This is a hack. clean up.,1
+0.0.2,TODO(rbharath): Should X be saved to out_X_transformed as well? Since,1
+0.0.2,TODO(rbharath): This is a hack based on fact that multi-tasktype models,1
+0.0.2,TODO(rbharath): There should be some automatic check to ensure that all,1
+0.0.2,"TODO(rbharath): If we change away from axis-size 32, this code will break.",1
+0.0.2,TODO(rbharath): This does not work with very large datasets! sklearn does,1
+0.0.2,TODO(rbharath/enf): We need a structured way to deal with potential GPU,1
+0.0.2,complicated. Better way to model?,1
+0.0.2,TODO(rbharath): This feels like a total hack. Is there a structured way,1
+0.0.2,to deal with this instead?,1
+0.0.2,TODO(bramsundar): What are units of,1
+0.0.2,TODO(rbharath): This is a horrible inner-loop search. Can,1
+0.0.2,"TODO(rbharath): Rather than using this heuristic, it seems like",1
+0.0.2,it might be better to just report the angle in the feature,1
+0.0.2,TODO(rbharath): This if-else is confusing.,1
+0.0.2,TODO(rbharath): What is atom type A here?,1
+0.0.2,TODO(bramsundar): Should this be __copy__?,1
+0.0.2,TODO(rbharath): Should this be an atom function?,1
+0.0.2,TODO(rbharath): Might this be inefficient?,1
+0.0.2,### TODO(rbharath): Disabling loading of non,1
+0.0.2,TODO(rbharath): Is picking the first non-nitrogen atom,1
+0.0.2,TODO(rbharath): Why magic number 8?,1
+0.0.2,TODO(rbharath): Ugly code right here...,1
+0.0.2,TODO(rbharath): Charges are not computed correctly for certain,1
+0.0.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.0.1,TODO(rbharath): Use standard joblib once old-data has been regenerated.,1
+0.0.1,TODO(rbharath): The semantics of this class are very difficult to debug.,1
+0.0.1,TODO(rbharath): Still a bit of information leakage.,1
+0.0.1,TODO(rbharath): FeaturizedSamples should not be responsible for,1
+0.0.1,TODO(rbharath): There is a dangerous mixup in semantics. If itershards() is,1
+0.0.1,TODO(rbharath): These lines are puzzling. Better way to avoid storage,1
+0.0.1,TODO(rbharath): This is a hack. clean up.,1
+0.0.1,TODO(rbharath): Should X be saved to out_X_transformed as well? Since,1
+0.0.1,TODO(rbharath): This is a hack based on fact that multi-tasktype models,1
+0.0.1,TODO(rbharath): There should be some automatic check to ensure that all,1
+0.0.1,"TODO(rbharath): If we change away from axis-size 32, this code will break.",1
+0.0.1,TODO(rbharath): This does not work with very large datasets! sklearn does,1
+0.0.1,TODO(rbharath/enf): We need a structured way to deal with potential GPU,1
+0.0.1,complicated. Better way to model?,1
+0.0.1,TODO(rbharath): This feels like a total hack. Is there a structured way,1
+0.0.1,to deal with this instead?,1
+0.0.1,TODO(bramsundar): What are units of,1
+0.0.1,TODO(rbharath): This is a horrible inner-loop search. Can,1
+0.0.1,"TODO(rbharath): Rather than using this heuristic, it seems like",1
+0.0.1,it might be better to just report the angle in the feature,1
+0.0.1,TODO(rbharath): This if-else is confusing.,1
+0.0.1,TODO(rbharath): What is atom type A here?,1
+0.0.1,TODO(bramsundar): Should this be __copy__?,1
+0.0.1,TODO(rbharath): Should this be an atom function?,1
+0.0.1,TODO(rbharath): Might this be inefficient?,1
+0.0.1,### TODO(rbharath): Disabling loading of non,1
+0.0.1,TODO(rbharath): Is picking the first non-nitrogen atom,1
+0.0.1,TODO(rbharath): Why magic number 8?,1
+0.0.1,TODO(rbharath): Ugly code right here...,1
+0.0.1,TODO(rbharath): Charges are not computed correctly for certain,1

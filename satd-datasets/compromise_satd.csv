@@ -1,0 +1,1720 @@
+Version,Commit Message,SATD
+14.14.4,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.14.4,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.14.4,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.14.4,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.14.4,"['john will not be nice', 'john was not nice'],",1
+14.14.4,"['john will be not nice', 'john was not nice'],",1
+14.14.4,"['john had not been nice', 'john had not been nice'],",1
+14.14.4,TODO: missing auxillary,1
+14.14.4,"['uglily', 'ugly'],",1
+14.14.4,"['this march', [2016, march, 1]], //fixme",1
+14.14.4,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.14.4,todo remove/normalize plural forms,1
+14.14.4,add unchacheable matches to each sentence's todo-list,1
+14.14.4,return false //TODO: implement,1
+14.14.3,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.14.3,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.14.3,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.14.3,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.14.3,"['john will not be nice', 'john was not nice'],",1
+14.14.3,"['john will be not nice', 'john was not nice'],",1
+14.14.3,"['john had not been nice', 'john had not been nice'],",1
+14.14.3,TODO: missing auxillary,1
+14.14.3,"['uglily', 'ugly'],",1
+14.14.3,"['this march', [2016, march, 1]], //fixme",1
+14.14.3,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.14.3,todo remove/normalize plural forms,1
+14.14.3,add unchacheable matches to each sentence's todo-list,1
+14.14.3,return false //TODO: implement,1
+14.14.2,"`The road signs in this town are confusing.`, //confusing/adjective",1
+14.14.2,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.14.2,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.14.2,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.14.2,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.14.2,"['john will not be nice', 'john was not nice'],",1
+14.14.2,"['john will be not nice', 'john was not nice'],",1
+14.14.2,"['john had not been nice', 'john had not been nice'],",1
+14.14.2,TODO: missing auxillary,1
+14.14.2,"['uglily', 'ugly'],",1
+14.14.2,"['this march', [2016, march, 1]], //fixme",1
+14.14.2,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.14.2,todo remove/normalize plural forms,1
+14.14.2,add unchacheable matches to each sentence's todo-list,1
+14.14.2,return false //TODO: implement,1
+14.14.1,"`The road signs in this town are confusing.`, //confusing/adjective",1
+14.14.1,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.14.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.14.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.14.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.14.1,"['john will not be nice', 'john was not nice'],",1
+14.14.1,"['john will be not nice', 'john was not nice'],",1
+14.14.1,"['john had not been nice', 'john had not been nice'],",1
+14.14.1,TODO: missing auxillary,1
+14.14.1,"['uglily', 'ugly'],",1
+14.14.1,"['this march', [2016, march, 1]], //fixme",1
+14.14.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.14.1,todo remove/normalize plural forms,1
+14.14.1,add unchacheable matches to each sentence's todo-list,1
+14.14.1,return false //TODO: implement,1
+14.14.0,"`The road signs in this town are confusing.`, //confusing/adjective",1
+14.14.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.14.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.14.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.14.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.14.0,"['john will not be nice', 'john was not nice'],",1
+14.14.0,"['john will be not nice', 'john was not nice'],",1
+14.14.0,"['john had not been nice', 'john had not been nice'],",1
+14.14.0,TODO: missing auxillary,1
+14.14.0,"['uglily', 'ugly'],",1
+14.14.0,"['this march', [2016, march, 1]], //fixme",1
+14.14.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.14.0,todo remove/normalize plural forms,1
+14.14.0,add unchacheable matches to each sentence's todo-list,1
+14.14.0,return false //TODO: implement,1
+14.13.0,"`The road signs in this town are confusing.`, //confusing/adjective",1
+14.13.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.13.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.13.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.13.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.13.0,"['john will not be nice', 'john was not nice'],",1
+14.13.0,"['john will be not nice', 'john was not nice'],",1
+14.13.0,"['john had not been nice', 'john had not been nice'],",1
+14.13.0,TODO: missing auxillary,1
+14.13.0,"['uglily', 'ugly'],",1
+14.13.0,"['this march', [2016, march, 1]], //fixme",1
+14.13.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.13.0,todo remove/normalize plural forms,1
+14.13.0,add unchacheable matches to each sentence's todo-list,1
+14.13.0,return false //TODO: implement,1
+14.12.0,"`The road signs in this town are confusing.`, //confusing/adjective",1
+14.12.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.12.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.12.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.12.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.12.0,"['john will not be nice', 'john was not nice'],",1
+14.12.0,"['john will be not nice', 'john was not nice'],",1
+14.12.0,"['john had not been nice', 'john had not been nice'],",1
+14.12.0,TODO: missing auxillary,1
+14.12.0,"['uglily', 'ugly'],",1
+14.12.0,"['this march', [2016, march, 1]], //fixme",1
+14.12.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.12.0,todo remove/normalize plural forms,1
+14.12.0,add unchacheable matches to each sentence's todo-list,1
+14.11.2,"`The road signs in this town are confusing.`, //confusing/adjective",1
+14.11.2,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.11.2,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.11.2,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.11.2,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.11.2,"['john will not be nice', 'john was not nice'],",1
+14.11.2,"['john will be not nice', 'john was not nice'],",1
+14.11.2,"['john had not been nice', 'john had not been nice'],",1
+14.11.2,TODO: missing auxillary,1
+14.11.2,"['uglily', 'ugly'],",1
+14.11.2,"['this march', [2016, march, 1]], //fixme",1
+14.11.2,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.11.2,todo remove/normalize plural forms,1
+14.11.2,add unchacheable matches to each sentence's todo-list,1
+14.11.1,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.11.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.11.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.11.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.11.1,"['john will not be nice', 'john was not nice'],",1
+14.11.1,"['john will be not nice', 'john was not nice'],",1
+14.11.1,"['john had not been nice', 'john had not been nice'],",1
+14.11.1,TODO: missing auxillary,1
+14.11.1,"['uglily', 'ugly'],",1
+14.11.1,"['this march', [2016, march, 1]], //fixme",1
+14.11.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.11.1,todo remove/normalize plural forms,1
+14.11.1,add unchacheable matches to each sentence's todo-list,1
+14.11.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.11.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.11.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.11.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.11.0,"['john will not be nice', 'john was not nice'],",1
+14.11.0,"['john will be not nice', 'john was not nice'],",1
+14.11.0,"['john had not been nice', 'john had not been nice'],",1
+14.11.0,TODO: missing auxillary,1
+14.11.0,"['uglily', 'ugly'],",1
+14.11.0,"['this march', [2016, march, 1]], //fixme",1
+14.11.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.11.0,todo remove/normalize plural forms,1
+14.11.0,add unchacheable matches to each sentence's todo-list,1
+14.10.1,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.10.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.10.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.10.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.10.1,"['john will not be nice', 'john was not nice'],",1
+14.10.1,"['john will be not nice', 'john was not nice'],",1
+14.10.1,"['john had not been nice', 'john had not been nice'],",1
+14.10.1,TODO: missing auxillary,1
+14.10.1,"['uglily', 'ugly'],",1
+14.10.1,"['this march', [2016, march, 1]], //fixme",1
+14.10.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.10.1,todo remove/normalize plural forms,1
+14.10.1,add unchacheable matches to each sentence's todo-list,1
+14.10.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.10.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.10.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.10.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.10.0,"['john will not be nice', 'john was not nice'],",1
+14.10.0,"['john will be not nice', 'john was not nice'],",1
+14.10.0,"['john had not been nice', 'john had not been nice'],",1
+14.10.0,TODO: missing auxillary,1
+14.10.0,"['uglily', 'ugly'],",1
+14.10.0,"['this march', [2016, march, 1]], //fixme",1
+14.10.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.10.0,todo remove/normalize plural forms,1
+14.10.0,add unchacheable matches to each sentence's todo-list,1
+14.9.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.9.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.9.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.9.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.9.0,"['john will not be nice', 'john was not nice'],",1
+14.9.0,"['john will be not nice', 'john was not nice'],",1
+14.9.0,"['john had not been nice', 'john had not been nice'],",1
+14.9.0,TODO: missing auxillary,1
+14.9.0,"['uglily', 'ugly'],",1
+14.9.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.9.0,todo remove/normalize plural forms,1
+14.9.0,add unchacheable matches to each sentence's todo-list,1
+14.8.2,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.8.2,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.8.2,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.8.2,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.8.2,"['john will not be nice', 'john was not nice'],",1
+14.8.2,"['john will be not nice', 'john was not nice'],",1
+14.8.2,"['john had not been nice', 'john had not been nice'],",1
+14.8.2,TODO: missing auxillary,1
+14.8.2,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.8.2,todo remove/normalize plural forms,1
+14.8.2,add unchacheable matches to each sentence's todo-list,1
+14.8.1,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.8.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.8.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.8.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.8.1,"['john will not be nice', 'john was not nice'],",1
+14.8.1,"['john will be not nice', 'john was not nice'],",1
+14.8.1,"['john had not been nice', 'john had not been nice'],",1
+14.8.1,TODO: missing auxillary,1
+14.8.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.8.1,todo remove/normalize plural forms,1
+14.8.1,add unchacheable matches to each sentence's todo-list,1
+14.8.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.8.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.8.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.8.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.8.0,"['john will not be nice', 'john was not nice'],",1
+14.8.0,"['john will be not nice', 'john was not nice'],",1
+14.8.0,"['john had not been nice', 'john had not been nice'],",1
+14.8.0,TODO: missing auxillary,1
+14.8.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.8.0,todo remove/normalize plural forms,1
+14.8.0,add unchacheable matches to each sentence's todo-list,1
+14.7.1,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.7.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.7.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.7.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.7.1,"['john will not be nice', 'john was not nice'],",1
+14.7.1,"['john will be not nice', 'john was not nice'],",1
+14.7.1,"['john had not been nice', 'john had not been nice'],",1
+14.7.1,TODO: missing auxillary,1
+14.7.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.7.1,todo remove/normalize plural forms,1
+14.7.1,add unchacheable matches to each sentence's todo-list,1
+14.7.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.7.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.7.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.7.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.7.0,"['john will not be nice', 'john was not nice'],",1
+14.7.0,"['john will be not nice', 'john was not nice'],",1
+14.7.0,"['john had not been nice', 'john had not been nice'],",1
+14.7.0,TODO: missing auxillary,1
+14.7.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.7.0,todo remove/normalize plural forms,1
+14.7.0,add unchacheable matches to each sentence's todo-list,1
+14.6.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.6.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.6.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.6.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.6.0,"['john will not be nice', 'john was not nice'],",1
+14.6.0,"['john will be not nice', 'john was not nice'],",1
+14.6.0,"['john had not been nice', 'john had not been nice'],",1
+14.6.0,TODO: missing auxillary,1
+14.6.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.6.0,todo remove/normalize plural forms,1
+14.6.0,add unchacheable matches to each sentence's todo-list,1
+14.5.2,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.5.2,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.5.2,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.5.2,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.5.2,"['john will not be nice', 'john was not nice'],",1
+14.5.2,"['john will be not nice', 'john was not nice'],",1
+14.5.2,"['john had not been nice', 'john had not been nice'],",1
+14.5.2,TODO: missing auxillary,1
+14.5.2,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.5.2,todo remove/normalize plural forms,1
+14.5.2,add unchacheable matches to each sentence's todo-list,1
+14.5.2,an awkward way to disambiguate a comma use,1
+14.5.1,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.5.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.5.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.5.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.5.1,"['john will not be nice', 'john was not nice'],",1
+14.5.1,"['john will be not nice', 'john was not nice'],",1
+14.5.1,"['john had not been nice', 'john had not been nice'],",1
+14.5.1,TODO: missing auxillary,1
+14.5.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.5.1,todo remove/normalize plural forms,1
+14.5.1,add unchacheable matches to each sentence's todo-list,1
+14.5.1,an awkward way to disambiguate a comma use,1
+14.5.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.5.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.5.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.5.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.5.0,"['john will not be nice', 'john was not nice'],",1
+14.5.0,"['john will be not nice', 'john was not nice'],",1
+14.5.0,"['john had not been nice', 'john had not been nice'],",1
+14.5.0,TODO: missing auxillary,1
+14.5.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.5.0,todo remove/normalize plural forms,1
+14.5.0,add unchacheable matches to each sentence's todo-list,1
+14.5.0,an awkward way to disambiguate a comma use,1
+14.4.5,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.4.5,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.4.5,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.4.5,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.4.5,"['john will not be nice', 'john was not nice'],",1
+14.4.5,"['john will be not nice', 'john was not nice'],",1
+14.4.5,"['john had not been nice', 'john had not been nice'],",1
+14.4.5,TODO: missing auxillary,1
+14.4.5,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.4.5,todo remove/normalize plural forms,1
+14.4.5,add unchacheable matches to each sentence's todo-list,1
+14.4.5,an awkward way to disambiguate a comma use,1
+14.4.4,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.4.4,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.4.4,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.4.4,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.4.4,"['john will not be nice', 'john was not nice'],",1
+14.4.4,"['john will be not nice', 'john was not nice'],",1
+14.4.4,"['john had not been nice', 'john had not been nice'],",1
+14.4.4,TODO: missing auxillary,1
+14.4.4,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.4.4,todo remove/normalize plural forms,1
+14.4.4,add unchacheable matches to each sentence's todo-list,1
+14.4.4,an awkward way to disambiguate a comma use,1
+14.4.3,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.4.3,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.4.3,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.4.3,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.4.3,"['john will not be nice', 'john was not nice'],",1
+14.4.3,"['john will be not nice', 'john was not nice'],",1
+14.4.3,"['john had not been nice', 'john had not been nice'],",1
+14.4.3,TODO: missing auxillary,1
+14.4.3,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.4.3,todo remove/normalize plural forms,1
+14.4.3,add unchacheable matches to each sentence's todo-list,1
+14.4.3,an awkward way to disambiguate a comma use,1
+14.4.2,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.4.2,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.4.2,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.4.2,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.4.2,"['john will not be nice', 'john was not nice'],",1
+14.4.2,"['john will be not nice', 'john was not nice'],",1
+14.4.2,"['john had not been nice', 'john had not been nice'],",1
+14.4.2,TODO: missing auxillary,1
+14.4.2,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.4.2,todo remove/normalize plural forms,1
+14.4.2,add unchacheable matches to each sentence's todo-list,1
+14.4.2,an awkward way to disambiguate a comma use,1
+14.4.1,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.4.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.4.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.4.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.4.1,"['john will not be nice', 'john was not nice'],",1
+14.4.1,"['john will be not nice', 'john was not nice'],",1
+14.4.1,"['john had not been nice', 'john had not been nice'],",1
+14.4.1,TODO: missing auxillary,1
+14.4.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.4.1,todo remove/normalize plural forms,1
+14.4.1,add unchacheable matches to each sentence's todo-list,1
+14.4.1,an awkward way to disambiguate a comma use,1
+14.4.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.4.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.4.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.4.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.4.0,"['john will not be nice', 'john was not nice'],",1
+14.4.0,"['john will be not nice', 'john was not nice'],",1
+14.4.0,"['john had not been nice', 'john had not been nice'],",1
+14.4.0,TODO: missing auxillary,1
+14.4.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.4.0,todo remove/normalize plural forms,1
+14.4.0,add unchacheable matches to each sentence's todo-list,1
+14.4.0,an awkward way to disambiguate a comma use,1
+14.3.1,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.3.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.3.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.3.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.3.1,"['john will not be nice', 'john was not nice'],",1
+14.3.1,"['john will be not nice', 'john was not nice'],",1
+14.3.1,"['john had not been nice', 'john had not been nice'],",1
+14.3.1,TODO: missing auxillary,1
+14.3.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.3.1,todo remove/normalize plural forms,1
+14.3.1,add unchacheable matches to each sentence's todo-list,1
+14.3.1,an awkward way to disambiguate a comma use,1
+14.3.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.3.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.3.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.3.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.3.0,"['john will not be nice', 'john was not nice'],",1
+14.3.0,"['john will be not nice', 'john was not nice'],",1
+14.3.0,"['john had not been nice', 'john had not been nice'],",1
+14.3.0,TODO: missing auxillary,1
+14.3.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.3.0,todo remove/normalize plural forms,1
+14.3.0,add unchacheable matches to each sentence's todo-list,1
+14.3.0,an awkward way to disambiguate a comma use,1
+14.2.1,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.2.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.2.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.2.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.2.1,"['john will not be nice', 'john was not nice'],",1
+14.2.1,"['john will be not nice', 'john was not nice'],",1
+14.2.1,"['john had not been nice', 'john had not been nice'],",1
+14.2.1,TODO: missing auxillary,1
+14.2.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.2.1,todo remove/normalize plural forms,1
+14.2.1,add unchacheable matches to each sentence's todo-list,1
+14.2.1,an awkward way to disambiguate a comma use,1
+14.2.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.2.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.2.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.2.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.2.0,"['john will not be nice', 'john was not nice'],",1
+14.2.0,"['john will be not nice', 'john was not nice'],",1
+14.2.0,"['john had not been nice', 'john had not been nice'],",1
+14.2.0,TODO: missing auxillary,1
+14.2.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.2.0,todo remove/normalize plural forms,1
+14.2.0,add unchacheable matches to each sentence's todo-list,1
+14.2.0,an awkward way to disambiguate a comma use,1
+14.1.2,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.1.2,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.1.2,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.1.2,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.1.2,"['john will not be nice', 'john was not nice'],",1
+14.1.2,"['john will be not nice', 'john was not nice'],",1
+14.1.2,"['john had not been nice', 'john had not been nice'],",1
+14.1.2,TODO: missing auxillary,1
+14.1.2,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.1.2,todo remove/normalize plural forms,1
+14.1.2,an awkward way to disambiguate a comma use,1
+14.1.1,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.1.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.1.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.1.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.1.1,"['john will not be nice', 'john was not nice'],",1
+14.1.1,"['john will be not nice', 'john was not nice'],",1
+14.1.1,"['john had not been nice', 'john had not been nice'],",1
+14.1.1,TODO: missing auxillary,1
+14.1.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.1.1,todo remove/normalize plural forms,1
+14.1.1,an awkward way to disambiguate a comma use,1
+14.1.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.1.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.1.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.1.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.1.0,"['john will not be nice', 'john was not nice'],",1
+14.1.0,"['john will be not nice', 'john was not nice'],",1
+14.1.0,"['john had not been nice', 'john had not been nice'],",1
+14.1.0,TODO: missing auxillary,1
+14.1.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.1.0,todo remove/normalize plural forms,1
+14.1.0,an awkward way to disambiguate a comma use,1
+14.0.0,"[`might get better aim`, '#Auxiliary #Verb #Comparative #Noun'],",1
+14.0.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+14.0.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+14.0.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+14.0.0,"['john will not be nice', 'john was not nice'],",1
+14.0.0,"['john will be not nice', 'john was not nice'],",1
+14.0.0,"['john had not been nice', 'john had not been nice'],",1
+14.0.0,TODO: missing auxillary,1
+14.0.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+14.0.0,todo remove/normalize plural forms,1
+14.0.0,an awkward way to disambiguate a comma use,1
+13.11.4,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.11.4,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.11.4,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.11.4,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.11.4,TODO: not sure why this doesn't pass when running all-tests,1
+13.11.4,TODO: missing auxillary,1
+13.11.4,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.11.4,todo remove/normalize plural forms,1
+13.11.4,an awkward way to disambiguate a comma use,1
+13.11.4,todo: split consecutive contractions,1
+13.11.4,TODO:fixme,1
+13.11.4,TODO:fixme,1
+13.11.4,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.11.4,quick hack for copula verb - be/am,1
+13.11.4,quick hack for copula verb - be/am,1
+13.11.4,these are suffices that are usually too weird,1
+13.11.4,these are suffices that are usually too weird,1
+13.11.4,TODO: modify docs accordingly,1
+13.11.4,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.11.4,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.11.4,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.11.4,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.11.4,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.11.4,"TODO: micro optimize, avoid extra prop access",1
+13.11.4,TODO: custom tokens should not push directly??,1
+13.11.4,No need to optimize this using NOOP pattern because,1
+13.11.4,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.11.4,TODO: can this be removed? where is it used?,1
+13.11.4,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.11.4,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.11.4,TODO: this is a limited check for empty alternatives,1
+13.11.4,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.11.4,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.11.4,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.11.4,TODO: should this be more explicitly part of the public API?,1
+13.11.4,No need to optimize this using NOOP pattern because,1
+13.11.4,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.11.4,TODO: could probably allow relative jmps to get rid of noop,1
+13.11.4,"Notes or something like it, may not be accurate.",1
+13.11.4,TODO: could probably allow relative jmps to get rid of noop,1
+13.11.4,TODO: phrase.tagger()?,1
+13.11.4,"ok, maybe that's enough?",1
+13.11.4,this part sucks,1
+13.11.4,todo remove/normalize plural forms,1
+13.11.4,todo: split consecutive contractions,1
+13.11.4,todo: split consecutive contractions,1
+13.11.4,an awkward way to disambiguate a comma use,1
+13.11.3,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.11.3,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.11.3,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.11.3,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.11.3,TODO: not sure why this doesn't pass when running all-tests,1
+13.11.3,TODO: missing auxillary,1
+13.11.3,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.11.3,todo remove/normalize plural forms,1
+13.11.3,an awkward way to disambiguate a comma use,1
+13.11.3,todo: split consecutive contractions,1
+13.11.3,TODO:fixme,1
+13.11.3,TODO:fixme,1
+13.11.3,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.11.3,quick hack for copula verb - be/am,1
+13.11.3,quick hack for copula verb - be/am,1
+13.11.3,these are suffices that are usually too weird,1
+13.11.3,these are suffices that are usually too weird,1
+13.11.3,TODO: modify docs accordingly,1
+13.11.3,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.11.3,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.11.3,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.11.3,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.11.3,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.11.3,"TODO: micro optimize, avoid extra prop access",1
+13.11.3,TODO: custom tokens should not push directly??,1
+13.11.3,No need to optimize this using NOOP pattern because,1
+13.11.3,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.11.3,TODO: can this be removed? where is it used?,1
+13.11.3,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.11.3,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.11.3,TODO: this is a limited check for empty alternatives,1
+13.11.3,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.11.3,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.11.3,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.11.3,TODO: should this be more explicitly part of the public API?,1
+13.11.3,No need to optimize this using NOOP pattern because,1
+13.11.3,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.11.3,TODO: could probably allow relative jmps to get rid of noop,1
+13.11.3,"Notes or something like it, may not be accurate.",1
+13.11.3,TODO: could probably allow relative jmps to get rid of noop,1
+13.11.3,TODO: phrase.tagger()?,1
+13.11.3,"ok, maybe that's enough?",1
+13.11.3,this part sucks,1
+13.11.3,todo remove/normalize plural forms,1
+13.11.3,todo: split consecutive contractions,1
+13.11.3,todo: split consecutive contractions,1
+13.11.3,an awkward way to disambiguate a comma use,1
+13.11.2,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.11.2,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.11.2,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.11.2,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.11.2,TODO: not sure why this doesn't pass when running all-tests,1
+13.11.2,TODO: missing auxillary,1
+13.11.2,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.11.2,todo remove/normalize plural forms,1
+13.11.2,an awkward way to disambiguate a comma use,1
+13.11.2,todo: split consecutive contractions,1
+13.11.2,TODO:fixme,1
+13.11.2,TODO:fixme,1
+13.11.2,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.11.2,quick hack for copula verb - be/am,1
+13.11.2,quick hack for copula verb - be/am,1
+13.11.2,these are suffices that are usually too weird,1
+13.11.2,these are suffices that are usually too weird,1
+13.11.2,TODO: modify docs accordingly,1
+13.11.2,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.11.2,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.11.2,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.11.2,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.11.2,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.11.2,"TODO: micro optimize, avoid extra prop access",1
+13.11.2,TODO: custom tokens should not push directly??,1
+13.11.2,No need to optimize this using NOOP pattern because,1
+13.11.2,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.11.2,TODO: can this be removed? where is it used?,1
+13.11.2,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.11.2,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.11.2,TODO: this is a limited check for empty alternatives,1
+13.11.2,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.11.2,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.11.2,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.11.2,TODO: should this be more explicitly part of the public API?,1
+13.11.2,No need to optimize this using NOOP pattern because,1
+13.11.2,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.11.2,TODO: could probably allow relative jmps to get rid of noop,1
+13.11.2,"Notes or something like it, may not be accurate.",1
+13.11.2,TODO: could probably allow relative jmps to get rid of noop,1
+13.11.2,TODO: phrase.tagger()?,1
+13.11.2,"ok, maybe that's enough?",1
+13.11.2,this part sucks,1
+13.11.2,todo remove/normalize plural forms,1
+13.11.2,todo: split consecutive contractions,1
+13.11.2,todo: split consecutive contractions,1
+13.11.2,an awkward way to disambiguate a comma use,1
+13.11.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.11.1,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.11.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.11.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.11.1,TODO: not sure why this doesn't pass when running all-tests,1
+13.11.1,TODO: missing auxillary,1
+13.11.1,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.11.1,todo remove/normalize plural forms,1
+13.11.1,an awkward way to disambiguate a comma use,1
+13.11.1,todo: split consecutive contractions,1
+13.11.1,TODO:fixme,1
+13.11.1,TODO:fixme,1
+13.11.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.11.1,quick hack for copula verb - be/am,1
+13.11.1,quick hack for copula verb - be/am,1
+13.11.1,these are suffices that are usually too weird,1
+13.11.1,these are suffices that are usually too weird,1
+13.11.1,TODO: modify docs accordingly,1
+13.11.1,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.11.1,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.11.1,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.11.1,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.11.1,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.11.1,"TODO: micro optimize, avoid extra prop access",1
+13.11.1,TODO: custom tokens should not push directly??,1
+13.11.1,No need to optimize this using NOOP pattern because,1
+13.11.1,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.11.1,TODO: can this be removed? where is it used?,1
+13.11.1,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.11.1,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.11.1,TODO: this is a limited check for empty alternatives,1
+13.11.1,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.11.1,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.11.1,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.11.1,TODO: should this be more explicitly part of the public API?,1
+13.11.1,No need to optimize this using NOOP pattern because,1
+13.11.1,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.11.1,TODO: could probably allow relative jmps to get rid of noop,1
+13.11.1,"Notes or something like it, may not be accurate.",1
+13.11.1,TODO: could probably allow relative jmps to get rid of noop,1
+13.11.1,TODO: phrase.tagger()?,1
+13.11.1,"ok, maybe that's enough?",1
+13.11.1,this part sucks,1
+13.11.1,todo remove/normalize plural forms,1
+13.11.1,todo: split consecutive contractions,1
+13.11.1,todo: split consecutive contractions,1
+13.11.1,an awkward way to disambiguate a comma use,1
+13.11.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.11.0,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.11.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.11.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.11.0,TODO: not sure why this doesn't pass when running all-tests,1
+13.11.0,TODO: missing auxillary,1
+13.11.0,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.11.0,todo remove/normalize plural forms,1
+13.11.0,an awkward way to disambiguate a comma use,1
+13.11.0,todo: split consecutive contractions,1
+13.11.0,TODO:fixme,1
+13.11.0,TODO:fixme,1
+13.11.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.11.0,quick hack for copula verb - be/am,1
+13.11.0,quick hack for copula verb - be/am,1
+13.11.0,these are suffices that are usually too weird,1
+13.11.0,these are suffices that are usually too weird,1
+13.11.0,TODO: modify docs accordingly,1
+13.11.0,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.11.0,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.11.0,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.11.0,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.11.0,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.11.0,"TODO: micro optimize, avoid extra prop access",1
+13.11.0,TODO: custom tokens should not push directly??,1
+13.11.0,No need to optimize this using NOOP pattern because,1
+13.11.0,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.11.0,TODO: can this be removed? where is it used?,1
+13.11.0,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.11.0,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.11.0,TODO: this is a limited check for empty alternatives,1
+13.11.0,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.11.0,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.11.0,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.11.0,TODO: should this be more explicitly part of the public API?,1
+13.11.0,No need to optimize this using NOOP pattern because,1
+13.11.0,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.11.0,TODO: could probably allow relative jmps to get rid of noop,1
+13.11.0,"Notes or something like it, may not be accurate.",1
+13.11.0,TODO: could probably allow relative jmps to get rid of noop,1
+13.11.0,TODO: phrase.tagger()?,1
+13.11.0,"ok, maybe that's enough?",1
+13.11.0,this part sucks,1
+13.11.0,todo remove/normalize plural forms,1
+13.11.0,todo: split consecutive contractions,1
+13.11.0,todo: split consecutive contractions,1
+13.11.0,an awkward way to disambiguate a comma use,1
+13.10.6,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.10.6,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.10.6,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.10.6,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.10.6,TODO: not sure why this doesn't pass when running all-tests,1
+13.10.6,TODO: missing auxillary,1
+13.10.6,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.10.6,todo remove/normalize plural forms,1
+13.10.6,an awkward way to disambiguate a comma use,1
+13.10.6,todo: split consecutive contractions,1
+13.10.6,TODO:fixme,1
+13.10.6,TODO:fixme,1
+13.10.6,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.10.6,quick hack for copula verb - be/am,1
+13.10.6,quick hack for copula verb - be/am,1
+13.10.6,these are suffices that are usually too weird,1
+13.10.6,these are suffices that are usually too weird,1
+13.10.6,TODO: modify docs accordingly,1
+13.10.6,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.10.6,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.10.6,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.10.6,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.10.6,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.10.6,"TODO: micro optimize, avoid extra prop access",1
+13.10.6,TODO: custom tokens should not push directly??,1
+13.10.6,No need to optimize this using NOOP pattern because,1
+13.10.6,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.10.6,TODO: can this be removed? where is it used?,1
+13.10.6,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.10.6,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.10.6,TODO: this is a limited check for empty alternatives,1
+13.10.6,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.6,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.6,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.10.6,TODO: should this be more explicitly part of the public API?,1
+13.10.6,No need to optimize this using NOOP pattern because,1
+13.10.6,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.10.6,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.6,"Notes or something like it, may not be accurate.",1
+13.10.6,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.6,TODO: phrase.tagger()?,1
+13.10.6,"ok, maybe that's enough?",1
+13.10.6,this part sucks,1
+13.10.6,todo remove/normalize plural forms,1
+13.10.6,todo: split consecutive contractions,1
+13.10.6,todo: split consecutive contractions,1
+13.10.6,an awkward way to disambiguate a comma use,1
+13.10.5,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.10.5,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.10.5,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.10.5,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.10.5,TODO: not sure why this doesn't pass when running all-tests,1
+13.10.5,TODO: missing auxillary,1
+13.10.5,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.10.5,todo remove/normalize plural forms,1
+13.10.5,an awkward way to disambiguate a comma use,1
+13.10.5,todo: split consecutive contractions,1
+13.10.5,TODO:fixme,1
+13.10.5,TODO:fixme,1
+13.10.5,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.10.5,quick hack for copula verb - be/am,1
+13.10.5,quick hack for copula verb - be/am,1
+13.10.5,these are suffices that are usually too weird,1
+13.10.5,these are suffices that are usually too weird,1
+13.10.5,TODO: modify docs accordingly,1
+13.10.5,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.10.5,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.10.5,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.10.5,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.10.5,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.10.5,"TODO: micro optimize, avoid extra prop access",1
+13.10.5,TODO: custom tokens should not push directly??,1
+13.10.5,No need to optimize this using NOOP pattern because,1
+13.10.5,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.10.5,TODO: can this be removed? where is it used?,1
+13.10.5,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.10.5,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.10.5,TODO: this is a limited check for empty alternatives,1
+13.10.5,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.5,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.5,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.10.5,TODO: should this be more explicitly part of the public API?,1
+13.10.5,No need to optimize this using NOOP pattern because,1
+13.10.5,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.10.5,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.5,"Notes or something like it, may not be accurate.",1
+13.10.5,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.5,TODO: phrase.tagger()?,1
+13.10.5,"ok, maybe that's enough?",1
+13.10.5,this part sucks,1
+13.10.5,todo remove/normalize plural forms,1
+13.10.5,todo: split consecutive contractions,1
+13.10.5,todo: split consecutive contractions,1
+13.10.5,an awkward way to disambiguate a comma use,1
+13.10.4,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.10.4,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.10.4,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.10.4,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.10.4,TODO: not sure why this doesn't pass when running all-tests,1
+13.10.4,TODO: missing auxillary,1
+13.10.4,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.10.4,todo remove/normalize plural forms,1
+13.10.4,an awkward way to disambiguate a comma use,1
+13.10.4,todo: split consecutive contractions,1
+13.10.4,TODO:fixme,1
+13.10.4,TODO:fixme,1
+13.10.4,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.10.4,TODO: learn how to write better software.,1
+13.10.4,quick hack for copula verb - be/am,1
+13.10.4,quick hack for copula verb - be/am,1
+13.10.4,these are suffices that are usually too weird,1
+13.10.4,these are suffices that are usually too weird,1
+13.10.4,TODO: modify docs accordingly,1
+13.10.4,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.10.4,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.10.4,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.10.4,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.10.4,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.10.4,"TODO: micro optimize, avoid extra prop access",1
+13.10.4,TODO: custom tokens should not push directly??,1
+13.10.4,No need to optimize this using NOOP pattern because,1
+13.10.4,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.10.4,TODO: can this be removed? where is it used?,1
+13.10.4,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.10.4,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.10.4,TODO: this is a limited check for empty alternatives,1
+13.10.4,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.4,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.4,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.10.4,TODO: should this be more explicitly part of the public API?,1
+13.10.4,No need to optimize this using NOOP pattern because,1
+13.10.4,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.10.4,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.4,"Notes or something like it, may not be accurate.",1
+13.10.4,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.4,TODO: phrase.tagger()?,1
+13.10.4,"ok, maybe that's enough?",1
+13.10.4,this part sucks,1
+13.10.4,todo remove/normalize plural forms,1
+13.10.4,todo: split consecutive contractions,1
+13.10.4,todo: split consecutive contractions,1
+13.10.4,an awkward way to disambiguate a comma use,1
+13.10.3,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.10.3,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.10.3,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.10.3,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.10.3,TODO: not sure why this doesn't pass when running all-tests,1
+13.10.3,TODO: missing auxillary,1
+13.10.3,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.10.3,todo remove/normalize plural forms,1
+13.10.3,an awkward way to disambiguate a comma use,1
+13.10.3,todo: split consecutive contractions,1
+13.10.3,TODO:fixme,1
+13.10.3,TODO:fixme,1
+13.10.3,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.10.3,TODO: learn how to write better software.,1
+13.10.3,quick hack for copula verb - be/am,1
+13.10.3,quick hack for copula verb - be/am,1
+13.10.3,these are suffices that are usually too weird,1
+13.10.3,these are suffices that are usually too weird,1
+13.10.3,TODO: modify docs accordingly,1
+13.10.3,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.10.3,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.10.3,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.10.3,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.10.3,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.10.3,"TODO: micro optimize, avoid extra prop access",1
+13.10.3,TODO: custom tokens should not push directly??,1
+13.10.3,No need to optimize this using NOOP pattern because,1
+13.10.3,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.10.3,TODO: can this be removed? where is it used?,1
+13.10.3,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.10.3,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.10.3,TODO: this is a limited check for empty alternatives,1
+13.10.3,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.3,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.3,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.10.3,TODO: should this be more explicitly part of the public API?,1
+13.10.3,No need to optimize this using NOOP pattern because,1
+13.10.3,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.10.3,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.3,"Notes or something like it, may not be accurate.",1
+13.10.3,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.3,TODO: phrase.tagger()?,1
+13.10.3,"ok, maybe that's enough?",1
+13.10.3,this part sucks,1
+13.10.3,todo remove/normalize plural forms,1
+13.10.3,todo: split consecutive contractions,1
+13.10.3,todo: split consecutive contractions,1
+13.10.3,an awkward way to disambiguate a comma use,1
+13.10.2,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.10.2,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.10.2,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.10.2,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.10.2,TODO: not sure why this doesn't pass when running all-tests,1
+13.10.2,TODO: missing auxillary,1
+13.10.2,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.10.2,todo remove/normalize plural forms,1
+13.10.2,an awkward way to disambiguate a comma use,1
+13.10.2,todo: split consecutive contractions,1
+13.10.2,TODO:fixme,1
+13.10.2,TODO:fixme,1
+13.10.2,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.10.2,TODO: learn how to write better software.,1
+13.10.2,quick hack for copula verb - be/am,1
+13.10.2,quick hack for copula verb - be/am,1
+13.10.2,these are suffices that are usually too weird,1
+13.10.2,these are suffices that are usually too weird,1
+13.10.2,TODO: modify docs accordingly,1
+13.10.2,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.10.2,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.10.2,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.10.2,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.10.2,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.10.2,"TODO: micro optimize, avoid extra prop access",1
+13.10.2,TODO: custom tokens should not push directly??,1
+13.10.2,No need to optimize this using NOOP pattern because,1
+13.10.2,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.10.2,TODO: can this be removed? where is it used?,1
+13.10.2,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.10.2,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.10.2,TODO: this is a limited check for empty alternatives,1
+13.10.2,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.2,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.2,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.10.2,TODO: should this be more explicitly part of the public API?,1
+13.10.2,No need to optimize this using NOOP pattern because,1
+13.10.2,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.10.2,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.2,"Notes or something like it, may not be accurate.",1
+13.10.2,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.2,TODO: phrase.tagger()?,1
+13.10.2,"ok, maybe that's enough?",1
+13.10.2,this part sucks,1
+13.10.2,todo remove/normalize plural forms,1
+13.10.2,todo: split consecutive contractions,1
+13.10.2,todo: split consecutive contractions,1
+13.10.2,an awkward way to disambiguate a comma use,1
+13.10.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.10.1,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.10.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.10.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.10.1,TODO: not sure why this doesn't pass when running all-tests,1
+13.10.1,TODO: missing auxillary,1
+13.10.1,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.10.1,todo remove/normalize plural forms,1
+13.10.1,an awkward way to disambiguate a comma use,1
+13.10.1,todo: split consecutive contractions,1
+13.10.1,TODO:fixme,1
+13.10.1,TODO:fixme,1
+13.10.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.10.1,TODO: learn how to write better software.,1
+13.10.1,quick hack for copula verb - be/am,1
+13.10.1,quick hack for copula verb - be/am,1
+13.10.1,these are suffices that are usually too weird,1
+13.10.1,these are suffices that are usually too weird,1
+13.10.1,TODO: modify docs accordingly,1
+13.10.1,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.10.1,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.10.1,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.10.1,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.10.1,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.10.1,"TODO: micro optimize, avoid extra prop access",1
+13.10.1,TODO: custom tokens should not push directly??,1
+13.10.1,No need to optimize this using NOOP pattern because,1
+13.10.1,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.10.1,TODO: can this be removed? where is it used?,1
+13.10.1,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.10.1,TODO: remove - `errors_public` from nyc.config.js exclude,1
+13.10.1,TODO: this is a limited check for empty alternatives,1
+13.10.1,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.1,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.1,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.10.1,TODO: should this be more explicitly part of the public API?,1
+13.10.1,No need to optimize this using NOOP pattern because,1
+13.10.1,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.10.1,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.1,"Notes or something like it, may not be accurate.",1
+13.10.1,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.1,TODO: phrase.tagger()?,1
+13.10.1,"ok, maybe that's enough?",1
+13.10.1,this part sucks,1
+13.10.1,todo remove/normalize plural forms,1
+13.10.1,todo: split consecutive contractions,1
+13.10.1,todo: split consecutive contractions,1
+13.10.1,an awkward way to disambiguate a comma use,1
+13.10.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.10.0,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.10.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.10.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.10.0,TODO: not sure why this doesn't pass when running all-tests,1
+13.10.0,TODO: missing auxillary,1
+13.10.0,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.10.0,todo remove/normalize plural forms,1
+13.10.0,an awkward way to disambiguate a comma use,1
+13.10.0,todo: split consecutive contractions,1
+13.10.0,TODO:fixme,1
+13.10.0,TODO:fixme,1
+13.10.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.10.0,TODO:fixme,1
+13.10.0,quick hack for copula verb - be/am,1
+13.10.0,quick hack for copula verb - be/am,1
+13.10.0,these are suffices that are usually too weird,1
+13.10.0,these are suffices that are usually too weird,1
+13.10.0,TODO: modify docs accordingly,1
+13.10.0,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.10.0,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.10.0,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.10.0,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.10.0,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.10.0,"TODO: micro optimize, avoid extra prop access",1
+13.10.0,TODO: custom tokens should not push directly??,1
+13.10.0,No need to optimize this using NOOP pattern because,1
+13.10.0,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.10.0,TODO: can this be removed? where is it used?,1
+13.10.0,TODO: this is a limited check for empty alternatives,1
+13.10.0,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.0,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.10.0,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.10.0,TODO: should this be more explicitly part of the public API?,1
+13.10.0,No need to optimize this using NOOP pattern because,1
+13.10.0,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.10.0,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.0,"Notes or something like it, may not be accurate.",1
+13.10.0,TODO: could probably allow relative jmps to get rid of noop,1
+13.10.0,TODO: phrase.tagger()?,1
+13.10.0,"ok, maybe that's enough?",1
+13.10.0,this part sucks,1
+13.10.0,todo remove/normalize plural forms,1
+13.10.0,todo: split consecutive contractions,1
+13.10.0,todo: split consecutive contractions,1
+13.10.0,an awkward way to disambiguate a comma use,1
+13.9.3,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.9.3,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.9.3,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.9.3,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.9.3,TODO: not sure why this doesn't pass when running all-tests,1
+13.9.3,TODO: missing auxillary,1
+13.9.3,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.9.3,todo remove/normalize plural forms,1
+13.9.3,an awkward way to disambiguate a comma use,1
+13.9.3,todo: split consecutive contractions,1
+13.9.3,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.9.3,TODO:fixme,1
+13.9.3,quick hack for copula verb - be/am,1
+13.9.3,quick hack for copula verb - be/am,1
+13.9.3,these are suffices that are usually too weird,1
+13.9.3,these are suffices that are usually too weird,1
+13.9.3,TODO: modify docs accordingly,1
+13.9.3,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.9.3,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.9.3,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.9.3,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.9.3,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.9.3,"TODO: micro optimize, avoid extra prop access",1
+13.9.3,TODO: custom tokens should not push directly??,1
+13.9.3,No need to optimize this using NOOP pattern because,1
+13.9.3,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.9.3,TODO: can this be removed? where is it used?,1
+13.9.3,TODO: this is a limited check for empty alternatives,1
+13.9.3,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.9.3,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.9.3,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.9.3,TODO: should this be more explicitly part of the public API?,1
+13.9.3,No need to optimize this using NOOP pattern because,1
+13.9.3,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.9.3,TODO: could probably allow relative jmps to get rid of noop,1
+13.9.3,"Notes or something like it, may not be accurate.",1
+13.9.3,TODO: could probably allow relative jmps to get rid of noop,1
+13.9.3,TODO: phrase.tagger()?,1
+13.9.3,"ok, maybe that's enough?",1
+13.9.3,todo remove/normalize plural forms,1
+13.9.3,todo: split consecutive contractions,1
+13.9.3,todo: split consecutive contractions,1
+13.9.3,an awkward way to disambiguate a comma use,1
+13.9.2,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.9.2,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.9.2,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.9.2,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.9.2,TODO: not sure why this doesn't pass when running all-tests,1
+13.9.2,TODO: missing auxillary,1
+13.9.2,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.9.2,todo remove/normalize plural forms,1
+13.9.2,an awkward way to disambiguate a comma use,1
+13.9.2,todo: split consecutive contractions,1
+13.9.2,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.9.2,TODO:fixme,1
+13.9.2,quick hack for copula verb - be/am,1
+13.9.2,quick hack for copula verb - be/am,1
+13.9.2,these are suffices that are usually too weird,1
+13.9.2,these are suffices that are usually too weird,1
+13.9.2,TODO: modify docs accordingly,1
+13.9.2,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.9.2,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.9.2,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.9.2,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.9.2,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.9.2,"TODO: micro optimize, avoid extra prop access",1
+13.9.2,TODO: custom tokens should not push directly??,1
+13.9.2,No need to optimize this using NOOP pattern because,1
+13.9.2,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.9.2,TODO: can this be removed? where is it used?,1
+13.9.2,TODO: this is a limited check for empty alternatives,1
+13.9.2,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.9.2,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.9.2,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.9.2,TODO: should this be more explicitly part of the public API?,1
+13.9.2,No need to optimize this using NOOP pattern because,1
+13.9.2,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.9.2,TODO: could probably allow relative jmps to get rid of noop,1
+13.9.2,"Notes or something like it, may not be accurate.",1
+13.9.2,TODO: could probably allow relative jmps to get rid of noop,1
+13.9.2,TODO: phrase.tagger()?,1
+13.9.2,"ok, maybe that's enough?",1
+13.9.2,todo remove/normalize plural forms,1
+13.9.2,todo: split consecutive contractions,1
+13.9.2,todo: split consecutive contractions,1
+13.9.2,an awkward way to disambiguate a comma use,1
+13.9.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.9.1,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.9.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.9.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.9.1,TODO: not sure why this doesn't pass when running all-tests,1
+13.9.1,TODO: missing auxillary,1
+13.9.1,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.9.1,todo remove/normalize plural forms,1
+13.9.1,an awkward way to disambiguate a comma use,1
+13.9.1,todo: split consecutive contractions,1
+13.9.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.9.1,TODO:fixme,1
+13.9.1,quick hack for copula verb - be/am,1
+13.9.1,quick hack for copula verb - be/am,1
+13.9.1,these are suffices that are usually too weird,1
+13.9.1,these are suffices that are usually too weird,1
+13.9.1,TODO: modify docs accordingly,1
+13.9.1,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.9.1,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.9.1,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.9.1,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.9.1,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.9.1,"TODO: micro optimize, avoid extra prop access",1
+13.9.1,TODO: custom tokens should not push directly??,1
+13.9.1,No need to optimize this using NOOP pattern because,1
+13.9.1,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.9.1,TODO: can this be removed? where is it used?,1
+13.9.1,TODO: this is a limited check for empty alternatives,1
+13.9.1,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.9.1,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.9.1,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.9.1,TODO: should this be more explicitly part of the public API?,1
+13.9.1,No need to optimize this using NOOP pattern because,1
+13.9.1,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.9.1,TODO: could probably allow relative jmps to get rid of noop,1
+13.9.1,"Notes or something like it, may not be accurate.",1
+13.9.1,TODO: could probably allow relative jmps to get rid of noop,1
+13.9.1,TODO: phrase.tagger()?,1
+13.9.1,"ok, maybe that's enough?",1
+13.9.1,todo remove/normalize plural forms,1
+13.9.1,todo: split consecutive contractions,1
+13.9.1,todo: split consecutive contractions,1
+13.9.1,an awkward way to disambiguate a comma use,1
+13.9.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.9.0,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.9.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.9.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.9.0,TODO: not sure why this doesn't pass when running all-tests,1
+13.9.0,TODO: missing auxillary,1
+13.9.0,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.9.0,todo remove/normalize plural forms,1
+13.9.0,an awkward way to disambiguate a comma use,1
+13.9.0,todo: split consecutive contractions,1
+13.9.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.9.0,TODO:fixme,1
+13.9.0,quick hack for copula verb - be/am,1
+13.9.0,quick hack for copula verb - be/am,1
+13.9.0,these are suffices that are usually too weird,1
+13.9.0,these are suffices that are usually too weird,1
+13.9.0,TODO: modify docs accordingly,1
+13.9.0,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.9.0,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.9.0,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.9.0,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.9.0,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.9.0,"TODO: micro optimize, avoid extra prop access",1
+13.9.0,TODO: custom tokens should not push directly??,1
+13.9.0,No need to optimize this using NOOP pattern because,1
+13.9.0,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.9.0,TODO: can this be removed? where is it used?,1
+13.9.0,TODO: this is a limited check for empty alternatives,1
+13.9.0,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.9.0,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.9.0,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.9.0,TODO: should this be more explicitly part of the public API?,1
+13.9.0,No need to optimize this using NOOP pattern because,1
+13.9.0,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.9.0,TODO: could probably allow relative jmps to get rid of noop,1
+13.9.0,"Notes or something like it, may not be accurate.",1
+13.9.0,TODO: could probably allow relative jmps to get rid of noop,1
+13.9.0,TODO: phrase.tagger()?,1
+13.9.0,"ok, maybe that's enough?",1
+13.9.0,todo remove/normalize plural forms,1
+13.9.0,todo: split consecutive contractions,1
+13.9.0,todo: split consecutive contractions,1
+13.9.0,an awkward way to disambiguate a comma use,1
+13.8.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.8.0,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.8.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.8.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.8.0,TODO: not sure why this doesn't pass when running all-tests,1
+13.8.0,TODO: missing auxillary,1
+13.8.0,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.8.0,todo remove/normalize plural forms,1
+13.8.0,an awkward way to disambiguate a comma use,1
+13.8.0,todo: split consecutive contractions,1
+13.8.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.8.0,TODO:fixme,1
+13.8.0,quick hack for copula verb - be/am,1
+13.8.0,quick hack for copula verb - be/am,1
+13.8.0,these are suffices that are usually too weird,1
+13.8.0,these are suffices that are usually too weird,1
+13.8.0,TODO: modify docs accordingly,1
+13.8.0,TODO implement '[lookahead ∉ DecimalDigit]',1
+13.8.0,"TODO: implement ""SourceCharacter but not UnicodeIDContinue""",1
+13.8.0,TODO: isAtom must be called before isAssertion - disambiguate,1
+13.8.0,"TODO: only the else branch needs to be ignored, try to fix with newer prettier / tsc",1
+13.8.0,TODO: perhaps avoid this error in the edge case there is no more input?,1
+13.8.0,"TODO: micro optimize, avoid extra prop access",1
+13.8.0,TODO: custom tokens should not push directly??,1
+13.8.0,No need to optimize this using NOOP pattern because,1
+13.8.0,may be indirectly optional ((A?B?C?) | (D?E?F?)),1
+13.8.0,TODO: can this be removed? where is it used?,1
+13.8.0,TODO: this is a limited check for empty alternatives,1
+13.8.0,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.8.0,TODO:(THE NEW operators here take a while...) (convert once?),1
+13.8.0,"TODO: performance optimization: instead of passing the original args here, we modify",1
+13.8.0,TODO: should this be more explicitly part of the public API?,1
+13.8.0,No need to optimize this using NOOP pattern because,1
+13.8.0,TODO: how to pass the token vocabulary? Constructor? other?,1
+13.8.0,TODO: could probably allow relative jmps to get rid of noop,1
+13.8.0,"Notes or something like it, may not be accurate.",1
+13.8.0,TODO: could probably allow relative jmps to get rid of noop,1
+13.8.0,TODO: phrase.tagger()?,1
+13.8.0,"ok, maybe that's enough?",1
+13.8.0,todo remove/normalize plural forms,1
+13.8.0,todo: split consecutive contractions,1
+13.8.0,todo: split consecutive contractions,1
+13.8.0,an awkward way to disambiguate a comma use,1
+13.7.0,let doc = nlp(`The situation appears to be even worse`)//even,1
+13.7.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.7.0,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.7.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.7.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.7.0,TODO: not sure why this doesn't pass when running all-tests,1
+13.7.0,TODO: missing auxillary,1
+13.7.0,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.7.0,FIXME: reversed?,1
+13.7.0,todo remove/normalize plural forms,1
+13.7.0,an awkward way to disambiguate a comma use,1
+13.7.0,todo: split consecutive contractions,1
+13.7.0,"// ['first week of december', [2017, december, 1]], //todo: bug",1
+13.7.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.7.0,TODO:fixme,1
+13.7.0,quick hack for copula verb - be/am,1
+13.7.0,quick hack for copula verb - be/am,1
+13.7.0,these are suffices that are usually too weird,1
+13.7.0,these are suffices that are usually too weird,1
+13.7.0,TODO: phrase.tagger()?,1
+13.7.0,"ok, maybe that's enough?",1
+13.7.0,todo remove/normalize plural forms,1
+13.7.0,todo: split consecutive contractions,1
+13.7.0,todo: split consecutive contractions,1
+13.7.0,an awkward way to disambiguate a comma use,1
+13.6.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.6.0,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.6.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.6.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.6.0,TODO: not sure why this doesn't pass when running all-tests,1
+13.6.0,TODO: missing auxillary,1
+13.6.0,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.6.0,FIXME: reversed?,1
+13.6.0,todo remove/normalize plural forms,1
+13.6.0,an awkward way to disambiguate a comma use,1
+13.6.0,todo: split consecutive contractions,1
+13.6.0,"// ['first week of december', [2017, december, 1]], //todo: bug",1
+13.6.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.6.0,TODO:fixme,1
+13.6.0,quick hack for copula verb - be/am,1
+13.6.0,quick hack for copula verb - be/am,1
+13.6.0,these are suffices that are usually too weird,1
+13.6.0,these are suffices that are usually too weird,1
+13.6.0,TODO: phrase.tagger()?,1
+13.6.0,"ok, maybe that's enough?",1
+13.6.0,todo remove/normalize plural forms,1
+13.6.0,todo: split consecutive contractions,1
+13.6.0,todo: split consecutive contractions,1
+13.6.0,an awkward way to disambiguate a comma use,1
+13.5.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.5.0,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.5.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.5.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.5.0,TODO: not sure why this doesn't pass when running all-tests,1
+13.5.0,TODO: missing auxillary,1
+13.5.0,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.5.0,FIXME: reversed?,1
+13.5.0,todo remove/normalize plural forms,1
+13.5.0,an awkward way to disambiguate a comma use,1
+13.5.0,todo: split consecutive contractions,1
+13.5.0,"// ['first week of december', [2017, december, 1]], //todo: bug",1
+13.5.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.5.0,TODO:fixme,1
+13.5.0,quick hack for copula verb - be/am,1
+13.5.0,quick hack for copula verb - be/am,1
+13.5.0,these are suffices that are usually too weird,1
+13.5.0,these are suffices that are usually too weird,1
+13.5.0,TODO: phrase.tagger()?,1
+13.5.0,"ok, maybe that's enough?",1
+13.5.0,todo remove/normalize plural forms,1
+13.5.0,todo: split consecutive contractions,1
+13.5.0,todo: split consecutive contractions,1
+13.5.0,an awkward way to disambiguate a comma use,1
+13.4.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.4.0,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.4.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.4.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.4.0,TODO: not sure why this doesn't pass when running all-tests,1
+13.4.0,TODO: missing auxillary,1
+13.4.0,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.4.0,FIXME: reversed?,1
+13.4.0,todo remove/normalize plural forms,1
+13.4.0,an awkward way to disambiguate a comma use,1
+13.4.0,todo: split consecutive contractions,1
+13.4.0,"// ['first week of december', [2017, december, 1]], //todo: bug",1
+13.4.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.4.0,TODO:fixme,1
+13.4.0,quick hack for copula verb - be/am,1
+13.4.0,quick hack for copula verb - be/am,1
+13.4.0,these are suffices that are usually too weird,1
+13.4.0,these are suffices that are usually too weird,1
+13.4.0,TODO: phrase.tagger()?,1
+13.4.0,"ok, maybe that's enough?",1
+13.4.0,todo remove/normalize plural forms,1
+13.4.0,todo: split consecutive contractions,1
+13.4.0,todo: split consecutive contractions,1
+13.4.0,an awkward way to disambiguate a comma use,1
+13.3.2,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.3.2,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.3.2,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.3.2,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.3.2,TODO: not sure why this doesn't pass when running all-tests,1
+13.3.2,TODO: missing auxillary,1
+13.3.2,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.3.2,FIXME: reversed?,1
+13.3.2,todo remove/normalize plural forms,1
+13.3.2,an awkward way to disambiguate a comma use,1
+13.3.2,todo: split consecutive contractions,1
+13.3.2,"// ['first week of december', [2017, december, 1]], //todo: bug",1
+13.3.2,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.3.2,TODO:fixme,1
+13.3.2,quick hack for copula verb - be/am,1
+13.3.2,quick hack for copula verb - be/am,1
+13.3.2,these are suffices that are usually too weird,1
+13.3.2,these are suffices that are usually too weird,1
+13.3.2,TODO: phrase.tagger()?,1
+13.3.2,"ok, maybe that's enough?",1
+13.3.2,todo remove/normalize plural forms,1
+13.3.2,todo: split consecutive contractions,1
+13.3.2,todo: split consecutive contractions,1
+13.3.2,an awkward way to disambiguate a comma use,1
+13.3.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.3.1,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.3.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.3.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.3.1,TODO: not sure why this doesn't pass when running all-tests,1
+13.3.1,TODO: missing auxillary,1
+13.3.1,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.3.1,FIXME: reversed?,1
+13.3.1,todo remove/normalize plural forms,1
+13.3.1,an awkward way to disambiguate a comma use,1
+13.3.1,todo: split consecutive contractions,1
+13.3.1,"// ['first week of december', [2017, december, 1]], //todo: bug",1
+13.3.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.3.1,TODO:fixme,1
+13.3.1,quick hack for copula verb - be/am,1
+13.3.1,quick hack for copula verb - be/am,1
+13.3.1,these are suffices that are usually too weird,1
+13.3.1,these are suffices that are usually too weird,1
+13.3.1,TODO: phrase.tagger()?,1
+13.3.1,"ok, maybe that's enough?",1
+13.3.1,todo remove/normalize plural forms,1
+13.3.1,todo: split consecutive contractions,1
+13.3.1,todo: split consecutive contractions,1
+13.3.1,an awkward way to disambiguate a comma use,1
+13.3.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.3.0,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.3.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.3.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.3.0,TODO: not sure why this doesn't pass when running all-tests,1
+13.3.0,TODO: missing auxillary,1
+13.3.0,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.3.0,FIXME: reversed?,1
+13.3.0,todo remove/normalize plural forms,1
+13.3.0,an awkward way to disambiguate a comma use,1
+13.3.0,todo: split consecutive contractions,1
+13.3.0,"doc.dates().format('{day} {month} {date-ordinal}, {time}') //TODO: November 0th??",1
+13.3.0,"// ['first week of december', [2017, december, 1]], //todo: bug",1
+13.3.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.3.0,TODO:fixme,1
+13.3.0,quick hack for copula verb - be/am,1
+13.3.0,quick hack for copula verb - be/am,1
+13.3.0,these are suffices that are usually too weird,1
+13.3.0,these are suffices that are usually too weird,1
+13.3.0,TODO: phrase.tagger()?,1
+13.3.0,"ok, maybe that's enough?",1
+13.3.0,todo remove/normalize plural forms,1
+13.3.0,todo: split consecutive contractions,1
+13.3.0,todo: split consecutive contractions,1
+13.3.0,an awkward way to disambiguate a comma use,1
+13.2.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.2.0,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.2.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.2.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.2.0,TODO: not sure why this doesn't pass when running all-tests,1
+13.2.0,TODO: missing auxillary,1
+13.2.0,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.2.0,FIXME: reversed?,1
+13.2.0,todo remove/normalize plural forms,1
+13.2.0,an awkward way to disambiguate a comma use,1
+13.2.0,todo: split consecutive contractions,1
+13.2.0,"doc.dates().format('{day} {month} {date-ordinal}, {time}') //TODO: November 0th??",1
+13.2.0,"// ['first week of december', [2017, december, 1]], //todo: bug",1
+13.2.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.2.0,TODO:fixme,1
+13.2.0,quick hack for copula verb - be/am,1
+13.2.0,quick hack for copula verb - be/am,1
+13.2.0,these are suffices that are usually too weird,1
+13.2.0,these are suffices that are usually too weird,1
+13.2.0,TODO: phrase.tagger()?,1
+13.2.0,"ok, maybe that's enough?",1
+13.2.0,todo remove/normalize plural forms,1
+13.2.0,todo: split consecutive contractions,1
+13.2.0,todo: split consecutive contractions,1
+13.2.0,an awkward way to disambiguate a comma use,1
+13.1.1,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.1.1,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.1.1,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.1.1,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.1.1,TODO: not sure why this doesn't pass when running all-tests,1
+13.1.1,TODO: missing auxillary,1
+13.1.1,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.1.1,FIXME: reversed?,1
+13.1.1,todo remove/normalize plural forms,1
+13.1.1,an awkward way to disambiguate a comma use,1
+13.1.1,todo: split consecutive contractions,1
+13.1.1,"doc.dates().format('{day} {month} {date-ordinal}, {time}') //TODO: November 0th??",1
+13.1.1,"// ['first week of december', [2017, december, 1]], //todo: bug",1
+13.1.1,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.1.1,TODO:fixme,1
+13.1.1,quick hack for copula verb - be/am,1
+13.1.1,quick hack for copula verb - be/am,1
+13.1.1,these are suffices that are usually too weird,1
+13.1.1,these are suffices that are usually too weird,1
+13.1.1,TODO: phrase.tagger()?,1
+13.1.1,"ok, maybe that's enough?",1
+13.1.1,todo remove/normalize plural forms,1
+13.1.1,todo: split consecutive contractions,1
+13.1.1,todo: split consecutive contractions,1
+13.1.1,an awkward way to disambiguate a comma use,1
+13.0.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+13.0.0,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+13.0.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+13.0.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+13.0.0,TODO: not sure why this doesn't pass when running all-tests,1
+13.0.0,TODO: missing auxillary,1
+13.0.0,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+13.0.0,FIXME: reversed?,1
+13.0.0,todo remove/normalize plural forms,1
+13.0.0,an awkward way to disambiguate a comma use,1
+13.0.0,todo: split consecutive contractions,1
+13.0.0,"doc.dates().format('{day} {month} {date-ordinal}, {time}') //TODO: November 0th??",1
+13.0.0,"// ['first week of december', [2017, december, 1]], //todo: bug",1
+13.0.0,"['four mondays from now', [2016, march, 22]], //todo: bug",1
+13.0.0,TODO:fixme,1
+13.0.0,quick hack for copula verb - be/am,1
+13.0.0,quick hack for copula verb - be/am,1
+13.0.0,these are suffices that are usually too weird,1
+13.0.0,these are suffices that are usually too weird,1
+13.0.0,TODO: phrase.tagger()?,1
+13.0.0,"ok, maybe that's enough?",1
+13.0.0,todo remove/normalize plural forms,1
+13.0.0,todo: split consecutive contractions,1
+13.0.0,todo: split consecutive contractions,1
+13.0.0,an awkward way to disambiguate a comma use,1
+12.3.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+12.3.0,"t.equal(doc.text(), `Getting ready for whacking day?  What's whacking day?`)",1
+12.3.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+12.3.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+12.3.0,TODO: not sure why this doesn't pass when running all-tests,1
+12.3.0,TODO: missing auxillary,1
+12.3.0,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+12.3.0,FIXME: reversed?,1
+12.3.0,todo remove/normalize plural forms,1
+12.3.0,an awkward way to disambiguate a comma use,1
+12.3.0,todo: split consecutive contractions,1
+12.3.0,"doc.dates().format('{day} {month} {date-ordinal}, {time}') //TODO: November 0th??",1
+12.3.0,TODO:fixme,1
+12.3.0,quick hack for copula verb - be/am,1
+12.3.0,quick hack for copula verb - be/am,1
+12.3.0,these are suffices that are usually too weird,1
+12.3.0,these are suffices that are usually too weird,1
+12.3.0,TODO: phrase.tagger()?,1
+12.3.0,TODO: support [*] properly,1
+12.3.0,"ok, maybe that's enough?",1
+12.3.0,todo remove/normalize plural forms,1
+12.3.0,todo: split consecutive contractions,1
+12.3.0,todo: split consecutive contractions,1
+12.3.0,an awkward way to disambiguate a comma use,1
+12.3.0,sh.exec('cd ./plugins/' + dir + ' && npm outdated'),1
+12.0.0,"t.equal(doc.not('two').out(), 'one, three. One, four?', '.not() okay') // ❌",1
+12.0.0,"t.equal(arr[2], 'with-a-dash', 'third found') //FIXME:hyphens",1
+12.0.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+12.0.0,TODO: not sure why this doesn't pass when running all-tests,1
+12.0.0,TODO: missing auxillary,1
+12.0.0,"t.equal(doc.text(), str, 'original text unchanged') //TODO:fix me",1
+12.0.0,FIXME: reversed,1
+12.0.0,todo remove/normalize plural forms,1
+12.0.0,an awkward way to disambiguate a comma use,1
+12.0.0,todo: split consecutive contractions,1
+12.0.0,"doc.dates().format('{day} {month} {date-ordinal}, {time}') //TODO: November 0th??",1
+12.0.0,TODO:fixme,1
+12.0.0,quick hack for copula verb - be/am,1
+12.0.0,quick hack for copula verb - be/am,1
+12.0.0,these are suffices that are usually too weird,1
+12.0.0,these are suffices that are usually too weird,1
+12.0.0,"writable: true, //todo: add me?",1
+12.0.0,TODO: phrase.tagger()?,1
+12.0.0,TODO: support [*] properly,1
+12.0.0,"ok, maybe that's enough?",1
+12.0.0,todo remove/normalize plural forms,1
+12.0.0,todo: split consecutive contractions,1
+12.0.0,todo: split consecutive contractions,1
+12.0.0,an awkward way to disambiguate a comma use,1
+12.0.0,sh.exec('cd ./plugins/' + dir + ' && npm outdated'),1
+v10.0.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+v10.0.0,TODO: make these pass,1
+v10.0.0,basically really dirty and stupid.,1
+v10.0.0,this is really ugly..,1
+v10.0.0,NOT GOOD. please fix,1
+v10.0.0,may need to change when the term really-transforms? not sure.,1
+v10.0.0,i'm not sure this is perfectly safe.,1
+v10.0.0,basically really dirty and stupid.,1
+v10.0.0,this is really ugly..,1
+v10.0.0,NOT GOOD. please fix,1
+v10.0.0,may need to change when the term really-transforms? not sure.,1
+v10.0.0,i'm not sure this is perfectly safe.,1
+v10.0.0,TODO: please clean this loop up..,1
+v10.0.0,TODO: support multi-word blacklists,1
+v10.0.0,is really not so good,1
+v10.0.0,may need to change when the term really-transforms? not sure.,1
+v10.0.0,i'm not sure this is perfectly safe.,1
+v10.0.0,todo remove/normalize plural forms,1
+v10.0.0,basically really dirty and stupid.,1
+v10.0.0,this is really ugly..,1
+v10.0.0,NOT GOOD. please fix,1
+v9.1.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+v9.1.0,basically really dirty and stupid.,1
+v9.1.0,this is really ugly..,1
+v9.1.0,NOT GOOD. please fix,1
+v9.1.0,may need to change when the term really-transforms? not sure.,1
+v9.1.0,i'm not sure this is perfectly safe.,1
+v9.1.0,basically really dirty and stupid.,1
+v9.1.0,this is really ugly..,1
+v9.1.0,NOT GOOD. please fix,1
+v9.1.0,may need to change when the term really-transforms? not sure.,1
+v9.1.0,i'm not sure this is perfectly safe.,1
+v9.1.0,TODO: support multi-word blacklists,1
+v9.1.0,is really not so good,1
+v9.1.0,may need to change when the term really-transforms? not sure.,1
+v9.1.0,i'm not sure this is perfectly safe.,1
+v9.1.0,todo remove/normalize plural forms,1
+v9.1.0,basically really dirty and stupid.,1
+v9.1.0,this is really ugly..,1
+v9.1.0,NOT GOOD. please fix,1
+v9.0.0,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+v9.0.0,basically really dirty and stupid.,1
+v9.0.0,this is really ugly..,1
+v9.0.0,NOT GOOD. please fix,1
+v9.0.0,may need to change when the term really-transforms? not sure.,1
+v9.0.0,i'm not sure this is perfectly safe.,1
+v9.0.0,basically really dirty and stupid.,1
+v9.0.0,this is really ugly..,1
+v9.0.0,NOT GOOD. please fix,1
+v9.0.0,may need to change when the term really-transforms? not sure.,1
+v9.0.0,i'm not sure this is perfectly safe.,1
+v9.0.0,TODO: support multi-word blacklists,1
+v9.0.0,is really not so good,1
+v9.0.0,may need to change when the term really-transforms? not sure.,1
+v9.0.0,i'm not sure this is perfectly safe.,1
+v9.0.0,todo remove/normalize plural forms,1
+v9.0.0,basically really dirty and stupid.,1
+v9.0.0,this is really ugly..,1
+v9.0.0,NOT GOOD. please fix,1
+v7.0.18,"[`really remind me to buy`, '#Adverb? #Infinitive (me|us) (to|for)', `really remind me to`],",1
+v7.0.18,todo remove/normalize plural forms,1
+v7.0.18,not sure what regional/cultural/demographic bias this has. Probably a lot.,1
+v7.0.18,basically really dirty and stupid.,1
+v7.0.18,this is really ugly..,1
+v7.0.18,NOT GOOD. please fix,1
+v7.0.18,todo: look for side effects in this regex replacement:,1
+v7.0.18,may need to change when the term really-transforms? not sure.,1
+v7.0.18,i'm not sure this is perfectly safe.,1
+v7.0.18,TODO: support multi-word blacklists,1
+v7.0.18,is really not so good,1
+v7.0.18,not sure what regional/cultural/demographic bias this has. Probably a lot.,1
+v7.0.18,todo remove/normalize plural forms,1
+v7.0.18,may need to change when the term really-transforms? not sure.,1
+v7.0.18,i'm not sure this is perfectly safe.,1
+v7.0.18,todo: look for side effects in this regex replacement:,1
+v7.0.18,basically really dirty and stupid.,1
+v7.0.18,this is really ugly..,1
+v7.0.18,NOT GOOD. please fix,1
+v1.1.0,"pos(""Gretzky had tried skating"").sentences[0].tokens.map(function(t){console.log(t.pos.tag + ""  ""+t.text+""  ""+t.pos_reason)})",1
+v1.1.0,"pos(""Sally and Tom fight a lot. She thinks he is her friend."").sentences[0].tokens.map(function(t){console.log(t.pos.tag + ""  ""+t.text+""  ""+t.pos_reason)})",1
+v1.1.0,not sure what regional/cultural/demographic bias this has. Probably a lot.,1
+v1.1.0,"this method is the slowest in the whole library, basically TODO:whaaa",1
+v1.1.0,todo: do this smarter,1
+v1.1.0,not sure what regional/cultural/demographic bias this has. Probably a lot.,1
+v1.1.0,todo: do this smarter,1
+v1.1.0,"this method is the slowest in the whole library, basically TODO:whaaa",1
+v1.1.0,"pos(""Gretzky had tried skating"").sentences[0].tokens.map(function(t){console.log(t.pos.tag + ""  ""+t.text+""  ""+t.pos_reason)})",1
+v1.1.0,"pos(""Sally and Tom fight a lot. She thinks he is her friend."").sentences[0].tokens.map(function(t){console.log(t.pos.tag + ""  ""+t.text+""  ""+t.pos_reason)})",1
+v1.1.0,Workarounds based on findings by Jim Driscoll,1
+v1.1.0,TODO: Stop taunting the data cache; remove global events and always attach to document,1
+v1.1.0,TODO: Move to normal caching system,1
+v1.1.0,querying by getElementById (and provide a workaround),1
+v1.1.0,The workaround has to do additional checks after a getElementById,1
+v1.1.0,this can help fix replacing a parent with child elements,1
+v1.1.0,Work around by temporarily setting element display to inline-block,1
+v1.1.0,From the awesome hack by Dean Edwards,1
+v1.1.0,XXX 'this' does not always have a nodeName when running the,1
+v1.1.0,ugly handling of contractions,1
+v1.1.0,the remote chance that this gets fixed someday.,1
+v1.1.0,We split the second stage into 4 regexp operations in order to work around,1
+v1.1.0,THIS IS NOT TESTED NOR LIKELY TO WORK OUTSIDE V8!,1
+v1.1.0,TODO: test what effect this may have,1
+v1.1.0,TODO: add proper unit tests for this function,1
+v1.1.0,ugly handling of contractions,1
+v1.0.0,"pos(""Gretzky had tried skating"").sentences[0].tokens.map(function(t){console.log(t.pos.tag + ""  ""+t.text+""  ""+t.pos_reason)})",1
+v1.0.0,not sure what regional/cultural/demographic bias this has. Probably a lot.,1
+v1.0.0,"this method is the slowest in the whole library, basically TODO:whaaa",1
+v1.0.0,todo: do this smarter,1
+v1.0.0,not sure what regional/cultural/demographic bias this has. Probably a lot.,1
+v1.0.0,todo: do this smarter,1
+v1.0.0,"this method is the slowest in the whole library, basically TODO:whaaa",1
+v1.0.0,"pos(""Gretzky had tried skating"").sentences[0].tokens.map(function(t){console.log(t.pos.tag + ""  ""+t.text+""  ""+t.pos_reason)})",1
+v1.0.0,Workarounds based on findings by Jim Driscoll,1
+v1.0.0,TODO: Stop taunting the data cache; remove global events and always attach to document,1
+v1.0.0,TODO: Move to normal caching system,1
+v1.0.0,querying by getElementById (and provide a workaround),1
+v1.0.0,The workaround has to do additional checks after a getElementById,1
+v1.0.0,this can help fix replacing a parent with child elements,1
+v1.0.0,Work around by temporarily setting element display to inline-block,1
+v1.0.0,From the awesome hack by Dean Edwards,1
+v1.0.0,XXX 'this' does not always have a nodeName when running the,1
+v1.0.0,ugly handling of contractions,1
+v1.0.0,the remote chance that this gets fixed someday.,1
+v1.0.0,We split the second stage into 4 regexp operations in order to work around,1
+v1.0.0,THIS IS NOT TESTED NOR LIKELY TO WORK OUTSIDE V8!,1
+v1.0.0,TODO: test what effect this may have,1
+v1.0.0,TODO: add proper unit tests for this function,1
+v1.0.0,ugly handling of contractions,1
+v0.5.2,not sure what regional/cultural/demographic bias this has. Probably a lot.,1
+v0.5.2,todo: do this smarter,1
+v0.5.2,not sure what regional/cultural/demographic bias this has. Probably a lot.,1
+v0.5.2,todo: do this smarter,1
+v0.5.2,Workarounds based on findings by Jim Driscoll,1
+v0.5.2,TODO: Stop taunting the data cache; remove global events and always attach to document,1
+v0.5.2,TODO: Move to normal caching system,1
+v0.5.2,querying by getElementById (and provide a workaround),1
+v0.5.2,The workaround has to do additional checks after a getElementById,1
+v0.5.2,this can help fix replacing a parent with child elements,1
+v0.5.2,Work around by temporarily setting element display to inline-block,1
+v0.5.2,From the awesome hack by Dean Edwards,1
+v0.5.2,XXX 'this' does not always have a nodeName when running the,1
+v0.5.2,ugly handling of contractions,1
+v0.5.2,the remote chance that this gets fixed someday.,1
+v0.5.2,We split the second stage into 4 regexp operations in order to work around,1
+v0.5.2,THIS IS NOT TESTED NOR LIKELY TO WORK OUTSIDE V8!,1
+v0.5.2,TODO: test what effect this may have,1
+v0.5.2,TODO: add proper unit tests for this function,1
+v0.5.2,ugly handling of contractions,1
+v0.4.0,todo: do this smarter,1
+v0.4.0,todo: do this smarter,1
+v0.4.0,Workarounds based on findings by Jim Driscoll,1
+v0.4.0,TODO: Stop taunting the data cache; remove global events and always attach to document,1
+v0.4.0,TODO: Move to normal caching system,1
+v0.4.0,querying by getElementById (and provide a workaround),1
+v0.4.0,The workaround has to do additional checks after a getElementById,1
+v0.4.0,this can help fix replacing a parent with child elements,1
+v0.4.0,Work around by temporarily setting element display to inline-block,1
+v0.4.0,From the awesome hack by Dean Edwards,1
+v0.4.0,XXX 'this' does not always have a nodeName when running the,1
+v0.4.0,ugly handling of contractions,1
+v0.4.0,the remote chance that this gets fixed someday.,1
+v0.4.0,We split the second stage into 4 regexp operations in order to work around,1
+v0.4.0,THIS IS NOT TESTED NOR LIKELY TO WORK OUTSIDE V8!,1
+v0.4.0,TODO: test what effect this may have,1
+v0.4.0,TODO: add proper unit tests for this function,1
+v0.4.0,ugly handling of contractions,1
+v0.3.9,todo: do this smarter,1
+v0.3.9,todo: do this smarter,1
+v0.3.9,Workarounds based on findings by Jim Driscoll,1
+v0.3.9,TODO: Stop taunting the data cache; remove global events and always attach to document,1
+v0.3.9,TODO: Move to normal caching system,1
+v0.3.9,querying by getElementById (and provide a workaround),1
+v0.3.9,The workaround has to do additional checks after a getElementById,1
+v0.3.9,this can help fix replacing a parent with child elements,1
+v0.3.9,Work around by temporarily setting element display to inline-block,1
+v0.3.9,From the awesome hack by Dean Edwards,1
+v0.3.9,XXX 'this' does not always have a nodeName when running the,1
+v0.3.9,ugly handling of contractions,1
+v0.3.9,ugly handling of contractions,1
+v0.3.1,ugly handling of contractions,1
+v0.3.1,todo: do this smarter,1
+v0.3.1,"[""twenty hundred"", null], //? there's an idiomatic rule against this, though technically fine.",1
+v0.3.1,ugly handling of contractions,1
+v0.3.1,"[""twenty hundred"", null], //? there's an idiomatic rule against this, though technically fine.",1
+v0.3.1,todo: do this smarter,1
+v0.3.1,Workarounds based on findings by Jim Driscoll,1
+v0.3.1,TODO: Stop taunting the data cache; remove global events and always attach to document,1
+v0.3.1,TODO: Move to normal caching system,1
+v0.3.1,querying by getElementById (and provide a workaround),1
+v0.3.1,The workaround has to do additional checks after a getElementById,1
+v0.3.1,this can help fix replacing a parent with child elements,1
+v0.3.1,Work around by temporarily setting element display to inline-block,1
+v0.3.1,From the awesome hack by Dean Edwards,1
+v0.3.1,XXX 'this' does not always have a nodeName when running the,1
+v0.3.1,ugly handling of contractions,1
+v0.3.1,ugly handling of contractions,1

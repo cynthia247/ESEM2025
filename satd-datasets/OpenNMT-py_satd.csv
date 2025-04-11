@@ -1,0 +1,573 @@
+Version,Commit Message,SATD
+v3.5.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.5.1,hack for python2/3 compatibility,1
+v3.5.1,hack for python2/3 compatibility,1
+v3.5.1,quite high. TODO: We can add this (skipping examples) as an option,1
+v3.5.1,TODO: fix for pytorch 0.3,1
+v3.5.1,TODO: context gate should be employed,1
+v3.5.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.5.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.5.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.5.1,TODO: Find a better way to check for sparse gradients.,1
+v3.5.1,TODO: needs to be added as inference opt,1
+v3.5.1,this is hack: if the special separator ｟newline｠is returned because of the,1
+v3.5.1,ugly patch because in_feat and out_feat are reversed in WQLinear_GEMM,1
+v3.5.1,TODO: maybe add dynamic part,1
+v3.5.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.5.0,hack for python2/3 compatibility,1
+v3.5.0,hack for python2/3 compatibility,1
+v3.5.0,quite high. TODO: We can add this (skipping examples) as an option,1
+v3.5.0,TODO: fix for pytorch 0.3,1
+v3.5.0,TODO: context gate should be employed,1
+v3.5.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.5.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.5.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.5.0,TODO: Find a better way to check for sparse gradients.,1
+v3.5.0,TODO: needs to be added as inference opt,1
+v3.5.0,this is hack: if the special separator ｟newline｠is returned because of the,1
+v3.5.0,ugly patch because in_feat and out_feat are reversed in WQLinear_GEMM,1
+v3.5.0,TODO: maybe add dynamic part,1
+v3.4.3,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.4.3,hack for python2/3 compatibility,1
+v3.4.3,hack for python2/3 compatibility,1
+v3.4.3,quite high. TODO: We can add this (skipping examples) as an option,1
+v3.4.3,TODO: fix for pytorch 0.3,1
+v3.4.3,TODO: context gate should be employed,1
+v3.4.3,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.4.3,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.4.3,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.4.3,TODO: Find a better way to check for sparse gradients.,1
+v3.4.3,TODO: needs to be added as inference opt,1
+v3.4.3,this is hack: if the special separator ｟newline｠is returned because of the,1
+v3.4.3,TODO: maybe add dynamic part,1
+v3.4.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.4.2,hack for python2/3 compatibility,1
+v3.4.2,hack for python2/3 compatibility,1
+v3.4.2,quite high. TODO: We can add this (skipping examples) as an option,1
+v3.4.2,TODO: fix for pytorch 0.3,1
+v3.4.2,TODO: context gate should be employed,1
+v3.4.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.4.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.4.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.4.2,TODO: Find a better way to check for sparse gradients.,1
+v3.4.2,TODO: needs to be added as inference opt,1
+v3.4.2,this is hack: if the special separator ｟newline｠is returned because of the,1
+v3.4.2,TODO: maybe add dynamic part,1
+v3.4.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.4.1,hack for python2/3 compatibility,1
+v3.4.1,hack for python2/3 compatibility,1
+v3.4.1,quite high. TODO: We can add this (skipping examples) as an option,1
+v3.4.1,TODO: fix for pytorch 0.3,1
+v3.4.1,TODO: context gate should be employed,1
+v3.4.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.4.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.4.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.4.1,TODO: Find a better way to check for sparse gradients.,1
+v3.4.1,TODO: needs to be added as inference opt,1
+v3.4.1,this is hack: if the special separator ｟newline｠is returned because of the,1
+v3.4.1,TODO: maybe add dynamic part,1
+v3.4.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.4.0,hack for python2/3 compatibility,1
+v3.4.0,hack for python2/3 compatibility,1
+v3.4.0,quite high. TODO: We can add this (skipping examples) as an option,1
+v3.4.0,TODO: fix for pytorch 0.3,1
+v3.4.0,TODO: context gate should be employed,1
+v3.4.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.4.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.4.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.4.0,TODO: Find a better way to check for sparse gradients.,1
+v3.4.0,TODO: needs to be added as inference opt,1
+v3.4.0,this is hack: if the special separator ｟newline｠is returned because of the,1
+v3.4.0,TODO: maybe add dynamic part,1
+v3.3.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.3.0,hack for python2/3 compatibility,1
+v3.3.0,hack for python2/3 compatibility,1
+v3.3.0,TODO: fix for pytorch 0.3,1
+v3.3.0,TODO: context gate should be employed,1
+v3.3.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.3.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.3.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.3.0,TODO: Find a better way to check for sparse gradients.,1
+v3.3.0,TODO: needs to be added as inference opt,1
+v3.3.0,this is hack: if the special separator ｟newline｠is returned because of the,1
+v3.3.0,TODO: maybe add dynamic part,1
+v3.2.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.2.0,hack for python2/3 compatibility,1
+v3.2.0,hack for python2/3 compatibility,1
+v3.2.0,TODO: fix for pytorch 0.3,1
+v3.2.0,TODO: context gate should be employed,1
+v3.2.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.2.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.2.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.2.0,TODO: Find a better way to check for sparse gradients.,1
+v3.2.0,TODO: needs to be added as inference opt,1
+v3.2.0,this is hack: if the special separator ｟newline｠is returned because of the,1
+v3.2.0,TODO: maybe add dynamic part,1
+v3.1.3,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.1.3,hack for python2/3 compatibility,1
+v3.1.3,hack for python2/3 compatibility,1
+v3.1.3,TODO: fix for pytorch 0.3,1
+v3.1.3,TODO: context gate should be employed,1
+v3.1.3,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.1.3,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.1.3,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.1.3,TODO: Find a better way to check for sparse gradients.,1
+v3.1.3,TODO: needs to be added as inference opt,1
+v3.1.3,TODO: maybe add dynamic part,1
+v3.1.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.1.2,hack for python2/3 compatibility,1
+v3.1.2,hack for python2/3 compatibility,1
+v3.1.2,TODO: fix for pytorch 0.3,1
+v3.1.2,TODO: context gate should be employed,1
+v3.1.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.1.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.1.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.1.2,TODO: Find a better way to check for sparse gradients.,1
+v3.1.2,TODO: needs to be added as inference opt,1
+v3.1.2,TODO: maybe add dynamic part,1
+v3.1.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.1.1,hack for python2/3 compatibility,1
+v3.1.1,hack for python2/3 compatibility,1
+v3.1.1,TODO: fix for pytorch 0.3,1
+v3.1.1,TODO: context gate should be employed,1
+v3.1.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.1.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.1.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.1.1,TODO: Find a better way to check for sparse gradients.,1
+v3.1.1,TODO: needs to be added as inference opt,1
+v3.1.1,TODO: maybe add dynamic part,1
+v3.1.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.1.0,hack for python2/3 compatibility,1
+v3.1.0,hack for python2/3 compatibility,1
+v3.1.0,TODO: fix for pytorch 0.3,1
+v3.1.0,TODO: context gate should be employed,1
+v3.1.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.1.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.1.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.1.0,TODO: Find a better way to check for sparse gradients.,1
+v3.1.0,TODO: needs to be added as inference opt,1
+v3.1.0,TODO: maybe add dynamic part,1
+v3.0.4,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.0.4,hack for python2/3 compatibility,1
+v3.0.4,hack for python2/3 compatibility,1
+v3.0.4,TODO: fix for pytorch 0.3,1
+v3.0.4,TODO: context gate should be employed,1
+v3.0.4,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.4,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.4,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.4,TODO: Find a better way to check for sparse gradients.,1
+v3.0.4,TODO: needs to be added as inference opt,1
+v3.0.4,TODO: maybe add dynamic part,1
+v3.0.3,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.0.3,hack for python2/3 compatibility,1
+v3.0.3,hack for python2/3 compatibility,1
+v3.0.3,TODO: fix for pytorch 0.3,1
+v3.0.3,TODO: context gate should be employed,1
+v3.0.3,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.3,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.3,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.3,TODO: Find a better way to check for sparse gradients.,1
+v3.0.3,TODO: needs to be added as inference opt,1
+v3.0.3,TODO: maybe add dynamic part,1
+v3.0.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.0.2,hack for python2/3 compatibility,1
+v3.0.2,hack for python2/3 compatibility,1
+v3.0.2,TODO: fix for pytorch 0.3,1
+v3.0.2,TODO: context gate should be employed,1
+v3.0.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.2,TODO: Find a better way to check for sparse gradients.,1
+v3.0.2,TODO: needs to be added as inference opt,1
+v3.0.2,TODO: maybe add dynamic part,1
+v3.0.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.0.1,hack for python2/3 compatibility,1
+v3.0.1,hack for python2/3 compatibility,1
+v3.0.1,TODO: fix for pytorch 0.3,1
+v3.0.1,TODO: context gate should be employed,1
+v3.0.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.1,TODO: Find a better way to check for sparse gradients.,1
+v3.0.1,TODO: needs to be added as inference opt,1
+v3.0.1,this is a hack: appears quicker to apply it here,1
+v3.0.1,TODO: maybe add dynamic part,1
+v3.0.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v3.0.0,hack for python2/3 compatibility,1
+v3.0.0,hack for python2/3 compatibility,1
+v3.0.0,TODO: fix for pytorch 0.3,1
+v3.0.0,TODO: context gate should be employed,1
+v3.0.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+v3.0.0,TODO: Find a better way to check for sparse gradients.,1
+v3.0.0,TODO: needs to be added as inference opt,1
+v3.0.0,this is a hack: appears quicker to apply it here,1
+v3.0.0,TODO: maybe add dynamic part,1
+2.3.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+2.3.0,hack for python2/3 compatibility,1
+2.3.0,hack for python2/3 compatibility,1
+2.3.0,TODO: fix for pytorch 0.3,1
+2.3.0,TODO: context gate should be employed,1
+2.3.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.3.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.3.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.3.0,hack to dodge unpicklable `dict_keys`,1
+2.3.0,TODO: Find a better way to check for sparse gradients.,1
+2.3.0,TODO: needs to be added as inference opt,1
+2.3.0,this is a hack: appears quicker to apply it here,1
+2.3.0,"This does not work if we merge with the first loop, not sure why",1
+2.3.0,TODO: maybe add dynamic part,1
+2.2.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+2.2.0,hack for python2/3 compatibility,1
+2.2.0,hack for python2/3 compatibility,1
+2.2.0,TODO: fix for pytorch 0.3,1
+2.2.0,TODO: context gate should be employed,1
+2.2.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.2.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.2.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.2.0,hack to dodge unpicklable `dict_keys`,1
+2.2.0,TODO: Find a better way to check for sparse gradients.,1
+2.2.0,this is a hack: appears quicker to apply it here,1
+2.2.0,"This does not work if we merge with the first loop, not sure why",1
+2.2.0,TODO: maybe add dynamic part,1
+2.2.0,hack [min_len_batch-1:] because expect <bos>,1
+2.1.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+2.1.2,hack for python2/3 compatibility,1
+2.1.2,hack for python2/3 compatibility,1
+2.1.2,TODO: fix for pytorch 0.3,1
+2.1.2,TODO: context gate should be employed,1
+2.1.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.1.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.1.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.1.2,hack to dodge unpicklable `dict_keys`,1
+2.1.2,TODO: Find a better way to check for sparse gradients.,1
+2.1.2,this is a hack: appears quicker to apply it here,1
+2.1.2,"This does not work if we merge with the first loop, not sure why",1
+2.1.2,TODO: maybe add dynamic part,1
+2.1.2,hack [min_len_batch-1:] because expect <bos>,1
+2.1.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+2.1.1,hack for python2/3 compatibility,1
+2.1.1,hack for python2/3 compatibility,1
+2.1.1,TODO: fix for pytorch 0.3,1
+2.1.1,TODO: context gate should be employed,1
+2.1.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.1.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.1.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.1.1,hack to dodge unpicklable `dict_keys`,1
+2.1.1,TODO: Find a better way to check for sparse gradients.,1
+2.1.1,this is a hack: appears quicker to apply it here,1
+2.1.1,"This does not work if we merge with the first loop, not sure why",1
+2.1.1,TODO: maybe add dynamic part,1
+2.1.1,hack [min_len_batch-1:] because expect <bos>,1
+2.1.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+2.1.0,hack for python2/3 compatibility,1
+2.1.0,hack for python2/3 compatibility,1
+2.1.0,TODO: fix for pytorch 0.3,1
+2.1.0,TODO: context gate should be employed,1
+2.1.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.1.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.1.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.1.0,hack to dodge unpicklable `dict_keys`,1
+2.1.0,TODO: Find a better way to check for sparse gradients.,1
+2.1.0,this is a hack: appears quicker to apply it here,1
+2.1.0,"This does not work if we merge with the first loop, not sure why",1
+2.1.0,TODO: maybe add dynamic part,1
+2.1.0,hack [min_len_batch-1:] because expect <bos>,1
+2.0.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+2.0.1,hack for python2/3 compatibility,1
+2.0.1,hack for python2/3 compatibility,1
+2.0.1,TODO: fix for pytorch 0.3,1
+2.0.1,TODO: context gate should be employed,1
+2.0.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.0.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.0.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.0.1,hack to dodge unpicklable `dict_keys`,1
+2.0.1,TODO: Find a better way to check for sparse gradients.,1
+2.0.1,this is a hack: appears quicker to apply it here,1
+2.0.1,"This does not work if we merge with the first loop, not sure why",1
+2.0.1,TODO: maybe add dynamic part,1
+2.0.1,hack [min_len_batch-1:] because expect <bos>,1
+2.0.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+2.0.0,hack for python2/3 compatibility,1
+2.0.0,hack for python2/3 compatibility,1
+2.0.0,TODO: fix for pytorch 0.3,1
+2.0.0,TODO: context gate should be employed,1
+2.0.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.0.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.0.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.0.0,hack to dodge unpicklable `dict_keys`,1
+2.0.0,TODO: Find a better way to check for sparse gradients.,1
+2.0.0,this is a hack: appears quicker to apply it here,1
+2.0.0,"This does not work if we merge with the first loop, not sure why",1
+2.0.0,TODO: maybe add dynamic part,1
+2.0.0,hack [min_len_batch-1:] because expect <bos>,1
+2.0.0rc2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+2.0.0rc2,hack for python2/3 compatibility,1
+2.0.0rc2,hack for python2/3 compatibility,1
+2.0.0rc2,TODO: fix for pytorch 0.3,1
+2.0.0rc2,TODO: context gate should be employed,1
+2.0.0rc2,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.0.0rc2,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.0.0rc2,hack to dodge unpicklable `dict_keys`,1
+2.0.0rc2,TODO: Find a better way to check for sparse gradients.,1
+2.0.0rc2,this is a hack: appears quicker to apply it here,1
+2.0.0rc2,"This does not work if we merge with the first loop, not sure why",1
+2.0.0rc2,TODO: maybe add dynamic part,1
+2.0.0rc1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+2.0.0rc1,hack for python2/3 compatibility,1
+2.0.0rc1,hack for python2/3 compatibility,1
+2.0.0rc1,TODO: fix for pytorch 0.3,1
+2.0.0rc1,TODO: context gate should be employed,1
+2.0.0rc1,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.0.0rc1,TODO change the way attns is returned dict => list or tuple (onnx),1
+2.0.0rc1,hack to dodge unpicklable `dict_keys`,1
+2.0.0rc1,TODO: Find a better way to check for sparse gradients.,1
+2.0.0rc1,this is a hack: appears quicker to apply it here,1
+2.0.0rc1,"This does not work if we merge with the first loop, not sure why",1
+2.0.0rc1,TODO: maybe add dynamic part,1
+1.2.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.2.0,hack for python2/3 compatibility,1
+1.2.0,hack for python2/3 compatibility,1
+1.2.0,why is the model_opt.__dict__ check necessary?,1
+1.2.0,TODO why?,1
+1.2.0,TODO: fix for pytorch 0.3,1
+1.2.0,TODO: context gate should be employed,1
+1.2.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.2.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.2.0,TODO: Find a better way to check for sparse gradients.,1
+1.2.0,hack to dodge unpicklable `dict_keys`,1
+1.1.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.1.1,hack for python2/3 compatibility,1
+1.1.1,hack for python2/3 compatibility,1
+1.1.1,why is the model_opt.__dict__ check necessary?,1
+1.1.1,TODO why?,1
+1.1.1,TODO: fix for pytorch 0.3,1
+1.1.1,TODO: context gate should be employed,1
+1.1.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.1.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.1.1,TODO: Find a better way to check for sparse gradients.,1
+1.1.1,hack to dodge unpicklable `dict_keys`,1
+1.1.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.1.0,hack for python2/3 compatibility,1
+1.1.0,hack for python2/3 compatibility,1
+1.1.0,why is the model_opt.__dict__ check necessary?,1
+1.1.0,TODO why?,1
+1.1.0,TODO: fix for pytorch 0.3,1
+1.1.0,TODO: context gate should be employed,1
+1.1.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.1.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.1.0,TODO: Find a better way to check for sparse gradients.,1
+1.1.0,hack to dodge unpicklable `dict_keys`,1
+1.0.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.0.2,hack for python2/3 compatibility,1
+1.0.2,hack for python2/3 compatibility,1
+1.0.2,why is the model_opt.__dict__ check necessary?,1
+1.0.2,TODO: fix for pytorch 0.3,1
+1.0.2,TODO: context gate should be employed,1
+1.0.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.0.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.0.2,TODO: Find a better way to check for sparse gradients.,1
+1.0.2,hack to dodge unpicklable `dict_keys`,1
+1.0.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.0.1,hack for python2/3 compatibility,1
+1.0.1,hack for python2/3 compatibility,1
+1.0.1,why is the model_opt.__dict__ check necessary?,1
+1.0.1,TODO: fix for pytorch 0.3,1
+1.0.1,TODO: context gate should be employed,1
+1.0.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.0.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.0.1,TODO: Find a better way to check for sparse gradients.,1
+1.0.1,hack to dodge unpicklable `dict_keys`,1
+1.0.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.0.0,hack for python2/3 compatibility,1
+1.0.0,hack for python2/3 compatibility,1
+1.0.0,why is the model_opt.__dict__ check necessary?,1
+1.0.0,TODO: fix for pytorch 0.3,1
+1.0.0,TODO: context gate should be employed,1
+1.0.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.0.0,TODO: change 1 to T as T could be 1 or tgt_len,1
+1.0.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.0.0,TODO: Find a better way to check for sparse gradients.,1
+1.0.0,hack to dodge unpicklable `dict_keys`,1
+1.0.0.rc1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.0.0.rc1,hack for python2/3 compatibility,1
+1.0.0.rc1,hack for python2/3 compatibility,1
+1.0.0.rc1,why is the model_opt.__dict__ check necessary?,1
+1.0.0.rc1,TODO: fix for pytorch 0.3,1
+1.0.0.rc1,TODO: context gate should be employed,1
+1.0.0.rc1,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.0.0.rc1,TODO change the way attns is returned dict => list or tuple (onnx),1
+1.0.0.rc1,TODO: Find a better way to check for sparse gradients.,1
+1.0.0.rc1,hack to dodge unpicklable `dict_keys`,1
+0.9.2,hack to dodge unpicklable `dict_keys`,1
+0.9.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.9.2,hack for python2/3 compatibility,1
+0.9.2,hack for python2/3 compatibility,1
+0.9.2,why is the model_opt.__dict__ check necessary?,1
+0.9.2,TODO: fix for pytorch 0.3,1
+0.9.2,TODO: context gate should be employed,1
+0.9.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.9.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.9.2,TODO: Find a better way to check for sparse gradients.,1
+0.9.1,hack to dodge unpicklable `dict_keys`,1
+0.9.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.9.1,hack for python2/3 compatibility,1
+0.9.1,hack for python2/3 compatibility,1
+0.9.1,why is the model_opt.__dict__ check necessary?,1
+0.9.1,TODO: fix for pytorch 0.3,1
+0.9.1,TODO: context gate should be employed,1
+0.9.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.9.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.9.1,TODO: Find a better way to check for sparse gradients.,1
+0.9.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.9.0,hack for python2/3 compatibility,1
+0.9.0,hack for python2/3 compatibility,1
+0.9.0,why is the model_opt.__dict__ check necessary?,1
+0.9.0,TODO: fix for pytorch 0.3,1
+0.9.0,TODO: context gate should be employed,1
+0.9.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.9.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.9.0,TODO: Find a better way to check for sparse gradients.,1
+0.9.0,TODO: clean this up when APEX unify its optimizer API.,1
+0.8.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.8.2,hack for python2/3 compatibility,1
+0.8.2,hack for python2/3 compatibility,1
+0.8.2,why is the model_opt.__dict__ check necessary?,1
+0.8.2,TODO: fix for pytorch 0.3,1
+0.8.2,TODO: context gate should be employed,1
+0.8.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.8.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.8.2,TODO: Find a better way to check for sparse gradients.,1
+0.8.2,TODO: clean this up when APEX unify its optimizer API.,1
+0.8.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.8.1,hack for python2/3 compatibility,1
+0.8.1,hack for python2/3 compatibility,1
+0.8.1,this line is kind of a temporary kludge because different objects expect,1
+0.8.1,why is the model_opt.__dict__ check necessary?,1
+0.8.1,TODO: fix for pytorch 0.3,1
+0.8.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.8.1,TODO: context gate should be employed,1
+0.8.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.8.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.8.1,TODO: Find a better way to check for sparse gradients.,1
+0.8.1,TODO: clean this up when APEX unify its optimizer API.,1
+0.8.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.8.0,hack for python2/3 compatibility,1
+0.8.0,hack for python2/3 compatibility,1
+0.8.0,this line is kind of a temporary kludge because different objects expect,1
+0.8.0,why is the model_opt.__dict__ check necessary?,1
+0.8.0,TODO: fix for pytorch 0.3,1
+0.8.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.8.0,TODO: context gate should be employed,1
+0.8.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.8.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.8.0,TODO: Find a better way to check for sparse gradients.,1
+0.8.0,TODO: clean this up when APEX unify its optimizer API.,1
+0.7.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.7.2,hack for python2/3 compatibility,1
+0.7.2,hack for python2/3 compatibility,1
+0.7.2,this line is kind of a temporary kludge because different objects expect,1
+0.7.2,why is the model_opt.__dict__ check necessary?,1
+0.7.2,TODO: fix for pytorch 0.3,1
+0.7.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.7.2,TODO: context gate should be employed,1
+0.7.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.7.2,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.7.2,TODO: Find a better way to check for sparse gradients.,1
+0.7.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.7.1,hack for python2/3 compatibility,1
+0.7.1,hack for python2/3 compatibility,1
+0.7.1,why is the model_opt.__dict__ check necessary?,1
+0.7.1,this line is kind of a temporary kludge because different objects expect,1
+0.7.1,TODO: fix for pytorch 0.3,1
+0.7.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.7.1,TODO: context gate should be employed,1
+0.7.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.7.1,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.7.1,TODO: Find a better way to check for sparse gradients.,1
+0.7.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.7.0,hack for python2/3 compatibility,1
+0.7.0,hack for python2/3 compatibility,1
+0.7.0,why is the model_opt.__dict__ check necessary?,1
+0.7.0,TODO: fix for pytorch 0.3,1
+0.7.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.7.0,TODO: context gate should be employed,1
+0.7.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.7.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.7.0,TODO: Find a better way to check for sparse gradients.,1
+0.7.0,This is a hack. Something is broken with torch pickle.,1
+0.7.0,TODO: faster code path for beam_size == 1.,1
+0.6.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.6.0,hack for python2/3 compatibility,1
+0.6.0,hack for python2/3 compatibility,1
+0.6.0,TODO: fix for pytorch 0.3,1
+0.6.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.6.0,TODO: context gate should be employed,1
+0.6.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.6.0,TODO change the way attns is returned dict => list or tuple (onnx),1
+0.6.0,Hack. Can't pickle defaultdict :(,1
+0.6.0,TODO: make this configurable.,1
+0.6.0,TODO: faster code path for beam_size == 1.,1
+0.5.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.5.0,hack for python2/3 compatibility,1
+0.5.0,hack for python2/3 compatibility,1
+0.5.0,TODO: fix for pytorch 0.3,1
+0.5.0,TODO: context gate should be employed,1
+0.5.0,Hack. Can't pickle defaultdict :(,1
+0.5.0,TODO: make this configurable.,1
+0.5.0,TODO: faster code path for beam_size == 1.,1
+0.5.0,Temporary kludge solution to handle changed dim expectation,1
+0.4.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.4.1,hack for python2/3 compatibility,1
+0.4.1,hack for python2/3 compatibility,1
+0.4.1,TODO: fix for pytorch 0.3,1
+0.4.1,TODO: context gate should be employed,1
+0.4.1,Hack. Can't pickle defaultdict :(,1
+0.4.1,TODO: make this configurable.,1
+0.4.1,TODO: faster code path for beam_size == 1.,1
+0.4.1,Temporary kludge solution to handle changed dim expectation,1
+0.4.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.4.0,hack for python2/3 compatibility,1
+0.4.0,hack for python2/3 compatibility,1
+0.4.0,TODO: fix for pytorch 0.3,1
+0.4.0,TODO: context gate should be employed,1
+0.4.0,Hack. Can't pickle defaultdict :(,1
+0.4.0,TODO: make this configurable.,1
+0.4.0,TODO: faster code path for beam_size == 1.,1
+0.4.0,Temporary kludge solution to handle changed dim expectation,1
+0.3.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.3.0,hack for python2/3 compatibility,1
+0.3.0,hack for python2/3 compatibility,1
+0.3.0,TODO: fix for pytorch 0.3,1
+0.3.0,TODO: context gate should be employed,1
+0.3.0,Hack. Can't pickle defaultdict :(,1
+0.3.0,TODO: make this configurable.,1
+0.3.0,TODO: faster code path for beam_size == 1.,1
+0.3.0,Temporary kludge solution to handle changed dim expectation,1
+0.2.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.2.1,hack for python2/3 compatibility,1
+0.2.1,hack for python2/3 compatibility,1
+0.2.1,TODO: fix for pytorch 0.3,1
+0.2.1,TODO: context gate should be employed,1
+0.2.1,Hack. Can't pickle defaultdict :(,1
+0.2.1,TODO: make this configurable.,1
+0.2.1,TODO: faster code path for beam_size == 1.,1
+0.2.1,Temporary kludge solution to handle changed dim expectation,1
+v0.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.2,hack for python2/3 compatibility,1
+v0.2,hack for python2/3 compatibility,1
+v0.2,TODO: fix for pytorch 0.3,1
+v0.2,TODO: context gate should be employed,1
+v0.2,Hack. Can't pickle defaultdict :(,1
+v0.2,TODO: make this configurable.,1
+v0.2,TODO: faster code path for beam_size == 1.,1
+v0.2,Temporary kludge solution to handle changed dim expectation,1
+v0.1,TODO: fix for pytorch 0.3,1
+v0.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+v0.1,hack for python2/3 compatibility,1
+v0.1,hack for python2/3 compatibility,1
+v0.1,TODO: context gate should be employed,1
+v0.1,Hack. Can't pickle defaultdict :(,1
+v0.1,TODO: make this configurable.,1
+v0.1,Temporary kludge solution to handle changed dim expectation,1

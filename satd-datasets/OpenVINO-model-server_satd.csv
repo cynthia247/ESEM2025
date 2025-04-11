@@ -1,0 +1,382 @@
+Version,Commit Message,SATD
+v2025.0,Workaround to copy every model in separate directory,1
+v2025.0,TODO: Write windows/linux specific status codes.,1
+v2025.0,TODO: Possibly avoid making copy,1
+v2025.0,TODO: check on windows,1
+v2025.0,TODO: implement LoadLibrary for windows,1
+v2025.0,TODO windows,1
+v2025.0,TODO @atobisze - doesn't work on MP external/ovms/src/tensor_conversion.cpp:55:16: error: 'CV_16F' was not declared in this scope; did you mean 'CV_16S'?,1
+v2025.0,TODO windows,1
+v2025.0,TODO FIXME validation shouldn't allow setting unsupported memory types,1
+v2025.0,TODO: Write windows/linux specific status codes.,1
+v2025.0,TODO windows,1
+v2025.0,TODO windows,1
+v2025.0,TODO windows,1
+v2025.0,TODO windows,1
+v2025.0,TODO windows,1
+v2025.0,TODO: Move this to filesystem and check if windows impl can be used on linux also,1
+v2025.0,TODO: Rremove when enabled on windows with global disaplay,1
+v2025.0,TODO reset contexts,1
+v2025.0,TODO windows,1
+v2025.0,TODO what to do if display was not initialized? not allow in validation? but here we don't have the information about vacontext unless it is global,1
+v2025.0,TODO test MULTI/AUTO/HETERO,1
+v2025.0,TODO check if there is callback in async,1
+v2025.0,"TODO created filter based on what is in request, then perform casual serialization for what was NOT in request, and rewrite tensors from request to response for those that were",1
+v2025.0,TODO: Enable on windows,1
+v2025.0,TODO: Disabled because we cannot start http server multiple times https://github.com/drogonframework/drogon/issues/2210,1
+v2025.0,TODO: Disabled because we cannot start http server multiple times https://github.com/drogonframework/drogon/issues/2210,1
+v2025.0,TODO what to do if several inputs have different timestamp,1
+v2025.0,TODO: response id?,1
+v2025.0,TODO split,1
+v2025.0,TODO requires model mgmt otherwise,1
+v2025.0,gpuInferRequest.wait(); // TODO probably not required,1
+v2025.0,TODO,1
+v2025.0,TODO load model with passed in context,1
+v2025.0,TODO cleanup settings,1
+v2025.0,TODO check non-remote tensors async,1
+v2025.0,TODO check sync non-remote tensors,1
+v2025.0,TODO check sync remote tensors,1
+v2025.0,TODO separate test for below - extracting what kind of tensor in output it isa,1
+v2025.0,TODO,1
+v2025.0,verify TODOS,1
+v2025.0,TODO check for tfs as well - now not supported,1
+v2025.0,TODO check for tfs as well - now not supported,1
+v2025.0,"ovms::Precision::FP16,  // TODO FIXME Mediapipe update to 0.10.18",1
+v2025.0,TODO: Symlinks are never removed,1
+v2025.0,"TODO: New output EXPECT_CALL(writer, PartialReplyEnd()).Times(1);",1
+v2025.0,"TODO: New output EXPECT_CALL(writer, IsDisconnected()).Times(7);",1
+v2025.0,"TODO: New output EXPECT_CALL(writer, PartialReplyEnd()).Times(1);",1
+v2025.0,"TODO: New output EXPECT_CALL(writer, IsDisconnected()).Times(7);",1
+v2025.0,TODO: Fails no idea why,1
+v2025.0,Static map workaround for char* pointers as paths,1
+v2025.0,"FIXME: TODO: Manual unload required because OVCORE keeps the file handle opened after modelLoad, preventing the test to remove the directory.",1
+v2025.0,TODO Windows: enable extensions and model cache,1
+v2025.0,TODO Windows: enable extensions and model cache,1
+v2025.0,TODO Windows: enable extensions and model cache,1
+v2025.0,TODO Windows: enable extensions and model cache,1
+v2025.0,TODO: Enable on windows,1
+v2025.0,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2025.0,Missing implementation,1
+v2025.0,TODO: Names to be decided,1
+v2025.0,TODO: Fix capi.cpp(86): error C2375: 'OVMS_ApiVersion': redefinition; different linkage,1
+v2025.0,Hack to force spdlog singleton to initialize before ovms::Server singleton,1
+v2025.0,TODO metrics,1
+v2025.0,TODO : Windows,1
+v2025.0,TODO metrics,1
+v2025.0,TODO,1
+v2025.0,TODO: Windows,1
+v2025.0,TODO: dimensions (optional),1
+v2025.0,TODO: user (optional),1
+v2025.0,TODO: mean pooling,1
+v2025.0,logit_bias TODO,1
+v2025.0,tools TODO,1
+v2025.0,tool_choice TODO,1
+v2025.0,function_call TODO (deprecated),1
+v2025.0,functions TODO (deprecated),1
+v2025.0,Will make sense once we have chat templates? TODO(atobisze),1
+v2025.0,TODO: function_call (deprecated),1
+v2025.0,TODO,1
+v2025.0,TODO,1
+v2025.0,TODO: function_call (deprecated),1
+v2025.0,TODO,1
+v2025.0,TODO,1
+v2024.5,Workaround to copy every model in separate directory,1
+v2024.5,TODO: Write windows/linux specific status codes.,1
+v2024.5,TODO: Write windows/linux specific status codes.,1
+v2024.5,TODO windows,1
+v2024.5,TODO windows,1
+v2024.5,TODO windows,1
+v2024.5,TODO windows,1
+v2024.5,TODO windows,1
+v2024.5,TODO windows,1
+v2024.5,TODO: Possibly avoid making copy,1
+v2024.5,TODO: check on windows,1
+v2024.5,TODO: implement LoadLibrary for windows,1
+v2024.5,TODO windows,1
+v2024.5,TODO windows,1
+v2024.5,"TODO: windows - check when can we close and cleanup, destructor ? add as member and store.",1
+v2024.5,Does not work when we close here as in linux.,1
+v2024.5,TODO FIXME validation shouldn't allow setting unsupported memory types,1
+v2024.5,TODO: windows for malloc_trim(0);,1
+v2024.5,TODO: Write windows/linux specific status codes.,1
+v2024.5,TODO windows,1
+v2024.5,TODO windows,1
+v2024.5,TODO windows,1
+v2024.5,TODO windows,1
+v2024.5,TODO windows,1
+v2024.5,TODO: Move this to filesystem and check if windows impl can be used on linux also,1
+v2024.5,TODO: Rremove when enabled on windows with global disaplay,1
+v2024.5,TODO reset contexts,1
+v2024.5,TODO windows,1
+v2024.5,TODO what to do if display was not initialized? not allow in validation? but here we don't have the information about vacontext unless it is global,1
+v2024.5,TODO test MULTI/AUTO/HETERO,1
+v2024.5,TODO: windows for malloc_trim(0);,1
+v2024.5,TODO check if there is callback in async,1
+v2024.5,"TODO created filter based on what is in request, then perform casual serialization for what was NOT in request, and rewrite tensors from request to response for those that were",1
+v2024.5,TODO: implement LoadLibrary for windows with GetProcAddress,1
+v2024.5,TODO what to do if several inputs have different timestamp,1
+v2024.5,TODO: response id?,1
+v2024.5,TODO split,1
+v2024.5,TODO requires model mgmt otherwise,1
+v2024.5,gpuInferRequest.wait(); // TODO probably not required,1
+v2024.5,TODO,1
+v2024.5,TODO load model with passed in context,1
+v2024.5,TODO cleanup settings,1
+v2024.5,TODO check non-remote tensors async,1
+v2024.5,TODO check sync non-remote tensors,1
+v2024.5,TODO check sync remote tensors,1
+v2024.5,TODO separate test for below - extracting what kind of tensor in output it isa,1
+v2024.5,TODO,1
+v2024.5,verify TODOS,1
+v2024.5,TODO check for tfs as well - now not supported,1
+v2024.5,TODO check for tfs as well - now not supported,1
+v2024.5,TODO: Symlinks are never removed,1
+v2024.5,"TODO: New output EXPECT_CALL(writer, PartialReplyEnd()).Times(1);",1
+v2024.5,"TODO: New output EXPECT_CALL(writer, IsDisconnected()).Times(7);",1
+v2024.5,"TODO: New output EXPECT_CALL(writer, PartialReplyEnd()).Times(1);",1
+v2024.5,"TODO: New output EXPECT_CALL(writer, IsDisconnected()).Times(7);",1
+v2024.5,TODO: Remove below commented assertion as well as block_size from the testPbtxt when block_size is removed from options proto.,1
+v2024.5,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2024.5,Missing implementation,1
+v2024.5,TODO: Names to be decided,1
+v2024.5,TODO: Fix capi.cpp(86): error C2375: 'OVMS_ApiVersion': redefinition; different linkage,1
+v2024.5,Hack to force spdlog singleton to initialize before ovms::Server singleton,1
+v2024.5,TODO metrics,1
+v2024.5,TODO : Windows,1
+v2024.5,TODO metrics,1
+v2024.5,TODO,1
+v2024.5,TODO: Windows,1
+v2024.5,TODO: dimensions (optional),1
+v2024.5,TODO: user (optional),1
+v2024.5,TODO: mean pooling,1
+v2024.5,TODO: Remove along with block_size option in the proto in 2025.x release,1
+v2024.5,logit_bias TODO,1
+v2024.5,tools TODO,1
+v2024.5,tool_choice TODO,1
+v2024.5,function_call TODO (deprecated),1
+v2024.5,functions TODO (deprecated),1
+v2024.5,Will make sense once we have chat templates? TODO(atobisze),1
+v2024.5,TODO: function_call (deprecated),1
+v2024.5,TODO,1
+v2024.5,TODO,1
+v2024.5,TODO: function_call (deprecated),1
+v2024.5,TODO,1
+v2024.5,TODO,1
+v2024.4,Workaround to copy every model in separate directory,1
+v2024.4,TODO: Possibly avoid making copy,1
+v2024.4,this is a hack to overcome OV 1.0 -> 2.0 API change where we do not get reference to,1
+v2024.4,TODO (negative paths):,1
+v2024.4,TODO (positive paths):,1
+v2024.4,TODO(mkulakow),1
+v2024.4,TODO what to do if several inputs have different timestamp,1
+v2024.4,TODO: response id?,1
+v2024.4,TODO check for tfs as well - now not supported,1
+v2024.4,TODO check for tfs as well - now not supported,1
+v2024.4,TODO: Symlinks are never removed,1
+v2024.4,"TODO: New output EXPECT_CALL(writer, PartialReplyEnd()).Times(1);",1
+v2024.4,"TODO: New output EXPECT_CALL(writer, IsDisconnected()).Times(7);",1
+v2024.4,"TODO: New output EXPECT_CALL(writer, PartialReplyEnd()).Times(1);",1
+v2024.4,"TODO: New output EXPECT_CALL(writer, IsDisconnected()).Times(7);",1
+v2024.4,TODO: Test bad sampling configuration that would cause errors in step() phase. Need to replace hardcoded generation config,1
+v2024.4,TODO: Test bad message or sampling configuration that would cause errors in add_request() phase. Need to replace hardcoded generation config,1
+v2024.4,TODO: Consider stress testing - existing model server under heavy load to check notifications work us expected.,1
+v2024.4,TODO: Check plugin config,1
+v2024.4,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2024.4,Missing implementation,1
+v2024.4,TODO: Names to be decided,1
+v2024.4,Hack to force spdlog singleton to initialize before ovms::Server singleton,1
+v2024.4,TODO metrics,1
+v2024.4,TODO metrics,1
+v2024.4,TODO: OpenAI API defines upper bound but do we want it?,1
+v2024.4,logit_bias TODO,1
+v2024.4,tools TODO,1
+v2024.4,tool_choice TODO,1
+v2024.4,function_call TODO (deprecated),1
+v2024.4,functions TODO (deprecated),1
+v2024.4,Will make sense once we have chat templates? TODO(atobisze),1
+v2024.4,TODO: function_call (deprecated),1
+v2024.4,TODO,1
+v2024.4,TODO,1
+v2024.4,TODO: function_call (deprecated),1
+v2024.4,TODO,1
+v2024.4,TODO,1
+v2024.3,Workaround to copy every model in separate directory,1
+v2024.3,########## Workaround: https://docs.trychroma.com/troubleshooting#sqlite,1
+v2024.3,TODO fix after Mediapipe metrics implementation,1
+v2024.3,TODO: Possibly avoid making copy,1
+v2024.3,TODO fix after Mediapipe metrics implementation,1
+v2024.3,this is a hack to overcome OV 1.0 -> 2.0 API change where we do not get reference to,1
+v2024.3,TODO (negative paths):,1
+v2024.3,TODO (positive paths):,1
+v2024.3,TODO(mkulakow),1
+v2024.3,TODO what to do if several inputs have different timestamp,1
+v2024.3,TODO: response id?,1
+v2024.3,TODO check for tfs as well - now not supported,1
+v2024.3,TODO check for tfs as well - now not supported,1
+v2024.3,"TODO: New output EXPECT_CALL(writer, PartialReplyEnd()).Times(1);",1
+v2024.3,"TODO: New output EXPECT_CALL(writer, PartialReplyEnd()).Times(1);",1
+v2024.3,TODO: Test bad sampling configuration that would cause errors in step() phase. Need to replace hardcoded generation config,1
+v2024.3,TODO: Test bad message or sampling configuration that would cause errors in add_request() phase. Need to replace hardcoded generation config,1
+v2024.3,TODO: Consider stress testing - exisitng model server under heavy load to check notifications work us expected.,1
+v2024.3,"TODO: New output EXPECT_CALL(writer, PartialReplyEnd()).Times(1);",1
+v2024.3,"TODO: New output EXPECT_CALL(writer, PartialReplyEnd()).Times(1);",1
+v2024.3,TODO: Check plugin config,1
+v2024.3,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2024.3,Missing implementation,1
+v2024.3,TODO: Names to be decided,1
+v2024.3,Hack to force spdlog singleton to initialize before ovms::Server singleton,1
+v2024.3,TODO metrics,1
+v2024.3,TODO metrics,1
+v2024.3,TODO fix after Mediapipe metrics implementation,1
+v2024.2,Workaround to copy every model in separate directory,1
+v2024.2,########## Workaround: https://docs.trychroma.com/troubleshooting#sqlite,1
+v2024.2,TODO fix after Mediapipe metrics implementation,1
+v2024.2,TODO: Possibly avoid making copy,1
+v2024.2,TODO fix after Mediapipe metrics implementation,1
+v2024.2,this is a hack to overcome OV 1.0 -> 2.0 API change where we do not get reference to,1
+v2024.2,TODO (negative paths):,1
+v2024.2,TODO (positive paths):,1
+v2024.2,TODO(mkulakow),1
+v2024.2,TODO what to do if several inputs have different timestamp,1
+v2024.2,TODO: response id?,1
+v2024.2,TODO check for tfs as well - now not supported,1
+v2024.2,TODO check for tfs as well - now not supported,1
+v2024.2,TODO: Test bad sampling configuration that would cause errors in step() phase. Need to replace hardcoded generation config,1
+v2024.2,TODO: Test bad message or sampling configuration that would cause errors in add_request() phase. Need to replace hardcoded generation config,1
+v2024.2,TODO: Consider stress testing - exisitng model server under heavy load to check notifications work us expected.,1
+v2024.2,TODO: Use lighter model and enable when model preparation is automated,1
+v2024.2,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2024.2,Missing implementation,1
+v2024.2,TODO: Names to be decided,1
+v2024.2,Hack to force spdlog singleton to initialize before ovms::Server singleton,1
+v2024.2,TODO metrics,1
+v2024.2,TODO metrics,1
+v2024.2,TODO fix after Mediapipe metrics implementation,1
+v2024.2,temporary fix for wrong cache size calculation on in GenAI,1
+v2024.1,Workaround to copy every model in separate directory,1
+v2024.1,########## Workaround: https://docs.trychroma.com/troubleshooting#sqlite,1
+v2024.1,TODO fix after Mediapipe metrics implementation,1
+v2024.1,TODO fix after Mediapipe metrics implementation,1
+v2024.1,this is a hack to overcome OV 1.0 -> 2.0 API change where we do not get reference to,1
+v2024.1,TODO what to do if several inputs have different timestamp,1
+v2024.1,TODO: response id?,1
+v2024.1,TODO check for tfs as well - now not supported,1
+v2024.1,TODO check for tfs as well - now not supported,1
+v2024.1,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2024.1,Missing implementation,1
+v2024.1,Hack to force spdlog singleton to initialize before ovms::Server singleton,1
+v2024.1,TODO metrics,1
+v2024.1,TODO metrics,1
+v2024.1,TODO fix after Mediapipe metrics implementation,1
+v2024.0,Workaround to copy every model in separate directory,1
+v2024.0,TODO fix after Mediapipe metrics implementation,1
+v2024.0,TODO fix after Mediapipe metrics implementation,1
+v2024.0,this is a hack to overcome OV 1.0 -> 2.0 API change where we do not get reference to,1
+v2024.0,TODO what to do if several inputs have different timestamp,1
+v2024.0,TODO: response id?,1
+v2024.0,TODO: Add more negative tests for wrong configurations,1
+v2024.0,TODO check for tfs as well - now not supported,1
+v2024.0,TODO check for tfs as well - now not supported,1
+v2024.0,The model has string output which is not implemented yet.,1
+v2024.0,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2024.0,The model has string output which is not implemented yet.,1
+v2024.0,The model has string output which is not implemented yet.,1
+v2024.0,Missing implementation,1
+v2024.0,Hack to force spdlog singleton to initialize before ovms::Server singleton,1
+v2024.0,TODO metrics,1
+v2024.0,TODO metrics,1
+v2024.0,TODO fix after Mediapipe metrics implementation,1
+v2023.3,Workaround to copy every model in separate directory,1
+v2023.3,TODO fix after Mediapipe metrics implementation,1
+v2023.3,this is a hack to overcome OV 1.0 -> 2.0 API change where we do not get reference to,1
+v2023.3,TODO what to do if several inputs have different timestamp,1
+v2023.3,TODO: response id?,1
+v2023.3,TODO: Add more negative tests for wrong configurations,1
+v2023.3,TODO check for tfs as well - now not supported,1
+v2023.3,TODO check for tfs as well - now not supported,1
+v2023.3,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2023.3,Missing implementation,1
+v2023.3,Hack to force spdlog singleton to initialize before ovms::Server singleton,1
+v2023.3,TODO metrics,1
+v2023.3,TODO metrics,1
+v2023.3,TODO fix after Mediapipe metrics implementation,1
+v2023.2,Workaround to copy every model in separate directory,1
+v2023.2,TODO fix after Mediapipe metrics implementation,1
+v2023.2,TODO,1
+v2023.2,TODO we could check it after automatic incrementing and disconnect from server side?,1
+v2023.2,TODO: check bool if true,1
+v2023.2,this is a hack to overcome OV 1.0 -> 2.0 API change where we do not get reference to,1
+v2023.2,TODO what to do if several inputs have different timestamp,1
+v2023.2,TODO: response id?,1
+v2023.2,TODO check for tfs as well - now not supported,1
+v2023.2,TODO check for tfs as well - now not supported,1
+v2023.2,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2023.2,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2023.2,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2023.2,Missing implementation,1
+v2023.2,Hack to force spdlog singleton to initialize before ovms::Server singleton,1
+v2023.2,TODO metrics,1
+v2023.2,TODO metrics,1
+v2023.2,TODO fix after Mediapipe metrics implementation,1
+v2023.1,Workaround to copy every model in separate directory,1
+v2023.1,TODO fix after Mediapipe metrics implementation,1
+v2023.1,TODO,1
+v2023.1,TODO possibly unify with DAG to share code,1
+v2023.1,TODO: Return error?,1
+v2023.1,TODO: Return error?,1
+v2023.1,TODO potentially not needed if we do not validate presence of models required in pbtxt,1
+v2023.1,this is a hack to overcome OV 1.0 -> 2.0 API change where we do not get reference to,1
+v2023.1,TODO remove MEDIAPIPE_DEFINITION_NOT_LOADED_YET from allowed list,1
+v2023.1,TODO remove MEDIAPIPE_DEFINITION_NOT_LOADED_YET from allowed list,1
+v2023.1,TODO check for tfs as well - now not supported,1
+v2023.1,TODO check for tfs as well - now not supported,1
+v2023.1,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2023.1,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2023.1,TODO: Re-enable positive check when models with static 0 dimension become available in OpenVINO,1
+v2023.1,Missing implementation,1
+v2023.1,Hack to force spdlog singleton to initialize before ovms::Server singleton,1
+v2023.1,TODO metrics,1
+v2023.1,TODO metrics,1
+v2023.1,TODO fix after Mediapipe metrics implementation,1
+v2023.0,TODO,1
+v2023.0,TODO possibly unify with DAG to share code,1
+v2023.0,TODO potentially not needed if we do not validate presence of models required in pbtxt,1
+v2023.0,this is a hack to overcome OV 1.0 -> 2.0 API change where we do not get reference to,1
+v2023.0,TODO status,1
+v2023.0,TODO validate output,1
+v2023.0,TODO validate output,1
+v2023.0,TODO check for tfs as well - now not supported,1
+v2023.0,Missing implementation,1
+v2023.0,Hack to force spdlog singleton to initialize before ovms::Server singleton,1
+v2023.0,TODO check inputs,1
+v2023.0,TODO metrics,1
+v2023.0,TODO fix after Mediapipe metrics implementation,1
+v2022.3.0.1,this is a hack to overcome OV 1.0 -> 2.0 API change where we do not get reference to,1
+v2022.3.0.1,TODO test against maximum values,1
+v2022.3.0.1,Missing implementation,1
+v2022.3,this is a hack to overcome OV 1.0 -> 2.0 API change where we do not get reference to,1
+v2022.3,"TODO no strig no bytes currently, will implement one of those types with binary input.",1
+v2022.3,Missing implementation,1
+v2022.2,this is a hack to overcome OV 1.0 -> 2.0 API change where we do not get reference to,1
+v2022.2,Workaround for GPU.,1
+v2022.2,Missing implementation,1
+v2022.1,TODO we should either throw or make separate factory to disallo,1
+v2022.1,this is a hack to overcome OV 1.0 -> 2.0 API change where we do not get reference to,1
+v2022.1,Workaround for GPU.,1
+v2022.1,TODO: CVS-78796 Check if the total bytes for tensor will not exceed 1GB.,1
+v2022.1,TODO: Add more detailed information about dimension.,1
+v2022.1,TODO missing precisions,1
+v2022.1,TODO: Validate rank vs layout string len?,1
+v2022.1,TODO: Validate rank vs layout string len?,1
+v2022.1,TODO potentially allow for empty names if OV will load such model. Then potentially use empty string as input/output names,1
+v2022.1,TODO potentially allow for empty names if OV will load such model. Then potentially use empty string as input/output names,1
+v2022.1,TODO potentially allow for empty names if OV will load such model. Then potentially use empty string as input/output names,1
+v2022.1,TODO: There are new API 2.0 precisions we do not support. Add tests for those.,1
+v2022.1,"EXPECT_CALL(*mockTensor, get_byte_size()); // TODO: Mock it properly with templates",1
+v2022.1,TODO: Uncomment once bug is resolved.,1
+v2022.1,default layout should match any // TODO this is intentional for now until stricter layout checking implementation,1
+v2022.1,Missing implementation,1
+v2021.4.2,Missing implementation,1
+v2021.4.1,Missing implementation,1
+v2021.4,Missing implementation,1
+v2021.3,Missing implementation,1

@@ -1,0 +1,1358 @@
+Version,Commit Message,SATD
+v1.11.0,TODO: we should move that to the labeling,1
+v1.11.0,TODO: predict_target,1
+v1.11.0,fixme: find reason / enforce single-thread,1
+v1.11.0,FIXME definitely a type mismatch going on here,1
+v1.11.0,FIXME isn't any finite number allowed now?,1
+v1.11.0,TODO: look into score_r for inverse relations,1
+v1.11.0,TODO: Catch HolE MKL error?,1
+v1.11.0,TODO: separation message vs. entity dim?,1
+v1.11.0,TODO: Re-use filtering code,1
+v1.11.0,"TODO: does this suffice, or do we really need float as datatype?",1
+v1.11.0,TODO: this could be shared with the model tests,1
+v1.11.0,fixme: CompGCN leads to an autograd runtime error...,1
+v1.11.0,TODO: we could move this part into the interaction module itself,1
+v1.11.0,TODO: more tests,1
+v1.11.0,TODO: check no repetitions (if possible),1
+v1.11.0,TODO: Do label smoothing only once,1
+v1.11.0,TODO: maybe we can make this more efficient?,1
+v1.11.0,TODO: maybe we can make this more efficient?,1
+v1.11.0,TODO: method is_inverse?,1
+v1.11.0,TODO: inverse of inverse?,1
+v1.11.0,"TODO: extend to relation, cf. https://github.com/pykeen/pykeen/pull/728",1
+v1.11.0,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.11.0,"note: this is a hack, and should be fixed up-stream by making NodePiece",1
+v1.11.0,"batch, TODO: ids?",1
+v1.11.0,TODO: variable targets across batches/samples?,1
+v1.11.0,TODO: Support partial dataset,1
+v1.11.0,TODO: add support for (automatic) slicing,1
+v1.11.0,TODO: can we change the dimension order to make this contiguous?,1
+v1.11.0,TODO: verify that this is our understanding of complex!,1
+v1.11.0,fixme: work-around until nn.Embedding supports complex,1
+v1.11.0,fixme: work-around until nn.Embedding supports complex,1
+v1.11.0,TODO: Check,1
+v1.11.0,TODO: might not be true for all compositions,1
+v1.11.0,TODO: This always uses all training triples for message passing,1
+v1.11.0,"TODO: can be a combined representations, with appropriate tensor-train combination",1
+v1.11.0,TODO: allow to pass them from outside?,1
+v1.11.0,TODO: inductiveness; we need to,1
+v1.11.0,TODO replace iter_matrix_power and safe_diagonal with torch_ppr functions?,1
+v1.11.0,TODO: split file into multiple smaller ones?,1
+v1.11.0,TODO: does not seem to be used,1
+v1.11.0,"TODO: annotate modelling capabilities? cf., e.g., https://arxiv.org/abs/1902.10197, Table 2",1
+v1.11.0,"TODO: annotate properties, e.g., symmetry, and use them for testing?",1
+v1.11.0,TODO: annotate complexity?,1
+v1.11.0,"TODO: we only allow single-tensor representations here, but could easily generalize",1
+v1.11.0,"TODO: implement the unbalanced variant from the paper: f(h, r, t) = (h + r)^T t",1
+v1.11.0,TODO: update class docstring,1
+v1.11.0,TODO: give this a better name?,1
+v1.11.0,TODO: update docstring,1
+v1.11.0,TODO: give this a better name?,1
+v1.11.0,"TODO: this sign is in the official code, too, but why do we need it?",1
+v1.11.0,TODO: expose initialization?,1
+v1.11.0,"TODO: we already had this before, as `base`",1
+v1.11.0,TODO: vectorization?,1
+v1.11.0,TODO: expose num_anchors?,1
+v1.11.0,TODO: check if perm is used correctly,1
+v1.11.0,TODO: vectorization?,1
+v1.11.0,TODO: keep distances?,1
+v1.11.0,"TODO: since we save a contiguous array of (num_entities, num_anchors),",1
+v1.11.0,"TODO: use graph library, such as igraph, graph-tool, or networkit",1
+v1.11.0,TODO: padding for unreachable?,1
+v1.11.0,TODO: can we replace this loop with something vectorized?,1
+v1.11.0,TODO the float() trick for GPU result stability until the torch_sparse issue is resolved,1
+v1.11.0,TODO: should we return the sum of weights?,1
+v1.11.0,todo: do we need numpy support?,1
+v1.11.0,TODO: re-consider threshold,1
+v1.11.0,TODO: can we directly include sklearn's docstring here?,1
+v1.11.0,todo: it would make sense to have a separate evaluator which constructs the confusion matrix only once,1
+v1.11.0,todo: https://en.wikipedia.org/wiki/Diagnostic_odds_ratio#Confidence_interval,1
+v1.11.0,todo: improve doc,1
+v1.11.0,todo: read from config instead,1
+v1.11.0,TODO vectorize code,1
+v1.11.0,TODO: Check if lazy evaluation would make sense,1
+v1.11.0,"FIXME currently the implementation does not consider the non-training (i.e., second-last entries)",1
+v1.11.0,TODO: Can this happen after pre-filtering?,1
+v1.11.0,TODO: what is the support?,1
+v1.11.0,TODO: some negative samplers require batches,1
+v1.11.0,TODO: is this necessary?,1
+v1.11.0,TODO should mode be passed here?,1
+v1.11.0,TODO why not call torch.cuda.empty_cache()? or call self._free_graph_and_cache()?,1
+v1.11.0,TODO: we may want to separate TrainingCallback from pre-step callbacks in the future,1
+v1.11.0,todo: create dataset only once,1
+v1.11.0,TODO: this should be num_instances rather than num_triples,1
+v1.11.0,TODO: exploit sparsity,1
+v1.11.0,TODO: exploit sparsity,1
+v1.11.0,TODO?,1
+v1.11.0,TODO: Fix this,1
+v1.11.0,TODO need a test that this all re-instantiates properly,1
+v1.11.0,"TODO: In sLCWA, we still want to calculate validation *metrics* in LCWA",1
+v1.11.0,TODO:,1
+v1.11.0,TODO: unused?,1
+v1.11.0,TODO: maybe move into separate module?,1
+v1.11.0,TODO: should we enforce this?,1
+v1.11.0,"if inverse triples are used, we only do score_t (TODO: by default; can this be changed?)",1
+v1.11.0,todo: maybe we want to have some more keys outside of kwargs for hashing / have more visibility about,1
+v1.11.0,"TODO: unique, or max ID + 1?",1
+v1.11.0,TODO: extend to relations?,1
+v1.11.0,TODO: find a better way to handle this,1
+v1.11.0,TODO: it would be better to allow separate batch sizes for entity/relation prediction,1
+v1.11.0,"TODO: afaik, dense positive masks are not used on GPU -> we do not need to move the masks around",1
+v1.11.0,todo: maybe we can merge this code with the AMO code of the base evaluator?,1
+v1.11.0,TODO: maybe we want to collect scores on CPU / add an option?,1
+v1.11.0,fixme: the annotation of ClassResolver.__iter__ seems to be broken (X instead of Type[X]),1
+v1.11.0,TODO: do not require to compute all scores beforehand,1
+v1.11.0,TODO: should we give num_entities in the constructor instead of inferring it every time ranks are processed?,1
+v1.11.0,TODO pack/unpack dimensions as default kwargs such that they don't actually need to be used,1
+v1.11.0,TODO: update to hint + kwargs,1
+v1.11.0,"TODO: support ""broadcasting"" representation regularizers?",1
+v1.11.0,TODO: why do we need to empty the cache?,1
+v1.11.0,"TODO: this currently compute (batch_size, num_relations) instead,",1
+v1.11.0,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.11.0,TODO I got lost in all the Representation Modules and shape casting and wrote this ;(,1
+v1.11.0,TODO rethink after RGCN update,1
+v1.11.0,TODO: other parameters?,1
+v1.11.0,TODO: Decomposition kwargs,1
+v1.11.0,TODO: what about using the default regularizer?,1
+v1.11.0,TODO: move this warning to PseudoTypeNegativeSampler's constructor?,1
+v1.11.0,TODO: rename param?,1
+v1.11.0,TODO use pathlib here,1
+v1.11.0,"TODO: we could have multiple results, if we get access to the raw results (e.g. in the pykeen benchmarking paper)",1
+v1.11.0,FIXME this should never happen.,1
+v1.11.0,TODO: checkpoint_dict not further used; later loaded again by TrainingLoop.train,1
+v1.11.0,TODO: allow empty validation / testing,1
+v1.11.0,TODO should training be reset?,1
+v1.11.0,TODO should kwargs for loss and regularizer be checked and raised for?,1
+v1.11.0,TODO consider implications of duplicates,1
+v1.11.0,TODO: use a class-resolver?,1
+v1.11.0,TODO what happens if already exists?,1
+v1.11.0,TODO incorporate setting of random seed,1
+v1.11.0,todo(@cthoyt): proper prefixing?,1
+v1.11.0,TODO: Merge with _common?,1
+v1.11.0,TODO: Consider merging with other analysis methods,1
+v1.11.0,TODO: Consider merging with other analysis methods,1
+v1.11.0,TODO: Consider merging with other analysis methods,1
+v1.11.0,TODO: maybe merge into analyze / make sub-command,1
+v1.11.0,TODO: Make a constant for the names,1
+v1.11.0,TODO: use class-resolver normalize?,1
+v1.11.0,TODO: use class-resolver normalize?,1
+v1.11.0,TODO: support ID-only graphs,1
+v1.11.0,TODO: restrict to only using training alignments?,1
+v1.11.0,"TODO this fixes the issue for negative samplers, but does not generally address it.",1
+v1.11.0,TODO: make it even easier to specify categorical strategies just as lists,1
+v1.11.0,"TODO: for some reason, this field is missing in the documentation",1
+v1.11.0,TODO: without label to id mapping a model might be pretty use-less,1
+v1.11.0,TODO: it would be nice to get a configuration to re-construct the model,1
+v1.10.2,fixme: find reason / enforce single-thread,1
+v1.10.2,FIXME definitely a type mismatch going on here,1
+v1.10.2,FIXME isn't any finite number allowed now?,1
+v1.10.2,TODO: look into score_r for inverse relations,1
+v1.10.2,TODO: Catch HolE MKL error?,1
+v1.10.2,TODO: separation message vs. entity dim?,1
+v1.10.2,TODO: Re-use filtering code,1
+v1.10.2,"TODO: does this suffice, or do we really need float as datatype?",1
+v1.10.2,TODO: this could be shared with the model tests,1
+v1.10.2,fixme: CompGCN leads to an autograd runtime error...,1
+v1.10.2,TODO: we could move this part into the interaction module itself,1
+v1.10.2,TODO this is the only place this function is used.,1
+v1.10.2,TODO: more tests,1
+v1.10.2,TODO: check no repetitions (if possible),1
+v1.10.2,TODO: Do label smoothing only once,1
+v1.10.2,TODO: maybe we can make this more efficient?,1
+v1.10.2,TODO: maybe we can make this more efficient?,1
+v1.10.2,TODO: method is_inverse?,1
+v1.10.2,TODO: inverse of inverse?,1
+v1.10.2,"TODO: extend to relation, cf. https://github.com/pykeen/pykeen/pull/728",1
+v1.10.2,TODO delete when deleting _normalize_dim (below),1
+v1.10.2,TODO delete when deleting convert_to_canonical_shape (below),1
+v1.10.2,TODO delete? See note in test_sim.py on its only usage,1
+v1.10.2,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.10.2,"note: this is a hack, and should be fixed up-stream by making NodePiece",1
+v1.10.2,"batch, TODO: ids?",1
+v1.10.2,TODO: variable targets across batches/samples?,1
+v1.10.2,TODO: Support partial dataset,1
+v1.10.2,TODO: can we change the dimension order to make this contiguous?,1
+v1.10.2,TODO: verify that this is our understanding of complex!,1
+v1.10.2,fixme: work-around until nn.Embedding supports complex,1
+v1.10.2,fixme: work-around until nn.Embedding supports complex,1
+v1.10.2,TODO: Check,1
+v1.10.2,TODO: might not be true for all compositions,1
+v1.10.2,TODO: This always uses all training triples for message passing,1
+v1.10.2,"TODO: can be a combined representations, with appropriate tensor-train combination",1
+v1.10.2,TODO: allow to pass them from outside?,1
+v1.10.2,TODO: inductiveness; we need to,1
+v1.10.2,TODO: split file into multiple smaller ones?,1
+v1.10.2,"TODO: annotate modelling capabilities? cf., e.g., https://arxiv.org/abs/1902.10197, Table 2",1
+v1.10.2,"TODO: annotate properties, e.g., symmetry, and use them for testing?",1
+v1.10.2,TODO: annotate complexity?,1
+v1.10.2,"TODO: cannot cover dynamic shapes, e.g., AutoSF",1
+v1.10.2,"TODO: we could change that to slicing along multiple dimensions, if necessary",1
+v1.10.2,"TODO: we only allow single-tensor representations here, but could easily generalize",1
+v1.10.2,TODO: update class docstring,1
+v1.10.2,TODO: give this a better name?,1
+v1.10.2,TODO: update docstring,1
+v1.10.2,TODO: give this a better name?,1
+v1.10.2,"TODO: we already had this before, as `base`",1
+v1.10.2,"TODO: this sign is in the official code, too, but why do we need it?",1
+v1.10.2,TODO: vectorization?,1
+v1.10.2,TODO: expose num_anchors?,1
+v1.10.2,TODO: check if perm is used correctly,1
+v1.10.2,TODO: vectorization?,1
+v1.10.2,TODO: keep distances?,1
+v1.10.2,"TODO: since we save a contiguous array of (num_entities, num_anchors),",1
+v1.10.2,"TODO: use graph library, such as igraph, graph-tool, or networkit",1
+v1.10.2,TODO: padding for unreachable?,1
+v1.10.2,TODO: can we replace this loop with something vectorized?,1
+v1.10.2,TODO the float() trick for GPU result stability until the torch_sparse issue is resolved,1
+v1.10.2,TODO: should we return the sum of weights?,1
+v1.10.2,todo: do we need numpy support?,1
+v1.10.2,TODO: re-consider threshold,1
+v1.10.2,TODO: can we directly include sklearn's docstring here?,1
+v1.10.2,todo: it would make sense to have a separate evaluator which constructs the confusion matrix only once,1
+v1.10.2,todo: https://en.wikipedia.org/wiki/Diagnostic_odds_ratio#Confidence_interval,1
+v1.10.2,todo: improve doc,1
+v1.10.2,todo: read from config instead,1
+v1.10.2,TODO vectorize code,1
+v1.10.2,TODO: Check if lazy evaluation would make sense,1
+v1.10.2,"FIXME currently the implementation does not consider the non-training (i.e., second-last entries)",1
+v1.10.2,TODO: Can this happen after pre-filtering?,1
+v1.10.2,TODO: what is the support?,1
+v1.10.2,TODO: some negative samplers require batches,1
+v1.10.2,TODO: is this necessary?,1
+v1.10.2,TODO should mode be passed here?,1
+v1.10.2,TODO why not call torch.cuda.empty_cache()? or call self._free_graph_and_cache()?,1
+v1.10.2,TODO: we may want to separate TrainingCallback from pre-step callbacks in the future,1
+v1.10.2,todo: create dataset only once,1
+v1.10.2,"TODO: this should be num_instances rather than num_triples; also for cpu, we may want to reduce this",1
+v1.10.2,TODO: exploit sparsity,1
+v1.10.2,TODO: exploit sparsity,1
+v1.10.2,TODO?,1
+v1.10.2,TODO: Fix this,1
+v1.10.2,TODO need a test that this all re-instantiates properly,1
+v1.10.2,"TODO: In sLCWA, we still want to calculate validation *metrics* in LCWA",1
+v1.10.2,TODO:,1
+v1.10.2,TODO: maybe move into separate module?,1
+v1.10.2,"if inverse triples are used, we only do score_t (TODO: by default; can this be changed?)",1
+v1.10.2,todo: maybe we want to have some more keys outside of kwargs for hashing / have more visibility about,1
+v1.10.2,"TODO: unique, or max ID + 1?",1
+v1.10.2,TODO: extend to relations?,1
+v1.10.2,TODO: find a better way to handle this,1
+v1.10.2,TODO: it would be better to allow separate batch sizes for entity/relation prediction,1
+v1.10.2,"TODO: afaik, dense positive masks are not used on GPU -> we do not need to move the masks around",1
+v1.10.2,todo: maybe we can merge this code with the AMO code of the base evaluator?,1
+v1.10.2,TODO: maybe we want to collect scores on CPU / add an option?,1
+v1.10.2,fixme: the annotation of ClassResolver.__iter__ seems to be broken (X instead of Type[X]),1
+v1.10.2,TODO: do not require to compute all scores beforehand,1
+v1.10.2,TODO: should we give num_entities in the constructor instead of inferring it every time ranks are processed?,1
+v1.10.2,TODO pack/unpack dimensions as default kwargs such that they don't actually need to be used,1
+v1.10.2,TODO: update to hint + kwargs,1
+v1.10.2,"TODO: Does not work for interactions with separate tail_entity_shape (i.e., ConvE)",1
+v1.10.2,"TODO: support ""broadcasting"" representation regularizers?",1
+v1.10.2,TODO: why do we need to empty the cache?,1
+v1.10.2,"TODO: this currently compute (batch_size, num_relations) instead,",1
+v1.10.2,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.10.2,TODO I got lost in all the Representation Modules and shape casting and wrote this ;(,1
+v1.10.2,TODO rethink after RGCN update,1
+v1.10.2,TODO: other parameters?,1
+v1.10.2,TODO: Decomposition kwargs,1
+v1.10.2,TODO: move this warning to PseudoTypeNegativeSampler's constructor?,1
+v1.10.2,TODO: rename param?,1
+v1.10.2,TODO use pathlib here,1
+v1.10.2,"TODO: we could have multiple results, if we get access to the raw results (e.g. in the pykeen benchmarking paper)",1
+v1.10.2,FIXME this should never happen.,1
+v1.10.2,TODO: checkpoint_dict not further used; later loaded again by TrainingLoop.train,1
+v1.10.2,TODO: allow empty validation / testing,1
+v1.10.2,TODO should training be reset?,1
+v1.10.2,TODO should kwargs for loss and regularizer be checked and raised for?,1
+v1.10.2,TODO consider implications of duplicates,1
+v1.10.2,TODO: use a class-resolver?,1
+v1.10.2,TODO what happens if already exists?,1
+v1.10.2,TODO incorporate setting of random seed,1
+v1.10.2,todo(@cthoyt): proper prefixing?,1
+v1.10.2,TODO: Merge with _common?,1
+v1.10.2,TODO: Consider merging with other analysis methods,1
+v1.10.2,TODO: Consider merging with other analysis methods,1
+v1.10.2,TODO: Consider merging with other analysis methods,1
+v1.10.2,TODO: maybe merge into analyze / make sub-command,1
+v1.10.2,TODO: Make a constant for the names,1
+v1.10.2,TODO: use class-resolver normalize?,1
+v1.10.2,TODO: use class-resolver normalize?,1
+v1.10.2,TODO: support ID-only graphs,1
+v1.10.2,TODO: restrict to only using training alignments?,1
+v1.10.2,"TODO this fixes the issue for negative samplers, but does not generally address it.",1
+v1.10.2,TODO: make it even easier to specify categorical strategies just as lists,1
+v1.10.1,FIXME definitely a type mismatch going on here,1
+v1.10.1,FIXME isn't any finite number allowed now?,1
+v1.10.1,TODO: look into score_r for inverse relations,1
+v1.10.1,TODO: Catch HolE MKL error?,1
+v1.10.1,TODO: separation message vs. entity dim?,1
+v1.10.1,TODO: Re-use filtering code,1
+v1.10.1,"TODO: does this suffice, or do we really need float as datatype?",1
+v1.10.1,TODO: this could be shared with the model tests,1
+v1.10.1,TODO: we could move this part into the interaction module itself,1
+v1.10.1,TODO this is the only place this function is used.,1
+v1.10.1,TODO: check no repetitions (if possible),1
+v1.10.1,TODO: Do label smoothing only once,1
+v1.10.1,TODO: maybe we can make this more efficient?,1
+v1.10.1,TODO: maybe we can make this more efficient?,1
+v1.10.1,TODO: method is_inverse?,1
+v1.10.1,TODO: inverse of inverse?,1
+v1.10.1,"TODO: extend to relation, cf. https://github.com/pykeen/pykeen/pull/728",1
+v1.10.1,TODO delete when deleting _normalize_dim (below),1
+v1.10.1,TODO delete when deleting convert_to_canonical_shape (below),1
+v1.10.1,TODO delete? See note in test_sim.py on its only usage,1
+v1.10.1,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.10.1,"TODO: we already had this before, as `base`",1
+v1.10.1,"batch, TODO: ids?",1
+v1.10.1,TODO: variable targets across batches/samples?,1
+v1.10.1,TODO: Support partial dataset,1
+v1.10.1,TODO: can we change the dimension order to make this contiguous?,1
+v1.10.1,TODO: verify that this is our understanding of complex!,1
+v1.10.1,fixme: work-around until nn.Embedding supports complex,1
+v1.10.1,fixme: work-around until nn.Embedding supports complex,1
+v1.10.1,TODO: Check,1
+v1.10.1,TODO: might not be true for all compositions,1
+v1.10.1,TODO: This always uses all training triples for message passing,1
+v1.10.1,"TODO: can be a combined representations, with appropriate tensor-train combination",1
+v1.10.1,TODO: allow to pass them from outside?,1
+v1.10.1,TODO: inductiveness; we need to,1
+v1.10.1,"TODO: annotate modelling capabilities? cf., e.g., https://arxiv.org/abs/1902.10197, Table 2",1
+v1.10.1,"TODO: annotate properties, e.g., symmetry, and use them for testing?",1
+v1.10.1,TODO: annotate complexity?,1
+v1.10.1,"TODO: cannot cover dynamic shapes, e.g., AutoSF",1
+v1.10.1,"TODO: we could change that to slicing along multiple dimensions, if necessary",1
+v1.10.1,TODO: update class docstring,1
+v1.10.1,TODO: give this a better name?,1
+v1.10.1,"TODO: this sign is in the official code, too, but why do we need it?",1
+v1.10.1,TODO: vectorization?,1
+v1.10.1,TODO: expose num_anchors?,1
+v1.10.1,TODO: check if perm is used correctly,1
+v1.10.1,TODO: vectorization?,1
+v1.10.1,TODO: keep distances?,1
+v1.10.1,"TODO: since we save a contiguous array of (num_entities, num_anchors),",1
+v1.10.1,"TODO: use graph library, such as igraph, graph-tool, or networkit",1
+v1.10.1,TODO: padding for unreachable?,1
+v1.10.1,TODO: can we replace this loop with something vectorized?,1
+v1.10.1,TODO the float() trick for GPU result stability until the torch_sparse issue is resolved,1
+v1.10.1,TODO: should we return the sum of weights?,1
+v1.10.1,"TODO there's something wrong with this, so add it later",1
+v1.10.1,TODO vectorize code,1
+v1.10.1,TODO: Check if lazy evaluation would make sense,1
+v1.10.1,"FIXME currently the implementation does not consider the non-training (i.e., second-last entries)",1
+v1.10.1,TODO: Can this happen after pre-filtering?,1
+v1.10.1,TODO: what is the support?,1
+v1.10.1,TODO: some negative samplers require batches,1
+v1.10.1,TODO should mode be passed here?,1
+v1.10.1,TODO why not call torch.cuda.empty_cache()? or call self._free_graph_and_cache()?,1
+v1.10.1,TODO: exploit sparsity,1
+v1.10.1,TODO: exploit sparsity,1
+v1.10.1,TODO?,1
+v1.10.1,TODO: Fix this,1
+v1.10.1,TODO need a test that this all re-instantiates properly,1
+v1.10.1,"TODO: In sLCWA, we still want to calculate validation *metrics* in LCWA",1
+v1.10.1,TODO:,1
+v1.10.1,TODO: this can only normalize rank-based metrics!,1
+v1.10.1,TODO: find a better way to handle this,1
+v1.10.1,TODO: fix this upstream / make metric.score comply to signature,1
+v1.10.1,"TODO remove this, it makes code much harder to reason about",1
+v1.10.1,"if inverse triples are used, we only do score_t (TODO: by default; can this be changed?)",1
+v1.10.1,TODO: consider switching to torch.DataLoader where the preparation of masks/filter batches also takes place,1
+v1.10.1,"TODO: unique, or max ID + 1?",1
+v1.10.1,TODO: extend to relations?,1
+v1.10.1,TODO: it would be better to allow separate batch sizes for entity/relation prediction,1
+v1.10.1,"TODO: afaik, dense positive masks are not used on GPU -> we do not need to move the masks around",1
+v1.10.1,TODO: maybe we want to collect scores on CPU / add an option?,1
+v1.10.1,TODO: do not require to compute all scores beforehand,1
+v1.10.1,TODO: should we give num_entities in the constructor instead of inferring it every time ranks are processed?,1
+v1.10.1,TODO pack/unpack dimensions as default kwargs such that they don't actually need to be used,1
+v1.10.1,TODO: update to hint + kwargs,1
+v1.10.1,"TODO: Does not work for interactions with separate tail_entity_shape (i.e., ConvE)",1
+v1.10.1,"TODO: support ""broadcasting"" representation regularizers?",1
+v1.10.1,TODO: why do we need to empty the cache?,1
+v1.10.1,"TODO: this currently compute (batch_size, num_relations) instead,",1
+v1.10.1,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.10.1,TODO I got lost in all the Representation Modules and shape casting and wrote this ;(,1
+v1.10.1,TODO rethink after RGCN update,1
+v1.10.1,TODO: other parameters?,1
+v1.10.1,TODO: Decomposition kwargs,1
+v1.10.1,TODO: move this warning to PseudoTypeNegativeSampler's constructor?,1
+v1.10.1,TODO: rename param?,1
+v1.10.1,TODO use pathlib here,1
+v1.10.1,"TODO: we could have multiple results, if we get access to the raw results (e.g. in the pykeen benchmarking paper)",1
+v1.10.1,FIXME this should never happen.,1
+v1.10.1,TODO: checkpoint_dict not further used; later loaded again by TrainingLoop.train,1
+v1.10.1,TODO: allow empty validation / testing,1
+v1.10.1,TODO should training be reset?,1
+v1.10.1,TODO should kwargs for loss and regularizer be checked and raised for?,1
+v1.10.1,TODO consider implications of duplicates,1
+v1.10.1,TODO: use a class-resolver?,1
+v1.10.1,TODO what happens if already exists?,1
+v1.10.1,TODO incorporate setting of random seed,1
+v1.10.1,FIXME these are already identifiers,1
+v1.10.1,TODO: Merge with _common?,1
+v1.10.1,TODO: Consider merging with other analysis methods,1
+v1.10.1,TODO: Consider merging with other analysis methods,1
+v1.10.1,TODO: Consider merging with other analysis methods,1
+v1.10.1,TODO: maybe merge into analyze / make sub-command,1
+v1.10.1,TODO: Make a constant for the names,1
+v1.10.1,TODO: use class-resolver normalize?,1
+v1.10.1,TODO: use class-resolver normalize?,1
+v1.10.1,TODO: support ID-only graphs,1
+v1.10.1,TODO: restrict to only using training alignments?,1
+v1.10.1,"TODO this fixes the issue for negative samplers, but does not generally address it.",1
+v1.10.1,TODO: make it even easier to specify categorical strategies just as lists,1
+v1.10.0,FIXME definitely a type mismatch going on here,1
+v1.10.0,FIXME isn't any finite number allowed now?,1
+v1.10.0,TODO: look into score_r for inverse relations,1
+v1.10.0,TODO: Catch HolE MKL error?,1
+v1.10.0,TODO: separation message vs. entity dim?,1
+v1.10.0,TODO: Re-use filtering code,1
+v1.10.0,"TODO: does this suffice, or do we really need float as datatype?",1
+v1.10.0,TODO: this could be shared with the model tests,1
+v1.10.0,TODO: we could move this part into the interaction module itself,1
+v1.10.0,TODO this is the only place this function is used.,1
+v1.10.0,TODO: check no repetitions (if possible),1
+v1.10.0,TODO: Do label smoothing only once,1
+v1.10.0,TODO: maybe we can make this more efficient?,1
+v1.10.0,TODO: maybe we can make this more efficient?,1
+v1.10.0,TODO: method is_inverse?,1
+v1.10.0,TODO: inverse of inverse?,1
+v1.10.0,"TODO: extend to relation, cf. https://github.com/pykeen/pykeen/pull/728",1
+v1.10.0,TODO delete when deleting _normalize_dim (below),1
+v1.10.0,TODO delete when deleting convert_to_canonical_shape (below),1
+v1.10.0,TODO delete? See note in test_sim.py on its only usage,1
+v1.10.0,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.10.0,"TODO: we already had this before, as `base`",1
+v1.10.0,"batch, TODO: ids?",1
+v1.10.0,TODO: variable targets across batches/samples?,1
+v1.10.0,TODO: Support partial dataset,1
+v1.10.0,TODO: can we change the dimension order to make this contiguous?,1
+v1.10.0,TODO: verify that this is our understanding of complex!,1
+v1.10.0,fixme: work-around until nn.Embedding supports complex,1
+v1.10.0,fixme: work-around until nn.Embedding supports complex,1
+v1.10.0,TODO: Check,1
+v1.10.0,TODO: might not be true for all compositions,1
+v1.10.0,TODO: This always uses all training triples for message passing,1
+v1.10.0,"TODO: can be a combined representations, with appropriate tensor-train combination",1
+v1.10.0,TODO: allow to pass them from outside?,1
+v1.10.0,TODO: inductiveness; we need to,1
+v1.10.0,"TODO: annotate modelling capabilities? cf., e.g., https://arxiv.org/abs/1902.10197, Table 2",1
+v1.10.0,"TODO: annotate properties, e.g., symmetry, and use them for testing?",1
+v1.10.0,TODO: annotate complexity?,1
+v1.10.0,"TODO: cannot cover dynamic shapes, e.g., AutoSF",1
+v1.10.0,"TODO: we could change that to slicing along multiple dimensions, if necessary",1
+v1.10.0,TODO: update class docstring,1
+v1.10.0,TODO: give this a better name?,1
+v1.10.0,"TODO: this sign is in the official code, too, but why do we need it?",1
+v1.10.0,TODO: vectorization?,1
+v1.10.0,TODO: expose num_anchors?,1
+v1.10.0,TODO: check if perm is used correctly,1
+v1.10.0,TODO: vectorization?,1
+v1.10.0,TODO: keep distances?,1
+v1.10.0,"TODO: since we save a contiguous array of (num_entities, num_anchors),",1
+v1.10.0,"TODO: use graph library, such as igraph, graph-tool, or networkit",1
+v1.10.0,TODO: padding for unreachable?,1
+v1.10.0,TODO: can we replace this loop with something vectorized?,1
+v1.10.0,TODO the float() trick for GPU result stability until the torch_sparse issue is resolved,1
+v1.10.0,TODO: should we return the sum of weights?,1
+v1.10.0,"TODO there's something wrong with this, so add it later",1
+v1.10.0,TODO vectorize code,1
+v1.10.0,TODO: Check if lazy evaluation would make sense,1
+v1.10.0,"FIXME currently the implementation does not consider the non-training (i.e., second-last entries)",1
+v1.10.0,TODO: Can this happen after pre-filtering?,1
+v1.10.0,TODO: what is the support?,1
+v1.10.0,TODO: some negative samplers require batches,1
+v1.10.0,TODO should mode be passed here?,1
+v1.10.0,TODO why not call torch.cuda.empty_cache()? or call self._free_graph_and_cache()?,1
+v1.10.0,TODO: exploit sparsity,1
+v1.10.0,TODO: exploit sparsity,1
+v1.10.0,TODO?,1
+v1.10.0,TODO: Fix this,1
+v1.10.0,TODO need a test that this all re-instantiates properly,1
+v1.10.0,"TODO: In sLCWA, we still want to calculate validation *metrics* in LCWA",1
+v1.10.0,TODO:,1
+v1.10.0,TODO: this can only normalize rank-based metrics!,1
+v1.10.0,TODO: find a better way to handle this,1
+v1.10.0,TODO: fix this upstream / make metric.score comply to signature,1
+v1.10.0,"TODO remove this, it makes code much harder to reason about",1
+v1.10.0,"if inverse triples are used, we only do score_t (TODO: by default; can this be changed?)",1
+v1.10.0,TODO: consider switching to torch.DataLoader where the preparation of masks/filter batches also takes place,1
+v1.10.0,"TODO: unique, or max ID + 1?",1
+v1.10.0,TODO: extend to relations?,1
+v1.10.0,TODO: it would be better to allow separate batch sizes for entity/relation prediction,1
+v1.10.0,"TODO: afaik, dense positive masks are not used on GPU -> we do not need to move the masks around",1
+v1.10.0,TODO: maybe we want to collect scores on CPU / add an option?,1
+v1.10.0,TODO: do not require to compute all scores beforehand,1
+v1.10.0,TODO: should we give num_entities in the constructor instead of inferring it every time ranks are processed?,1
+v1.10.0,TODO pack/unpack dimensions as default kwargs such that they don't actually need to be used,1
+v1.10.0,TODO: update to hint + kwargs,1
+v1.10.0,"TODO: Does not work for interactions with separate tail_entity_shape (i.e., ConvE)",1
+v1.10.0,"TODO: support ""broadcasting"" representation regularizers?",1
+v1.10.0,TODO: why do we need to empty the cache?,1
+v1.10.0,"TODO: this currently compute (batch_size, num_relations) instead,",1
+v1.10.0,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.10.0,TODO I got lost in all the Representation Modules and shape casting and wrote this ;(,1
+v1.10.0,TODO rethink after RGCN update,1
+v1.10.0,TODO: other parameters?,1
+v1.10.0,TODO: Decomposition kwargs,1
+v1.10.0,TODO: move this warning to PseudoTypeNegativeSampler's constructor?,1
+v1.10.0,TODO: rename param?,1
+v1.10.0,TODO use pathlib here,1
+v1.10.0,"TODO: we could have multiple results, if we get access to the raw results (e.g. in the pykeen benchmarking paper)",1
+v1.10.0,FIXME this should never happen.,1
+v1.10.0,TODO: checkpoint_dict not further used; later loaded again by TrainingLoop.train,1
+v1.10.0,TODO: allow empty validation / testing,1
+v1.10.0,TODO should training be reset?,1
+v1.10.0,TODO should kwargs for loss and regularizer be checked and raised for?,1
+v1.10.0,TODO consider implications of duplicates,1
+v1.10.0,TODO: use a class-resolver?,1
+v1.10.0,TODO what happens if already exists?,1
+v1.10.0,TODO incorporate setting of random seed,1
+v1.10.0,FIXME these are already identifiers,1
+v1.10.0,TODO: Merge with _common?,1
+v1.10.0,TODO: Consider merging with other analysis methods,1
+v1.10.0,TODO: Consider merging with other analysis methods,1
+v1.10.0,TODO: Consider merging with other analysis methods,1
+v1.10.0,TODO: maybe merge into analyze / make sub-command,1
+v1.10.0,TODO: Make a constant for the names,1
+v1.10.0,TODO: use class-resolver normalize?,1
+v1.10.0,TODO: use class-resolver normalize?,1
+v1.10.0,TODO: support ID-only graphs,1
+v1.10.0,TODO: restrict to only using training alignments?,1
+v1.10.0,"TODO this fixes the issue for negative samplers, but does not generally address it.",1
+v1.10.0,TODO: make it even easier to specify categorical strategies just as lists,1
+v1.9.0,FIXME definitely a type mismatch going on here,1
+v1.9.0,FIXME isn't any finite number allowed now?,1
+v1.9.0,TODO: look into score_r for inverse relations,1
+v1.9.0,TODO: Catch HolE MKL error?,1
+v1.9.0,TODO: separation message vs. entity dim?,1
+v1.9.0,TODO: Re-use filtering code,1
+v1.9.0,"TODO: does this suffice, or do we really need float as datatype?",1
+v1.9.0,TODO: check subset,1
+v1.9.0,TODO: this could be shared with the model tests,1
+v1.9.0,TODO this is the only place this function is used.,1
+v1.9.0,TODO: check no repetitions (if possible),1
+v1.9.0,TODO: Do label smoothing only once,1
+v1.9.0,TODO: maybe we can make this more efficient?,1
+v1.9.0,TODO: maybe we can make this more efficient?,1
+v1.9.0,"TODO: extend to relation, cf. https://github.com/pykeen/pykeen/pull/728",1
+v1.9.0,TODO: check if einsum is still very slow.,1
+v1.9.0,TODO: t_shape = list(t.shape); del t_shape[i]; t.view(*shape) -> only one reshape operation,1
+v1.9.0,TODO delete when deleting _normalize_dim (below),1
+v1.9.0,TODO delete when deleting convert_to_canonical_shape (below),1
+v1.9.0,TODO delete? See note in test_sim.py on its only usage,1
+v1.9.0,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.9.0,"TODO: we already had this before, as `base`",1
+v1.9.0,TODO: can we change the dimension order to make this contiguous?,1
+v1.9.0,TODO: verify that this is our understanding of complex!,1
+v1.9.0,fixme: work-around until nn.Embedding supports complex,1
+v1.9.0,fixme: work-around until nn.Embedding supports complex,1
+v1.9.0,TODO: Check,1
+v1.9.0,TODO: might not be true for all compositions,1
+v1.9.0,TODO: This always uses all training triples for message passing,1
+v1.9.0,"TODO: can be a combined representations, with appropriate tensor-train combination",1
+v1.9.0,TODO: allow to pass them from outside?,1
+v1.9.0,TODO: inductiveness; we need to,1
+v1.9.0,"TODO: cannot cover dynamic shapes, e.g., AutoSF",1
+v1.9.0,"TODO: we could change that to slicing along multiple dimensions, if necessary",1
+v1.9.0,TODO: switch to einsum ?,1
+v1.9.0,TODO: vectorization?,1
+v1.9.0,TODO: expose num_anchors?,1
+v1.9.0,TODO: check if perm is used correctly,1
+v1.9.0,TODO: vectorization?,1
+v1.9.0,TODO: keep distances?,1
+v1.9.0,"TODO: since we save a contiguous array of (num_entities, num_anchors),",1
+v1.9.0,"TODO: use graph library, such as igraph, graph-tool, or networkit",1
+v1.9.0,TODO: padding for unreachable?,1
+v1.9.0,TODO: can we replace this loop with something vectorized?,1
+v1.9.0,TODO the float() trick for GPU result stability until the torch_sparse issue is resolved,1
+v1.9.0,TODO: should we return the sum of weights?,1
+v1.9.0,"TODO there's something wrong with this, so add it later",1
+v1.9.0,TODO vectorize code,1
+v1.9.0,TODO: method is_inverse?,1
+v1.9.0,TODO: inverse of inverse?,1
+v1.9.0,TODO: Check if lazy evaluation would make sense,1
+v1.9.0,"FIXME currently the implementation does not consider the non-training (i.e., second-last entries)",1
+v1.9.0,TODO: Can this happen after pre-filtering?,1
+v1.9.0,TODO: what is the support?,1
+v1.9.0,TODO: some negative samplers require batches,1
+v1.9.0,TODO should mode be passed here?,1
+v1.9.0,TODO why not call torch.cuda.empty_cache()? or call self._free_graph_and_cache()?,1
+v1.9.0,TODO: Fix this,1
+v1.9.0,TODO need a test that this all re-instantiates properly,1
+v1.9.0,"TODO: In sLCWA, we still want to calculate validation *metrics* in LCWA",1
+v1.9.0,TODO:,1
+v1.9.0,TODO: this can only normalize rank-based metrics!,1
+v1.9.0,TODO: find a better way to handle this,1
+v1.9.0,TODO: fix this upstream / make metric.score comply to signature,1
+v1.9.0,"TODO remove this, it makes code much harder to reason about",1
+v1.9.0,"if inverse triples are used, we only do score_t (TODO: by default; can this be changed?)",1
+v1.9.0,TODO: consider switching to torch.DataLoader where the preparation of masks/filter batches also takes place,1
+v1.9.0,"TODO: unique, or max ID + 1?",1
+v1.9.0,TODO: extend to relations?,1
+v1.9.0,TODO: it would be better to allow separate batch sizes for entity/relation prediction,1
+v1.9.0,"TODO: afaik, dense positive masks are not used on GPU -> we do not need to move the masks around",1
+v1.9.0,TODO: do not require to compute all scores beforehand,1
+v1.9.0,TODO: should we give num_entities in the constructor instead of inferring it every time ranks are processed?,1
+v1.9.0,TODO pack/unpack dimensions as default kwargs such that they don't actually need to be used,1
+v1.9.0,TODO: update to hint + kwargs,1
+v1.9.0,"TODO: Does not work for interactions with separate tail_entity_shape (i.e., ConvE)",1
+v1.9.0,"TODO: support ""broadcasting"" representation regularizers?",1
+v1.9.0,"TODO: in the future, we may want to expose this method",1
+v1.9.0,TODO: this could happen because of AMO,1
+v1.9.0,TODO: Can we make AMO code re-usable? e.g. like https://gist.github.com/mberr/c37a8068b38cabc98228db2cbe358043,1
+v1.9.0,TODO: why do we need to empty the cache?,1
+v1.9.0,"TODO: this currently compute (batch_size, num_relations) instead,",1
+v1.9.0,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.9.0,TODO I got lost in all the Representation Modules and shape casting and wrote this ;(,1
+v1.9.0,TODO rethink after RGCN update,1
+v1.9.0,TODO: other parameters?,1
+v1.9.0,TODO: Decomposition kwargs,1
+v1.9.0,TODO: move this warning to PseudoTypeNegativeSampler's constructor?,1
+v1.9.0,TODO: rename param?,1
+v1.9.0,TODO use pathlib here,1
+v1.9.0,"TODO: we could have multiple results, if we get access to the raw results (e.g. in the pykeen benchmarking paper)",1
+v1.9.0,FIXME this should never happen.,1
+v1.9.0,TODO should training be reset?,1
+v1.9.0,TODO should kwargs for loss and regularizer be checked and raised for?,1
+v1.9.0,TODO consider implications of duplicates,1
+v1.9.0,TODO what happens if already exists?,1
+v1.9.0,TODO incorporate setting of random seed,1
+v1.9.0,FIXME these are already identifiers,1
+v1.9.0,TODO: Merge with _common?,1
+v1.9.0,TODO: Consider merging with other analysis methods,1
+v1.9.0,TODO: Consider merging with other analysis methods,1
+v1.9.0,TODO: Consider merging with other analysis methods,1
+v1.9.0,TODO: maybe merge into analyze / make sub-command,1
+v1.9.0,TODO: Make a constant for the names,1
+v1.9.0,TODO: use class-resolver normalize?,1
+v1.9.0,TODO: use class-resolver normalize?,1
+v1.9.0,TODO: support ID-only graphs,1
+v1.9.0,TODO: restrict to only using training alignments?,1
+v1.9.0,"TODO this fixes the issue for negative samplers, but does not generally address it.",1
+v1.9.0,TODO: make it even easier to specify categorical strategies just as lists,1
+v1.8.2,autodoc_typehints = 'both' # TODO turn on after 4.1 release,1
+v1.8.2,FIXME definitely a type mismatch going on here,1
+v1.8.2,FIXME isn't any finite number allowed now?,1
+v1.8.2,TODO: look into score_r for inverse relations,1
+v1.8.2,TODO: Catch HolE MKL error?,1
+v1.8.2,TODO: separation message vs. entity dim?,1
+v1.8.2,TODO: Re-use filtering code,1
+v1.8.2,"TODO: does this suffice, or do we really need float as datatype?",1
+v1.8.2,TODO: this could be shared with the model tests,1
+v1.8.2,"TODO: Remove, since it stems from old-style model",1
+v1.8.2,TODO this is the only place this function is used.,1
+v1.8.2,TODO: check no repetitions (if possible),1
+v1.8.2,TODO: Do label smoothing only once,1
+v1.8.2,"TODO: extend to relation, cf. https://github.com/pykeen/pykeen/pull/728",1
+v1.8.2,TODO: check if einsum is still very slow.,1
+v1.8.2,TODO: t_shape = list(t.shape); del t_shape[i]; t.view(*shape) -> only one reshape operation,1
+v1.8.2,TODO delete when deleting _normalize_dim (below),1
+v1.8.2,TODO delete when deleting convert_to_canonical_shape (below),1
+v1.8.2,TODO delete? See note in test_sim.py on its only usage,1
+v1.8.2,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.8.2,"TODO: we already had this before, as `base`",1
+v1.8.2,TODO: Remove this property and update code to use shape instead,1
+v1.8.2,TODO: verify that this is our understanding of complex!,1
+v1.8.2,fixme: work-around until nn.Embedding supports complex,1
+v1.8.2,fixme: work-around until nn.Embedding supports complex,1
+v1.8.2,TODO: Check,1
+v1.8.2,TODO: This always uses all training triples for message passing,1
+v1.8.2,TODO: inductiveness; we need to,1
+v1.8.2,"TODO: cannot cover dynamic shapes, e.g., AutoSF",1
+v1.8.2,"TODO: we could change that to slicing along multiple dimensions, if necessary",1
+v1.8.2,TODO: switch to einsum ?,1
+v1.8.2,TODO: should we add self-links,1
+v1.8.2,TODO: vectorization?,1
+v1.8.2,TODO: vectorization?,1
+v1.8.2,TODO: keep distances?,1
+v1.8.2,"TODO: since we save a contiguous array of (num_entities, num_anchors),",1
+v1.8.2,"TODO: use graph library, such as igraph, graph-tool, or networkit",1
+v1.8.2,TODO: can we replace this loop with something vectorized?,1
+v1.8.2,TODO: should we return the sum of weights?,1
+v1.8.2,"TODO there's something wrong with this, so add it later",1
+v1.8.2,TODO vectorize code,1
+v1.8.2,TODO: method is_inverse?,1
+v1.8.2,TODO: inverse of inverse?,1
+v1.8.2,TODO: Check if lazy evaluation would make sense,1
+v1.8.2,"FIXME currently the implementation does not consider the non-training (i.e., second-last entries)",1
+v1.8.2,TODO: Can this happen after pre-filtering?,1
+v1.8.2,TODO: what is the support?,1
+v1.8.2,TODO: some negative samplers require batches,1
+v1.8.2,TODO should mode be passed here?,1
+v1.8.2,TODO why not call torch.cuda.empty_cache()? or call self._free_graph_and_cache()?,1
+v1.8.2,TODO: Fix this,1
+v1.8.2,TODO need a test that this all re-instantiates properly,1
+v1.8.2,"TODO: In sLCWA, we still want to calculate validation *metrics* in LCWA",1
+v1.8.2,TODO:,1
+v1.8.2,TODO: this can only normalize rank-based metrics!,1
+v1.8.2,TODO: find a better way to handle this,1
+v1.8.2,TODO: fix this upstream / make metric.score comply to signature,1
+v1.8.2,"TODO remove this, it makes code much harder to reason about",1
+v1.8.2,TODO: consider switching to torch.DataLoader where the preparation of masks/filter batches also takes place,1
+v1.8.2,"TODO: unique, or max ID + 1?",1
+v1.8.2,TODO: extend to relations?,1
+v1.8.2,TODO: do not require to compute all scores beforehand,1
+v1.8.2,TODO: should we give num_entities in the constructor instead of inferring it every time ranks are processed?,1
+v1.8.2,TODO pack/unpack dimensions as default kwargs such that they don't actually need to be used,1
+v1.8.2,TODO: update to hint + kwargs,1
+v1.8.2,"TODO: Does not work for interactions with separate tail_entity_shape (i.e., ConvE)",1
+v1.8.2,"TODO: in the future, we may want to expose this method",1
+v1.8.2,TODO: this could happen because of AMO,1
+v1.8.2,TODO: Can we make AMO code re-usable? e.g. like https://gist.github.com/mberr/c37a8068b38cabc98228db2cbe358043,1
+v1.8.2,TODO: why do we need to empty the cache?,1
+v1.8.2,"TODO: this currently compute (batch_size, num_relations) instead,",1
+v1.8.2,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.8.2,TODO I got lost in all the Representation Modules and shape casting and wrote this ;(,1
+v1.8.2,TODO rethink after RGCN update,1
+v1.8.2,TODO: other parameters?,1
+v1.8.2,TODO: Decomposition kwargs,1
+v1.8.2,TODO: Use torch.cdist (see note above in score_hrt()),1
+v1.8.2,TODO: Use torch.cdist (see note above in score_hrt()),1
+v1.8.2,TODO: move this warning to PseudoTypeNegativeSampler's constructor?,1
+v1.8.2,TODO: rename param?,1
+v1.8.2,TODO use pathlib here,1
+v1.8.2,"TODO: we could have multiple results, if we get access to the raw results (e.g. in the pykeen benchmarking paper)",1
+v1.8.2,FIXME this should never happen.,1
+v1.8.2,TODO should training be reset?,1
+v1.8.2,TODO should kwargs for loss and regularizer be checked and raised for?,1
+v1.8.2,TODO consider implications of duplicates,1
+v1.8.2,TODO what happens if already exists?,1
+v1.8.2,TODO incorporate setting of random seed,1
+v1.8.2,FIXME these are already identifiers,1
+v1.8.2,TODO: Merge with _common?,1
+v1.8.2,TODO: Consider merging with other analysis methods,1
+v1.8.2,TODO: Consider merging with other analysis methods,1
+v1.8.2,TODO: Consider merging with other analysis methods,1
+v1.8.2,TODO: Make a constant for the names,1
+v1.8.2,TODO: use class-resolver normalize?,1
+v1.8.2,TODO: use class-resolver normalize?,1
+v1.8.2,TODO: support ID-only graphs,1
+v1.8.2,TODO: restrict to only using training alignments?,1
+v1.8.2,"TODO this fixes the issue for negative samplers, but does not generally address it.",1
+v1.8.2,TODO: make it even easier to specify categorical strategies just as lists,1
+v1.8.1,autodoc_typehints = 'both' # TODO turn on after 4.1 release,1
+v1.8.1,FIXME definitely a type mismatch going on here,1
+v1.8.1,FIXME isn't any finite number allowed now?,1
+v1.8.1,TODO: look into score_r for inverse relations,1
+v1.8.1,TODO: Catch HolE MKL error?,1
+v1.8.1,TODO: separation message vs. entity dim?,1
+v1.8.1,TODO: Re-use filtering code,1
+v1.8.1,"TODO: does this suffice, or do we really need float as datatype?",1
+v1.8.1,"TODO: Remove, since it stems from old-style model",1
+v1.8.1,TODO consider making subclass of cases.RepresentationTestCase,1
+v1.8.1,TODO this is the only place this function is used.,1
+v1.8.1,TODO: check no repetitions (if possible),1
+v1.8.1,TODO: Do label smoothing only once,1
+v1.8.1,"TODO: extend to relation, cf. https://github.com/pykeen/pykeen/pull/728",1
+v1.8.1,TODO: check if einsum is still very slow.,1
+v1.8.1,TODO: t_shape = list(t.shape); del t_shape[i]; t.view(*shape) -> only one reshape operation,1
+v1.8.1,TODO delete when deleting _normalize_dim (below),1
+v1.8.1,TODO delete when deleting convert_to_canonical_shape (below),1
+v1.8.1,TODO delete? See note in test_sim.py on its only usage,1
+v1.8.1,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.8.1,"TODO: we already had this before, as `base`",1
+v1.8.1,TODO: Remove this property and update code to use shape instead,1
+v1.8.1,TODO: verify that this is our understanding of complex!,1
+v1.8.1,fixme: work-around until nn.Embedding supports complex,1
+v1.8.1,fixme: work-around until nn.Embedding supports complex,1
+v1.8.1,TODO: Check,1
+v1.8.1,TODO: This always uses all training triples for message passing,1
+v1.8.1,"TODO: cannot cover dynamic shapes, e.g., AutoSF",1
+v1.8.1,"TODO: we could change that to slicing along multiple dimensions, if necessary",1
+v1.8.1,TODO: switch to einsum ?,1
+v1.8.1,TODO: should we add self-links,1
+v1.8.1,TODO: vectorization?,1
+v1.8.1,TODO: vectorization?,1
+v1.8.1,TODO: keep distances?,1
+v1.8.1,"TODO: since we save a contiguous array of (num_entities, num_anchors),",1
+v1.8.1,"TODO: use graph library, such as igraph, graph-tool, or networkit",1
+v1.8.1,TODO: can we replace this loop with something vectorized?,1
+v1.8.1,TODO: should we return the sum of weights?,1
+v1.8.1,"TODO there's something wrong with this, so add it later",1
+v1.8.1,TODO vectorize code,1
+v1.8.1,TODO: method is_inverse?,1
+v1.8.1,TODO: inverse of inverse?,1
+v1.8.1,TODO: Check if lazy evaluation would make sense,1
+v1.8.1,"FIXME currently the implementation does not consider the non-training (i.e., second-last entries)",1
+v1.8.1,TODO: Can this happen after pre-filtering?,1
+v1.8.1,TODO: what is the support?,1
+v1.8.1,TODO: some negative samplers require batches,1
+v1.8.1,TODO should mode be passed here?,1
+v1.8.1,TODO why not call torch.cuda.empty_cache()? or call self._free_graph_and_cache()?,1
+v1.8.1,TODO: Fix this,1
+v1.8.1,TODO need a test that this all re-instantiates properly,1
+v1.8.1,TODO: this can only normalize rank-based metrics!,1
+v1.8.1,TODO: find a better way to handle this,1
+v1.8.1,TODO: fix this upstream / make metric.score comply to signature,1
+v1.8.1,"TODO remove this, it makes code much harder to reason about",1
+v1.8.1,TODO: consider switching to torch.DataLoader where the preparation of masks/filter batches also takes place,1
+v1.8.1,"TODO: unique, or max ID + 1?",1
+v1.8.1,TODO: extend to relations?,1
+v1.8.1,TODO: do not require to compute all scores beforehand,1
+v1.8.1,TODO: should we give num_entities in the constructor instead of inferring it every time ranks are processed?,1
+v1.8.1,TODO pack/unpack dimensions as default kwargs such that they don't actually need to be used,1
+v1.8.1,TODO: update to hint + kwargs,1
+v1.8.1,"TODO: Does not work for interactions with separate tail_entity_shape (i.e., ConvE)",1
+v1.8.1,"TODO: in the future, we may want to expose this method",1
+v1.8.1,TODO: this could happen because of AMO,1
+v1.8.1,TODO: Can we make AMO code re-usable? e.g. like https://gist.github.com/mberr/c37a8068b38cabc98228db2cbe358043,1
+v1.8.1,TODO: why do we need to empty the cache?,1
+v1.8.1,"TODO: this currently compute (batch_size, num_relations) instead,",1
+v1.8.1,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.8.1,TODO I got lost in all the Representation Modules and shape casting and wrote this ;(,1
+v1.8.1,TODO rethink after RGCN update,1
+v1.8.1,TODO: other parameters?,1
+v1.8.1,TODO: Decomposition kwargs,1
+v1.8.1,TODO: Use torch.cdist (see note above in score_hrt()),1
+v1.8.1,TODO: Use torch.cdist (see note above in score_hrt()),1
+v1.8.1,TODO: move this warning to PseudoTypeNegativeSampler's constructor?,1
+v1.8.1,TODO use pathlib here,1
+v1.8.1,"TODO: we could have multiple results, if we get access to the raw results (e.g. in the pykeen benchmarking paper)",1
+v1.8.1,FIXME this should never happen.,1
+v1.8.1,TODO should training be reset?,1
+v1.8.1,TODO should kwargs for loss and regularizer be checked and raised for?,1
+v1.8.1,TODO consider implications of duplicates,1
+v1.8.1,TODO what happens if already exists?,1
+v1.8.1,TODO incorporate setting of random seed,1
+v1.8.1,TODO: Re-use ensure_from_google?,1
+v1.8.1,FIXME these are already identifiers,1
+v1.8.1,TODO: Merge with _common?,1
+v1.8.1,TODO: Consider merging with other analysis methods,1
+v1.8.1,TODO: Consider merging with other analysis methods,1
+v1.8.1,TODO: Consider merging with other analysis methods,1
+v1.8.1,TODO: Make a constant for the names,1
+v1.8.1,"TODO this fixes the issue for negative samplers, but does not generally address it.",1
+v1.8.1,TODO: make it even easier to specify categorical strategies just as lists,1
+v1.8.0,autodoc_typehints = 'both' # TODO turn on after 4.1 release,1
+v1.8.0,FIXME definitely a type mismatch going on here,1
+v1.8.0,FIXME isn't any finite number allowed now?,1
+v1.8.0,TODO: look into score_r for inverse relations,1
+v1.8.0,TODO: Catch HolE MKL error?,1
+v1.8.0,TODO: separation message vs. entity dim?,1
+v1.8.0,TODO: Re-use filtering code,1
+v1.8.0,"TODO: does this suffice, or do we really need float as datatype?",1
+v1.8.0,"TODO: Remove, since it stems from old-style model",1
+v1.8.0,TODO consider making subclass of cases.RepresentationTestCase,1
+v1.8.0,TODO this is the only place this function is used.,1
+v1.8.0,TODO: check no repetitions (if possible),1
+v1.8.0,TODO: Do label smoothing only once,1
+v1.8.0,"TODO: extend to relation, cf. https://github.com/pykeen/pykeen/pull/728",1
+v1.8.0,workaround for complex numbers: manually compute norm,1
+v1.8.0,TODO: check if einsum is still very slow.,1
+v1.8.0,TODO: t_shape = list(t.shape); del t_shape[i]; t.view(*shape) -> only one reshape operation,1
+v1.8.0,TODO delete when deleting _normalize_dim (below),1
+v1.8.0,TODO delete when deleting convert_to_canonical_shape (below),1
+v1.8.0,TODO delete? See note in test_sim.py on its only usage,1
+v1.8.0,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.8.0,"TODO: we already had this before, as `base`",1
+v1.8.0,TODO: Remove this property and update code to use shape instead,1
+v1.8.0,TODO: verify that this is our understanding of complex!,1
+v1.8.0,TODO: Check,1
+v1.8.0,TODO: This always uses all training triples for message passing,1
+v1.8.0,"TODO: we could change that to slicing along multiple dimensions, if necessary",1
+v1.8.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.8.0,TODO: should we add self-links,1
+v1.8.0,TODO: vectorization?,1
+v1.8.0,TODO: vectorization?,1
+v1.8.0,TODO: keep distances?,1
+v1.8.0,"TODO: use graph library, such as igraph, graph-tool, or networkit",1
+v1.8.0,TODO: can we replace this loop with something vectorized?,1
+v1.8.0,"TODO there's something wrong with this, so add it later",1
+v1.8.0,TODO vectorize code,1
+v1.8.0,TODO: method is_inverse?,1
+v1.8.0,TODO: inverse of inverse?,1
+v1.8.0,TODO: Check if lazy evaluation would make sense,1
+v1.8.0,"FIXME currently the implementation does not consider the non-training (i.e., second-last entries)",1
+v1.8.0,TODO: Can this happen after pre-filtering?,1
+v1.8.0,TODO: what is the support?,1
+v1.8.0,TODO: some negative samplers require batches,1
+v1.8.0,TODO should mode be passed here?,1
+v1.8.0,TODO why not call torch.cuda.empty_cache()? or call self._free_graph_and_cache()?,1
+v1.8.0,TODO: Fix this,1
+v1.8.0,TODO need a test that this all re-instantiates properly,1
+v1.8.0,TODO: this can only normalize rank-based metrics!,1
+v1.8.0,TODO: find a better way to handle this,1
+v1.8.0,TODO: fix this upstream / make metric.score comply to signature,1
+v1.8.0,"TODO remove this, it makes code much harder to reason about",1
+v1.8.0,TODO: consider switching to torch.DataLoader where the preparation of masks/filter batches also takes place,1
+v1.8.0,"TODO: unique, or max ID + 1?",1
+v1.8.0,TODO: extend to relations?,1
+v1.8.0,TODO: do not require to compute all scores beforehand,1
+v1.8.0,TODO: should we give num_entities in the constructor instead of inferring it every time ranks are processed?,1
+v1.8.0,TODO pack/unpack dimensions as default kwargs such that they don't actually need to be used,1
+v1.8.0,TODO: update to hint + kwargs,1
+v1.8.0,"TODO: Does not work for interactions with separate tail_entity_shape (i.e., ConvE)",1
+v1.8.0,"TODO: in the future, we may want to expose this method",1
+v1.8.0,TODO: this could happen because of AMO,1
+v1.8.0,TODO: Can we make AMO code re-usable? e.g. like https://gist.github.com/mberr/c37a8068b38cabc98228db2cbe358043,1
+v1.8.0,TODO: why do we need to empty the cache?,1
+v1.8.0,"TODO: this currently compute (batch_size, num_relations) instead,",1
+v1.8.0,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.8.0,TODO I got lost in all the Representation Modules and shape casting and wrote this ;(,1
+v1.8.0,TODO rethink after RGCN update,1
+v1.8.0,TODO: other parameters?,1
+v1.8.0,"the current solution is a bit hacky, and may be improved. See discussion",1
+v1.8.0,TODO: Decomposition kwargs,1
+v1.8.0,TODO: Use torch.cdist (see note above in score_hrt()),1
+v1.8.0,TODO: Use torch.cdist (see note above in score_hrt()),1
+v1.8.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.8.0,TODO: move this warning to PseudoTypeNegativeSampler's constructor?,1
+v1.8.0,TODO use pathlib here,1
+v1.8.0,"TODO: we could have multiple results, if we get access to the raw results (e.g. in the pykeen benchmarking paper)",1
+v1.8.0,FIXME this should never happen.,1
+v1.8.0,TODO should training be reset?,1
+v1.8.0,TODO should kwargs for loss and regularizer be checked and raised for?,1
+v1.8.0,TODO consider implications of duplicates,1
+v1.8.0,TODO what happens if already exists?,1
+v1.8.0,TODO incorporate setting of random seed,1
+v1.8.0,TODO: Re-use ensure_from_google?,1
+v1.8.0,FIXME these are already identifiers,1
+v1.8.0,TODO: Merge with _common?,1
+v1.8.0,TODO: Consider merging with other analysis methods,1
+v1.8.0,TODO: Consider merging with other analysis methods,1
+v1.8.0,TODO: Consider merging with other analysis methods,1
+v1.8.0,TODO: Make a constant for the names,1
+v1.8.0,"TODO this fixes the issue for negative samplers, but does not generally address it.",1
+v1.8.0,TODO: make it even easier to specify categorical strategies just as lists,1
+v1.7.0,autodoc_typehints = 'both' # TODO turn on after 4.1 release,1
+v1.7.0,TODO: Validate with data?,1
+v1.7.0,FIXME isn't any finite number allowed now?,1
+v1.7.0,TODO: look into score_r for inverse relations,1
+v1.7.0,TODO: Catch HolE MKL error?,1
+v1.7.0,TODO: Re-use filtering code,1
+v1.7.0,TODO consider making subclass of cases.RepresentationTestCase,1
+v1.7.0,TODO: Do label smoothing only once,1
+v1.7.0,workaround for complex numbers: manually compute norm,1
+v1.7.0,TODO: check if einsum is still very slow.,1
+v1.7.0,TODO: t_shape = list(t.shape); del t_shape[i]; t.view(*shape) -> only one reshape operation,1
+v1.7.0,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.7.0,"TODO: we already had this before, as `base`",1
+v1.7.0,TODO: Remove this property and update code to use shape instead,1
+v1.7.0,TODO: verify that this is our understanding of complex!,1
+v1.7.0,TODO: move normalizer / regularizer to base class?,1
+v1.7.0,TODO add normalization functions,1
+v1.7.0,TODO: Check,1
+v1.7.0,TODO: This always uses all training triples for message passing,1
+v1.7.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.7.0,TODO vectorize code,1
+v1.7.0,TODO: method is_inverse?,1
+v1.7.0,TODO: inverse of inverse?,1
+v1.7.0,TODO: Check if lazy evaluation would make sense,1
+v1.7.0,"FIXME currently the implementation does not consider the non-training (i.e., second-last entries)",1
+v1.7.0,TODO: Can this happen after pre-filtering?,1
+v1.7.0,TODO: what is the support?,1
+v1.7.0,TODO why not call torch.cuda.empty_cache()? or call self._free_graph_and_cache()?,1
+v1.7.0,TODO: Fix this,1
+v1.7.0,TODO how to define a cutoff on y_scores to make binary?,1
+v1.7.0,"TODO there's something wrong with this, so add it later",1
+v1.7.0,TODO pack/unpack dimensions as default kwargs such that they don't actually need to be used,1
+v1.7.0,"TODO: Does not work for interactions with separate tail_entity_shape (i.e., ConvE)",1
+v1.7.0,"TODO: in the future, we may want to expose this method",1
+v1.7.0,TODO: this could happen because of AMO,1
+v1.7.0,TODO: Can we make AMO code re-usable? e.g. like https://gist.github.com/mberr/c37a8068b38cabc98228db2cbe358043,1
+v1.7.0,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.7.0,TODO rethink after RGCN update,1
+v1.7.0,"the current solution is a bit hacky, and may be improved. See discussion",1
+v1.7.0,TODO: Decomposition kwargs,1
+v1.7.0,TODO: Use torch.cdist (see note above in score_hrt()),1
+v1.7.0,TODO: Use torch.cdist (see note above in score_hrt()),1
+v1.7.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.7.0,TODO: move this warning to PseudoTypeNegativeSampler's constructor?,1
+v1.7.0,TODO use pathlib here,1
+v1.7.0,TODO: this can only normalize rank-based metrics!,1
+v1.7.0,"TODO: we could have multiple results, if we get access to the raw results (e.g. in the pykeen benchmarking paper)",1
+v1.7.0,FIXME this should never happen.,1
+v1.7.0,TODO should training be reset?,1
+v1.7.0,TODO should kwargs for loss and regularizer be checked and raised for?,1
+v1.7.0,TODO consider implications of duplicates,1
+v1.7.0,TODO what happens if already exists?,1
+v1.7.0,TODO incorporate setting of random seed,1
+v1.7.0,TODO: Re-use ensure_from_google?,1
+v1.7.0,FIXME these are already identifiers,1
+v1.7.0,TODO: Merge with _common?,1
+v1.7.0,TODO: Consider merging with other analysis methods,1
+v1.7.0,TODO: Consider merging with other analysis methods,1
+v1.7.0,TODO: Consider merging with other analysis methods,1
+v1.7.0,TODO update docs with table and CLI wtih generator,1
+v1.7.0,"TODO this fixes the issue for negative samplers, but does not generally address it.",1
+v1.7.0,TODO: make it even easier to specify categorical strategies just as lists,1
+v1.6.0,autodoc_typehints = 'both' # TODO turn on after 4.1 release,1
+v1.6.0,TODO: Re-use filtering code,1
+v1.6.0,TODO: Validate with data?,1
+v1.6.0,FIXME isn't any finite number allowed now?,1
+v1.6.0,TODO: Catch HolE MKL error?,1
+v1.6.0,TODO: Do label smoothing only once,1
+v1.6.0,workaround for complex numbers: manually compute norm,1
+v1.6.0,TODO: check if einsum is still very slow.,1
+v1.6.0,TODO: t_shape = list(t.shape); del t_shape[i]; t.view(*shape) -> only one reshape operation,1
+v1.6.0,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.6.0,TODO: Remove this property and update code to use shape instead,1
+v1.6.0,TODO: verify that this is our understanding of complex!,1
+v1.6.0,TODO: move normalizer / regularizer to base class?,1
+v1.6.0,TODO add normalization functions,1
+v1.6.0,TODO: Check,1
+v1.6.0,TODO: This always uses all training triples for message passing,1
+v1.6.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.6.0,TODO vectorize code,1
+v1.6.0,TODO: Check if lazy evaluation would make sense,1
+v1.6.0,"FIXME currently the implementation does not consider the non-training (i.e., second-last entries)",1
+v1.6.0,TODO: Can this happen after pre-filtering?,1
+v1.6.0,TODO: what is the support?,1
+v1.6.0,TODO why not call torch.cuda.empty_cache()? or call self._free_graph_and_cache()?,1
+v1.6.0,TODO: Fix this,1
+v1.6.0,TODO how to define a cutoff on y_scores to make binary?,1
+v1.6.0,TODO pack/unpack dimensions as default kwargs such that they don't actually need to be used,1
+v1.6.0,"TODO: Does not work for interactions with separate tail_entity_shape (i.e., ConvE)",1
+v1.6.0,TODO: this could happen because of AMO,1
+v1.6.0,TODO: Can we make AMO code re-usable? e.g. like https://gist.github.com/mberr/c37a8068b38cabc98228db2cbe358043,1
+v1.6.0,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.6.0,TODO rethink after RGCN update,1
+v1.6.0,TODO: Decomposition kwargs,1
+v1.6.0,TODO: Use torch.cdist (see note above in score_hrt()),1
+v1.6.0,TODO: Use torch.cdist (see note above in score_hrt()),1
+v1.6.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.6.0,TODO: move this warning to PseudoTypeNegativeSampler's constructor?,1
+v1.6.0,TODO use pathlib here,1
+v1.6.0,FIXME this should never happen.,1
+v1.6.0,TODO should training be reset?,1
+v1.6.0,TODO should kwargs for loss and regularizer be checked and raised for?,1
+v1.6.0,TODO consider implications of duplicates,1
+v1.6.0,TODO what happens if already exists?,1
+v1.6.0,TODO incorporate setting of random seed,1
+v1.6.0,TODO: Re-use ensure_from_google?,1
+v1.6.0,FIXME these are already identifiers,1
+v1.6.0,TODO: Merge with _common?,1
+v1.6.0,TODO: Consider merging with other analysis methods,1
+v1.6.0,TODO: Consider merging with other analysis methods,1
+v1.6.0,TODO: Consider merging with other analysis methods,1
+v1.6.0,TODO update docs with table and CLI wtih generator,1
+v1.6.0,"TODO this fixes the issue for negative samplers, but does not generally address it.",1
+v1.6.0,TODO: make it even easier to specify categorical strategies just as lists,1
+v1.5.0,autodoc_typehints = 'both' # TODO turn on after 4.1 release,1
+v1.5.0,TODO: Re-use filtering code,1
+v1.5.0,TODO: Validate with data?,1
+v1.5.0,FIXME isn't any finite number allowed now?,1
+v1.5.0,TODO: Catch HolE MKL error?,1
+v1.5.0,TODO: Do label smoothing only once,1
+v1.5.0,workaround for complex numbers: manually compute norm,1
+v1.5.0,TODO: check if einsum is still very slow.,1
+v1.5.0,TODO: t_shape = list(t.shape); del t_shape[i]; t.view(*shape) -> only one reshape operation,1
+v1.5.0,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.5.0,TODO: Remove this property and update code to use shape instead,1
+v1.5.0,TODO: verify that this is our understanding of complex!,1
+v1.5.0,TODO: move normalizer / regularizer to base class?,1
+v1.5.0,TODO add normalization functions,1
+v1.5.0,TODO: Check,1
+v1.5.0,TODO: This always uses all training triples for message passing,1
+v1.5.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.5.0,TODO vectorize code,1
+v1.5.0,TODO: Check if lazy evaluation would make sense,1
+v1.5.0,"FIXME currently the implementation does not consider the non-training (i.e., second-last entries)",1
+v1.5.0,TODO: Can this happen after pre-filtering?,1
+v1.5.0,TODO: what is the support?,1
+v1.5.0,: TODO: do we need these?,1
+v1.5.0,TODO why not call torch.cuda.empty_cache()? or call self._free_graph_and_cache()?,1
+v1.5.0,TODO: Fix this,1
+v1.5.0,TODO how to define a cutoff on y_scores to make binary?,1
+v1.5.0,TODO pack/unpack dimensions as default kwargs such that they don't actually need to be used,1
+v1.5.0,"TODO: Does not work for interactions with separate tail_entity_shape (i.e., ConvE)",1
+v1.5.0,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.5.0,TODO rethink after RGCN update,1
+v1.5.0,TODO: Decomposition kwargs,1
+v1.5.0,TODO: Use torch.dist,1
+v1.5.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.5.0,TODO: move this warning to PseudoTypeNegativeSampler's constructor?,1
+v1.5.0,TODO use pathlib here,1
+v1.5.0,FIXME this should never happen.,1
+v1.5.0,TODO should training be reset?,1
+v1.5.0,TODO should kwargs for loss and regularizer be checked and raised for?,1
+v1.5.0,TODO consider implications of duplicates,1
+v1.5.0,TODO what happens if already exists?,1
+v1.5.0,TODO incorporate setting of random seed,1
+v1.5.0,TODO: Re-use ensure_from_google?,1
+v1.5.0,FIXME these are already identifiers,1
+v1.5.0,TODO: Merge with _common?,1
+v1.5.0,TODO: Consider merging with other analysis methods,1
+v1.5.0,TODO: Consider merging with other analysis methods,1
+v1.5.0,TODO: Consider merging with other analysis methods,1
+v1.5.0,TODO update docs with table and CLI wtih generator,1
+v1.5.0,TODO: make it even easier to specify categorical strategies just as lists,1
+v1.4.0,TODO: Re-use filtering code,1
+v1.4.0,TODO: Validate with data?,1
+v1.4.0,TODO update,1
+v1.4.0,TODO update,1
+v1.4.0,TODO update,1
+v1.4.0,TODO update,1
+v1.4.0,FIXME isn't any finite number allowed now?,1
+v1.4.0,TODO: Catch HolE MKL error?,1
+v1.4.0,TODO: use triple generation,1
+v1.4.0,workaround for complex numbers: manually compute norm,1
+v1.4.0,TODO: check if einsum is still very slow.,1
+v1.4.0,TODO: t_shape = list(t.shape); del t_shape[i]; t.view(*shape) -> only one reshape operation,1
+v1.4.0,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.4.0,TODO: Remove this property and update code to use shape instead,1
+v1.4.0,TODO: verify that this is our understanding of complex!,1
+v1.4.0,TODO: move normalizer / regularizer to base class?,1
+v1.4.0,TODO add normalization functions,1
+v1.4.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.4.0,TODO vectorize code,1
+v1.4.0,TODO: Check if lazy evaluation would make sense,1
+v1.4.0,"FIXME currently the implementation does not consider the non-training (i.e., second-last entries)",1
+v1.4.0,: TODO: do we need these?,1
+v1.4.0,TODO why not call torch.cuda.empty_cache()? or call self._free_graph_and_cache()?,1
+v1.4.0,TODO: Fix this,1
+v1.4.0,TODO how to define a cutoff on y_scores to make binary?,1
+v1.4.0,TODO adjusted_worst_rank,1
+v1.4.0,TODO adjusted_best_rank,1
+v1.4.0,TODO pack/unpack dimensions as default kwargs such that they don't actually need to be used,1
+v1.4.0,"TODO: Does not work for interactions with separate tail_entity_shape (i.e., ConvE)",1
+v1.4.0,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.4.0,TODO rethink after RGCN update,1
+v1.4.0,TODO: Can we vectorize this loop?,1
+v1.4.0,"TODO: Replace this by interaction function, once https://github.com/pykeen/pykeen/pull/107 is merged.",1
+v1.4.0,TODO: Dummy,1
+v1.4.0,TODO: Use torch.dist,1
+v1.4.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.4.0,"TODO: this is very similar to ComplExLiteral, except a few dropout differences",1
+v1.4.0,FIXME this should never happen.,1
+v1.4.0,TODO should training be reset?,1
+v1.4.0,TODO should kwargs for loss and regularizer be checked and raised for?,1
+v1.4.0,TODO what happens if already exists?,1
+v1.4.0,TODO incorporate setting of random seed,1
+v1.4.0,FIXME these are already identifiers,1
+v1.4.0,TODO replace this with the new zip remote dataset class,1
+v1.4.0,TODO update docs with table and CLI wtih generator,1
+v1.3.0,TODO: Re-use filtering code,1
+v1.3.0,TODO: Validate with data?,1
+v1.3.0,TODO update,1
+v1.3.0,TODO update,1
+v1.3.0,TODO update,1
+v1.3.0,TODO update,1
+v1.3.0,FIXME isn't any finite number allowed now?,1
+v1.3.0,TODO: Catch HolE MKL error?,1
+v1.3.0,TODO: use triple generation,1
+v1.3.0,workaround for complex numbers: manually compute norm,1
+v1.3.0,TODO: check if einsum is still very slow.,1
+v1.3.0,TODO: t_shape = list(t.shape); del t_shape[i]; t.view(*shape) -> only one reshape operation,1
+v1.3.0,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.3.0,FIXME this should never happen.,1
+v1.3.0,TODO: Remove this property and update code to use shape instead,1
+v1.3.0,TODO: verify that this is our understanding of complex!,1
+v1.3.0,TODO: move normalizer / regularizer to base class?,1
+v1.3.0,TODO add normalization functions,1
+v1.3.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.3.0,TODO vectorize code,1
+v1.3.0,TODO: Check if lazy evaluation would make sense,1
+v1.3.0,: TODO: do we need these?,1
+v1.3.0,TODO why not call torch.cuda.empty_cache()? or call self._free_graph_and_cache()?,1
+v1.3.0,TODO: Fix this,1
+v1.3.0,TODO how to define a cutoff on y_scores to make binary?,1
+v1.3.0,TODO adjusted_worst_rank,1
+v1.3.0,TODO adjusted_best_rank,1
+v1.3.0,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.3.0,TODO rethink after RGCN update,1
+v1.3.0,TODO: Can we vectorize this loop?,1
+v1.3.0,"TODO: Replace this by interaction function, once https://github.com/pykeen/pykeen/pull/107 is merged.",1
+v1.3.0,TODO: Dummy,1
+v1.3.0,TODO: Use torch.dist,1
+v1.3.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.3.0,"TODO: this is very similar to ComplExLiteral, except a few dropout differences",1
+v1.3.0,TODO what happens if already exists?,1
+v1.3.0,TODO incorporate setting of random seed,1
+v1.3.0,FIXME these are already identifiers,1
+v1.3.0,TODO replace this with the new zip remote dataset class,1
+v1.3.0,TODO update docs with table and CLI wtih generator,1
+v1.1.0,TODO: Re-use filtering code,1
+v1.1.0,TODO: Validate with data?,1
+v1.1.0,TODO: Catch HolE MKL error?,1
+v1.1.0,TODO reimplement then test MarginRankingLoss using PR #18 solution,1
+v1.1.0,"TODO: this only works for x ~ N(0, 1), but not for |x|",1
+v1.1.0,FIXME this should never happen.,1
+v1.1.0,TODO vectorize code,1
+v1.1.0,TODO: Check if lazy evaluation would make sense,1
+v1.1.0,: TODO: do we need these?,1
+v1.1.0,TODO: Fix this,1
+v1.1.0,TODO how to define a cutoff on y_scores to make binary?,1
+v1.1.0,TODO adjusted_worst_rank,1
+v1.1.0,TODO adjusted_best_rank,1
+v1.1.0,TODO: Check loss functions that require 1 and -1 as label but only,1
+v1.1.0,TODO UNUSED,1
+v1.1.0,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.1.0,TODO: Can we vectorize this loop?,1
+v1.1.0,"TODO: Replace this by interaction function, once https://github.com/pykeen/pykeen/pull/107 is merged.",1
+v1.1.0,TODO: Dummy,1
+v1.1.0,TODO: Use torch.dist,1
+v1.1.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.1.0,"TODO: this is very similar to ComplExLiteral, except a few dropout differences",1
+v1.1.0,TODO what happens if already exists?,1
+v1.1.0,TODO incorporate setting of random seed,1
+v1.1.0,FIXME these are already identifiers,1
+v1.1.0,TODO replace this with the new zip remote dataset class,1
+v1.1.0,TODO update docs with table and CLI wtih generator,1
+v1.0.5,TODO: Re-use filtering code,1
+v1.0.5,TODO: Validate with data?,1
+v1.0.5,TODO: Catch HolE MKL error?,1
+v1.0.5,FIXME this should never happen.,1
+v1.0.5,TODO vectorize code,1
+v1.0.5,"FIXME is this ever possible, since this function is called in __init__?",1
+v1.0.5,TODO is there a need to have a canonical sort order here?,1
+v1.0.5,TODO: Check if lazy evaluation would make sense,1
+v1.0.5,FIXME this function is only ever used in tests,1
+v1.0.5,FIXME doesn't carry flag of create_inverse_triples through,1
+v1.0.5,TODO: Fix this,1
+v1.0.5,TODO how to define a cutoff on y_scores to make binary?,1
+v1.0.5,TODO adjusted_worst_rank,1
+v1.0.5,TODO adjusted_best_rank,1
+v1.0.5,TODO: Check loss functions that require 1 and -1 as label but only,1
+v1.0.5,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.0.5,TODO: Can we vectorize this loop?,1
+v1.0.5,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.0.5,TODO: Check entire build of the model,1
+v1.0.5,TODO: Check entire build of the model,1
+v1.0.5,TODO check if this is the same as the BaseModule,1
+v1.0.5,TODO what happens if already exists?,1
+v1.0.5,TODO incorporate setting of random seed,1
+v1.0.5,TODO replace this with the new zip remote dataset class,1
+v1.0.5,TODO update docs with table and CLI wtih generator,1
+v1.0.5,TODO make more informative,1
+v1.0.4,TODO: Re-use filtering code,1
+v1.0.4,TODO: Validate with data?,1
+v1.0.4,TODO: Catch HolE MKL error?,1
+v1.0.4,FIXME this should never happen.,1
+v1.0.4,TODO vectorize code,1
+v1.0.4,"FIXME is this ever possible, since this function is called in __init__?",1
+v1.0.4,TODO is there a need to have a canonical sort order here?,1
+v1.0.4,TODO: Check if lazy evaluation would make sense,1
+v1.0.4,FIXME this function is only ever used in tests,1
+v1.0.4,FIXME doesn't carry flag of create_inverse_triples through,1
+v1.0.4,TODO: Fix this,1
+v1.0.4,TODO how to define a cutoff on y_scores to make binary?,1
+v1.0.4,TODO adjusted_worst_rank,1
+v1.0.4,TODO adjusted_best_rank,1
+v1.0.4,TODO: Check loss functions that require 1 and -1 as label but only,1
+v1.0.4,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.0.4,TODO: Can we vectorize this loop?,1
+v1.0.4,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.0.4,TODO: Check entire build of the model,1
+v1.0.4,TODO: Check entire build of the model,1
+v1.0.4,TODO check if this is the same as the BaseModule,1
+v1.0.4,TODO what happens if already exists?,1
+v1.0.4,TODO incorporate setting of random seed,1
+v1.0.4,TODO replace this with the new zip remote dataset class,1
+v1.0.4,TODO update docs with table and CLI wtih generator,1
+v1.0.4,FIXME difference between dataset class and string,1
+v1.0.4,FIXME how to handle if dataset or factories were set? Should have been,1
+v1.0.3,TODO: Re-use filtering code,1
+v1.0.3,TODO: Validate with data?,1
+v1.0.3,TODO: Catch HolE MKL error?,1
+v1.0.3,FIXME this should never happen.,1
+v1.0.3,TODO vectorize code,1
+v1.0.3,"FIXME is this ever possible, since this function is called in __init__?",1
+v1.0.3,TODO is there a need to have a canonical sort order here?,1
+v1.0.3,TODO: Check if lazy evaluation would make sense,1
+v1.0.3,FIXME this function is only ever used in tests,1
+v1.0.3,FIXME doesn't carry flag of create_inverse_triples through,1
+v1.0.3,TODO: Fix this,1
+v1.0.3,TODO how to define a cutoff on y_scores to make binary?,1
+v1.0.3,TODO adjusted_worst_rank,1
+v1.0.3,TODO adjusted_best_rank,1
+v1.0.3,TODO: Check loss functions that require 1 and -1 as label but only,1
+v1.0.3,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.0.3,TODO: Can we vectorize this loop?,1
+v1.0.3,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.0.3,TODO: Check entire build of the model,1
+v1.0.3,TODO: Check entire build of the model,1
+v1.0.3,TODO check if this is the same as the BaseModule,1
+v1.0.3,TODO what happens if already exists?,1
+v1.0.3,TODO incorporate setting of random seed,1
+v1.0.3,TODO replace this with the new zip remote dataset class,1
+v1.0.3,TODO update docs with table and CLI wtih generator,1
+v1.0.3,FIXME difference between dataset class and string,1
+v1.0.3,FIXME how to handle if dataset or factories were set? Should have been,1
+v1.0.2,TODO: Re-use filtering code,1
+v1.0.2,TODO: Validate with data?,1
+v1.0.2,TODO: Catch HolE MKL error?,1
+v1.0.2,FIXME this should never happen.,1
+v1.0.2,TODO vectorize code,1
+v1.0.2,"FIXME is this ever possible, since this function is called in __init__?",1
+v1.0.2,TODO is there a need to have a canonical sort order here?,1
+v1.0.2,TODO: Check if lazy evaluation would make sense,1
+v1.0.2,FIXME this function is only ever used in tests,1
+v1.0.2,FIXME doesn't carry flag of create_inverse_triples through,1
+v1.0.2,TODO: Fix this,1
+v1.0.2,TODO how to define a cutoff on y_scores to make binary?,1
+v1.0.2,TODO adjusted_worst_rank,1
+v1.0.2,TODO adjusted_best_rank,1
+v1.0.2,TODO: Check loss functions that require 1 and -1 as label but only,1
+v1.0.2,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.0.2,TODO: Can we vectorize this loop?,1
+v1.0.2,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.0.2,TODO: Check entire build of the model,1
+v1.0.2,TODO: Check entire build of the model,1
+v1.0.2,TODO check if this is the same as the BaseModule,1
+v1.0.2,TODO what happens if already exists?,1
+v1.0.2,TODO incorporate setting of random seed,1
+v1.0.2,TODO replace this with the new zip remote dataset class,1
+v1.0.2,TODO update docs with table and CLI wtih generator,1
+v1.0.2,FIXME difference between dataset class and string,1
+v1.0.2,FIXME how to handle if dataset or factories were set? Should have been,1
+v1.0.1,TODO: Re-use filtering code,1
+v1.0.1,TODO: Validate with data?,1
+v1.0.1,TODO: Catch HolE MKL error?,1
+v1.0.1,FIXME this should never happen.,1
+v1.0.1,TODO vectorize code,1
+v1.0.1,"FIXME is this ever possible, since this function is called in __init__?",1
+v1.0.1,TODO is there a need to have a canonical sort order here?,1
+v1.0.1,TODO: Check if lazy evaluation would make sense,1
+v1.0.1,FIXME this function is only ever used in tests,1
+v1.0.1,FIXME doesn't carry flag of create_inverse_triples through,1
+v1.0.1,TODO: Fix this,1
+v1.0.1,TODO how to define a cutoff on y_scores to make binary?,1
+v1.0.1,TODO adjusted_worst_rank,1
+v1.0.1,TODO adjusted_best_rank,1
+v1.0.1,TODO: Check loss functions that require 1 and -1 as label but only,1
+v1.0.1,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.0.1,TODO: Can we vectorize this loop?,1
+v1.0.1,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.0.1,TODO: Check entire build of the model,1
+v1.0.1,TODO: Check entire build of the model,1
+v1.0.1,TODO check if this is the same as the BaseModule,1
+v1.0.1,TODO what happens if already exists?,1
+v1.0.1,TODO incorporate setting of random seed,1
+v1.0.1,TODO replace this with the new zip remote dataset class,1
+v1.0.1,TODO update docs with table and CLI wtih generator,1
+v1.0.1,FIXME difference between dataset class and string,1
+v1.0.1,FIXME how to handle if dataset or factories were set? Should have been,1
+v1.0.0,TODO: Re-use filtering code,1
+v1.0.0,TODO: Validate with data?,1
+v1.0.0,TODO: Catch HolE MKL error?,1
+v1.0.0,FIXME this should never happen.,1
+v1.0.0,TODO vectorize code,1
+v1.0.0,"FIXME is this ever possible, since this function is called in __init__?",1
+v1.0.0,TODO is there a need to have a canonical sort order here?,1
+v1.0.0,TODO: Check if lazy evaluation would make sense,1
+v1.0.0,FIXME this function is only ever used in tests,1
+v1.0.0,FIXME doesn't carry flag of create_inverse_triples through,1
+v1.0.0,TODO: Fix this,1
+v1.0.0,TODO how to define a cutoff on y_scores to make binary?,1
+v1.0.0,TODO adjusted_worst_rank,1
+v1.0.0,TODO adjusted_best_rank,1
+v1.0.0,TODO: Check loss functions that require 1 and -1 as label but only,1
+v1.0.0,TODO: Why do we need that? The optimizer takes care of filtering the parameters.,1
+v1.0.0,TODO: Can we vectorize this loop?,1
+v1.0.0,Workaround until https://github.com/pytorch/pytorch/issues/30704 is fixed,1
+v1.0.0,TODO: Check entire build of the model,1
+v1.0.0,TODO: Check entire build of the model,1
+v1.0.0,TODO check if this is the same as the BaseModule,1
+v1.0.0,TODO what happens if already exists?,1
+v1.0.0,TODO incorporate setting of random seed,1
+v1.0.0,TODO replace this with the new zip remote dataset class,1
+v1.0.0,TODO update docs with table and CLI wtih generator,1
+v1.0.0,FIXME difference between dataset class and string,1
+v1.0.0,FIXME how to handle if dataset or factories were set? Should have been,1
+v0.0.26,FIXME @mehdi why aren't the right relation embeddings initialized?,1
+v0.0.26,TODO: max_norm < 1.,1
+v0.0.26,TODO: Remove original subject and object from entity set,1
+v0.0.26,TODO: Check,1
+v0.0.26,TODO: Define HPO metric,1

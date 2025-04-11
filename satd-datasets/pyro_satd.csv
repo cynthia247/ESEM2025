@@ -1,0 +1,2457 @@
+Version,Commit Message,SATD
+1.9.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.9.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.9.1,"misleading, as it incorrectly suggests objects occlude one",1
+1.9.1,It would be better to use z_pres to change the opacity of,1
+1.9.1,temporary hack to avoid zero-inflation issues,1
+1.9.1,XXX currently this whole object is very inefficient,1
+1.9.1,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.9.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.9.1,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.9.1,XXX currently this whole object is very inefficient,1
+1.9.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.9.1,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.9.1,TODO: Make this available directly in `SVI` if needed.,1
+1.9.1,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.9.1,this is gross but we need to convert between different posterior factorizations,1
+1.9.1,TODO speed up with parallel num_particles > 1,1
+1.9.1,TODO Decide whether it is worth fixing this failing assertion.,1
+1.9.1,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.9.1,FIXME: this might be not a stable way to compute integral,1
+1.9.1,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.9.1,TODO: this is a difference between the two implementations,1
+1.9.1,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.9.1,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.9.1,TODO support replayed sites in infer_discrete.,1
+1.9.1,TODO support replayed sites in infer_discrete.,1
+1.9.1,TODO Is it correct to detach gradients of assignments?,1
+1.9.1,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.9.1,XXX kernel(times) loads old parameters from param store,1
+1.9.1,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.9.1,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.9.1,XXX name is a bit silly,1
+1.9.1,WARNING: this is very dangerous. better method?,1
+1.9.1,TODO move this into a Leaf implementation somehow,1
+1.9.1,TODO factor this out as a stand-alone helper.,1
+1.9.1,TODO move this logic into a poutine,1
+1.9.1,TODO refine this coarse dependency ordering using time.,1
+1.9.1,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.9.1,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.9.1,XXX default for baseline_beta currently set here,1
+1.9.1,XXX should the average baseline be in the param store as below?,1
+1.9.1,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.9.1,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.9.1,TODO use plates to reduce dimension of dependency.,1
+1.9.1,TODO should we choose a more optimal structure?,1
+1.9.1,TODO: move this file out of `autoguide` in a minor release,1
+1.9.1,TODO(https://github.com/pyro-ppl/pyro/issues/2831) As part of refactoring,1
+1.9.1,TODO(#2831) Make this a torch.nn.ModuleDict.,1
+1.9.1,TODO apply CircularReparam for VonMises,1
+1.9.1,TODO reparametrize only if parameters are variable. We might guess,1
+1.9.1,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.9.1,XXX: consider to add a try/except here:,1
+1.9.1,XXX `transforms` domains are sites' supports,1
+1.9.1,FIXME: find a good pattern to deal with `transforms` arg,1
+1.9.1,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.9.1,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.9.1,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.9.1,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.9.1,XXX replay against an empty Trace to ensure densities are not double-counted,1
+1.9.1,TODO this should really be handled entirely under the hood by adjoint,1
+1.9.1,TODO Replace this with funsor.Expectation,1
+1.9.1,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.9.1,is there a better way?,1
+1.9.1,TODO should the ancestor_indices be pyro.observed?,1
+1.9.1,TODO should the ancestor_indices be pyro.sampled?,1
+1.9.1,TODO make this comprehension less gross,1
+1.9.1,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.9.1,TODO come up with a better dispatch system for enumeration strategies,1
+1.9.1,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.9.1,TODO make this work with sequential enumeration,1
+1.9.1,TODO read from torch float spec,1
+1.9.1,TODO replace this guide with one allowing correlation between,1
+1.9.1,TODO: add support for JIT loss,1
+1.9.1,TODO: move this logic to infer.autoguide or somewhere else,1
+1.9.1,TODO: cache these calculations to get faster inference,1
+1.9.1,FIXME Delta is incompatible with relaxed inference.,1
+1.9.1,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.9.1,"TODO This supports only the region_plate. For full plate support,",1
+1.9.1,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.9.1,TODO cache this computation for the forward pass of .rsample().,1
+1.9.1,XXX should the user be able to control inclusion of the entropy term?,1
+1.9.1,TODO move this upstream to torch.distributions,1
+1.9.1,TODO: fix upstream - positive_definite has an extra dimension in front of output shape,1
+1.9.1,TODO move upstream,1
+1.9.1,TODO move upstream,1
+1.9.1,TODO fix https://github.com/pytorch/pytorch/issues/48054 upstream,1
+1.9.1,TODO: move upstream,1
+1.9.1,TODO replace with weakref.WeakMethod?,1
+1.9.1,"work around lack of jit support for torch.eye(..., out=value)",1
+1.9.1,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.9.1,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.9.1,TODO: Move upstream,1
+1.9.1,TODO: Move upstream,1
+1.9.1,TODO: change corr_cholesky_constraint to corr_cholesky when the latter is availabler,1
+1.9.1,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.9.1,TODO: Should this be done in log space for numerical stability?,1
+1.9.1,"However, this isn't strictly necessary,",1
+1.9.1,TODO check at runtime if stack is valid,1
+1.9.1,This is a tricky hack to apply messengers in an order other than the,1
+1.9.1,"XXX should copy in case site gets mutated, or dont bother?",1
+1.9.1,TODO Remove import guard once funsor is a required dependency.,1
+1.9.1,FIXME should we .detach() the new_constrained_value?,1
+1.9.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.9.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.9.0,"misleading, as it incorrectly suggests objects occlude one",1
+1.9.0,It would be better to use z_pres to change the opacity of,1
+1.9.0,temporary hack to avoid zero-inflation issues,1
+1.9.0,XXX currently this whole object is very inefficient,1
+1.9.0,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.9.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.9.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.9.0,XXX currently this whole object is very inefficient,1
+1.9.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.9.0,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.9.0,TODO: Make this available directly in `SVI` if needed.,1
+1.9.0,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.9.0,this is gross but we need to convert between different posterior factorizations,1
+1.9.0,TODO speed up with parallel num_particles > 1,1
+1.9.0,TODO Decide whether it is worth fixing this failing assertion.,1
+1.9.0,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.9.0,FIXME: this might be not a stable way to compute integral,1
+1.9.0,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.9.0,TODO: this is a difference between the two implementations,1
+1.9.0,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.9.0,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.9.0,TODO support replayed sites in infer_discrete.,1
+1.9.0,TODO support replayed sites in infer_discrete.,1
+1.9.0,TODO Is it correct to detach gradients of assignments?,1
+1.9.0,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.9.0,XXX kernel(times) loads old parameters from param store,1
+1.9.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.9.0,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.9.0,XXX name is a bit silly,1
+1.9.0,WARNING: this is very dangerous. better method?,1
+1.9.0,TODO move this into a Leaf implementation somehow,1
+1.9.0,TODO factor this out as a stand-alone helper.,1
+1.9.0,TODO move this logic into a poutine,1
+1.9.0,TODO refine this coarse dependency ordering using time.,1
+1.9.0,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.9.0,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.9.0,XXX default for baseline_beta currently set here,1
+1.9.0,XXX should the average baseline be in the param store as below?,1
+1.9.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.9.0,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.9.0,TODO use plates to reduce dimension of dependency.,1
+1.9.0,TODO should we choose a more optimal structure?,1
+1.9.0,TODO: move this file out of `autoguide` in a minor release,1
+1.9.0,TODO(https://github.com/pyro-ppl/pyro/issues/2831) As part of refactoring,1
+1.9.0,TODO(#2831) Make this a torch.nn.ModuleDict.,1
+1.9.0,TODO apply CircularReparam for VonMises,1
+1.9.0,TODO reparametrize only if parameters are variable. We might guess,1
+1.9.0,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.9.0,XXX: consider to add a try/except here:,1
+1.9.0,XXX `transforms` domains are sites' supports,1
+1.9.0,FIXME: find a good pattern to deal with `transforms` arg,1
+1.9.0,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.9.0,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.9.0,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.9.0,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.9.0,XXX replay against an empty Trace to ensure densities are not double-counted,1
+1.9.0,TODO this should really be handled entirely under the hood by adjoint,1
+1.9.0,TODO Replace this with funsor.Expectation,1
+1.9.0,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.9.0,is there a better way?,1
+1.9.0,TODO should the ancestor_indices be pyro.observed?,1
+1.9.0,TODO should the ancestor_indices be pyro.sampled?,1
+1.9.0,TODO make this comprehension less gross,1
+1.9.0,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.9.0,TODO come up with a better dispatch system for enumeration strategies,1
+1.9.0,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.9.0,TODO make this work with sequential enumeration,1
+1.9.0,TODO read from torch float spec,1
+1.9.0,TODO replace this guide with one allowing correlation between,1
+1.9.0,TODO: add support for JIT loss,1
+1.9.0,TODO: move this logic to infer.autoguide or somewhere else,1
+1.9.0,TODO: cache these calculations to get faster inference,1
+1.9.0,FIXME Delta is incompatible with relaxed inference.,1
+1.9.0,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.9.0,"TODO This supports only the region_plate. For full plate support,",1
+1.9.0,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.9.0,TODO cache this computation for the forward pass of .rsample().,1
+1.9.0,XXX should the user be able to control inclusion of the entropy term?,1
+1.9.0,TODO move this upstream to torch.distributions,1
+1.9.0,TODO: fix upstream - positive_definite has an extra dimension in front of output shape,1
+1.9.0,TODO move upstream,1
+1.9.0,TODO move upstream,1
+1.9.0,TODO fix https://github.com/pytorch/pytorch/issues/48054 upstream,1
+1.9.0,TODO: move upstream,1
+1.9.0,TODO replace with weakref.WeakMethod?,1
+1.9.0,"work around lack of jit support for torch.eye(..., out=value)",1
+1.9.0,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.9.0,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.9.0,TODO: Move upstream,1
+1.9.0,TODO: Move upstream,1
+1.9.0,TODO: change corr_cholesky_constraint to corr_cholesky when the latter is availabler,1
+1.9.0,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.9.0,TODO: Should this be done in log space for numerical stability?,1
+1.9.0,"However, this isn't strictly necessary,",1
+1.9.0,TODO check at runtime if stack is valid,1
+1.9.0,This is a tricky hack to apply messengers in an order other than the,1
+1.9.0,"XXX should copy in case site gets mutated, or dont bother?",1
+1.9.0,TODO Remove import guard once funsor is a required dependency.,1
+1.9.0,FIXME should we .detach() the new_constrained_value?,1
+1.8.6,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.6,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.6,"misleading, as it incorrectly suggests objects occlude one",1
+1.8.6,It would be better to use z_pres to change the opacity of,1
+1.8.6,temporary hack to avoid zero-inflation issues,1
+1.8.6,XXX currently this whole object is very inefficient,1
+1.8.6,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.8.6,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.6,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.8.6,XXX currently this whole object is very inefficient,1
+1.8.6,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.6,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.8.6,TODO: Make this available directly in `SVI` if needed.,1
+1.8.6,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.8.6,this is gross but we need to convert between different posterior factorizations,1
+1.8.6,TODO speed up with parallel num_particles > 1,1
+1.8.6,TODO Decide whether it is worth fixing this failing assertion.,1
+1.8.6,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.8.6,FIXME: this might be not a stable way to compute integral,1
+1.8.6,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.8.6,TODO: this is a difference between the two implementations,1
+1.8.6,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.6,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.6,TODO support replayed sites in infer_discrete.,1
+1.8.6,TODO support replayed sites in infer_discrete.,1
+1.8.6,TODO Is it correct to detach gradients of assignments?,1
+1.8.6,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.8.6,XXX kernel(times) loads old parameters from param store,1
+1.8.6,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.8.6,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.8.6,XXX name is a bit silly,1
+1.8.6,WARNING: this is very dangerous. better method?,1
+1.8.6,TODO move this into a Leaf implementation somehow,1
+1.8.6,TODO factor this out as a stand-alone helper.,1
+1.8.6,TODO move this logic into a poutine,1
+1.8.6,TODO refine this coarse dependency ordering using time.,1
+1.8.6,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.8.6,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.8.6,XXX default for baseline_beta currently set here,1
+1.8.6,XXX should the average baseline be in the param store as below?,1
+1.8.6,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.8.6,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.8.6,TODO use plates to reduce dimension of dependency.,1
+1.8.6,TODO should we choose a more optimal structure?,1
+1.8.6,TODO: move this file out of `autoguide` in a minor release,1
+1.8.6,TODO(https://github.com/pyro-ppl/pyro/issues/2831) As part of refactoring,1
+1.8.6,TODO(#2831) Make this a torch.nn.ModuleDict.,1
+1.8.6,TODO apply CircularReparam for VonMises,1
+1.8.6,TODO reparametrize only if parameters are variable. We might guess,1
+1.8.6,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.8.6,XXX: consider to add a try/except here:,1
+1.8.6,XXX `transforms` domains are sites' supports,1
+1.8.6,FIXME: find a good pattern to deal with `transforms` arg,1
+1.8.6,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.8.6,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.8.6,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.8.6,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.8.6,XXX replay against an empty Trace to ensure densities are not double-counted,1
+1.8.6,TODO this should really be handled entirely under the hood by adjoint,1
+1.8.6,TODO Replace this with funsor.Expectation,1
+1.8.6,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.8.6,is there a better way?,1
+1.8.6,TODO should the ancestor_indices be pyro.observed?,1
+1.8.6,TODO should the ancestor_indices be pyro.sampled?,1
+1.8.6,TODO make this comprehension less gross,1
+1.8.6,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.8.6,TODO come up with a better dispatch system for enumeration strategies,1
+1.8.6,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.8.6,TODO make this work with sequential enumeration,1
+1.8.6,TODO read from torch float spec,1
+1.8.6,TODO replace this guide with one allowing correlation between,1
+1.8.6,TODO: add support for JIT loss,1
+1.8.6,TODO: move this logic to infer.autoguide or somewhere else,1
+1.8.6,TODO: cache these calculations to get faster inference,1
+1.8.6,FIXME Delta is incompatible with relaxed inference.,1
+1.8.6,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.8.6,"TODO This supports only the region_plate. For full plate support,",1
+1.8.6,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.8.6,TODO cache this computation for the forward pass of .rsample().,1
+1.8.6,XXX should the user be able to control inclusion of the entropy term?,1
+1.8.6,TODO move this upstream to torch.distributions,1
+1.8.6,TODO: fix upstream - positive_definite has an extra dimension in front of output shape,1
+1.8.6,TODO move upstream,1
+1.8.6,TODO move upstream,1
+1.8.6,TODO fix https://github.com/pytorch/pytorch/issues/48054 upstream,1
+1.8.6,TODO: move upstream,1
+1.8.6,TODO replace with weakref.WeakMethod?,1
+1.8.6,"work around lack of jit support for torch.eye(..., out=value)",1
+1.8.6,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.8.6,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.8.6,TODO: Move upstream,1
+1.8.6,TODO: Move upstream,1
+1.8.6,TODO: change corr_cholesky_constraint to corr_cholesky when the latter is availabler,1
+1.8.6,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.8.6,TODO: Should this be done in log space for numerical stability?,1
+1.8.6,"However, this isn't strictly necessary,",1
+1.8.6,TODO check at runtime if stack is valid,1
+1.8.6,This is a tricky hack to apply messengers in an order other than the,1
+1.8.6,"XXX should copy in case site gets mutated, or dont bother?",1
+1.8.6,TODO Remove import guard once funsor is a required dependency.,1
+1.8.6,FIXME should we .detach() the new_constrained_value?,1
+1.8.5,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.5,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.5,"misleading, as it incorrectly suggests objects occlude one",1
+1.8.5,It would be better to use z_pres to change the opacity of,1
+1.8.5,temporary hack to avoid zero-inflation issues,1
+1.8.5,XXX currently this whole object is very inefficient,1
+1.8.5,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.8.5,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.5,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.8.5,XXX currently this whole object is very inefficient,1
+1.8.5,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.5,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.8.5,TODO: Make this available directly in `SVI` if needed.,1
+1.8.5,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.8.5,this is gross but we need to convert between different posterior factorizations,1
+1.8.5,TODO speed up with parallel num_particles > 1,1
+1.8.5,TODO Decide whether it is worth fixing this failing assertion.,1
+1.8.5,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.8.5,FIXME: this might be not a stable way to compute integral,1
+1.8.5,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.8.5,TODO: this is a difference between the two implementations,1
+1.8.5,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.5,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.5,TODO support replayed sites in infer_discrete.,1
+1.8.5,TODO support replayed sites in infer_discrete.,1
+1.8.5,TODO Is it correct to detach gradients of assignments?,1
+1.8.5,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.8.5,XXX kernel(times) loads old parameters from param store,1
+1.8.5,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.8.5,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.8.5,XXX name is a bit silly,1
+1.8.5,WARNING: this is very dangerous. better method?,1
+1.8.5,TODO move this into a Leaf implementation somehow,1
+1.8.5,TODO factor this out as a stand-alone helper.,1
+1.8.5,TODO move this logic into a poutine,1
+1.8.5,TODO refine this coarse dependency ordering using time.,1
+1.8.5,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.8.5,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.8.5,XXX default for baseline_beta currently set here,1
+1.8.5,XXX should the average baseline be in the param store as below?,1
+1.8.5,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.8.5,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.8.5,TODO use plates to reduce dimension of dependency.,1
+1.8.5,TODO should we choose a more optimal structure?,1
+1.8.5,TODO: move this file out of `autoguide` in a minor release,1
+1.8.5,TODO(https://github.com/pyro-ppl/pyro/issues/2831) As part of refactoring,1
+1.8.5,TODO(#2831) Make this a torch.nn.ModuleDict.,1
+1.8.5,TODO apply CircularReparam for VonMises,1
+1.8.5,TODO reparametrize only if parameters are variable. We might guess,1
+1.8.5,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.8.5,XXX: consider to add a try/except here:,1
+1.8.5,XXX `transforms` domains are sites' supports,1
+1.8.5,FIXME: find a good pattern to deal with `transforms` arg,1
+1.8.5,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.8.5,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.8.5,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.8.5,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.8.5,XXX replay against an empty Trace to ensure densities are not double-counted,1
+1.8.5,TODO this should really be handled entirely under the hood by adjoint,1
+1.8.5,TODO Replace this with funsor.Expectation,1
+1.8.5,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.8.5,is there a better way?,1
+1.8.5,TODO should the ancestor_indices be pyro.observed?,1
+1.8.5,TODO should the ancestor_indices be pyro.sampled?,1
+1.8.5,TODO make this comprehension less gross,1
+1.8.5,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.8.5,TODO come up with a better dispatch system for enumeration strategies,1
+1.8.5,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.8.5,TODO make this work with sequential enumeration,1
+1.8.5,TODO read from torch float spec,1
+1.8.5,TODO replace this guide with one allowing correlation between,1
+1.8.5,TODO: add support for JIT loss,1
+1.8.5,TODO: move this logic to infer.autoguide or somewhere else,1
+1.8.5,TODO: cache these calculations to get faster inference,1
+1.8.5,FIXME Delta is incompatible with relaxed inference.,1
+1.8.5,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.8.5,"TODO This supports only the region_plate. For full plate support,",1
+1.8.5,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.8.5,TODO cache this computation for the forward pass of .rsample().,1
+1.8.5,XXX should the user be able to control inclusion of the entropy term?,1
+1.8.5,TODO move this upstream to torch.distributions,1
+1.8.5,TODO: fix upstream - positive_definite has an extra dimension in front of output shape,1
+1.8.5,TODO move upstream,1
+1.8.5,TODO move upstream,1
+1.8.5,TODO fix https://github.com/pytorch/pytorch/issues/48054 upstream,1
+1.8.5,TODO: move upstream,1
+1.8.5,TODO replace with weakref.WeakMethod?,1
+1.8.5,"work around lack of jit support for torch.eye(..., out=value)",1
+1.8.5,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.8.5,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.8.5,TODO: Move upstream,1
+1.8.5,TODO: Move upstream,1
+1.8.5,TODO: change corr_cholesky_constraint to corr_cholesky when the latter is availabler,1
+1.8.5,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.8.5,TODO: Should this be done in log space for numerical stability?,1
+1.8.5,"However, this isn't strictly necessary,",1
+1.8.5,TODO check at runtime if stack is valid,1
+1.8.5,This is a tricky hack to apply messengers in an order other than the,1
+1.8.5,"XXX should copy in case site gets mutated, or dont bother?",1
+1.8.5,TODO Remove import guard once funsor is a required dependency.,1
+1.8.5,FIXME should we .detach() the new_constrained_value?,1
+1.8.4,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.4,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.4,"misleading, as it incorrectly suggests objects occlude one",1
+1.8.4,It would be better to use z_pres to change the opacity of,1
+1.8.4,temporary hack to avoid zero-inflation issues,1
+1.8.4,XXX currently this whole object is very inefficient,1
+1.8.4,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.8.4,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.4,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.8.4,XXX currently this whole object is very inefficient,1
+1.8.4,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.4,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.8.4,TODO: Make this available directly in `SVI` if needed.,1
+1.8.4,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.8.4,this is gross but we need to convert between different posterior factorizations,1
+1.8.4,TODO speed up with parallel num_particles > 1,1
+1.8.4,TODO Decide whether it is worth fixing this failing assertion.,1
+1.8.4,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.8.4,FIXME: this might be not a stable way to compute integral,1
+1.8.4,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.8.4,TODO: this is a difference between the two implementations,1
+1.8.4,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.4,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.4,TODO support replayed sites in infer_discrete.,1
+1.8.4,TODO support replayed sites in infer_discrete.,1
+1.8.4,TODO Is it correct to detach gradients of assignments?,1
+1.8.4,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.8.4,XXX kernel(times) loads old parameters from param store,1
+1.8.4,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.8.4,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.8.4,XXX name is a bit silly,1
+1.8.4,WARNING: this is very dangerous. better method?,1
+1.8.4,TODO move this into a Leaf implementation somehow,1
+1.8.4,TODO factor this out as a stand-alone helper.,1
+1.8.4,TODO move this logic into a poutine,1
+1.8.4,TODO refine this coarse dependency ordering using time.,1
+1.8.4,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.8.4,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.8.4,XXX default for baseline_beta currently set here,1
+1.8.4,XXX should the average baseline be in the param store as below?,1
+1.8.4,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.8.4,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.8.4,TODO use plates to reduce dimension of dependency.,1
+1.8.4,TODO should we choose a more optimal structure?,1
+1.8.4,TODO: move this file out of `autoguide` in a minor release,1
+1.8.4,TODO(https://github.com/pyro-ppl/pyro/issues/2831) As part of refactoring,1
+1.8.4,TODO(#2831) Make this a torch.nn.ModuleDict.,1
+1.8.4,TODO apply CircularReparam for VonMises,1
+1.8.4,TODO reparametrize only if parameters are variable. We might guess,1
+1.8.4,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.8.4,XXX: consider to add a try/except here:,1
+1.8.4,XXX `transforms` domains are sites' supports,1
+1.8.4,FIXME: find a good pattern to deal with `transforms` arg,1
+1.8.4,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.8.4,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.8.4,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.8.4,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.8.4,XXX replay against an empty Trace to ensure densities are not double-counted,1
+1.8.4,TODO this should really be handled entirely under the hood by adjoint,1
+1.8.4,TODO Replace this with funsor.Expectation,1
+1.8.4,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.8.4,is there a better way?,1
+1.8.4,TODO should the ancestor_indices be pyro.observed?,1
+1.8.4,TODO should the ancestor_indices be pyro.sampled?,1
+1.8.4,TODO make this comprehension less gross,1
+1.8.4,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.8.4,TODO come up with a better dispatch system for enumeration strategies,1
+1.8.4,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.8.4,TODO make this work with sequential enumeration,1
+1.8.4,TODO read from torch float spec,1
+1.8.4,TODO replace this guide with one allowing correlation between,1
+1.8.4,TODO: add support for JIT loss,1
+1.8.4,TODO: move this logic to infer.autoguide or somewhere else,1
+1.8.4,TODO: cache these calculations to get faster inference,1
+1.8.4,FIXME Delta is incompatible with relaxed inference.,1
+1.8.4,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.8.4,"TODO This supports only the region_plate. For full plate support,",1
+1.8.4,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.8.4,TODO cache this computation for the forward pass of .rsample().,1
+1.8.4,XXX should the user be able to control inclusion of the entropy term?,1
+1.8.4,TODO move this upstream to torch.distributions,1
+1.8.4,TODO: fix upstream - positive_definite has an extra dimension in front of output shape,1
+1.8.4,TODO move upstream,1
+1.8.4,TODO move upstream,1
+1.8.4,TODO fix https://github.com/pytorch/pytorch/issues/48054 upstream,1
+1.8.4,TODO fix batch_shape have an extra singleton dimension upstream,1
+1.8.4,TODO: move upstream,1
+1.8.4,TODO replace with weakref.WeakMethod?,1
+1.8.4,"work around lack of jit support for torch.eye(..., out=value)",1
+1.8.4,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.8.4,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.8.4,TODO: Move upstream,1
+1.8.4,TODO: Move upstream,1
+1.8.4,TODO: change corr_cholesky_constraint to corr_cholesky when the latter is availabler,1
+1.8.4,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.8.4,TODO: Should this be done in log space for numerical stability?,1
+1.8.4,"However, this isn't strictly necessary,",1
+1.8.4,TODO check at runtime if stack is valid,1
+1.8.4,This is a tricky hack to apply messengers in an order other than the,1
+1.8.4,"XXX should copy in case site gets mutated, or dont bother?",1
+1.8.4,TODO Remove import guard once funsor is a required dependency.,1
+1.8.4,FIXME should we .detach() the new_constrained_value?,1
+1.8.3,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.3,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.3,"misleading, as it incorrectly suggests objects occlude one",1
+1.8.3,It would be better to use z_pres to change the opacity of,1
+1.8.3,temporary hack to avoid zero-inflation issues,1
+1.8.3,XXX currently this whole object is very inefficient,1
+1.8.3,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.8.3,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.3,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.8.3,XXX currently this whole object is very inefficient,1
+1.8.3,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.3,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.8.3,TODO: Make this available directly in `SVI` if needed.,1
+1.8.3,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.8.3,this is gross but we need to convert between different posterior factorizations,1
+1.8.3,TODO speed up with parallel num_particles > 1,1
+1.8.3,TODO Decide whether it is worth fixing this failing assertion.,1
+1.8.3,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.8.3,FIXME: this might be not a stable way to compute integral,1
+1.8.3,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.8.3,TODO: this is a difference between the two implementations,1
+1.8.3,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.3,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.3,TODO support replayed sites in infer_discrete.,1
+1.8.3,TODO support replayed sites in infer_discrete.,1
+1.8.3,TODO Is it correct to detach gradients of assignments?,1
+1.8.3,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.8.3,XXX kernel(times) loads old parameters from param store,1
+1.8.3,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.8.3,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.8.3,XXX name is a bit silly,1
+1.8.3,WARNING: this is very dangerous. better method?,1
+1.8.3,TODO move this into a Leaf implementation somehow,1
+1.8.3,TODO factor this out as a stand-alone helper.,1
+1.8.3,TODO move this logic into a poutine,1
+1.8.3,TODO refine this coarse dependency ordering using time.,1
+1.8.3,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.8.3,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.8.3,XXX default for baseline_beta currently set here,1
+1.8.3,XXX should the average baseline be in the param store as below?,1
+1.8.3,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.8.3,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.8.3,TODO use plates to reduce dimension of dependency.,1
+1.8.3,TODO should we choose a more optimal structure?,1
+1.8.3,TODO: move this file out of `autoguide` in a minor release,1
+1.8.3,TODO(https://github.com/pyro-ppl/pyro/issues/2831) As part of refactoring,1
+1.8.3,TODO(#2831) Make this a torch.nn.ModuleDict.,1
+1.8.3,TODO apply CircularReparam for VonMises,1
+1.8.3,TODO reparametrize only if parameters are variable. We might guess,1
+1.8.3,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.8.3,XXX: consider to add a try/except here:,1
+1.8.3,XXX `transforms` domains are sites' supports,1
+1.8.3,FIXME: find a good pattern to deal with `transforms` arg,1
+1.8.3,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.8.3,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.8.3,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.8.3,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.8.3,XXX replay against an empty Trace to ensure densities are not double-counted,1
+1.8.3,TODO this should really be handled entirely under the hood by adjoint,1
+1.8.3,TODO Replace this with funsor.Expectation,1
+1.8.3,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.8.3,is there a better way?,1
+1.8.3,TODO should the ancestor_indices be pyro.observed?,1
+1.8.3,TODO should the ancestor_indices be pyro.sampled?,1
+1.8.3,TODO make this comprehension less gross,1
+1.8.3,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.8.3,TODO come up with a better dispatch system for enumeration strategies,1
+1.8.3,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.8.3,TODO make this work with sequential enumeration,1
+1.8.3,TODO read from torch float spec,1
+1.8.3,TODO replace this guide with one allowing correlation between,1
+1.8.3,TODO: add support for JIT loss,1
+1.8.3,TODO: move this logic to infer.autoguide or somewhere else,1
+1.8.3,TODO: cache these calculations to get faster inference,1
+1.8.3,FIXME Delta is incompatible with relaxed inference.,1
+1.8.3,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.8.3,"TODO This supports only the region_plate. For full plate support,",1
+1.8.3,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.8.3,TODO cache this computation for the forward pass of .rsample().,1
+1.8.3,XXX should the user be able to control inclusion of the entropy term?,1
+1.8.3,TODO move this upstream to torch.distributions,1
+1.8.3,TODO: fix upstream - positive_definite has an extra dimension in front of output shape,1
+1.8.3,TODO move upstream,1
+1.8.3,TODO move upstream,1
+1.8.3,TODO fix https://github.com/pytorch/pytorch/issues/48054 upstream,1
+1.8.3,TODO fix batch_shape have an extra singleton dimension upstream,1
+1.8.3,TODO: move upstream,1
+1.8.3,TODO replace with weakref.WeakMethod?,1
+1.8.3,"work around lack of jit support for torch.eye(..., out=value)",1
+1.8.3,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.8.3,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.8.3,TODO: Move upstream,1
+1.8.3,TODO: Move upstream,1
+1.8.3,TODO: change corr_cholesky_constraint to corr_cholesky when the latter is availabler,1
+1.8.3,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.8.3,TODO: Should this be done in log space for numerical stability?,1
+1.8.3,"However, this isn't strictly necessary,",1
+1.8.3,TODO check at runtime if stack is valid,1
+1.8.3,This is a tricky hack to apply messengers in an order other than the,1
+1.8.3,"XXX should copy in case site gets mutated, or dont bother?",1
+1.8.3,TODO Remove import guard once funsor is a required dependency.,1
+1.8.3,FIXME should we .detach() the new_constrained_value?,1
+1.8.2,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.2,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.2,"misleading, as it incorrectly suggests objects occlude one",1
+1.8.2,It would be better to use z_pres to change the opacity of,1
+1.8.2,temporary hack to avoid zero-inflation issues,1
+1.8.2,XXX currently this whole object is very inefficient,1
+1.8.2,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.8.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.2,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.8.2,XXX currently this whole object is very inefficient,1
+1.8.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.2,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.8.2,TODO: Make this available directly in `SVI` if needed.,1
+1.8.2,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.8.2,this is gross but we need to convert between different posterior factorizations,1
+1.8.2,TODO speed up with parallel num_particles > 1,1
+1.8.2,TODO Decide whether it is worth fixing this failing assertion.,1
+1.8.2,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.8.2,FIXME: this might be not a stable way to compute integral,1
+1.8.2,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.8.2,TODO: this is a difference between the two implementations,1
+1.8.2,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.2,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.2,TODO support replayed sites in infer_discrete.,1
+1.8.2,TODO support replayed sites in infer_discrete.,1
+1.8.2,TODO Is it correct to detach gradients of assignments?,1
+1.8.2,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.8.2,XXX kernel(times) loads old parameters from param store,1
+1.8.2,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.8.2,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.8.2,XXX name is a bit silly,1
+1.8.2,WARNING: this is very dangerous. better method?,1
+1.8.2,TODO move this into a Leaf implementation somehow,1
+1.8.2,TODO factor this out as a stand-alone helper.,1
+1.8.2,TODO move this logic into a poutine,1
+1.8.2,TODO refine this coarse dependency ordering using time.,1
+1.8.2,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.8.2,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.8.2,XXX default for baseline_beta currently set here,1
+1.8.2,XXX should the average baseline be in the param store as below?,1
+1.8.2,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.8.2,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.8.2,TODO use plates to reduce dimension of dependency.,1
+1.8.2,TODO should we choose a more optimal structure?,1
+1.8.2,TODO: move this file out of `autoguide` in a minor release,1
+1.8.2,TODO(https://github.com/pyro-ppl/pyro/issues/2831) As part of refactoring,1
+1.8.2,TODO(#2831) Make this a torch.nn.ModuleDict.,1
+1.8.2,TODO apply CircularReparam for VonMises,1
+1.8.2,TODO reparametrize only if parameters are variable. We might guess,1
+1.8.2,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.8.2,XXX: consider to add a try/except here:,1
+1.8.2,XXX `transforms` domains are sites' supports,1
+1.8.2,FIXME: find a good pattern to deal with `transforms` arg,1
+1.8.2,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.8.2,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.8.2,TODO: make thresholds for too small step_size or too large step_size,1
+1.8.2,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.8.2,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.8.2,XXX replay against an empty Trace to ensure densities are not double-counted,1
+1.8.2,TODO this should really be handled entirely under the hood by adjoint,1
+1.8.2,TODO Replace this with funsor.Expectation,1
+1.8.2,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.8.2,is there a better way?,1
+1.8.2,TODO should the ancestor_indices be pyro.observed?,1
+1.8.2,TODO should the ancestor_indices be pyro.sampled?,1
+1.8.2,TODO make this comprehension less gross,1
+1.8.2,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.8.2,TODO come up with a better dispatch system for enumeration strategies,1
+1.8.2,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.8.2,TODO make this work with sequential enumeration,1
+1.8.2,TODO read from torch float spec,1
+1.8.2,TODO replace this guide with one allowing correlation between,1
+1.8.2,TODO: add support for JIT loss,1
+1.8.2,TODO: move this logic to infer.autoguide or somewhere else,1
+1.8.2,TODO: cache these calculations to get faster inference,1
+1.8.2,FIXME Delta is incompatible with relaxed inference.,1
+1.8.2,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.8.2,"TODO This supports only the region_plate. For full plate support,",1
+1.8.2,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.8.2,TODO cache this computation for the forward pass of .rsample().,1
+1.8.2,XXX should the user be able to control inclusion of the entropy term?,1
+1.8.2,TODO move this upstream to torch.distributions,1
+1.8.2,TODO: fix upstream - positive_definite has an extra dimension in front of output shape,1
+1.8.2,TODO move upstream,1
+1.8.2,TODO move upstream,1
+1.8.2,TODO fix https://github.com/pytorch/pytorch/issues/48054 upstream,1
+1.8.2,TODO fix batch_shape have an extra singleton dimension upstream,1
+1.8.2,TODO: move upstream,1
+1.8.2,TODO replace with weakref.WeakMethod?,1
+1.8.2,"work around lack of jit support for torch.eye(..., out=value)",1
+1.8.2,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.8.2,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.8.2,TODO: Move upstream,1
+1.8.2,TODO: Move upstream,1
+1.8.2,TODO: change corr_cholesky_constraint to corr_cholesky when the latter is availabler,1
+1.8.2,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.8.2,TODO: Should this be done in log space for numerical stability?,1
+1.8.2,"However, this isn't strictly necessary,",1
+1.8.2,TODO check at runtime if stack is valid,1
+1.8.2,This is a tricky hack to apply messengers in an order other than the,1
+1.8.2,"XXX should copy in case site gets mutated, or dont bother?",1
+1.8.2,TODO Remove import guard once funsor is a required dependency.,1
+1.8.2,FIXME should we .detach() the new_constrained_value?,1
+1.8.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.1,"misleading, as it incorrectly suggests objects occlude one",1
+1.8.1,It would be better to use z_pres to change the opacity of,1
+1.8.1,temporary hack to avoid zero-inflation issues,1
+1.8.1,XXX currently this whole object is very inefficient,1
+1.8.1,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.8.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.1,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.8.1,XXX currently this whole object is very inefficient,1
+1.8.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.1,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.8.1,TODO: Make this available directly in `SVI` if needed.,1
+1.8.1,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.8.1,this is gross but we need to convert between different posterior factorizations,1
+1.8.1,TODO speed up with parallel num_particles > 1,1
+1.8.1,TODO Decide whether it is worth fixing this failing assertion.,1
+1.8.1,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.8.1,FIXME: this might be not a stable way to compute integral,1
+1.8.1,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.8.1,TODO: this is a difference between the two implementations,1
+1.8.1,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.1,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.1,TODO support replayed sites in infer_discrete.,1
+1.8.1,TODO support replayed sites in infer_discrete.,1
+1.8.1,TODO Is it correct to detach gradients of assignments?,1
+1.8.1,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.8.1,XXX kernel(times) loads old parameters from param store,1
+1.8.1,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.8.1,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.8.1,XXX name is a bit silly,1
+1.8.1,WARNING: this is very dangerous. better method?,1
+1.8.1,TODO move this into a Leaf implementation somehow,1
+1.8.1,TODO factor this out as a stand-alone helper.,1
+1.8.1,TODO move this logic into a poutine,1
+1.8.1,TODO refine this coarse dependency ordering using time.,1
+1.8.1,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.8.1,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.8.1,XXX default for baseline_beta currently set here,1
+1.8.1,XXX should the average baseline be in the param store as below?,1
+1.8.1,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.8.1,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.8.1,TODO use plates to reduce dimension of dependency.,1
+1.8.1,TODO should we choose a more optimal structure?,1
+1.8.1,TODO: move this file out of `autoguide` in a minor release,1
+1.8.1,TODO(https://github.com/pyro-ppl/pyro/issues/2831) As part of refactoring,1
+1.8.1,TODO(#2831) Make this a torch.nn.ModuleDict.,1
+1.8.1,TODO apply CircularReparam for VonMises,1
+1.8.1,TODO reparametrize only if parameters are variable. We might guess,1
+1.8.1,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.8.1,XXX: consider to add a try/except here:,1
+1.8.1,XXX `transforms` domains are sites' supports,1
+1.8.1,FIXME: find a good pattern to deal with `transforms` arg,1
+1.8.1,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.8.1,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.8.1,TODO: make thresholds for too small step_size or too large step_size,1
+1.8.1,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.8.1,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.8.1,XXX replay against an empty Trace to ensure densities are not double-counted,1
+1.8.1,TODO this should really be handled entirely under the hood by adjoint,1
+1.8.1,TODO Replace this with funsor.Expectation,1
+1.8.1,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.8.1,is there a better way?,1
+1.8.1,TODO should the ancestor_indices be pyro.observed?,1
+1.8.1,TODO should the ancestor_indices be pyro.sampled?,1
+1.8.1,TODO make this comprehension less gross,1
+1.8.1,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.8.1,TODO come up with a better dispatch system for enumeration strategies,1
+1.8.1,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.8.1,TODO make this work with sequential enumeration,1
+1.8.1,TODO read from torch float spec,1
+1.8.1,TODO replace this guide with one allowing correlation between,1
+1.8.1,TODO: add support for JIT loss,1
+1.8.1,TODO: move this logic to infer.autoguide or somewhere else,1
+1.8.1,TODO: cache these calculations to get faster inference,1
+1.8.1,FIXME Delta is incompatible with relaxed inference.,1
+1.8.1,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.8.1,"TODO This supports only the region_plate. For full plate support,",1
+1.8.1,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.8.1,TODO cache this computation for the forward pass of .rsample().,1
+1.8.1,XXX should the user be able to control inclusion of the entropy term?,1
+1.8.1,TODO move this upstream to torch.distributions,1
+1.8.1,TODO: fix upstream - positive_definite has an extra dimension in front of output shape,1
+1.8.1,TODO move upstream,1
+1.8.1,TODO move upstream,1
+1.8.1,TODO fix https://github.com/pytorch/pytorch/issues/48054 upstream,1
+1.8.1,TODO fix batch_shape have an extra singleton dimension upstream,1
+1.8.1,TODO: move upstream,1
+1.8.1,TODO replace with weakref.WeakMethod?,1
+1.8.1,"work around lack of jit support for torch.eye(..., out=value)",1
+1.8.1,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.8.1,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.8.1,TODO: Move upstream,1
+1.8.1,TODO: Move upstream,1
+1.8.1,TODO: change corr_cholesky_constraint to corr_cholesky when the latter is availabler,1
+1.8.1,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.8.1,TODO: Should this be done in log space for numerical stability?,1
+1.8.1,"However, this isn't strictly necessary,",1
+1.8.1,TODO check at runtime if stack is valid,1
+1.8.1,This is a tricky hack to apply messengers in an order other than the,1
+1.8.1,"XXX should copy in case site gets mutated, or dont bother?",1
+1.8.1,TODO Remove import guard once funsor is a required dependency.,1
+1.8.1,FIXME should we .detach() the new_constrained_value?,1
+1.8.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.8.0,"misleading, as it incorrectly suggests objects occlude one",1
+1.8.0,It would be better to use z_pres to change the opacity of,1
+1.8.0,temporary hack to avoid zero-inflation issues,1
+1.8.0,XXX currently this whole object is very inefficient,1
+1.8.0,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.8.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.8.0,XXX currently this whole object is very inefficient,1
+1.8.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.8.0,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.8.0,TODO: Make this available directly in `SVI` if needed.,1
+1.8.0,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.8.0,this is gross but we need to convert between different posterior factorizations,1
+1.8.0,TODO speed up with parallel num_particles > 1,1
+1.8.0,TODO Decide whether it is worth fixing this failing assertion.,1
+1.8.0,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.8.0,FIXME: this might be not a stable way to compute integral,1
+1.8.0,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.8.0,TODO: this is a difference between the two implementations,1
+1.8.0,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.0,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.8.0,TODO support replayed sites in infer_discrete.,1
+1.8.0,TODO support replayed sites in infer_discrete.,1
+1.8.0,TODO Is it correct to detach gradients of assignments?,1
+1.8.0,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.8.0,XXX kernel(times) loads old parameters from param store,1
+1.8.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.8.0,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.8.0,XXX name is a bit silly,1
+1.8.0,WARNING: this is very dangerous. better method?,1
+1.8.0,TODO move this into a Leaf implementation somehow,1
+1.8.0,TODO factor this out as a stand-alone helper.,1
+1.8.0,TODO move this logic into a poutine,1
+1.8.0,TODO refine this coarse dependency ordering using time.,1
+1.8.0,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.8.0,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.8.0,XXX default for baseline_beta currently set here,1
+1.8.0,XXX should the average baseline be in the param store as below?,1
+1.8.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.8.0,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.8.0,TODO use plates to reduce dimension of dependency.,1
+1.8.0,TODO should we choose a more optimal structure?,1
+1.8.0,TODO: move this file out of `autoguide` in a minor release,1
+1.8.0,TODO(https://github.com/pyro-ppl/pyro/issues/2831) As part of refactoring,1
+1.8.0,TODO(#2831) Make this a torch.nn.ModuleDict.,1
+1.8.0,TODO apply CircularReparam for VonMises,1
+1.8.0,TODO reparametrize only if parameters are variable. We might guess,1
+1.8.0,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.8.0,XXX: consider to add a try/except here:,1
+1.8.0,XXX `transforms` domains are sites' supports,1
+1.8.0,FIXME: find a good pattern to deal with `transforms` arg,1
+1.8.0,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.8.0,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.8.0,TODO: make thresholds for too small step_size or too large step_size,1
+1.8.0,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.8.0,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.8.0,XXX replay against an empty Trace to ensure densities are not double-counted,1
+1.8.0,TODO this should really be handled entirely under the hood by adjoint,1
+1.8.0,TODO Replace this with funsor.Expectation,1
+1.8.0,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.8.0,is there a better way?,1
+1.8.0,TODO should the ancestor_indices be pyro.observed?,1
+1.8.0,TODO should the ancestor_indices be pyro.sampled?,1
+1.8.0,TODO make this comprehension less gross,1
+1.8.0,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.8.0,TODO come up with a better dispatch system for enumeration strategies,1
+1.8.0,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.8.0,TODO make this work with sequential enumeration,1
+1.8.0,TODO read from torch float spec,1
+1.8.0,TODO replace this guide with one allowing correlation between,1
+1.8.0,TODO: add support for JIT loss,1
+1.8.0,TODO: move this logic to infer.autoguide or somewhere else,1
+1.8.0,TODO: cache these calculations to get faster inference,1
+1.8.0,FIXME Delta is incompatible with relaxed inference.,1
+1.8.0,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.8.0,"TODO This supports only the region_plate. For full plate support,",1
+1.8.0,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.8.0,TODO cache this computation for the forward pass of .rsample().,1
+1.8.0,XXX should the user be able to control inclusion of the entropy term?,1
+1.8.0,TODO move this upstream to torch.distributions,1
+1.8.0,TODO: fix upstream - positive_definite has an extra dimension in front of output shape,1
+1.8.0,TODO move upstream,1
+1.8.0,TODO move upstream,1
+1.8.0,TODO fix https://github.com/pytorch/pytorch/issues/48054 upstream,1
+1.8.0,TODO fix batch_shape have an extra singleton dimension upstream,1
+1.8.0,TODO: move upstream,1
+1.8.0,TODO replace with weakref.WeakMethod?,1
+1.8.0,"work around lack of jit support for torch.eye(..., out=value)",1
+1.8.0,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.8.0,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.8.0,TODO: Move upstream,1
+1.8.0,TODO: Move upstream,1
+1.8.0,TODO: change corr_cholesky_constraint to corr_cholesky when the latter is availabler,1
+1.8.0,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.8.0,TODO: Should this be done in log space for numerical stability?,1
+1.8.0,"However, this isn't strictly necessary,",1
+1.8.0,TODO check at runtime if stack is valid,1
+1.8.0,This is a tricky hack to apply messengers in an order other than the,1
+1.8.0,"XXX should copy in case site gets mutated, or dont bother?",1
+1.8.0,TODO Remove import guard once funsor is a required dependency.,1
+1.8.0,FIXME should we .detach() the new_constrained_value?,1
+1.7.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.7.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.7.0,"misleading, as it incorrectly suggests objects occlude one",1
+1.7.0,It would be better to use z_pres to change the opacity of,1
+1.7.0,temporary hack to avoid zero-inflation issues,1
+1.7.0,XXX currently this whole object is very inefficient,1
+1.7.0,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.7.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.7.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.7.0,XXX currently this whole object is very inefficient,1
+1.7.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.7.0,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.7.0,TODO: Make this available directly in `SVI` if needed.,1
+1.7.0,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.7.0,TODO Decide whether it is worth fixing this failing assertion.,1
+1.7.0,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.7.0,FIXME: this might be not a stable way to compute integral,1
+1.7.0,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.7.0,TODO: this is a difference between the two implementations,1
+1.7.0,this is gross but we need to convert between different posterior factorizations,1
+1.7.0,TODO speed up with parallel num_particles > 1,1
+1.7.0,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.7.0,FIXME results in infinite loop in transformeddist_to_funsor.,1
+1.7.0,TODO support replayed sites in infer_discrete.,1
+1.7.0,TODO support replayed sites in infer_discrete.,1
+1.7.0,TODO Is it correct to detach gradients of assignments?,1
+1.7.0,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.7.0,XXX kernel(times) loads old parameters from param store,1
+1.7.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.7.0,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.7.0,XXX name is a bit silly,1
+1.7.0,WARNING: this is very dangerous. better method?,1
+1.7.0,TODO move this into a Leaf implementation somehow,1
+1.7.0,TODO factor this out as a stand-alone helper.,1
+1.7.0,TODO move this logic into a poutine,1
+1.7.0,TODO refine this coarse dependency ordering using time.,1
+1.7.0,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.7.0,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.7.0,XXX default for baseline_beta currently set here,1
+1.7.0,XXX should the average baseline be in the param store as below?,1
+1.7.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.7.0,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.7.0,TODO: move this file out of `autoguide` in a minor release,1
+1.7.0,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.7.0,XXX: consider to add a try/except here:,1
+1.7.0,XXX `transforms` domains are sites' supports,1
+1.7.0,FIXME: find a good pattern to deal with `transforms` arg,1
+1.7.0,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.7.0,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.7.0,TODO: make thresholds for too small step_size or too large step_size,1
+1.7.0,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.7.0,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.7.0,XXX replay against an empty Trace to ensure densities are not double-counted,1
+1.7.0,TODO this should really be handled entirely under the hood by adjoint,1
+1.7.0,TODO Replace this with funsor.Expectation,1
+1.7.0,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.7.0,is there a better way?,1
+1.7.0,TODO should the ancestor_indices be pyro.observed?,1
+1.7.0,TODO should the ancestor_indices be pyro.sampled?,1
+1.7.0,TODO make this comprehension less gross,1
+1.7.0,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.7.0,TODO come up with a better dispatch system for enumeration strategies,1
+1.7.0,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.7.0,TODO make this work with sequential enumeration,1
+1.7.0,TODO read from torch float spec,1
+1.7.0,TODO replace this guide with one allowing correlation between,1
+1.7.0,TODO: add support for JIT loss,1
+1.7.0,TODO: move this logic to infer.autoguide or somewhere else,1
+1.7.0,TODO: cache these calculations to get faster inference,1
+1.7.0,FIXME Delta is incompatible with relaxed inference.,1
+1.7.0,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.7.0,"TODO This supports only the region_plate. For full plate support,",1
+1.7.0,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.7.0,TODO cache this computation for the forward pass of .rsample().,1
+1.7.0,XXX should the user be able to control inclusion of the entropy term?,1
+1.7.0,TODO move this upstream to torch.distributions,1
+1.7.0,TODO: fix upstream - positive_definite has an extra dimension in front of output shape,1
+1.7.0,TODO move upstream,1
+1.7.0,TODO move upstream,1
+1.7.0,TODO fix https://github.com/pytorch/pytorch/issues/48054 upstream,1
+1.7.0,TODO fix batch_shape have an extra singleton dimension upstream,1
+1.7.0,TODO: move upstream,1
+1.7.0,TODO replace with weakref.WeakMethod?,1
+1.7.0,"work around lack of jit support for torch.eye(..., out=value)",1
+1.7.0,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.7.0,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.7.0,TODO: Move upstream,1
+1.7.0,TODO: Move upstream,1
+1.7.0,TODO: change corr_cholesky_constraint to corr_cholesky when the latter is availabler,1
+1.7.0,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.7.0,TODO: Should this be done in log space for numerical stability?,1
+1.7.0,"However, this isn't strictly necessary,",1
+1.7.0,TODO check at runtime if stack is valid,1
+1.7.0,This is a tricky hack to apply messengers in an order other than the,1
+1.7.0,"XXX should copy in case site gets mutated, or dont bother?",1
+1.7.0,TODO Remove import guard once funsor is a required dependency.,1
+1.7.0,FIXME should we .detach() the new_constrained_value?,1
+1.6.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.6.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.6.0,"misleading, as it incorrectly suggests objects occlude one",1
+1.6.0,It would be better to use z_pres to change the opacity of,1
+1.6.0,temporary hack to avoid zero-inflation issues,1
+1.6.0,XXX currently this whole object is very inefficient,1
+1.6.0,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.6.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.6.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.6.0,XXX currently this whole object is very inefficient,1
+1.6.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.6.0,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.6.0,TODO: Make this available directly in `SVI` if needed.,1
+1.6.0,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.6.0,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.6.0,FIXME: this might be not a stable way to compute integral,1
+1.6.0,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.6.0,TODO: this is a difference between the two implementations,1
+1.6.0,this is gross but we need to convert between different posterior factorizations,1
+1.6.0,TODO speed up with parallel num_particles > 1,1
+1.6.0,TODO Is it correct to detach gradients of assignments?,1
+1.6.0,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.6.0,XXX kernel(times) loads old parameters from param store,1
+1.6.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.6.0,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.6.0,XXX name is a bit silly,1
+1.6.0,WARNING: this is very dangerous. better method?,1
+1.6.0,TODO move this into a Leaf implementation somehow,1
+1.6.0,TODO factor this out as a stand-alone helper.,1
+1.6.0,TODO move this logic into a poutine,1
+1.6.0,TODO refine this coarse dependency ordering using time.,1
+1.6.0,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.6.0,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.6.0,XXX default for baseline_beta currently set here,1
+1.6.0,XXX should the average baseline be in the param store as below?,1
+1.6.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.6.0,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.6.0,TODO: move this file out of `autoguide` in a minor release,1
+1.6.0,TODO consider switching to constraints.softplus_positive,1
+1.6.0,TODO consider switching to constraints.softplus_lower_cholesky,1
+1.6.0,TODO consider switching to constraints.softplus_positive,1
+1.6.0,TODO consider switching to constraints.softplus_positive,1
+1.6.0,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.6.0,XXX: consider to add a try/except here:,1
+1.6.0,XXX `transforms` domains are sites' supports,1
+1.6.0,FIXME: find a good pattern to deal with `transforms` arg,1
+1.6.0,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.6.0,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.6.0,TODO: make thresholds for too small step_size or too large step_size,1
+1.6.0,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.6.0,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.6.0,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.6.0,is there a better way?,1
+1.6.0,TODO should the ancestor_indices be pyro.observed?,1
+1.6.0,TODO should the ancestor_indices be pyro.sampled?,1
+1.6.0,TODO make this comprehension less gross,1
+1.6.0,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.6.0,TODO come up with a better dispatch system for enumeration strategies,1
+1.6.0,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.6.0,TODO make this work with sequential enumeration,1
+1.6.0,TODO read from torch float spec,1
+1.6.0,TODO replace this guide with one allowing correlation between,1
+1.6.0,TODO: add support for JIT loss,1
+1.6.0,TODO: move this logic to infer.autoguide or somewhere else,1
+1.6.0,TODO: cache these calculations to get faster inference,1
+1.6.0,FIXME Delta is incompatible with relaxed inference.,1
+1.6.0,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.6.0,"TODO This supports only the region_plate. For full plate support,",1
+1.6.0,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.6.0,TODO cache this computation for the forward pass of .rsample().,1
+1.6.0,XXX should the user be able to control inclusion of the entropy term?,1
+1.6.0,TODO move this upstream to torch.distributions,1
+1.6.0,TODO: fix upstream - positive_definite has an extra dimension in front of output shape,1
+1.6.0,TODO move upstream,1
+1.6.0,TODO move upstream,1
+1.6.0,TODO fix https://github.com/pytorch/pytorch/issues/48054 upstream,1
+1.6.0,TODO fix batch_shape have an extra singleton dimension upstream,1
+1.6.0,TODO: move upstream,1
+1.6.0,TODO replace with weakref.WeakMethod?,1
+1.6.0,"work around lack of jit support for torch.eye(..., out=value)",1
+1.6.0,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.6.0,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.6.0,TODO: Move upstream,1
+1.6.0,TODO: Move upstream,1
+1.6.0,TODO: change corr_cholesky_constraint to corr_cholesky when the latter is availabler,1
+1.6.0,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.6.0,TODO: Should this be done in log space for numerical stability?,1
+1.6.0,"However, this isn't strictly necessary,",1
+1.6.0,TODO check at runtime if stack is valid,1
+1.6.0,"XXX should copy in case site gets mutated, or dont bother?",1
+1.6.0,TODO Remove import guard once funsor is a required dependency.,1
+1.6.0,FIXME should we .detach() the new_constrained_value?,1
+1.5.2,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.5.2,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.5.2,"misleading, as it incorrectly suggests objects occlude one",1
+1.5.2,It would be better to use z_pres to change the opacity of,1
+1.5.2,temporary hack to avoid zero-inflation issues,1
+1.5.2,XXX currently this whole object is very inefficient,1
+1.5.2,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.5.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.5.2,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.5.2,XXX currently this whole object is very inefficient,1
+1.5.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.5.2,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.5.2,TODO: Make this available directly in `SVI` if needed.,1
+1.5.2,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.5.2,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.5.2,FIXME: this might be not a stable way to compute integral,1
+1.5.2,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.5.2,TODO: this is a difference between the two implementations,1
+1.5.2,this is gross but we need to convert between different posterior factorizations,1
+1.5.2,TODO speed up with parallel num_particles > 1,1
+1.5.2,TODO Is it correct to detach gradients of assignments?,1
+1.5.2,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.5.2,XXX kernel(times) loads old parameters from param store,1
+1.5.2,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.5.2,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.5.2,XXX name is a bit silly,1
+1.5.2,WARNING: this is very dangerous. better method?,1
+1.5.2,TODO move this into a Leaf implementation somehow,1
+1.5.2,TODO factor this out as a stand-alone helper.,1
+1.5.2,TODO move this logic into a poutine,1
+1.5.2,TODO refine this coarse dependency ordering using time.,1
+1.5.2,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.5.2,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.5.2,XXX default for baseline_beta currently set here,1
+1.5.2,XXX should the average baseline be in the param store as below?,1
+1.5.2,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.5.2,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.5.2,TODO: move this file out of `autoguide` in a minor release,1
+1.5.2,TODO Replace with .with_cache() once the following is released:,1
+1.5.2,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.5.2,XXX: consider to add a try/except here:,1
+1.5.2,XXX `transforms` domains are sites' supports,1
+1.5.2,FIXME: find a good pattern to deal with `transforms` arg,1
+1.5.2,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.5.2,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.5.2,TODO: make thresholds for too small step_size or too large step_size,1
+1.5.2,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.5.2,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.5.2,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.5.2,TODO should the ancestor_indices be pyro.observed?,1
+1.5.2,TODO should the ancestor_indices be pyro.sampled?,1
+1.5.2,TODO make this comprehension less gross,1
+1.5.2,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.5.2,TODO come up with a better dispatch system for enumeration strategies,1
+1.5.2,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.5.2,TODO make this work with sequential enumeration,1
+1.5.2,TODO read from torch float spec,1
+1.5.2,TODO replace this guide with one allowing correlation between,1
+1.5.2,TODO: add support for JIT loss,1
+1.5.2,TODO: move this logic to infer.autoguide or somewhere else,1
+1.5.2,TODO: cache these calculations to get faster inference,1
+1.5.2,FIXME Delta is incompatible with relaxed inference.,1
+1.5.2,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.5.2,"TODO This supports only the region_plate. For full plate support,",1
+1.5.2,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.5.2,TODO cache this computation for the forward pass of .rsample().,1
+1.5.2,XXX should the user be able to control inclusion of the entropy term?,1
+1.5.2,TODO move this upstream to torch.distributions,1
+1.5.2,TODO move this upstream to torch.distributions,1
+1.5.2,TODO move upstream,1
+1.5.2,TODO move upstream,1
+1.5.2,TODO fix https://github.com/pytorch/pytorch/issues/48054 upstream,1
+1.5.2,TODO: move upstream,1
+1.5.2,TODO replace with weakref.WeakMethod?,1
+1.5.2,"work around lack of jit support for torch.eye(..., out=value)",1
+1.5.2,TODO: move upstream,1
+1.5.2,TODO: Modify class to support more than one eta value at a time?,1
+1.5.2,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+1.5.2,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.5.2,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.5.2,TODO: Move upstream,1
+1.5.2,TODO: Move upstream,1
+1.5.2,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.5.2,TODO: Should this be done in log space for numerical stability?,1
+1.5.2,"However, this isn't strictly necessary,",1
+1.5.2,TODO check at runtime if stack is valid,1
+1.5.2,"XXX should copy in case site gets mutated, or dont bother?",1
+1.5.2,TODO Remove import guard once funsor is a required dependency.,1
+1.5.2,FIXME should we .detach() the new_constrained_value?,1
+1.5.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.5.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.5.1,"misleading, as it incorrectly suggests objects occlude one",1
+1.5.1,It would be better to use z_pres to change the opacity of,1
+1.5.1,temporary hack to avoid zero-inflation issues,1
+1.5.1,XXX currently this whole object is very inefficient,1
+1.5.1,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.5.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.5.1,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.5.1,XXX currently this whole object is very inefficient,1
+1.5.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.5.1,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.5.1,TODO: Make this available directly in `SVI` if needed.,1
+1.5.1,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.5.1,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.5.1,FIXME: this might be not a stable way to compute integral,1
+1.5.1,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.5.1,TODO: this is a difference between the two implementations,1
+1.5.1,this is gross but we need to convert between different posterior factorizations,1
+1.5.1,TODO speed up with parallel num_particles > 1,1
+1.5.1,TODO Is it correct to detach gradients of assignments?,1
+1.5.1,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.5.1,XXX kernel(times) loads old parameters from param store,1
+1.5.1,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.5.1,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.5.1,XXX name is a bit silly,1
+1.5.1,WARNING: this is very dangerous. better method?,1
+1.5.1,TODO move this into a Leaf implementation somehow,1
+1.5.1,TODO factor this out as a stand-alone helper.,1
+1.5.1,TODO move this logic into a poutine,1
+1.5.1,TODO refine this coarse dependency ordering using time.,1
+1.5.1,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.5.1,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.5.1,XXX default for baseline_beta currently set here,1
+1.5.1,XXX should the average baseline be in the param store as below?,1
+1.5.1,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.5.1,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.5.1,TODO: move this file out of `autoguide` in a minor release,1
+1.5.1,TODO Replace with .with_cache() once the following is released:,1
+1.5.1,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.5.1,XXX: consider to add a try/except here:,1
+1.5.1,XXX `transforms` domains are sites' supports,1
+1.5.1,FIXME: find a good pattern to deal with `transforms` arg,1
+1.5.1,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.5.1,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.5.1,TODO: make thresholds for too small step_size or too large step_size,1
+1.5.1,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.5.1,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.5.1,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.5.1,TODO should the ancestor_indices be pyro.observed?,1
+1.5.1,TODO should the ancestor_indices be pyro.sampled?,1
+1.5.1,TODO make this comprehension less gross,1
+1.5.1,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.5.1,TODO come up with a better dispatch system for enumeration strategies,1
+1.5.1,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.5.1,TODO make this work with sequential enumeration,1
+1.5.1,TODO read from torch float spec,1
+1.5.1,TODO replace this guide with one allowing correlation between,1
+1.5.1,TODO: add support for JIT loss,1
+1.5.1,TODO: move this logic to infer.autoguide or somewhere else,1
+1.5.1,TODO: cache these calculations to get faster inference,1
+1.5.1,FIXME Delta is incompatible with relaxed inference.,1
+1.5.1,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.5.1,"TODO This supports only the region_plate. For full plate support,",1
+1.5.1,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.5.1,TODO cache this computation for the forward pass of .rsample().,1
+1.5.1,XXX should the user be able to control inclusion of the entropy term?,1
+1.5.1,TODO move this upstream to torch.distributions,1
+1.5.1,TODO move this upstream to torch.distributions,1
+1.5.1,TODO move upstream,1
+1.5.1,TODO move upstream,1
+1.5.1,TODO fix https://github.com/pytorch/pytorch/issues/48054 upstream,1
+1.5.1,TODO: move upstream,1
+1.5.1,TODO replace with weakref.WeakMethod?,1
+1.5.1,"work around lack of jit support for torch.eye(..., out=value)",1
+1.5.1,TODO: move upstream,1
+1.5.1,TODO: Modify class to support more than one eta value at a time?,1
+1.5.1,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+1.5.1,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.5.1,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.5.1,TODO: Move upstream,1
+1.5.1,TODO: Move upstream,1
+1.5.1,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.5.1,TODO: Should this be done in log space for numerical stability?,1
+1.5.1,"However, this isn't strictly necessary,",1
+1.5.1,TODO check at runtime if stack is valid,1
+1.5.1,"XXX should copy in case site gets mutated, or dont bother?",1
+1.5.1,TODO Remove import guard once funsor is a required dependency.,1
+1.5.1,FIXME should we .detach() the new_constrained_value?,1
+1.5.0,TODO update to release branch (currently using a recent commit on master),1
+1.5.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.5.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.5.0,"misleading, as it incorrectly suggests objects occlude one",1
+1.5.0,It would be better to use z_pres to change the opacity of,1
+1.5.0,temporary hack to avoid zero-inflation issues,1
+1.5.0,XXX currently this whole object is very inefficient,1
+1.5.0,TODO revisit this parameterization if torch.distributions.NegativeBinomial changes,1
+1.5.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.5.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.5.0,XXX currently this whole object is very inefficient,1
+1.5.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.5.0,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.5.0,TODO: Make this available directly in `SVI` if needed.,1
+1.5.0,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.5.0,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.5.0,FIXME: this might be not a stable way to compute integral,1
+1.5.0,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.5.0,TODO: this is a difference between the two implementations,1
+1.5.0,this is gross but we need to convert between different posterior factorizations,1
+1.5.0,TODO speed up with parallel num_particles > 1,1
+1.5.0,TODO Is it correct to detach gradients of assignments?,1
+1.5.0,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.5.0,XXX kernel(times) loads old parameters from param store,1
+1.5.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.5.0,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.5.0,XXX name is a bit silly,1
+1.5.0,WARNING: this is very dangerous. better method?,1
+1.5.0,TODO move this into a Leaf implementation somehow,1
+1.5.0,TODO factor this out as a stand-alone helper.,1
+1.5.0,TODO move this logic into a poutine,1
+1.5.0,TODO refine this coarse dependency ordering using time.,1
+1.5.0,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.5.0,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.5.0,XXX default for baseline_beta currently set here,1
+1.5.0,XXX should the average baseline be in the param store as below?,1
+1.5.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.5.0,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.5.0,TODO: move this file out of `autoguide` in a minor release,1
+1.5.0,TODO Replace with .with_cache() once the following is released:,1
+1.5.0,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.5.0,XXX: consider to add a try/except here:,1
+1.5.0,XXX `transforms` domains are sites' supports,1
+1.5.0,FIXME: find a good pattern to deal with `transforms` arg,1
+1.5.0,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.5.0,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.5.0,TODO: make thresholds for too small step_size or too large step_size,1
+1.5.0,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.5.0,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.5.0,TODO support this pattern which uses funsor directly - blocked by casting issues,1
+1.5.0,TODO should the ancestor_indices be pyro.observed?,1
+1.5.0,TODO should the ancestor_indices be pyro.sampled?,1
+1.5.0,TODO make this comprehension less gross,1
+1.5.0,TODO avoid use of torch.zeros here in favor of funsor.ops.new_zeros,1
+1.5.0,TODO come up with a better dispatch system for enumeration strategies,1
+1.5.0,TODO rewrite this to use purpose-built trace/replay handlers,1
+1.5.0,TODO make this work with sequential enumeration,1
+1.5.0,TODO read from torch float spec,1
+1.5.0,TODO replace this guide with one allowing correlation between,1
+1.5.0,TODO: add support for JIT loss,1
+1.5.0,TODO: move this logic to infer.autoguide or somewhere else,1
+1.5.0,TODO: cache these calculations to get faster inference,1
+1.5.0,FIXME Delta is incompatible with relaxed inference.,1
+1.5.0,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.5.0,"TODO This supports only the region_plate. For full plate support,",1
+1.5.0,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.5.0,TODO cache this computation for the forward pass of .rsample().,1
+1.5.0,XXX should the user be able to control inclusion of the entropy term?,1
+1.5.0,TODO move this upstream to torch.distributions,1
+1.5.0,TODO move this upstream to torch.distributions,1
+1.5.0,TODO move upstream,1
+1.5.0,TODO move upstream,1
+1.5.0,TODO: move upstream,1
+1.5.0,TODO replace with weakref.WeakMethod?,1
+1.5.0,"work around lack of jit support for torch.eye(..., out=value)",1
+1.5.0,TODO: move upstream,1
+1.5.0,TODO: Modify class to support more than one eta value at a time?,1
+1.5.0,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+1.5.0,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.5.0,This hack could be fixed by having a conditioning network that outputs a more general shape,1
+1.5.0,TODO: Move upstream,1
+1.5.0,TODO: Move upstream,1
+1.5.0,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.5.0,TODO: Should this be done in log space for numerical stability?,1
+1.5.0,"However, this isn't strictly necessary,",1
+1.5.0,TODO check at runtime if stack is valid,1
+1.5.0,"XXX should copy in case site gets mutated, or dont bother?",1
+1.5.0,TODO Remove import guard once funsor is a required dependency.,1
+1.5.0,FIXME should we .detach() the new_constrained_value?,1
+1.4.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.4.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.4.0,"misleading, as it incorrectly suggests objects occlude one",1
+1.4.0,It would be better to use z_pres to change the opacity of,1
+1.4.0,temporary hack to avoid zero-inflation issues,1
+1.4.0,XXX currently this whole object is very inefficient,1
+1.4.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.4.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.4.0,XXX currently this whole object is very inefficient,1
+1.4.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.4.0,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.4.0,TODO: Make this available directly in `SVI` if needed.,1
+1.4.0,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.4.0,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.4.0,FIXME: this might be not a stable way to compute integral,1
+1.4.0,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.4.0,this is gross but we need to convert between different posterior factorizations,1
+1.4.0,TODO speed up with parallel num_particles > 1,1
+1.4.0,TODO Is it correct to detach gradients of assignments?,1
+1.4.0,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.4.0,XXX kernel(times) loads old parameters from param store,1
+1.4.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.4.0,A bit of a hack since conditioned transforms don't expose .parameters(),1
+1.4.0,XXX name is a bit silly,1
+1.4.0,WARNING: this is very dangerous. better method?,1
+1.4.0,TODO move this into a Leaf implementation somehow,1
+1.4.0,TODO factor this out as a stand-alone helper.,1
+1.4.0,TODO move this logic into a poutine,1
+1.4.0,TODO refine this coarse dependency ordering using time.,1
+1.4.0,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.4.0,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.4.0,XXX default for baseline_beta currently set here,1
+1.4.0,XXX should the average baseline be in the param store as below?,1
+1.4.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.4.0,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.4.0,TODO: move this file out of `autoguide` in a minor release,1
+1.4.0,TODO Replace with .with_cache() once the following is released:,1
+1.4.0,TODO: we might allow users specify the initial mass matrix in the constructor.,1
+1.4.0,XXX: consider to add a try/except here:,1
+1.4.0,XXX `transforms` domains are sites' supports,1
+1.4.0,FIXME: find a good pattern to deal with `transforms` arg,1
+1.4.0,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.4.0,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.4.0,TODO: make thresholds for too small step_size or too large step_size,1
+1.4.0,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.4.0,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.4.0,TODO read from torch float spec,1
+1.4.0,TODO replace this guide with one allowing correlation between,1
+1.4.0,TODO: add support for JIT loss,1
+1.4.0,TODO: move this logic to infer.autoguide or somewhere else,1
+1.4.0,TODO: cache these calculations to get faster inference,1
+1.4.0,FIXME Delta is incompatible with relaxed inference.,1
+1.4.0,TODO refactor to an align_samples or particle_dim kwarg to MCMC.get_samples().,1
+1.4.0,"TODO This supports only the region_plate. For full plate support,",1
+1.4.0,TODO re-enable jitting once _SafeLog is supported by the jit.,1
+1.4.0,TODO cache this computation for the forward pass of .rsample().,1
+1.4.0,XXX should the user be able to control inclusion of the entropy term?,1
+1.4.0,TODO move this upstream to torch.distributions,1
+1.4.0,TODO move this upstream to torch.distributions,1
+1.4.0,TODO move upstream,1
+1.4.0,TODO move upstream,1
+1.4.0,TODO: move upstream,1
+1.4.0,"work around lack of jit support for torch.eye(..., out=value)",1
+1.4.0,TODO: move upstream,1
+1.4.0,TODO: Modify class to support more than one eta value at a time?,1
+1.4.0,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+1.4.0,"Currently, weight and spectral normalization are unimplemented. This doesn't effect the validity of the",1
+1.4.0,TODO: Move upstream,1
+1.4.0,TODO: Move upstream,1
+1.4.0,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.4.0,TODO: Should this be done in log space for numerical stability?,1
+1.4.0,"However, this isn't strictly necessary,",1
+1.4.0,TODO check at runtime if stack is valid,1
+1.4.0,"XXX should copy in case site gets mutated, or dont bother?",1
+1.4.0,FIXME should we .detach() the new_constrained_value?,1
+1.3.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.3.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.3.1,"misleading, as it incorrectly suggests objects occlude one",1
+1.3.1,It would be better to use z_pres to change the opacity of,1
+1.3.1,temporary hack to avoid zero-inflation issues,1
+1.3.1,XXX currently this whole object is very inefficient,1
+1.3.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.3.1,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.3.1,XXX currently this whole object is very inefficient,1
+1.3.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.3.1,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.3.1,TODO: Make this available directly in `SVI` if needed.,1
+1.3.1,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.3.1,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.3.1,FIXME: this might be not a stable way to compute integral,1
+1.3.1,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.3.1,this is gross but we need to convert between different posterior factorizations,1
+1.3.1,TODO speed up with parallel num_particles > 1,1
+1.3.1,TODO Is it correct to detach gradients of assignments?,1
+1.3.1,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.3.1,XXX kernel(times) loads old parameters from param store,1
+1.3.1,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.3.1,Do a bit of a hack until we merge in Reshape transform,1
+1.3.1,XXX name is a bit silly,1
+1.3.1,WARNING: this is very dangerous. better method?,1
+1.3.1,TODO move this into a Leaf implementation somehow,1
+1.3.1,TODO factor this out as a stand-alone helper.,1
+1.3.1,TODO move this logic into a poutine,1
+1.3.1,TODO refine this coarse dependency ordering using time.,1
+1.3.1,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.3.1,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.3.1,XXX default for baseline_beta currently set here,1
+1.3.1,XXX should the average baseline be in the param store as below?,1
+1.3.1,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.3.1,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.3.1,TODO: expose init_strategy using separate functions.,1
+1.3.1,XXX `transforms` domains are sites' supports,1
+1.3.1,FIXME: find a good pattern to deal with `transforms` arg,1
+1.3.1,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.3.1,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.3.1,TODO: make thresholds for too small step_size or too large step_size,1
+1.3.1,XXX consider using list/OrderDict to store z and r,1
+1.3.1,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.3.1,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.3.1,TODO read from torch float spec,1
+1.3.1,TODO replace this guide with one allowing correlation between,1
+1.3.1,TODO: add support for JIT loss,1
+1.3.1,TODO: move this logic to infer.autoguide or somewhere else,1
+1.3.1,TODO: cache these calculations to get faster inference,1
+1.3.1,TODO cache this computation for the forward pass of .rsample().,1
+1.3.1,XXX should the user be able to control inclusion of the entropy term?,1
+1.3.1,TODO move this upstream to torch.distributions,1
+1.3.1,TODO: move upstream,1
+1.3.1,TODO: remove this in the PyTorch release > 1.4.0,1
+1.3.1,"work around lack of jit support for torch.eye(..., out=value)",1
+1.3.1,TODO: move upstream,1
+1.3.1,TODO: Modify class to support more than one eta value at a time?,1
+1.3.1,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+1.3.1,NOTE: Not sure why this is 1.0 - min_derivative rather than 1.0. I've copied this from original implementation,1
+1.3.1,TODO: Should this be done in log space for numerical stability?,1
+1.3.1,TODO: What should the initialization scheme be?,1
+1.3.1,"However, this isn't strictly necessary,",1
+1.3.1,TODO check at runtime if stack is valid,1
+1.3.1,"XXX should copy in case site gets mutated, or dont bother?",1
+1.3.1,FIXME should we .detach() the new_constrained_value?,1
+1.3.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.3.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.3.0,"misleading, as it incorrectly suggests objects occlude one",1
+1.3.0,It would be better to use z_pres to change the opacity of,1
+1.3.0,temporary hack to avoid zero-inflation issues,1
+1.3.0,XXX currently this whole object is very inefficient,1
+1.3.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.3.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.3.0,XXX currently this whole object is very inefficient,1
+1.3.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.3.0,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.3.0,TODO: Make this available directly in `SVI` if needed.,1
+1.3.0,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.3.0,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.3.0,FIXME: this might be not a stable way to compute integral,1
+1.3.0,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.3.0,this is gross but we need to convert between different posterior factorizations,1
+1.3.0,TODO speed up with parallel num_particles > 1,1
+1.3.0,TODO Is it correct to detach gradients of assignments?,1
+1.3.0,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.3.0,XXX kernel(times) loads old parameters from param store,1
+1.3.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.3.0,XXX name is a bit silly,1
+1.3.0,WARNING: this is very dangerous. better method?,1
+1.3.0,TODO move this into a Leaf implementation somehow,1
+1.3.0,TODO factor this out as a stand-alone helper.,1
+1.3.0,TODO move this logic into a poutine,1
+1.3.0,TODO refine this coarse dependency ordering using time.,1
+1.3.0,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.3.0,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.3.0,XXX default for baseline_beta currently set here,1
+1.3.0,XXX should the average baseline be in the param store as below?,1
+1.3.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.3.0,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.3.0,TODO: expose init_strategy using separate functions.,1
+1.3.0,XXX `transforms` domains are sites' supports,1
+1.3.0,FIXME: find a good pattern to deal with `transforms` arg,1
+1.3.0,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.3.0,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.3.0,TODO: make thresholds for too small step_size or too large step_size,1
+1.3.0,XXX consider using list/OrderDict to store z and r,1
+1.3.0,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.3.0,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.3.0,TODO read from torch float spec,1
+1.3.0,TODO replace this guide with one allowing correlation between,1
+1.3.0,TODO: add support for JIT loss,1
+1.3.0,TODO: move this logic to infer.autoguide or somewhere else,1
+1.3.0,TODO: cache these calculations to get faster inference,1
+1.3.0,TODO cache this computation for the forward pass of .rsample().,1
+1.3.0,XXX should the user be able to control inclusion of the entropy term?,1
+1.3.0,TODO move this upstream to torch.distributions,1
+1.3.0,TODO: remove this in the PyTorch release > 1.4.0,1
+1.3.0,"work around lack of jit support for torch.eye(..., out=value)",1
+1.3.0,TODO: move upstream,1
+1.3.0,TODO: Modify class to support more than one eta value at a time?,1
+1.3.0,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+1.3.0,"However, this isn't strictly necessary,",1
+1.3.0,TODO check at runtime if stack is valid,1
+1.3.0,"XXX should copy in case site gets mutated, or dont bother?",1
+1.3.0,FIXME should we .detach() the new_constrained_value?,1
+1.2.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.2.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.2.1,"misleading, as it incorrectly suggests objects occlude one",1
+1.2.1,It would be better to use z_pres to change the opacity of,1
+1.2.1,temporary hack to avoid zero-inflation issues,1
+1.2.1,XXX currently this whole object is very inefficient,1
+1.2.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.2.1,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.2.1,XXX currently this whole object is very inefficient,1
+1.2.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.2.1,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.2.1,TODO: Make this available directly in `SVI` if needed.,1
+1.2.1,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.2.1,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.2.1,FIXME: this might be not a stable way to compute integral,1
+1.2.1,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.2.1,this is gross but we need to convert between different posterior factorizations,1
+1.2.1,TODO speed up with parallel num_particles > 1,1
+1.2.1,TODO Is it correct to detach gradients of assignments?,1
+1.2.1,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.2.1,XXX kernel(times) loads old parameters from param store,1
+1.2.1,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.2.1,XXX name is a bit silly,1
+1.2.1,WARNING: this is very dangerous. better method?,1
+1.2.1,TODO move this into a Leaf implementation somehow,1
+1.2.1,TODO factor this out as a stand-alone helper.,1
+1.2.1,TODO move this logic into a poutine,1
+1.2.1,TODO refine this coarse dependency ordering using time.,1
+1.2.1,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.2.1,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.2.1,XXX default for baseline_beta currently set here,1
+1.2.1,XXX should the average baseline be in the param store as below?,1
+1.2.1,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.2.1,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.2.1,TODO(fehiepsi) Consider adding a method to extract transform from an Auto*Normal(posterior).,1
+1.2.1,TODO: expose init_strategy using separate functions.,1
+1.2.1,XXX `transforms` domains are sites' supports,1
+1.2.1,FIXME: find a good pattern to deal with `transforms` arg,1
+1.2.1,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.2.1,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.2.1,TODO: make thresholds for too small step_size or too large step_size,1
+1.2.1,XXX consider using list/OrderDict to store z and r,1
+1.2.1,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.2.1,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.2.1,TODO read from torch float spec,1
+1.2.1,TODO replace this guide with one allowing correlation between,1
+1.2.1,TODO: add support for JIT loss,1
+1.2.1,TODO: move this logic to infer.autoguide or somewhere else,1
+1.2.1,TODO: cache these calculations to get faster inference,1
+1.2.1,XXX should the user be able to control inclusion of the entropy term?,1
+1.2.1,TODO move this upstream to torch.distributions,1
+1.2.1,TODO: remove this in the PyTorch release > 1.4.0,1
+1.2.1,"work around lack of jit support for torch.eye(..., out=value)",1
+1.2.1,TODO: move upstream,1
+1.2.1,TODO: Modify class to support more than one eta value at a time?,1
+1.2.1,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+1.2.1,"However, this isn't strictly necessary,",1
+1.2.1,TODO check at runtime if stack is valid,1
+1.2.1,"XXX should copy in case site gets mutated, or dont bother?",1
+1.2.1,FIXME should we .detach() the new_constrained_value?,1
+1.2.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.2.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.2.0,"misleading, as it incorrectly suggests objects occlude one",1
+1.2.0,It would be better to use z_pres to change the opacity of,1
+1.2.0,temporary hack to avoid zero-inflation issues,1
+1.2.0,XXX currently this whole object is very inefficient,1
+1.2.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.2.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.2.0,XXX currently this whole object is very inefficient,1
+1.2.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.2.0,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.2.0,TODO: Make this available directly in `SVI` if needed.,1
+1.2.0,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.2.0,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.2.0,FIXME: this might be not a stable way to compute integral,1
+1.2.0,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.2.0,this is gross but we need to convert between different posterior factorizations,1
+1.2.0,TODO speed up with parallel num_particles > 1,1
+1.2.0,TODO Is it correct to detach gradients of assignments?,1
+1.2.0,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.2.0,XXX kernel(times) loads old parameters from param store,1
+1.2.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.2.0,XXX name is a bit silly,1
+1.2.0,WARNING: this is very dangerous. better method?,1
+1.2.0,TODO move this into a Leaf implementation somehow,1
+1.2.0,TODO factor this out as a stand-alone helper.,1
+1.2.0,TODO move this logic into a poutine,1
+1.2.0,TODO refine this coarse dependency ordering using time.,1
+1.2.0,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.2.0,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.2.0,XXX default for baseline_beta currently set here,1
+1.2.0,XXX should the average baseline be in the param store as below?,1
+1.2.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.2.0,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.2.0,TODO(fehiepsi) Consider adding a method to extract transform from an Auto*Normal(posterior).,1
+1.2.0,TODO: expose init_strategy using separate functions.,1
+1.2.0,XXX `transforms` domains are sites' supports,1
+1.2.0,FIXME: find a good pattern to deal with `transforms` arg,1
+1.2.0,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.2.0,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.2.0,TODO: make thresholds for too small step_size or too large step_size,1
+1.2.0,XXX consider using list/OrderDict to store z and r,1
+1.2.0,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.2.0,XXX: we might use mvn._unbroadcasted_scale_tril here,1
+1.2.0,TODO read from torch float spec,1
+1.2.0,TODO replace this guide with one allowing correlation between,1
+1.2.0,TODO: add support for JIT loss,1
+1.2.0,TODO: move this logic to infer.autoguide or somewhere else,1
+1.2.0,TODO: cache these calculations to get faster inference,1
+1.2.0,XXX should the user be able to control inclusion of the entropy term?,1
+1.2.0,TODO move this upstream to torch.distributions,1
+1.2.0,TODO: remove this in the PyTorch release > 1.4.0,1
+1.2.0,"work around lack of jit support for torch.eye(..., out=value)",1
+1.2.0,TODO: move upstream,1
+1.2.0,TODO: Modify class to support more than one eta value at a time?,1
+1.2.0,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+1.2.0,"However, this isn't strictly necessary,",1
+1.2.0,TODO check at runtime if stack is valid,1
+1.2.0,"XXX should copy in case site gets mutated, or dont bother?",1
+1.2.0,FIXME should we .detach() the new_constrained_value?,1
+1.1.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.1.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.1.0,"misleading, as it incorrectly suggests objects occlude one",1
+1.1.0,It would be better to use z_pres to change the opacity of,1
+1.1.0,temporary hack to avoid zero-inflation issues,1
+1.1.0,XXX currently this whole object is very inefficient,1
+1.1.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.1.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.1.0,XXX currently this whole object is very inefficient,1
+1.1.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.1.0,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.1.0,TODO: Make this available directly in `SVI` if needed.,1
+1.1.0,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.1.0,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.1.0,FIXME: this might be not a stable way to compute integral,1
+1.1.0,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.1.0,this is gross but we need to convert between different posterior factorizations,1
+1.1.0,TODO speed up with parallel num_particles > 1,1
+1.1.0,TODO Is it correct to detach gradients of assignments?,1
+1.1.0,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.1.0,XXX kernel(times) loads old parameters from param store,1
+1.1.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.1.0,XXX name is a bit silly,1
+1.1.0,WARNING: this is very dangerous. better method?,1
+1.1.0,TODO move this into a Leaf implementation somehow,1
+1.1.0,TODO factor this out as a stand-alone helper.,1
+1.1.0,TODO move this logic into a poutine,1
+1.1.0,TODO refine this coarse dependency ordering using time.,1
+1.1.0,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.1.0,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.1.0,XXX default for baseline_beta currently set here,1
+1.1.0,XXX should the average baseline be in the param store as below?,1
+1.1.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.1.0,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.1.0,TODO: expose init_strategy using separate functions.,1
+1.1.0,XXX `transforms` domains are sites' supports,1
+1.1.0,FIXME: find a good pattern to deal with `transforms` arg,1
+1.1.0,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.1.0,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.1.0,TODO: make thresholds for too small step_size or too large step_size,1
+1.1.0,XXX consider using list/OrderDict to store z and r,1
+1.1.0,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.1.0,TODO read from torch float spec,1
+1.1.0,TODO replace this guide with one allowing correlation between,1
+1.1.0,TODO: add support for JIT loss,1
+1.1.0,TODO: move this logic to infer.autoguide or somewhere else,1
+1.1.0,TODO: cache these calculations to get faster inference,1
+1.1.0,XXX should the user be able to control inclusion of the entropy term?,1
+1.1.0,TODO move this upstream to torch.distributions,1
+1.1.0,"work around lack of jit support for torch.eye(..., out=value)",1
+1.1.0,TODO: move upstream,1
+1.1.0,TODO: Modify class to support more than one eta value at a time?,1
+1.1.0,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+1.1.0,"However, this isn't strictly necessary,",1
+1.1.0,TODO check at runtime if stack is valid,1
+1.1.0,"XXX should copy in case site gets mutated, or dont bother?",1
+1.1.0,FIXME should we .detach() the new_constrained_value?,1
+1.0.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.0.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+1.0.0,"misleading, as it incorrectly suggests objects occlude one",1
+1.0.0,It would be better to use z_pres to change the opacity of,1
+1.0.0,temporary hack to avoid zero-inflation issues,1
+1.0.0,XXX currently this whole object is very inefficient,1
+1.0.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.0.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+1.0.0,XXX currently this whole object is very inefficient,1
+1.0.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+1.0.0,"TODO: Remove `prec` arg, and move usages to assert_close",1
+1.0.0,TODO: Make this available directly in `SVI` if needed.,1
+1.0.0,XXX: check_trace=True fails for AutoLaplaceApproximation,1
+1.0.0,FIXME: what is the expected behavior of num_draw is not None and group_by_chain=False?,1
+1.0.0,FIXME: this might be not a stable way to compute integral,1
+1.0.0,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+1.0.0,this is gross but we need to convert between different posterior factorizations,1
+1.0.0,TODO speed up with parallel num_particles > 1,1
+1.0.0,TODO Is it correct to detach gradients of assignments?,1
+1.0.0,Evaluate log likelihoods. TODO make this more pyronic.,1
+1.0.0,XXX kernel(times) loads old parameters from param store,1
+1.0.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+1.0.0,XXX name is a bit silly,1
+1.0.0,WARNING: this is very dangerous. better method?,1
+1.0.0,TODO move this into a Leaf implementation somehow,1
+1.0.0,TODO move this logic into a poutine,1
+1.0.0,TODO refine this coarse dependency ordering using time.,1
+1.0.0,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+1.0.0,TODO replace BackwardSample with torch_sample backend to ubersum,1
+1.0.0,XXX default for baseline_beta currently set here,1
+1.0.0,XXX should the average baseline be in the param store as below?,1
+1.0.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+1.0.0,"TODO: Add window kwarg that defaults to float(""inf"")",1
+1.0.0,TODO: expose init_strategy using separate functions.,1
+1.0.0,XXX `transforms` domains are sites' supports,1
+1.0.0,FIXME: find a good pattern to deal with `transforms` arg,1
+1.0.0,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+1.0.0,"FIXME: probably we want to use ""spawn"" method by default to avoid the error",1
+1.0.0,TODO: make thresholds for too small step_size or too large step_size,1
+1.0.0,XXX consider using list/OrderDict to store z and r,1
+1.0.0,FIXME: is there a better trick to find accumulate min of a sequence?,1
+1.0.0,TODO read from torch float spec,1
+1.0.0,TODO replace this guide with one allowing correlation between,1
+1.0.0,TODO: add support for JIT loss,1
+1.0.0,TODO: move this logic to infer.autoguide or somewhere else,1
+1.0.0,TODO: cache these calculations to get faster inference,1
+1.0.0,XXX should the user be able to control inclusion of the entropy term?,1
+1.0.0,TODO move this upstream to torch.distributions,1
+1.0.0,"work around lack of jit support for torch.eye(..., out=value)",1
+1.0.0,TODO: move upstream,1
+1.0.0,TODO: Modify class to support more than one eta value at a time?,1
+1.0.0,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+1.0.0,"However, this isn't strictly necessary,",1
+1.0.0,TODO check at runtime if stack is valid,1
+1.0.0,"XXX should copy in case site gets mutated, or dont bother?",1
+1.0.0,XXX temporary compatibility fix,1
+1.0.0,FIXME should we .detach() the new_constrained_value?,1
+0.5.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.5.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.5.1,"misleading, as it incorrectly suggests objects occlude one",1
+0.5.1,It would be better to use z_pres to change the opacity of,1
+0.5.1,temporary hack to avoid zero-inflation issues,1
+0.5.1,XXX currently this whole object is very inefficient,1
+0.5.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.5.1,@jpchen's hack to get rtd builder to install latest pytorch,1
+0.5.1,XXX currently this whole object is very inefficient,1
+0.5.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.5.1,"TODO: Remove `prec` arg, and move usages to assert_close",1
+0.5.1,FIXME: this might be not a stable way to compute integral,1
+0.5.1,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+0.5.1,this is gross but we need to convert between different posterior factorizations,1
+0.5.1,TODO speed up with parallel num_particles > 1,1
+0.5.1,TODO Is it correct to detach gradients of assignments?,1
+0.5.1,Evaluate log likelihoods. TODO make this more pyronic.,1
+0.5.1,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+0.5.1,XXX name is a bit silly,1
+0.5.1,WARNING: this is very dangerous. better method?,1
+0.5.1,TODO move this into a Leaf implementation somehow,1
+0.5.1,TODO move this logic into a poutine,1
+0.5.1,TODO refine this coarse dependency ordering using time.,1
+0.5.1,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+0.5.1,TODO replace BackwardSample with torch_sample backend to ubersum,1
+0.5.1,XXX default for baseline_beta currently set here,1
+0.5.1,XXX should the average baseline be in the param store as below?,1
+0.5.1,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+0.5.1,"TODO: Add window kwarg that defaults to float(""inf"")",1
+0.5.1,TODO: Be clear that these are unnormalized weights. May want to normalize later.,1
+0.5.1,TODO: Turn quadratic algo -> linear algo by being lazier,1
+0.5.1,TODO: expose init_strategy using separate functions.,1
+0.5.1,XXX `transforms` domains are sites' supports,1
+0.5.1,FIXME: find a good pattern to deal with `transforms` arg,1
+0.5.1,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+0.5.1,TODO: make thresholds for too small step_size or too large step_size,1
+0.5.1,XXX consider using list/OrderDict to store z and r,1
+0.5.1,FIXME: is there a better trick to find accumulate min of a sequence?,1
+0.5.1,TODO read from torch float spec,1
+0.5.1,TODO replace this guide with one allowing correlation between,1
+0.5.1,TODO: add support for JIT loss,1
+0.5.1,XXX Should we treat the case dist_instance is Independent(Independent(Normal))?,1
+0.5.1,TODO: create a new argument `autoguide_args` to store other args for other,1
+0.5.1,TODO: move this logic to infer.autoguide or somewhere else,1
+0.5.1,TODO: cache these calculations to get faster inference,1
+0.5.1,XXX should the user be able to control inclusion of the entropy term?,1
+0.5.1,TODO move this upstream to torch.distributions,1
+0.5.1,"work around lack of jit support for torch.eye(..., out=value)",1
+0.5.1,TODO: Modify class to support more than one eta value at a time?,1
+0.5.1,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+0.5.1,"However, this isn't strictly necessary,",1
+0.5.1,TODO check at runtime if stack is valid,1
+0.5.1,"XXX should copy in case site gets mutated, or dont bother?",1
+0.5.1,XXX temporary compatibility fix,1
+0.5.1,FIXME should we .detach() the new_constrained_value?,1
+0.5.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.5.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.5.0,"misleading, as it incorrectly suggests objects occlude one",1
+0.5.0,It would be better to use z_pres to change the opacity of,1
+0.5.0,temporary hack to avoid zero-inflation issues,1
+0.5.0,XXX currently this whole object is very inefficient,1
+0.5.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.5.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+0.5.0,XXX currently this whole object is very inefficient,1
+0.5.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.5.0,"TODO: Remove `prec` arg, and move usages to assert_close",1
+0.5.0,FIXME: this might be not a stable way to compute integral,1
+0.5.0,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+0.5.0,this is gross but we need to convert between different posterior factorizations,1
+0.5.0,TODO speed up with parallel num_particles > 1,1
+0.5.0,TODO Is it correct to detach gradients of assignments?,1
+0.5.0,Evaluate log likelihoods. TODO make this more pyronic.,1
+0.5.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+0.5.0,XXX name is a bit silly,1
+0.5.0,WARNING: this is very dangerous. better method?,1
+0.5.0,TODO move this into a Leaf implementation somehow,1
+0.5.0,TODO move this logic into a poutine,1
+0.5.0,TODO refine this coarse dependency ordering using time.,1
+0.5.0,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+0.5.0,TODO replace BackwardSample with torch_sample backend to ubersum,1
+0.5.0,XXX default for baseline_beta currently set here,1
+0.5.0,XXX should the average baseline be in the param store as below?,1
+0.5.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+0.5.0,"TODO: Add window kwarg that defaults to float(""inf"")",1
+0.5.0,TODO: Be clear that these are unnormalized weights. May want to normalize later.,1
+0.5.0,TODO: Turn quadratic algo -> linear algo by being lazier,1
+0.5.0,TODO: expose init_strategy using separate functions.,1
+0.5.0,XXX `transforms` domains are sites' supports,1
+0.5.0,FIXME: find a good pattern to deal with `transforms` arg,1
+0.5.0,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+0.5.0,TODO: make thresholds for too small step_size or too large step_size,1
+0.5.0,XXX consider using list/OrderDict to store z and r,1
+0.5.0,FIXME: is there a better trick to find accumulate min of a sequence?,1
+0.5.0,TODO read from torch float spec,1
+0.5.0,TODO replace this guide with one allowing correlation between,1
+0.5.0,TODO: add support for JIT loss,1
+0.5.0,XXX Should we treat the case dist_instance is Independent(Independent(Normal))?,1
+0.5.0,TODO: create a new argument `autoguide_args` to store other args for other,1
+0.5.0,TODO: move this logic to infer.autoguide or somewhere else,1
+0.5.0,TODO: cache these calculations to get faster inference,1
+0.5.0,XXX should the user be able to control inclusion of the entropy term?,1
+0.5.0,TODO move this upstream to torch.distributions,1
+0.5.0,"work around lack of jit support for torch.eye(..., out=value)",1
+0.5.0,TODO: Modify class to support more than one eta value at a time?,1
+0.5.0,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+0.5.0,"However, this isn't strictly necessary,",1
+0.5.0,TODO check at runtime if stack is valid,1
+0.5.0,"XXX should copy in case site gets mutated, or dont bother?",1
+0.5.0,XXX temporary compatibility fix,1
+0.5.0,FIXME should we .detach() the new_constrained_value?,1
+0.4.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.4.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.4.1,"misleading, as it incorrectly suggests objects occlude one",1
+0.4.1,It would be better to use z_pres to change the opacity of,1
+0.4.1,temporary hack to avoid zero-inflation issues,1
+0.4.1,XXX currently this whole object is very inefficient,1
+0.4.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.4.1,@jpchen's hack to get rtd builder to install latest pytorch,1
+0.4.1,XXX currently this whole object is very inefficient,1
+0.4.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.4.1,"TODO: Remove `prec` arg, and move usages to assert_close",1
+0.4.1,FIXME: this might be not a stable way to compute integral,1
+0.4.1,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+0.4.1,this is gross but we need to convert between different posterior factorizations,1
+0.4.1,TODO speed up with parallel num_particles > 1,1
+0.4.1,TODO Is it correct to detach gradients of assignments?,1
+0.4.1,Evaluate log likelihoods. TODO make this more pyronic.,1
+0.4.1,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+0.4.1,XXX name is a bit silly,1
+0.4.1,WARNING: this is very dangerous. better method?,1
+0.4.1,TODO move this into a Leaf implementation somehow,1
+0.4.1,TODO move this logic into a poutine,1
+0.4.1,TODO refine this coarse dependency ordering using time.,1
+0.4.1,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+0.4.1,TODO replace BackwardSample with torch_sample backend to ubersum,1
+0.4.1,XXX default for baseline_beta currently set here,1
+0.4.1,XXX should the average baseline be in the param store as below?,1
+0.4.1,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+0.4.1,"TODO: Add window kwarg that defaults to float(""inf"")",1
+0.4.1,TODO: Be clear that these are unnormalized weights. May want to normalize later.,1
+0.4.1,TODO: Turn quadratic algo -> linear algo by being lazier,1
+0.4.1,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+0.4.1,TODO: Refactor so that this class directly has access to the trace generator,1
+0.4.1,TODO: expose init_strategy using separate functions.,1
+0.4.1,XXX `transforms` domains are sites' supports,1
+0.4.1,FIXME: find a good pattern to deal with `transforms` arg,1
+0.4.1,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+0.4.1,TODO: make thresholds for too small step_size or too large step_size,1
+0.4.1,XXX consider using list/OrderDict to store z and r,1
+0.4.1,FIXME: is there a better trick to find accumulate min of a sequence?,1
+0.4.1,TODO read from torch float spec,1
+0.4.1,TODO replace this guide with one allowing correlation between,1
+0.4.1,TODO: add support for JIT loss,1
+0.4.1,XXX Should we treat the case dist_instance is Independent(Independent(Normal))?,1
+0.4.1,TODO: create a new argument `autoguide_args` to store other args for other,1
+0.4.1,TODO: move this logic to infer.autoguide or somewhere else,1
+0.4.1,TODO: cache these calculations to get faster inference,1
+0.4.1,XXX should the user be able to control inclusion of the entropy term?,1
+0.4.1,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.4.1,"work around lack of jit support for torch.eye(..., out=value)",1
+0.4.1,TODO move this upstream to torch.distributions,1
+0.4.1,TODO: Modify class to support more than one eta value at a time?,1
+0.4.1,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+0.4.1,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.4.1,"However, this isn't strictly necessary,",1
+0.4.1,TODO check at runtime if stack is valid,1
+0.4.1,"XXX should copy in case site gets mutated, or dont bother?",1
+0.4.1,XXX temporary compatibility fix,1
+0.4.1,FIXME should we .detach() the new_constrained_value?,1
+0.4.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.4.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.4.0,"misleading, as it incorrectly suggests objects occlude one",1
+0.4.0,It would be better to use z_pres to change the opacity of,1
+0.4.0,temporary hack to avoid zero-inflation issues,1
+0.4.0,XXX currently this whole object is very inefficient,1
+0.4.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.4.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+0.4.0,XXX currently this whole object is very inefficient,1
+0.4.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.4.0,"TODO: Remove `prec` arg, and move usages to assert_close",1
+0.4.0,FIXME: this might be not a stable way to compute integral,1
+0.4.0,"TODO(fehiepsi): find some condition to make this test stable, so we can compare large value",1
+0.4.0,this is gross but we need to convert between different posterior factorizations,1
+0.4.0,TODO speed up with parallel num_particles > 1,1
+0.4.0,TODO Is it correct to detach gradients of assignments?,1
+0.4.0,Evaluate log likelihoods. TODO make this more pyronic.,1
+0.4.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+0.4.0,XXX name is a bit silly,1
+0.4.0,WARNING: this is very dangerous. better method?,1
+0.4.0,TODO move this into a Leaf implementation somehow,1
+0.4.0,TODO move this logic into a poutine,1
+0.4.0,TODO refine this coarse dependency ordering using time.,1
+0.4.0,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+0.4.0,TODO replace BackwardSample with torch_sample backend to ubersum,1
+0.4.0,XXX default for baseline_beta currently set here,1
+0.4.0,XXX should the average baseline be in the param store as below?,1
+0.4.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+0.4.0,"TODO: Add window kwarg that defaults to float(""inf"")",1
+0.4.0,TODO: Be clear that these are unnormalized weights. May want to normalize later.,1
+0.4.0,TODO: Turn quadratic algo -> linear algo by being lazier,1
+0.4.0,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+0.4.0,TODO: Refactor so that this class directly has access to the trace generator,1
+0.4.0,TODO: expose init_strategy using separate functions.,1
+0.4.0,XXX `transforms` domains are sites' supports,1
+0.4.0,FIXME: find a good pattern to deal with `transforms` arg,1
+0.4.0,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+0.4.0,TODO: make thresholds for too small step_size or too large step_size,1
+0.4.0,XXX consider using list/OrderDict to store z and r,1
+0.4.0,FIXME: is there a better trick to find accumulate min of a sequence?,1
+0.4.0,TODO read from torch float spec,1
+0.4.0,TODO replace this guide with one allowing correlation between,1
+0.4.0,TODO: add support for JIT loss,1
+0.4.0,XXX Should we treat the case dist_instance is Independent(Independent(Normal))?,1
+0.4.0,TODO: create a new argument `autoguide_args` to store other args for other,1
+0.4.0,TODO: move this logic to infer.autoguide or somewhere else,1
+0.4.0,TODO: cache these calculations to get faster inference,1
+0.4.0,XXX should the user be able to control inclusion of the entropy term?,1
+0.4.0,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.4.0,"work around lack of jit support for torch.eye(..., out=value)",1
+0.4.0,TODO move this upstream to torch.distributions,1
+0.4.0,TODO: Modify class to support more than one eta value at a time?,1
+0.4.0,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+0.4.0,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.4.0,"However, this isn't strictly necessary,",1
+0.4.0,TODO check at runtime if stack is valid,1
+0.4.0,"XXX should copy in case site gets mutated, or dont bother?",1
+0.4.0,XXX temporary compatibility fix,1
+0.4.0,FIXME should we .detach() the new_constrained_value?,1
+0.3.4,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.3.4,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.3.4,"misleading, as it incorrectly suggests objects occlude one",1
+0.3.4,It would be better to use z_pres to change the opacity of,1
+0.3.4,temporary hack to avoid zero-inflation issues,1
+0.3.4,XXX currently this whole object is very inefficient,1
+0.3.4,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.3.4,@jpchen's hack to get rtd builder to install latest pytorch,1
+0.3.4,XXX currently this whole object is very inefficient,1
+0.3.4,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.3.4,"TODO: Remove `prec` arg, and move usages to assert_close",1
+0.3.4,this is gross but we need to convert between different posterior factorizations,1
+0.3.4,TODO speed up with parallel num_particles > 1,1
+0.3.4,TODO Is it correct to detach gradients of assignments?,1
+0.3.4,Evaluate log likelihoods. TODO make this more pyronic.,1
+0.3.4,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+0.3.4,XXX name is a bit silly,1
+0.3.4,TODO: Remove when python 2 support is removed.,1
+0.3.4,WARNING: this is very dangerous. better method?,1
+0.3.4,TODO move this into a Leaf implementation somehow,1
+0.3.4,TODO move this logic into a poutine,1
+0.3.4,TODO refine this coarse dependency ordering using time.,1
+0.3.4,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+0.3.4,TODO replace BackwardSample with torch_sample backend to ubersum,1
+0.3.4,XXX default for baseline_beta currently set here,1
+0.3.4,XXX should the average baseline be in the param store as below?,1
+0.3.4,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+0.3.4,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+0.3.4,TODO: Refactor so that this class directly has access to the trace generator,1
+0.3.4,TODO: expose init_strategy using separate functions.,1
+0.3.4,XXX `transforms` domains are sites' supports,1
+0.3.4,FIXME: find a good pattern to deal with `transforms` arg,1
+0.3.4,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+0.3.4,TODO: make thresholds for too small step_size or too large step_size,1
+0.3.4,XXX consider using list/OrderDict to store z and r,1
+0.3.4,FIXME: is there a better trick to find accumulate min of a sequence?,1
+0.3.4,TODO read from torch float spec,1
+0.3.4,TODO replace this guide with one allowing correlation between,1
+0.3.4,TODO: add support for JIT loss,1
+0.3.4,XXX Should we treat the case dist_instance is Independent(Independent(Normal))?,1
+0.3.4,TODO: create a new argument `autoguide_args` to store other args for other,1
+0.3.4,TODO: move this logic to contrib.autoguide or somewhere else,1
+0.3.4,TODO: cache these calculations to get faster inference,1
+0.3.4,XXX should the user be able to control inclusion of the entropy term?,1
+0.3.4,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.3.4,"work around lack of jit support for torch.eye(..., out=value)",1
+0.3.4,TODO move this upstream to torch.distributions,1
+0.3.4,TODO: Modify class to support more than one eta value at a time?,1
+0.3.4,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+0.3.4,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.3.4,"However, this isn't strictly necessary,",1
+0.3.4,TODO check at runtime if stack is valid,1
+0.3.4,"XXX should copy in case site gets mutated, or dont bother?",1
+0.3.4,XXX temporary compatibility fix,1
+0.3.4,FIXME should we .detach() the new_constrained_value?,1
+0.3.3,TODO: Provide a way to record divergent transitions,1
+0.3.3,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.3.3,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.3.3,TODO: make this example work better,1
+0.3.3,TODO: make this example work better,1
+0.3.3,TODO: make VI work here (non-mean-field guide),1
+0.3.3,"misleading, as it incorrectly suggests objects occlude one",1
+0.3.3,It would be better to use z_pres to change the opacity of,1
+0.3.3,temporary hack to avoid zero-inflation issues,1
+0.3.3,XXX currently this whole object is very inefficient,1
+0.3.3,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.3.3,@jpchen's hack to get rtd builder to install latest pytorch,1
+0.3.3,XXX currently this whole object is very inefficient,1
+0.3.3,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.3.3,"TODO: Remove `prec` arg, and move usages to assert_close",1
+0.3.3,this is gross but we need to convert between different posterior factorizations,1
+0.3.3,TODO speed up with parallel num_particles > 1,1
+0.3.3,TODO Is it correct to detach gradients of assignments?,1
+0.3.3,Evaluate log likelihoods. TODO make this more pyronic.,1
+0.3.3,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+0.3.3,XXX name is a bit silly,1
+0.3.3,WARNING: this is very dangerous. better method?,1
+0.3.3,TODO move this into a Leaf implementation somehow,1
+0.3.3,TODO move this logic into a poutine,1
+0.3.3,TODO refine this coarse dependency ordering using time.,1
+0.3.3,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+0.3.3,TODO replace BackwardSample with torch_sample backend to ubersum,1
+0.3.3,XXX default for baseline_beta currently set here,1
+0.3.3,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+0.3.3,XXX should the average baseline be in the param store as below?,1
+0.3.3,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+0.3.3,"XXX to make MCMC work on GPU, we need to store generated samples in a list",1
+0.3.3,TODO: make thresholds for too small step_size or too large step_size,1
+0.3.3,XXX consider using list/OrderDict to store z and r,1
+0.3.3,FIXME: is there a better trick to find accumulate min of a sequence?,1
+0.3.3,TODO replace this guide with one allowing correlation between,1
+0.3.3,TODO: add support for JIT loss,1
+0.3.3,XXX Should we treat the case dist_instance is Independent(Independent(Normal))?,1
+0.3.3,TODO: create a new argument `autoguide_args` to store other args for other,1
+0.3.3,TODO: move this logic to contrib.autoguide or somewhere else,1
+0.3.3,TODO: cache these calculations to get faster inference,1
+0.3.3,XXX should the user be able to control inclusion of the entropy term?,1
+0.3.3,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.3.3,"work around lack of jit support for torch.eye(..., out=value)",1
+0.3.3,TODO move this upstream to torch.distributions,1
+0.3.3,TODO: Modify class to support more than one eta value at a time?,1
+0.3.3,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+0.3.3,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.3.3,"However, this isn't strictly necessary,",1
+0.3.3,TODO check at runtime if stack is valid,1
+0.3.3,"XXX should copy in case site gets mutated, or dont bother?",1
+0.3.3,XXX temporary compatibility fix,1
+0.3.3,FIXME should we .detach() the new_constrained_value?,1
+0.3.2,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.3.2,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.3.2,TODO: make this example work better,1
+0.3.2,TODO: make this example work better,1
+0.3.2,TODO: make VI work here (non-mean-field guide),1
+0.3.2,"misleading, as it incorrectly suggests objects occlude one",1
+0.3.2,It would be better to use z_pres to change the opacity of,1
+0.3.2,temporary hack to avoid zero-inflation issues,1
+0.3.2,XXX currently this whole object is very inefficient,1
+0.3.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.3.2,@jpchen's hack to get rtd builder to install latest pytorch,1
+0.3.2,XXX currently this whole object is very inefficient,1
+0.3.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.3.2,"TODO: Remove `prec` arg, and move usages to assert_close",1
+0.3.2,this is gross but we need to convert between different posterior factorizations,1
+0.3.2,TODO speed up with parallel num_particles > 1,1
+0.3.2,TODO Is it correct to detach gradients of assignments?,1
+0.3.2,Evaluate log likelihoods. TODO make this more pyronic.,1
+0.3.2,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+0.3.2,XXX name is a bit silly,1
+0.3.2,WARNING: this is very dangerous. better method?,1
+0.3.2,TODO move this into a Leaf implementation somehow,1
+0.3.2,TODO move this logic into a poutine,1
+0.3.2,TODO refine this coarse dependency ordering using time.,1
+0.3.2,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+0.3.2,TODO replace BackwardSample with torch_sample backend to ubersum,1
+0.3.2,XXX default for baseline_beta currently set here,1
+0.3.2,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+0.3.2,XXX should the average baseline be in the param store as below?,1
+0.3.2,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+0.3.2,"XXX to make MCMC work on GPU, we need to store generated samples in a list",1
+0.3.2,TODO: make thresholds for too small step_size or too large step_size,1
+0.3.2,XXX consider using list/OrderDict to store z and r,1
+0.3.2,FIXME: is there a better trick to find accumulate min of a sequence?,1
+0.3.2,TODO replace this guide with one allowing correlation between,1
+0.3.2,TODO: add support for JIT loss,1
+0.3.2,XXX Should we treat the case dist_instance is Independent(Independent(Normal))?,1
+0.3.2,TODO: create a new argument `autoguide_args` to store other args for other,1
+0.3.2,TODO: move this logic to contrib.autoguide or somewhere else,1
+0.3.2,TODO: cache these calculations to get faster inference,1
+0.3.2,XXX should the user be able to control inclusion of the entropy term?,1
+0.3.2,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.3.2,"work around lack of jit support for torch.eye(..., out=value)",1
+0.3.2,TODO move this upstream to torch.distributions,1
+0.3.2,TODO: Modify class to support more than one eta value at a time?,1
+0.3.2,"TODO: Figure out why the `device` kwarg to torch.linspace seems to not work in certain situations,",1
+0.3.2,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.3.2,"However, this isn't strictly necessary,",1
+0.3.2,TODO check at runtime if stack is valid,1
+0.3.2,"XXX should copy in case site gets mutated, or dont bother?",1
+0.3.2,XXX temporary compatibility fix,1
+0.3.2,FIXME should we .detach() the new_constrained_value?,1
+0.3.1,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.3.1,TODO: make this example work better,1
+0.3.1,TODO: make this example work better,1
+0.3.1,TODO: make VI work here (non-mean-field guide),1
+0.3.1,"misleading, as it incorrectly suggests objects occlude one",1
+0.3.1,It would be better to use z_pres to change the opacity of,1
+0.3.1,temporary hack to avoid zero-inflation issues,1
+0.3.1,XXX currently this whole object is very inefficient,1
+0.3.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.3.1,@jpchen's hack to get rtd builder to install latest pytorch,1
+0.3.1,XXX currently this whole object is very inefficient,1
+0.3.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.3.1,"TODO: Remove `prec` arg, and move usages to assert_close",1
+0.3.1,this is gross but we need to convert between different posterior factorizations,1
+0.3.1,TODO speed up with parallel num_particles > 1,1
+0.3.1,TODO Is it correct to detach gradients of assignments?,1
+0.3.1,Evaluate log likelihoods. TODO make this more pyronic.,1
+0.3.1,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+0.3.1,XXX name is a bit silly,1
+0.3.1,WARNING: this is very dangerous. better method?,1
+0.3.1,TODO move this into a Leaf implementation somehow,1
+0.3.1,TODO move this logic into a poutine,1
+0.3.1,TODO refine this coarse dependency ordering using time.,1
+0.3.1,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+0.3.1,TODO replace BackwardSample with torch_sample backend to ubersum,1
+0.3.1,XXX default for baseline_beta currently set here,1
+0.3.1,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+0.3.1,XXX should the average baseline be in the param store as below?,1
+0.3.1,"XXX we clone CUDA tensor args to resolve the issue ""Invalid device pointer""",1
+0.3.1,"XXX to make MCMC work on GPU, we need to store generated samples in a list",1
+0.3.1,TODO: make thresholds for too small step_size or too large step_size,1
+0.3.1,XXX consider using list/OrderDict to store z and r,1
+0.3.1,FIXME: is there a better trick to find accumulate min of a sequence?,1
+0.3.1,TODO replace this guide with one allowing correlation between,1
+0.3.1,TODO: add support for JIT loss,1
+0.3.1,XXX Should we treat the case dist_instance is Independent(Independent(Normal))?,1
+0.3.1,TODO: create a new argument `autoguide_args` to store other args for other,1
+0.3.1,TODO: move this logic to contrib.autoguide or somewhere else,1
+0.3.1,TODO: cache these calculations to get faster inference,1
+0.3.1,XXX should the user be able to control inclusion of the entropy term?,1
+0.3.1,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.3.1,TODO: Simplify following line once using multivariate base distributions for multivariate flows,1
+0.3.1,"work around lack of jit support for torch.eye(..., out=value)",1
+0.3.1,TODO move this upstream to torch.distributions,1
+0.3.1,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.3.1,"NOTE: Not sure how necessary this is, but I was copying the design of the TensorFlow implementation",1
+0.3.1,"However, this isn't strictly necessary,",1
+0.3.1,TODO check at runtime if stack is valid,1
+0.3.1,"XXX should copy in case site gets mutated, or dont bother?",1
+0.3.1,XXX temporary compatibility fix,1
+0.3.1,FIXME should we .detach() the new_constrained_value?,1
+0.3.0,"work around with the error ""RuntimeError: received 0 items of ancdata""",1
+0.3.0,TODO: remove once htps://github.com/uber/pyro/issues/1458 is resolved,1
+0.3.0,TODO: make this example work better,1
+0.3.0,TODO: make this example work better,1
+0.3.0,TODO: make VI work here (non-mean-field guide),1
+0.3.0,"misleading, as it incorrectly suggests objects occlude one",1
+0.3.0,It would be better to use z_pres to change the opacity of,1
+0.3.0,XXX currently this whole object is very inefficient,1
+0.3.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.3.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+0.3.0,XXX currently this whole object is very inefficient,1
+0.3.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.3.0,TODO Split this into assert_equal() and assert_close() or assert_almost_equal().,1
+0.3.0,TODO Use atol and rtol instead of prec,1
+0.3.0,this is gross but we need to convert between different posterior factorizations,1
+0.3.0,TODO speed up with parallel num_particles > 1,1
+0.3.0,TODO Is it correct to detach gradients of assignments?,1
+0.3.0,Evaluate log likelihoods. TODO make this more pyronic.,1
+0.3.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+0.3.0,XXX name is a bit silly,1
+0.3.0,TODO Check parallel dimensions on the left of max_plate_nesting.,1
+0.3.0,WARNING: this is very dangerous. better method?,1
+0.3.0,TODO move this into a Leaf implementation somehow,1
+0.3.0,TODO move this logic into a poutine,1
+0.3.0,TODO refine this coarse dependency ordering using time.,1
+0.3.0,TODO refine this coarse dependency ordering using time and tensor shapes.,1
+0.3.0,TODO replace BackwardSample with torch_sample backend to ubersum,1
+0.3.0,XXX default for baseline_beta currently set here,1
+0.3.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+0.3.0,XXX should the average baseline be in the param store as below?,1
+0.3.0,TODO: change to torch.dot for pytorch 1.0,1
+0.3.0,TODO: revert to `torch.dot` in pytorch==1.0,1
+0.3.0,TODO: make thresholds for too small step_size or too large step_size,1
+0.3.0,TODO: Remove once https://github.com/tqdm/tqdm/issues/650 is resolved.,1
+0.3.0,XXX consider using list/OrderDict to store z and r,1
+0.3.0,FIXME: is there a better trick to find accumulate min of a sequence?,1
+0.3.0,TODO replace this guide with one allowing correlation between,1
+0.3.0,TODO: add support for JIT loss,1
+0.3.0,XXX Should we treat the case dist_instance is Independent(Independent(Normal))?,1
+0.3.0,TODO: create a new argument `autoguide_args` to store other args for other,1
+0.3.0,TODO: move this logic to contrib.autoguide or somewhere else,1
+0.3.0,TODO: cache these calculations to get faster inference,1
+0.3.0,XXX should the user be able to control inclusion of the entropy term?,1
+0.3.0,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.3.0,TODO: Simplify following line once using multivariate base distributions for multivariate flows,1
+0.3.0,"work around lack of jit support for torch.eye(..., out=value)",1
+0.3.0,TODO move this upstream to torch.distributions,1
+0.3.0,TODO: use torch.logsumexp once it's in PyTorch release,1
+0.3.0,"NOTE: Not sure how necessary this is, but I was copying the design of the TensorFlow implementation",1
+0.3.0,"However, this isn't strictly necessary,",1
+0.3.0,TODO check at runtime if stack is valid,1
+0.3.0,"XXX should copy in case site gets mutated, or dont bother?",1
+0.3.0,XXX temporary compatibility fix,1
+0.3.0,FIXME should we .detach() the new_constrained_value?,1
+0.2.1,"misleading, as it incorrectly suggests objects occlude one",1
+0.2.1,It would be better to use z_pres to change the opacity of,1
+0.2.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.2.1,@jpchen's hack to get rtd builder to install latest pytorch,1
+0.2.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.2.1,TODO Split this into assert_equal() and assert_close() or assert_almost_equal().,1
+0.2.1,TODO Use atol and rtol instead of prec,1
+0.2.1,TODO increase precision and number of particles once latter is parallelized properly,1
+0.2.1,XXX: Very sensitive to HMC parameters. Biased estimate is obtained,1
+0.2.1,this is gross but we need to convert between different posterior factorizations,1
+0.2.1,TODO speed up with parallel num_particles > 1,1
+0.2.1,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+0.2.1,XXX name is a bit silly,1
+0.2.1,TODO Check parallel dimensions on the left of max_iarange_nesting.,1
+0.2.1,do not work with dim 0 torch.Tensor instances.,1
+0.2.1,XXX this should have the same call signature as torch.Tensor constructors,1
+0.2.1,WARNING: this is very dangerous. better method?,1
+0.2.1,TODO refine this coarse dependency ordering.,1
+0.2.1,"TODO use score_parts.entropy_term to ""stick the landing""",1
+0.2.1,XXX default for baseline_beta currently set here,1
+0.2.1,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+0.2.1,XXX should the average baseline be in the param store as below?,1
+0.2.1,TODO replace this naive sum-product computation with message passing.,1
+0.2.1,TODO: make thresholds for too small step_size or too large step_size,1
+0.2.1,TODO: consider to init parameter from a prior call instead of mean,1
+0.2.1,XXX should the user be able to control inclusion of the entropy term?,1
+0.2.1,"TODO return pyro.distributions.torch.Independent(self, reinterpreted_batch_ndims)",1
+0.2.1,"However, this isn't strictly necessary,",1
+0.2.1,TODO check at runtime if stack is valid,1
+0.2.1,XXX should do more validation than this,1
+0.2.1,"XXX should copy in case site gets mutated, or dont bother?",1
+0.2.1,XXX temporary compatibility fix,1
+0.2.1,TODO consider returing constrained,1
+0.2.0,"misleading, as it incorrectly suggests objects occlude one",1
+0.2.0,It would be better to use z_pres to change the opacity of,1
+0.2.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.2.0,@jpchen's hack to get rtd builder to install latest pytorch,1
+0.2.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.2.0,TODO Split this into assert_equal() and assert_close() or assert_almost_equal().,1
+0.2.0,TODO Use atol and rtol instead of prec,1
+0.2.0,TODO increase precision and number of particles once latter is parallelized properly,1
+0.2.0,XXX: Very sensitive to HMC parameters. Biased estimate is obtained,1
+0.2.0,this is gross but we need to convert between different posterior factorizations,1
+0.2.0,TODO speed up with parallel num_particles > 1,1
+0.2.0,"This hack seems to be the best option right now, as 'scale' is not handled well by get_scipy_batch_logpdf",1
+0.2.0,XXX name is a bit silly,1
+0.2.0,TODO Check parallel dimensions on the left of max_iarange_nesting.,1
+0.2.0,do not work with dim 0 torch.Tensor instances.,1
+0.2.0,XXX this should have the same call signature as torch.Tensor constructors,1
+0.2.0,WARNING: this is very dangerous. better method?,1
+0.2.0,TODO refine this coarse dependency ordering.,1
+0.2.0,"TODO use score_parts.entropy_term to ""stick the landing""",1
+0.2.0,XXX default for baseline_beta currently set here,1
+0.2.0,"XXX nodes_included_in_sum logic could be more fine-grained, possibly leading",1
+0.2.0,XXX should the average baseline be in the param store as below?,1
+0.2.0,TODO replace this naive sum-product computation with message passing.,1
+0.2.0,TODO: make thresholds for too small step_size or too large step_size,1
+0.2.0,TODO: consider to init parameter from a prior call instead of mean,1
+0.2.0,XXX should the user be able to control inclusion of the entropy term?,1
+0.2.0,"However, this isn't strictly necessary,",1
+0.2.0,TODO check at runtime if stack is valid,1
+0.2.0,XXX should do more validation than this,1
+0.2.0,"XXX should copy in case site gets mutated, or dont bother?",1
+0.2.0,XXX temporary compatibility fix,1
+0.2.0,XXX one other possible case: sites is a trace?,1
+0.2.0,TODO consider returing constrained,1
+0.1.2,"misleading, as it incorrectly suggests objects occlude one",1
+0.1.2,It would be better to use z_pres to change the opacity of,1
+0.1.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.1.2,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.1.2,TODO Split this into assert_equal() and assert_close() or assert_almost_equal().,1
+0.1.2,make sure that that functionality is ok (XXX: do this somewhere else in the future),1
+0.1.2,XXX name is a bit silly,1
+0.1.2,XXX get batch size args to dist right,1
+0.1.2,make sure that that functionality is ok (XXX: do this somewhere else in the future),1
+0.1.2,TODO check at runtime if stack is valid,1
+0.1.2,XXX this should have the same call signature as torch.Tensor constructors,1
+0.1.2,WARNING: this is very dangerous. better method?,1
+0.1.2,TODO: clean this up,1
+0.1.2,XXX should the user be able to control inclusion of the -logq term below?,1
+0.1.2,XXX default for baseline_beta currently set here,1
+0.1.2,XXX should the user be able to control if these terms are included?,1
+0.1.2,XXX can we cache some of the sums over children_in_model to make things more efficient?,1
+0.1.2,XXX should the average baseline be in the param store as below?,1
+0.1.2,XXX currently this whole object is very inefficient,1
+0.1.2,"XXX this allows for the user to mask out certain parts of the score, for example",1
+0.1.2,will likely be done in a better/cleaner way in the future,1
+0.1.2,"XXX this allows for the user to mask out certain parts of the score, for example",1
+0.1.2,will likely be done in a better/cleaner way in the future,1
+0.1.2,"However, this isn't strictly necessary,",1
+0.1.2,XXX should do more validation than this,1
+0.1.2,"XXX should copy in case site gets mutated, or dont bother?",1
+0.1.2,XXX This only makes sense when all tensors have compatible shape.,1
+0.1.2,XXX one other possible case: sites is a trace?,1
+0.1.2,XXX should be util.enum_extend,1
+0.1.2,"return empty set, since tag doesn't exist; XXX raise warning?",1
+0.1.1,"misleading, as it incorrectly suggests objects occlude one",1
+0.1.1,It would be better to use z_pres to change the opacity of,1
+0.1.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.1.1,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.1.1,TODO Split this into assert_equal() and assert_close() or assert_almost_equal().,1
+0.1.1,make sure that that functionality is ok (XXX: do this somewhere else in the future),1
+0.1.1,XXX name is a bit silly,1
+0.1.1,XXX get batch size args to dist right,1
+0.1.1,make sure that that functionality is ok (XXX: do this somewhere else in the future),1
+0.1.1,TODO check at runtime if stack is valid,1
+0.1.1,XXX this should have the same call signature as torch.Tensor constructors,1
+0.1.1,WARNING: this is very dangerous. better method?,1
+0.1.1,TODO: clean this up,1
+0.1.1,XXX should the user be able to control inclusion of the -logq term below?,1
+0.1.1,XXX should the user be able to control if these terms are included?,1
+0.1.1,XXX can we cache some of the sums over children_in_model to make things more efficient?,1
+0.1.1,XXX should the average baseline be in the param store as below?,1
+0.1.1,XXX default for baseline_beta currently set here,1
+0.1.1,XXX currently this whole object is very inefficient,1
+0.1.1,"XXX this allows for the user to mask out certain parts of the score, for example",1
+0.1.1,will likely be done in a better/cleaner way in the future,1
+0.1.1,"XXX this allows for the user to mask out certain parts of the score, for example",1
+0.1.1,will likely be done in a better/cleaner way in the future,1
+0.1.1,"However, this isn't strictly necessary,",1
+0.1.1,XXX should do more validation than this,1
+0.1.1,"XXX should copy in case site gets mutated, or dont bother?",1
+0.1.1,XXX This only makes sense when all tensors have compatible shape.,1
+0.1.1,XXX one other possible case: sites is a trace?,1
+0.1.1,XXX should be util.enum_extend,1
+0.1.1,"return empty set, since tag doesn't exist; XXX raise warning?",1
+0.1.0,"misleading, as it incorrectly suggests objects occlude one",1
+0.1.0,It would be better to use z_pres to change the opacity of,1
+0.1.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.1.0,"If true, `todo` and `todoList` produce output, else they produce nothing.",1
+0.1.0,TODO Split this into assert_equal() and assert_close() or assert_almost_equal().,1
+0.1.0,make sure that that functionality is ok (XXX: do this somewhere else in the future),1
+0.1.0,XXX name is a bit silly,1
+0.1.0,XXX get batch size args to dist right,1
+0.1.0,make sure that that functionality is ok (XXX: do this somewhere else in the future),1
+0.1.0,TODO check at runtime if stack is valid,1
+0.1.0,XXX this should have the same call signature as torch.Tensor constructors,1
+0.1.0,WARNING: this is very dangerous. better method?,1
+0.1.0,TODO: clean this up,1
+0.1.0,XXX should the user be able to control inclusion of the -logq term below?,1
+0.1.0,XXX should the user be able to control if these terms are included?,1
+0.1.0,XXX can we cache some of the sums over children_in_model to make things more efficient?,1
+0.1.0,XXX should the average baseline be in the param store as below?,1
+0.1.0,XXX default for baseline_beta currently set here,1
+0.1.0,XXX currently this whole object is very inefficient,1
+0.1.0,"XXX this allows for the user to mask out certain parts of the score, for example",1
+0.1.0,will likely be done in a better/cleaner way in the future,1
+0.1.0,"XXX this allows for the user to mask out certain parts of the score, for example",1
+0.1.0,will likely be done in a better/cleaner way in the future,1
+0.1.0,"However, this isn't strictly necessary,",1
+0.1.0,XXX should do more validation than this,1
+0.1.0,"XXX should copy in case site gets mutated, or dont bother?",1
+0.1.0,XXX This only makes sense when all tensors have compatible shape.,1
+0.1.0,XXX one other possible case: sites is a trace?,1
+0.1.0,XXX should be util.enum_extend,1
+0.1.0,"return empty set, since tag doesn't exist; XXX raise warning?",1

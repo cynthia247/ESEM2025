@@ -1,0 +1,2547 @@
+Version,Commit Message,SATD
+1.9.1,This doesn't work with multi head docker files.,1
+1.9.1,HACK: ignore op.h which is automatically generated,1
+1.9.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.9.1,TODO Profiling the speed of this part!,1
+1.9.1,TODO Update logging patterns in other files,1
+1.9.1,TODO Backward using NDArray will cause some troubles see `https://github.com/apache/mxnet/issues/1720',1
+1.9.1,TODO Possibly states + inds for less memory access,1
+1.9.1,TODO Optimize the reshaping functionality!,1
+1.9.1,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.9.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.9.1,TODO Profiling the speed of this part!,1
+1.9.1,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.1,"TODO(tofix): we make a transpose of label here, because when",1
+1.9.1,TODO(tofix),1
+1.9.1,TODO(tofix),1
+1.9.1,TODO(tofix),1
+1.9.1,or anything familiar. Here we just use a temp workaround,1
+1.9.1,workarounds mentioned above,1
+1.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.1,TODO(anisub): add support for other models from gluoncv,1
+1.9.1,TODO: better way to shape the anchors??,1
+1.9.1,Todo: Ensure skip connection implementation is correct,1
+1.9.1,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.9.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.9.1,"state for the same index but on diff devs, TODO(mli)",1
+1.9.1,use a better solution later,1
+1.9.1,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.9.1,todo add shape support,1
+1.9.1,_TODO: get context from environment variable to support,1
+1.9.1,_TODO: get default dtype from environment variable,1
+1.9.1,"_TODO: get from env variable, different threshold might",1
+1.9.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.9.1,TODO(junwu): This is a temp solution for allowing converting,1
+1.9.1,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.9.1,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.9.1,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.9.1,TODO(leodirac): There's got to be a better way to,1
+1.9.1,"pylint: disable=fixme, too-many-arguments, too-many-locals, no-else-raise",1
+1.9.1,In the future we should have a better way to profile memory per device (haibin),1
+1.9.1,"TODO(xinyu-intel): little tricky here, need to refactor.",1
+1.9.1,TODO(xinyu-intel): tmp solution to save and reload for mxnet.mod.Module.,1
+1.9.1,TODO(xinyu-intel): tmp solution to save param_dict and reload for SymbolBlock,1
+1.9.1,TODO(ptredak): make it work with the optimizer,1
+1.9.1,TODO(ptredak): make it work with the optimizer,1
+1.9.1,use the name hack defined in __init__() of estimator class,1
+1.9.1,TODO(junwu): Add doc,1
+1.9.1,TODO(junwu): no need to call asnumpy() on the whole array.,1
+1.9.1,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.9.1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.9.1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.9.1,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.9.1,"TODO(yzhliu): elif sys.platform == ""win32"":",1
+1.9.1,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+1.9.1,Note that `b.dtype` is hard-coded as 'float64'.,1
+1.9.1,TODO,1
+1.9.1,TODO These operators still need to be converted (listing in order of priority):,1
+1.9.1,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.9.1,"TODO handling - ""identity"" : ""_copy""",1
+1.9.1,TODO,1
+1.9.1,TODO(junwu):,1
+1.9.1,TODO: Use logging later,1
+1.9.1,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.9.1,TODO(haibin) make these runtime options,1
+1.9.1,TODO(haibin) test with more than 2 dimensions,1
+1.9.1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.1,TODO: move more test cases from numpy to here,1
+1.9.1,TODO(kshitij12345): Remove,1
+1.9.1,TODO(kshitij12345): Remove,1
+1.9.1,TODO(kshitij12345): Remove,1
+1.9.1,TODO(kshitij12345): Remove,1
+1.9.1,TODO: Fix Bug #15032 when bias has ndim > 1,1
+1.9.1,# TODO: test fails intermittently when cudnn on. temporarily disabled cudnn until gets fixed.,1
+1.9.1,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.9.1,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.9.1,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.9.1,"TODO(ciyong), since quantized fc save its params in int8, while gluon treat the default",1
+1.9.1,(TODO)Xinyu: https://github.com/apache/incubator-mxnet/issues/16830,1
+1.9.1,"TODO: After rewrite, FC would fail this testcase. Commenting this out for now",1
+1.9.1,TODO: onnxruntime does not support float64 for Where,1
+1.9.1,TODO: onnxruntime does not support float64 for the relu opertors,1
+1.9.1,TODO: The current implementation fails assertion checks for large parm/state_size.,1
+1.9.1,This is outdated and need to be completely redone.,1
+1.9.1,TODO: correctness of layernorm,1
+1.9.1,TODO: correctness of batchnorm,1
+1.9.1,TODO: correctness of prelu (currently flaky),1
+1.9.1,TODO: correctness of dropout,1
+1.9.1,TODO: correctness of batchnorm,1
+1.9.1,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+1.9.1,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+1.9.1.rc0,This doesn't work with multi head docker files.,1
+1.9.1.rc0,HACK: ignore op.h which is automatically generated,1
+1.9.1.rc0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.9.1.rc0,TODO Profiling the speed of this part!,1
+1.9.1.rc0,TODO Update logging patterns in other files,1
+1.9.1.rc0,TODO Backward using NDArray will cause some troubles see `https://github.com/apache/mxnet/issues/1720',1
+1.9.1.rc0,TODO Possibly states + inds for less memory access,1
+1.9.1.rc0,TODO Optimize the reshaping functionality!,1
+1.9.1.rc0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.9.1.rc0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.9.1.rc0,TODO Profiling the speed of this part!,1
+1.9.1.rc0,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.1.rc0,"TODO(tofix): we make a transpose of label here, because when",1
+1.9.1.rc0,TODO(tofix),1
+1.9.1.rc0,TODO(tofix),1
+1.9.1.rc0,TODO(tofix),1
+1.9.1.rc0,or anything familiar. Here we just use a temp workaround,1
+1.9.1.rc0,workarounds mentioned above,1
+1.9.1.rc0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.1.rc0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.1.rc0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.1.rc0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.1.rc0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.1.rc0,TODO(anisub): add support for other models from gluoncv,1
+1.9.1.rc0,TODO: better way to shape the anchors??,1
+1.9.1.rc0,Todo: Ensure skip connection implementation is correct,1
+1.9.1.rc0,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.9.1.rc0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.9.1.rc0,"state for the same index but on diff devs, TODO(mli)",1
+1.9.1.rc0,use a better solution later,1
+1.9.1.rc0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.9.1.rc0,todo add shape support,1
+1.9.1.rc0,_TODO: get context from environment variable to support,1
+1.9.1.rc0,_TODO: get default dtype from environment variable,1
+1.9.1.rc0,"_TODO: get from env variable, different threshold might",1
+1.9.1.rc0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.9.1.rc0,TODO(junwu): This is a temp solution for allowing converting,1
+1.9.1.rc0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.9.1.rc0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.9.1.rc0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.9.1.rc0,TODO(leodirac): There's got to be a better way to,1
+1.9.1.rc0,"pylint: disable=fixme, too-many-arguments, too-many-locals, no-else-raise",1
+1.9.1.rc0,In the future we should have a better way to profile memory per device (haibin),1
+1.9.1.rc0,"TODO(xinyu-intel): little tricky here, need to refactor.",1
+1.9.1.rc0,TODO(xinyu-intel): tmp solution to save and reload for mxnet.mod.Module.,1
+1.9.1.rc0,TODO(xinyu-intel): tmp solution to save param_dict and reload for SymbolBlock,1
+1.9.1.rc0,TODO(ptredak): make it work with the optimizer,1
+1.9.1.rc0,TODO(ptredak): make it work with the optimizer,1
+1.9.1.rc0,use the name hack defined in __init__() of estimator class,1
+1.9.1.rc0,TODO(junwu): Add doc,1
+1.9.1.rc0,TODO(junwu): no need to call asnumpy() on the whole array.,1
+1.9.1.rc0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.9.1.rc0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.9.1.rc0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.9.1.rc0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.9.1.rc0,"TODO(yzhliu): elif sys.platform == ""win32"":",1
+1.9.1.rc0,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+1.9.1.rc0,Note that `b.dtype` is hard-coded as 'float64'.,1
+1.9.1.rc0,TODO,1
+1.9.1.rc0,TODO These operators still need to be converted (listing in order of priority):,1
+1.9.1.rc0,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.9.1.rc0,"TODO handling - ""identity"" : ""_copy""",1
+1.9.1.rc0,TODO,1
+1.9.1.rc0,TODO(junwu):,1
+1.9.1.rc0,TODO: Use logging later,1
+1.9.1.rc0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.9.1.rc0,TODO(haibin) make these runtime options,1
+1.9.1.rc0,TODO(haibin) test with more than 2 dimensions,1
+1.9.1.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.1.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.1.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.1.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.1.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.1.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.1.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.1.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.1.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.1.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.1.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.1.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.1.rc0,TODO: move more test cases from numpy to here,1
+1.9.1.rc0,TODO(kshitij12345): Remove,1
+1.9.1.rc0,TODO(kshitij12345): Remove,1
+1.9.1.rc0,TODO(kshitij12345): Remove,1
+1.9.1.rc0,TODO(kshitij12345): Remove,1
+1.9.1.rc0,TODO: Fix Bug #15032 when bias has ndim > 1,1
+1.9.1.rc0,# TODO: test fails intermittently when cudnn on. temporarily disabled cudnn until gets fixed.,1
+1.9.1.rc0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.9.1.rc0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.9.1.rc0,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.9.1.rc0,"TODO(ciyong), since quantized fc save its params in int8, while gluon treat the default",1
+1.9.1.rc0,(TODO)Xinyu: https://github.com/apache/incubator-mxnet/issues/16830,1
+1.9.1.rc0,"TODO: After rewrite, FC would fail this testcase. Commenting this out for now",1
+1.9.1.rc0,TODO: onnxruntime does not support float64 for Where,1
+1.9.1.rc0,TODO: onnxruntime does not support float64 for the relu opertors,1
+1.9.1.rc0,TODO: The current implementation fails assertion checks for large parm/state_size.,1
+1.9.1.rc0,This is outdated and need to be completely redone.,1
+1.9.1.rc0,TODO: correctness of layernorm,1
+1.9.1.rc0,TODO: correctness of batchnorm,1
+1.9.1.rc0,TODO: correctness of prelu (currently flaky),1
+1.9.1.rc0,TODO: correctness of dropout,1
+1.9.1.rc0,TODO: correctness of batchnorm,1
+1.9.1.rc0,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+1.9.1.rc0,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+2.0.0.beta1,HACK: ignore op.h which is automatically generated,1
+2.0.0.beta1,(TODO) maybe we can add another Formatter for FileHandler.,1
+2.0.0.beta1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+2.0.0.beta1,"state for the same index but on diff devs, TODO(mli)",1
+2.0.0.beta1,use a better solution later,1
+2.0.0.beta1,"pylint: disable=invalid-name, too-many-locals, fixme",1
+2.0.0.beta1,todo add shape support,1
+2.0.0.beta1,_TODO: get device from environment variable to support,1
+2.0.0.beta1,_TODO: get default dtype from environment variable,1
+2.0.0.beta1,"_TODO: get from env variable, different threshold might",1
+2.0.0.beta1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+2.0.0.beta1,TODO(junwu): This is a temp solution for allowing converting,1
+2.0.0.beta1,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+2.0.0.beta1,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+2.0.0.beta1,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+2.0.0.beta1,TODO(leodirac): There's got to be a better way to,1
+2.0.0.beta1,use the name hack defined in __init__() of estimator class,1
+2.0.0.beta1,TODO: Implement sampling op in the backend.,1
+2.0.0.beta1,TODO: Implement implicit reparameterization gradient for Gamma.,1
+2.0.0.beta1,TODO(junwu): Add doc,1
+2.0.0.beta1,TODO(junwu): no need to call asnumpy() on the whole array.,1
+2.0.0.beta1,TODO(ptredak): make it work with the optimizer,1
+2.0.0.beta1,TODO (lnyuan): need to copy data to each device memory,1
+2.0.0.beta1,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+2.0.0.beta1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+2.0.0.beta1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+2.0.0.beta1,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+2.0.0.beta1,"TODO(yzhliu): elif sys.platform == ""win32"":",1
+2.0.0.beta1,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+2.0.0.beta1,Note that `b.dtype` is hard-coded as 'float64'.,1
+2.0.0.beta1,TODO,1
+2.0.0.beta1,TODO: Use logging later,1
+2.0.0.beta1,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+2.0.0.beta1,TODO(haibin) make these runtime options,1
+2.0.0.beta1,TODO: The current implementation fails assertion checks for large parm/state_size.,1
+2.0.0.beta1,TODO(haibin) test with more than 2 dimensions,1
+2.0.0.beta1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1,TODO: move more test cases from numpy to here,1
+2.0.0.beta1,TODO(kshitij12345): Remove,1
+2.0.0.beta1,TODO(kshitij12345): Remove,1
+2.0.0.beta1,TODO(kshitij12345): Remove,1
+2.0.0.beta1,TODO(kshitij12345): Remove,1
+2.0.0.beta1,TODO(leezu): Should raise NotImplementedError https://github.com/apache/incubator-mxnet/issues/17522,1
+2.0.0.beta1,TODO(leezu): Should raise ValueError https://github.com/apache/incubator-mxnet/issues/17522,1
+2.0.0.beta1,TODO: Fix Bug #15032 when bias has ndim > 1,1
+2.0.0.beta1,TODO(szha): replace with flaky,1
+2.0.0.beta1,TODO(Joshua Zhang): verify the augmenter outputs,1
+2.0.0.beta1,TODO(Joshua Zhang): verify the augmenter outputs,1
+2.0.0.beta1,TODO(Joshua Zhang): verify the augmenter outputs,1
+2.0.0.beta1,TODO(vcherepanov): mobilenet0.25 fails this test,1
+2.0.0.beta1,TODO(zhengda) mobilenet can't pass this test even without oneDNN.,1
+2.0.0.beta1,"(""softrelu"", True), #TODO(bgawrych): failing fusion check - difference in random single element",1
+2.0.0.beta1,(TODO)Xinyu: https://github.com/apache/incubator-mxnet/issues/16830,1
+2.0.0.beta1,TODO(szha): replace with flaky,1
+2.0.0.beta1,This is outdated and need to be completely redone.,1
+2.0.0.beta1,TODO: correctness of layernorm,1
+2.0.0.beta1,TODO: correctness of batchnorm,1
+2.0.0.beta1,TODO: correctness of prelu (currently flaky),1
+2.0.0.beta1,TODO: correctness of dropout,1
+2.0.0.beta1,TODO: correctness of batchnorm,1
+2.0.0.beta1,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+2.0.0.beta1,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+2.0.0.beta1,TODO(szha): disabled due to repeated failures. tracked in #18098,1
+2.0.0.beta1.rc1,HACK: ignore op.h which is automatically generated,1
+2.0.0.beta1.rc1,(TODO) maybe we can add another Formatter for FileHandler.,1
+2.0.0.beta1.rc1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+2.0.0.beta1.rc1,"state for the same index but on diff devs, TODO(mli)",1
+2.0.0.beta1.rc1,use a better solution later,1
+2.0.0.beta1.rc1,"pylint: disable=invalid-name, too-many-locals, fixme",1
+2.0.0.beta1.rc1,todo add shape support,1
+2.0.0.beta1.rc1,_TODO: get device from environment variable to support,1
+2.0.0.beta1.rc1,_TODO: get default dtype from environment variable,1
+2.0.0.beta1.rc1,"_TODO: get from env variable, different threshold might",1
+2.0.0.beta1.rc1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+2.0.0.beta1.rc1,TODO(junwu): This is a temp solution for allowing converting,1
+2.0.0.beta1.rc1,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+2.0.0.beta1.rc1,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+2.0.0.beta1.rc1,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+2.0.0.beta1.rc1,TODO(leodirac): There's got to be a better way to,1
+2.0.0.beta1.rc1,use the name hack defined in __init__() of estimator class,1
+2.0.0.beta1.rc1,TODO: Implement sampling op in the backend.,1
+2.0.0.beta1.rc1,TODO: Implement implicit reparameterization gradient for Gamma.,1
+2.0.0.beta1.rc1,TODO(junwu): Add doc,1
+2.0.0.beta1.rc1,TODO(junwu): no need to call asnumpy() on the whole array.,1
+2.0.0.beta1.rc1,TODO(ptredak): make it work with the optimizer,1
+2.0.0.beta1.rc1,TODO (lnyuan): need to copy data to each device memory,1
+2.0.0.beta1.rc1,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+2.0.0.beta1.rc1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+2.0.0.beta1.rc1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+2.0.0.beta1.rc1,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+2.0.0.beta1.rc1,"TODO(yzhliu): elif sys.platform == ""win32"":",1
+2.0.0.beta1.rc1,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+2.0.0.beta1.rc1,Note that `b.dtype` is hard-coded as 'float64'.,1
+2.0.0.beta1.rc1,TODO,1
+2.0.0.beta1.rc1,TODO: Use logging later,1
+2.0.0.beta1.rc1,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+2.0.0.beta1.rc1,TODO(haibin) make these runtime options,1
+2.0.0.beta1.rc1,TODO: The current implementation fails assertion checks for large parm/state_size.,1
+2.0.0.beta1.rc1,TODO(haibin) test with more than 2 dimensions,1
+2.0.0.beta1.rc1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1.rc1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1.rc1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1.rc1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1.rc1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1.rc1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1.rc1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1.rc1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1.rc1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1.rc1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1.rc1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1.rc1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1.rc1,TODO: move more test cases from numpy to here,1
+2.0.0.beta1.rc1,TODO(kshitij12345): Remove,1
+2.0.0.beta1.rc1,TODO(kshitij12345): Remove,1
+2.0.0.beta1.rc1,TODO(kshitij12345): Remove,1
+2.0.0.beta1.rc1,TODO(kshitij12345): Remove,1
+2.0.0.beta1.rc1,TODO(leezu): Should raise NotImplementedError https://github.com/apache/incubator-mxnet/issues/17522,1
+2.0.0.beta1.rc1,TODO(leezu): Should raise ValueError https://github.com/apache/incubator-mxnet/issues/17522,1
+2.0.0.beta1.rc1,TODO: Fix Bug #15032 when bias has ndim > 1,1
+2.0.0.beta1.rc1,TODO(szha): replace with flaky,1
+2.0.0.beta1.rc1,TODO(Joshua Zhang): verify the augmenter outputs,1
+2.0.0.beta1.rc1,TODO(Joshua Zhang): verify the augmenter outputs,1
+2.0.0.beta1.rc1,TODO(Joshua Zhang): verify the augmenter outputs,1
+2.0.0.beta1.rc1,TODO(vcherepanov): mobilenet0.25 fails this test,1
+2.0.0.beta1.rc1,TODO(zhengda) mobilenet can't pass this test even without oneDNN.,1
+2.0.0.beta1.rc1,"(""softrelu"", True), #TODO(bgawrych): failing fusion check - difference in random single element",1
+2.0.0.beta1.rc1,(TODO)Xinyu: https://github.com/apache/incubator-mxnet/issues/16830,1
+2.0.0.beta1.rc1,TODO(szha): replace with flaky,1
+2.0.0.beta1.rc1,This is outdated and need to be completely redone.,1
+2.0.0.beta1.rc1,TODO: correctness of layernorm,1
+2.0.0.beta1.rc1,TODO: correctness of batchnorm,1
+2.0.0.beta1.rc1,TODO: correctness of prelu (currently flaky),1
+2.0.0.beta1.rc1,TODO: correctness of dropout,1
+2.0.0.beta1.rc1,TODO: correctness of batchnorm,1
+2.0.0.beta1.rc1,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+2.0.0.beta1.rc1,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+2.0.0.beta1.rc1,TODO(szha): disabled due to repeated failures. tracked in #18098,1
+2.0.0.beta1.rc0,HACK: ignore op.h which is automatically generated,1
+2.0.0.beta1.rc0,(TODO) maybe we can add another Formatter for FileHandler.,1
+2.0.0.beta1.rc0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+2.0.0.beta1.rc0,"state for the same index but on diff devs, TODO(mli)",1
+2.0.0.beta1.rc0,use a better solution later,1
+2.0.0.beta1.rc0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+2.0.0.beta1.rc0,todo add shape support,1
+2.0.0.beta1.rc0,_TODO: get device from environment variable to support,1
+2.0.0.beta1.rc0,_TODO: get default dtype from environment variable,1
+2.0.0.beta1.rc0,"_TODO: get from env variable, different threshold might",1
+2.0.0.beta1.rc0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+2.0.0.beta1.rc0,TODO(junwu): This is a temp solution for allowing converting,1
+2.0.0.beta1.rc0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+2.0.0.beta1.rc0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+2.0.0.beta1.rc0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+2.0.0.beta1.rc0,TODO(leodirac): There's got to be a better way to,1
+2.0.0.beta1.rc0,use the name hack defined in __init__() of estimator class,1
+2.0.0.beta1.rc0,TODO: Implement sampling op in the backend.,1
+2.0.0.beta1.rc0,TODO: Implement implicit reparameterization gradient for Gamma.,1
+2.0.0.beta1.rc0,TODO(junwu): Add doc,1
+2.0.0.beta1.rc0,TODO(junwu): no need to call asnumpy() on the whole array.,1
+2.0.0.beta1.rc0,TODO(ptredak): make it work with the optimizer,1
+2.0.0.beta1.rc0,TODO (lnyuan): need to copy data to each device memory,1
+2.0.0.beta1.rc0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+2.0.0.beta1.rc0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+2.0.0.beta1.rc0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+2.0.0.beta1.rc0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+2.0.0.beta1.rc0,"TODO(yzhliu): elif sys.platform == ""win32"":",1
+2.0.0.beta1.rc0,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+2.0.0.beta1.rc0,Note that `b.dtype` is hard-coded as 'float64'.,1
+2.0.0.beta1.rc0,TODO,1
+2.0.0.beta1.rc0,TODO: Use logging later,1
+2.0.0.beta1.rc0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+2.0.0.beta1.rc0,TODO(haibin) make these runtime options,1
+2.0.0.beta1.rc0,TODO: The current implementation fails assertion checks for large parm/state_size.,1
+2.0.0.beta1.rc0,TODO(haibin) test with more than 2 dimensions,1
+2.0.0.beta1.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta1.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with _np.nan,1
+2.0.0.beta1.rc0,TODO: move more test cases from numpy to here,1
+2.0.0.beta1.rc0,TODO(kshitij12345): Remove,1
+2.0.0.beta1.rc0,TODO(kshitij12345): Remove,1
+2.0.0.beta1.rc0,TODO(kshitij12345): Remove,1
+2.0.0.beta1.rc0,TODO(kshitij12345): Remove,1
+2.0.0.beta1.rc0,TODO(leezu): Should raise NotImplementedError https://github.com/apache/incubator-mxnet/issues/17522,1
+2.0.0.beta1.rc0,TODO(leezu): Should raise ValueError https://github.com/apache/incubator-mxnet/issues/17522,1
+2.0.0.beta1.rc0,TODO: Fix Bug #15032 when bias has ndim > 1,1
+2.0.0.beta1.rc0,TODO(szha): replace with flaky,1
+2.0.0.beta1.rc0,TODO(Joshua Zhang): verify the augmenter outputs,1
+2.0.0.beta1.rc0,TODO(Joshua Zhang): verify the augmenter outputs,1
+2.0.0.beta1.rc0,TODO(Joshua Zhang): verify the augmenter outputs,1
+2.0.0.beta1.rc0,TODO(vcherepanov): mobilenet0.25 fails this test,1
+2.0.0.beta1.rc0,TODO(zhengda) mobilenet can't pass this test even without oneDNN.,1
+2.0.0.beta1.rc0,"(""softrelu"", True), #TODO(bgawrych): failing fusion check - difference in random single element",1
+2.0.0.beta1.rc0,(TODO)Xinyu: https://github.com/apache/incubator-mxnet/issues/16830,1
+2.0.0.beta1.rc0,TODO(szha): replace with flaky,1
+2.0.0.beta1.rc0,This is outdated and need to be completely redone.,1
+2.0.0.beta1.rc0,TODO: correctness of layernorm,1
+2.0.0.beta1.rc0,TODO: correctness of batchnorm,1
+2.0.0.beta1.rc0,TODO: correctness of prelu (currently flaky),1
+2.0.0.beta1.rc0,TODO: correctness of dropout,1
+2.0.0.beta1.rc0,TODO: correctness of batchnorm,1
+2.0.0.beta1.rc0,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+2.0.0.beta1.rc0,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+2.0.0.beta1.rc0,TODO(szha): disabled due to repeated failures. tracked in #18098,1
+1.9.0,This doesn't work with multi head docker files.,1
+1.9.0,HACK: ignore op.h which is automatically generated,1
+1.9.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.9.0,TODO Profiling the speed of this part!,1
+1.9.0,TODO Update logging patterns in other files,1
+1.9.0,TODO Backward using NDArray will cause some troubles see `https://github.com/apache/mxnet/issues/1720',1
+1.9.0,TODO Possibly states + inds for less memory access,1
+1.9.0,TODO Optimize the reshaping functionality!,1
+1.9.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.9.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.9.0,TODO Profiling the speed of this part!,1
+1.9.0,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.0,"TODO(tofix): we make a transpose of label here, because when",1
+1.9.0,TODO(tofix),1
+1.9.0,TODO(tofix),1
+1.9.0,TODO(tofix),1
+1.9.0,or anything familiar. Here we just use a temp workaround,1
+1.9.0,workarounds mentioned above,1
+1.9.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.9.0,TODO(anisub): add support for other models from gluoncv,1
+1.9.0,TODO: better way to shape the anchors??,1
+1.9.0,Todo: Ensure skip connection implementation is correct,1
+1.9.0,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.9.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.9.0,"state for the same index but on diff devs, TODO(mli)",1
+1.9.0,use a better solution later,1
+1.9.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.9.0,todo add shape support,1
+1.9.0,_TODO: get context from environment variable to support,1
+1.9.0,_TODO: get default dtype from environment variable,1
+1.9.0,"_TODO: get from env variable, different threshold might",1
+1.9.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.9.0,TODO(junwu): This is a temp solution for allowing converting,1
+1.9.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.9.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.9.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.9.0,TODO(leodirac): There's got to be a better way to,1
+1.9.0,"pylint: disable=fixme, too-many-arguments, too-many-locals, no-else-raise",1
+1.9.0,In the future we should have a better way to profile memory per device (haibin),1
+1.9.0,"TODO(xinyu-intel): little tricky here, need to refactor.",1
+1.9.0,TODO(xinyu-intel): tmp solution to save and reload for mxnet.mod.Module.,1
+1.9.0,TODO(xinyu-intel): tmp solution to save param_dict and reload for SymbolBlock,1
+1.9.0,TODO(ptredak): make it work with the optimizer,1
+1.9.0,TODO(ptredak): make it work with the optimizer,1
+1.9.0,use the name hack defined in __init__() of estimator class,1
+1.9.0,TODO(junwu): Add doc,1
+1.9.0,TODO(junwu): no need to call asnumpy() on the whole array.,1
+1.9.0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.9.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.9.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.9.0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.9.0,"TODO(yzhliu): elif sys.platform == ""win32"":",1
+1.9.0,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+1.9.0,Note that `b.dtype` is hard-coded as 'float64'.,1
+1.9.0,TODO,1
+1.9.0,TODO These operators still need to be converted (listing in order of priority):,1
+1.9.0,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.9.0,"TODO handling - ""identity"" : ""_copy""",1
+1.9.0,TODO,1
+1.9.0,TODO(junwu):,1
+1.9.0,TODO: Use logging later,1
+1.9.0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.9.0,TODO(haibin) make these runtime options,1
+1.9.0,TODO(haibin) test with more than 2 dimensions,1
+1.9.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.9.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.9.0,TODO: move more test cases from numpy to here,1
+1.9.0,TODO(kshitij12345): Remove,1
+1.9.0,TODO(kshitij12345): Remove,1
+1.9.0,TODO(kshitij12345): Remove,1
+1.9.0,TODO(kshitij12345): Remove,1
+1.9.0,TODO: Fix Bug #15032 when bias has ndim > 1,1
+1.9.0,# TODO: test fails intermittently when cudnn on. temporarily disabled cudnn until gets fixed.,1
+1.9.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.9.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.9.0,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.9.0,"TODO(ciyong), since quantized fc save its params in int8, while gluon treat the default",1
+1.9.0,(TODO)Xinyu: https://github.com/apache/incubator-mxnet/issues/16830,1
+1.9.0,"TODO: After rewrite, FC would fail this testcase. Commenting this out for now",1
+1.9.0,TODO: onnxruntime does not support float64 for Where,1
+1.9.0,TODO: onnxruntime does not support float64 for the relu opertors,1
+1.9.0,TODO: The current implementation fails assertion checks for large parm/state_size.,1
+1.9.0,This is outdated and need to be completely redone.,1
+1.9.0,TODO: correctness of layernorm,1
+1.9.0,TODO: correctness of batchnorm,1
+1.9.0,TODO: correctness of prelu (currently flaky),1
+1.9.0,TODO: correctness of dropout,1
+1.9.0,TODO: correctness of batchnorm,1
+1.9.0,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+1.9.0,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+2.0.0.beta0.rc0,HACK: ignore op.h which is automatically generated,1
+2.0.0.beta0.rc0,(TODO) maybe we can add another Formatter for FileHandler.,1
+2.0.0.beta0.rc0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+2.0.0.beta0.rc0,"state for the same index but on diff devs, TODO(mli)",1
+2.0.0.beta0.rc0,use a better solution later,1
+2.0.0.beta0.rc0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+2.0.0.beta0.rc0,todo add shape support,1
+2.0.0.beta0.rc0,_TODO: get context from environment variable to support,1
+2.0.0.beta0.rc0,_TODO: get default dtype from environment variable,1
+2.0.0.beta0.rc0,"_TODO: get from env variable, different threshold might",1
+2.0.0.beta0.rc0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+2.0.0.beta0.rc0,TODO(junwu): This is a temp solution for allowing converting,1
+2.0.0.beta0.rc0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+2.0.0.beta0.rc0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+2.0.0.beta0.rc0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+2.0.0.beta0.rc0,TODO(leodirac): There's got to be a better way to,1
+2.0.0.beta0.rc0,use the name hack defined in __init__() of estimator class,1
+2.0.0.beta0.rc0,TODO: Implement sampling op in the backend.,1
+2.0.0.beta0.rc0,TODO: Implement implicit reparameterization gradient for Gamma.,1
+2.0.0.beta0.rc0,TODO(junwu): Add doc,1
+2.0.0.beta0.rc0,TODO(junwu): no need to call asnumpy() on the whole array.,1
+2.0.0.beta0.rc0,TODO(ptredak): make it work with the optimizer,1
+2.0.0.beta0.rc0,TODO (lnyuan): need to copy data to each device memory,1
+2.0.0.beta0.rc0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+2.0.0.beta0.rc0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+2.0.0.beta0.rc0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+2.0.0.beta0.rc0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+2.0.0.beta0.rc0,"TODO(yzhliu): elif sys.platform == ""win32"":",1
+2.0.0.beta0.rc0,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+2.0.0.beta0.rc0,Note that `b.dtype` is hard-coded as 'float64'.,1
+2.0.0.beta0.rc0,TODO,1
+2.0.0.beta0.rc0,TODO: Use logging later,1
+2.0.0.beta0.rc0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+2.0.0.beta0.rc0,TODO(haibin) make these runtime options,1
+2.0.0.beta0.rc0,TODO: The current implementation fails assertion checks for large parm/state_size.,1
+2.0.0.beta0.rc0,TODO(haibin) test with more than 2 dimensions,1
+2.0.0.beta0.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta0.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+2.0.0.beta0.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta0.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+2.0.0.beta0.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta0.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+2.0.0.beta0.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta0.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+2.0.0.beta0.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta0.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+2.0.0.beta0.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+2.0.0.beta0.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+2.0.0.beta0.rc0,TODO: move more test cases from numpy to here,1
+2.0.0.beta0.rc0,TODO(kshitij12345): Remove,1
+2.0.0.beta0.rc0,TODO(kshitij12345): Remove,1
+2.0.0.beta0.rc0,TODO(kshitij12345): Remove,1
+2.0.0.beta0.rc0,TODO(kshitij12345): Remove,1
+2.0.0.beta0.rc0,TODO(leezu): Should raise NotImplementedError https://github.com/apache/incubator-mxnet/issues/17522,1
+2.0.0.beta0.rc0,TODO(leezu): Should raise ValueError https://github.com/apache/incubator-mxnet/issues/17522,1
+2.0.0.beta0.rc0,TODO: Fix Bug #15032 when bias has ndim > 1,1
+2.0.0.beta0.rc0,TODO(szha): replace with flaky,1
+2.0.0.beta0.rc0,TODO(Joshua Zhang): verify the augmenter outputs,1
+2.0.0.beta0.rc0,TODO(Joshua Zhang): verify the augmenter outputs,1
+2.0.0.beta0.rc0,TODO(Joshua Zhang): verify the augmenter outputs,1
+2.0.0.beta0.rc0,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+2.0.0.beta0.rc0,"(""softrelu"", True), #TODO(bgawrych): failing fusion check - difference in random single element",1
+2.0.0.beta0.rc0,(TODO)Xinyu: https://github.com/apache/incubator-mxnet/issues/16830,1
+2.0.0.beta0.rc0,TODO(szha): replace with flaky,1
+2.0.0.beta0.rc0,This is outdated and need to be completely redone.,1
+2.0.0.beta0.rc0,TODO: correctness of layernorm,1
+2.0.0.beta0.rc0,TODO: correctness of batchnorm,1
+2.0.0.beta0.rc0,TODO: correctness of prelu (currently flaky),1
+2.0.0.beta0.rc0,TODO: correctness of dropout,1
+2.0.0.beta0.rc0,TODO: correctness of batchnorm,1
+2.0.0.beta0.rc0,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+2.0.0.beta0.rc0,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+2.0.0.beta0.rc0,TODO(szha): disabled due to repeated failures. tracked in #18098,1
+1.8.0,This doesn't work with multi head docker files.,1
+1.8.0,HACK: ignore op.h which is automatically generated,1
+1.8.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.8.0,TODO Profiling the speed of this part!,1
+1.8.0,TODO Update logging patterns in other files,1
+1.8.0,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+1.8.0,TODO Possibly states + inds for less memory access,1
+1.8.0,TODO Optimize the reshaping functionality!,1
+1.8.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.8.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.8.0,TODO Profiling the speed of this part!,1
+1.8.0,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.8.0,"TODO(tofix): we make a transpose of label here, because when",1
+1.8.0,TODO(tofix),1
+1.8.0,TODO(tofix),1
+1.8.0,TODO(tofix),1
+1.8.0,or anything familiar. Here we just use a temp workaround,1
+1.8.0,workarounds mentioned above,1
+1.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.8.0,TODO(anisub): add support for other models from gluoncv,1
+1.8.0,TODO: better way to shape the anchors??,1
+1.8.0,Todo: Ensure skip connection implementation is correct,1
+1.8.0,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.8.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.8.0,"state for the same index but on diff devs, TODO(mli)",1
+1.8.0,use a better solution later,1
+1.8.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.8.0,todo add shape support,1
+1.8.0,_TODO: get context from environment variable to support,1
+1.8.0,_TODO: get default dtype from environment variable,1
+1.8.0,"_TODO: get from env variable, different threshold might",1
+1.8.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.8.0,TODO(junwu): This is a temp solution for allowing converting,1
+1.8.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.8.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.8.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.8.0,TODO(leodirac): There's got to be a better way to,1
+1.8.0,"pylint: disable=fixme, too-many-arguments, too-many-locals, no-else-raise",1
+1.8.0,In the future we should have a better way to profile memory per device (haibin),1
+1.8.0,"TODO(xinyu-intel): little tricky here, need to refactor.",1
+1.8.0,TODO(xinyu-intel): tmp solution to save and reload for mxnet.mod.Module.,1
+1.8.0,TODO(xinyu-intel): tmp solution to save param_dict and reload for SymbolBlock,1
+1.8.0,TODO(ptredak): make it work with the optimizer,1
+1.8.0,TODO(ptredak): make it work with the optimizer,1
+1.8.0,TODO: replace with mx.nd.eye(batch_size) with mxnet 1.2,1
+1.8.0,use the name hack defined in __init__() of estimator class,1
+1.8.0,TODO(junwu): Add doc,1
+1.8.0,TODO(junwu): no need to call asnumpy() on the whole array.,1
+1.8.0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.8.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.8.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.8.0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.8.0,"TODO(yzhliu): elif sys.platform == ""win32"":",1
+1.8.0,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+1.8.0,Note that `b.dtype` is hard-coded as 'float64'.,1
+1.8.0,TODO,1
+1.8.0,TODO These operators still need to be converted (listing in order of priority):,1
+1.8.0,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.8.0,"TODO handling - ""identity"" : ""_copy""",1
+1.8.0,TODO,1
+1.8.0,TODO(junwu):,1
+1.8.0,TODO: Use logging later,1
+1.8.0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.8.0,TODO(haibin) make these runtime options,1
+1.8.0,TODO(haibin) test with more than 2 dimensions,1
+1.8.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.8.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.8.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.8.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.8.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.8.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.8.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.8.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.8.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.8.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.8.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.8.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.8.0,TODO: move more test cases from numpy to here,1
+1.8.0,TODO(kshitij12345): Remove,1
+1.8.0,TODO(kshitij12345): Remove,1
+1.8.0,TODO(kshitij12345): Remove,1
+1.8.0,TODO(kshitij12345): Remove,1
+1.8.0,TODO: Fix Bug #15032 when bias has ndim > 1,1
+1.8.0,# TODO: test fails intermittently when cudnn on. temporarily disabled cudnn until gets fixed.,1
+1.8.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.8.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.8.0,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.8.0,"TODO(ciyong), since quantized fc save its params in int8, while gluon treat the default",1
+1.8.0,(TODO)Xinyu: https://github.com/apache/incubator-mxnet/issues/16830,1
+1.8.0,This is outdated and need to be completely redone.,1
+1.8.0,TODO: correctness of layernorm,1
+1.8.0,TODO: correctness of batchnorm,1
+1.8.0,TODO: correctness of prelu (currently flaky),1
+1.8.0,TODO: correctness of dropout,1
+1.8.0,TODO: correctness of batchnorm,1
+1.8.0,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+1.8.0,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+v2.0.0.alpha.rc3,TODO(anisub): add support for other models from gluoncv,1
+v2.0.0.alpha.rc3,(TODO) maybe we can add another Formatter for FileHandler.,1
+v2.0.0.alpha.rc3,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v2.0.0.alpha.rc3,"state for the same index but on diff devs, TODO(mli)",1
+v2.0.0.alpha.rc3,use a better solution later,1
+v2.0.0.alpha.rc3,"pylint: disable=invalid-name, too-many-locals, fixme",1
+v2.0.0.alpha.rc3,todo add shape support,1
+v2.0.0.alpha.rc3,_TODO: get context from environment variable to support,1
+v2.0.0.alpha.rc3,_TODO: get default dtype from environment variable,1
+v2.0.0.alpha.rc3,"_TODO: get from env variable, different threshold might",1
+v2.0.0.alpha.rc3,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v2.0.0.alpha.rc3,TODO(junwu): This is a temp solution for allowing converting,1
+v2.0.0.alpha.rc3,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+v2.0.0.alpha.rc3,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+v2.0.0.alpha.rc3,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+v2.0.0.alpha.rc3,TODO(leodirac): There's got to be a better way to,1
+v2.0.0.alpha.rc3,ToDo: Maybe do something more sane after Issue #17621 gets resolved,1
+v2.0.0.alpha.rc3,"ToDo: Use Constant or ConstantOfShape, when Issue #15101 is resolved?",1
+v2.0.0.alpha.rc3,"Convert ""0""s dimensions to ""1""s. This is a workaround for the case, where",1
+v2.0.0.alpha.rc3,use the name hack defined in __init__() of estimator class,1
+v2.0.0.alpha.rc3,TODO: Implement sampling op in the backend.,1
+v2.0.0.alpha.rc3,TODO: Implement implicit reparameterization gradient for Gamma.,1
+v2.0.0.alpha.rc3,TODO(junwu): Add doc,1
+v2.0.0.alpha.rc3,TODO(junwu): no need to call asnumpy() on the whole array.,1
+v2.0.0.alpha.rc3,TODO(ptredak): make it work with the optimizer,1
+v2.0.0.alpha.rc3,TODO (lnyuan): need to copy data to each device memory,1
+v2.0.0.alpha.rc3,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+v2.0.0.alpha.rc3,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+v2.0.0.alpha.rc3,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+v2.0.0.alpha.rc3,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+v2.0.0.alpha.rc3,"TODO(yzhliu): elif sys.platform == ""win32"":",1
+v2.0.0.alpha.rc3,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+v2.0.0.alpha.rc3,Note that `b.dtype` is hard-coded as 'float64'.,1
+v2.0.0.alpha.rc3,TODO,1
+v2.0.0.alpha.rc3,TODO: Use logging later,1
+v2.0.0.alpha.rc3,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+v2.0.0.alpha.rc3,TODO(haibin) make these runtime options,1
+v2.0.0.alpha.rc3,TODO(haibin) test with more than 2 dimensions,1
+v2.0.0.alpha.rc3,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc3,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc3,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc3,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc3,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc3,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc3,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc3,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc3,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc3,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc3,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc3,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc3,TODO: move more test cases from numpy to here,1
+v2.0.0.alpha.rc3,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc3,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc3,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc3,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc3,TODO(leezu): Should raise NotImplementedError https://github.com/apache/incubator-mxnet/issues/17522,1
+v2.0.0.alpha.rc3,TODO(leezu): Should raise ValueError https://github.com/apache/incubator-mxnet/issues/17522,1
+v2.0.0.alpha.rc3,TODO: Fix Bug #15032 when bias has ndim > 1,1
+v2.0.0.alpha.rc3,TODO(szha): replace with flaky,1
+v2.0.0.alpha.rc3,TODO(Joshua Zhang): verify the augmenter outputs,1
+v2.0.0.alpha.rc3,TODO(Joshua Zhang): verify the augmenter outputs,1
+v2.0.0.alpha.rc3,TODO(Joshua Zhang): verify the augmenter outputs,1
+v2.0.0.alpha.rc3,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+v2.0.0.alpha.rc3,"(""softrelu"", True), #TODO(bgawrych): failing fusion check - difference in random single element",1
+v2.0.0.alpha.rc3,(TODO)Xinyu: https://github.com/apache/incubator-mxnet/issues/16830,1
+v2.0.0.alpha.rc3,TODO(szha): replace with flaky,1
+v2.0.0.alpha.rc3,This is outdated and need to be completely redone.,1
+v2.0.0.alpha.rc3,TODO: correctness of layernorm,1
+v2.0.0.alpha.rc3,TODO: correctness of batchnorm,1
+v2.0.0.alpha.rc3,TODO: correctness of prelu (currently flaky),1
+v2.0.0.alpha.rc3,TODO: correctness of dropout,1
+v2.0.0.alpha.rc3,TODO: correctness of batchnorm,1
+v2.0.0.alpha.rc3,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+v2.0.0.alpha.rc3,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+v2.0.0.alpha.rc3,TODO(szha): disabled due to repeated failures. tracked in #18098,1
+v2.0.0.alpha.rc2,TODO(anisub): add support for other models from gluoncv,1
+v2.0.0.alpha.rc2,(TODO) maybe we can add another Formatter for FileHandler.,1
+v2.0.0.alpha.rc2,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v2.0.0.alpha.rc2,"state for the same index but on diff devs, TODO(mli)",1
+v2.0.0.alpha.rc2,use a better solution later,1
+v2.0.0.alpha.rc2,"pylint: disable=invalid-name, too-many-locals, fixme",1
+v2.0.0.alpha.rc2,todo add shape support,1
+v2.0.0.alpha.rc2,_TODO: get context from environment variable to support,1
+v2.0.0.alpha.rc2,_TODO: get default dtype from environment variable,1
+v2.0.0.alpha.rc2,"_TODO: get from env variable, different threshold might",1
+v2.0.0.alpha.rc2,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v2.0.0.alpha.rc2,TODO(junwu): This is a temp solution for allowing converting,1
+v2.0.0.alpha.rc2,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+v2.0.0.alpha.rc2,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+v2.0.0.alpha.rc2,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+v2.0.0.alpha.rc2,TODO(leodirac): There's got to be a better way to,1
+v2.0.0.alpha.rc2,ToDo: Maybe do something more sane after Issue #17621 gets resolved,1
+v2.0.0.alpha.rc2,"ToDo: Use Constant or ConstantOfShape, when Issue #15101 is resolved?",1
+v2.0.0.alpha.rc2,"Convert ""0""s dimensions to ""1""s. This is a workaround for the case, where",1
+v2.0.0.alpha.rc2,use the name hack defined in __init__() of estimator class,1
+v2.0.0.alpha.rc2,TODO: Implement sampling op in the backend.,1
+v2.0.0.alpha.rc2,TODO: Implement implicit reparameterization gradient for Gamma.,1
+v2.0.0.alpha.rc2,TODO(junwu): Add doc,1
+v2.0.0.alpha.rc2,TODO(junwu): no need to call asnumpy() on the whole array.,1
+v2.0.0.alpha.rc2,TODO(ptredak): make it work with the optimizer,1
+v2.0.0.alpha.rc2,TODO (lnyuan): need to copy data to each device memory,1
+v2.0.0.alpha.rc2,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+v2.0.0.alpha.rc2,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+v2.0.0.alpha.rc2,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+v2.0.0.alpha.rc2,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+v2.0.0.alpha.rc2,"TODO(yzhliu): elif sys.platform == ""win32"":",1
+v2.0.0.alpha.rc2,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+v2.0.0.alpha.rc2,Note that `b.dtype` is hard-coded as 'float64'.,1
+v2.0.0.alpha.rc2,TODO,1
+v2.0.0.alpha.rc2,TODO: Use logging later,1
+v2.0.0.alpha.rc2,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+v2.0.0.alpha.rc2,TODO(haibin) make these runtime options,1
+v2.0.0.alpha.rc2,TODO(haibin) test with more than 2 dimensions,1
+v2.0.0.alpha.rc2,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc2,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc2,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc2,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc2,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc2,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc2,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc2,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc2,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc2,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc2,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc2,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc2,TODO: move more test cases from numpy to here,1
+v2.0.0.alpha.rc2,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc2,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc2,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc2,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc2,TODO(leezu): Should raise NotImplementedError https://github.com/apache/incubator-mxnet/issues/17522,1
+v2.0.0.alpha.rc2,TODO(leezu): Should raise ValueError https://github.com/apache/incubator-mxnet/issues/17522,1
+v2.0.0.alpha.rc2,TODO: Fix Bug #15032 when bias has ndim > 1,1
+v2.0.0.alpha.rc2,TODO(szha): replace with flaky,1
+v2.0.0.alpha.rc2,TODO(Joshua Zhang): verify the augmenter outputs,1
+v2.0.0.alpha.rc2,TODO(Joshua Zhang): verify the augmenter outputs,1
+v2.0.0.alpha.rc2,TODO(Joshua Zhang): verify the augmenter outputs,1
+v2.0.0.alpha.rc2,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+v2.0.0.alpha.rc2,"(""softrelu"", True), #TODO(bgawrych): failing fusion check - difference in random single element",1
+v2.0.0.alpha.rc2,(TODO)Xinyu: https://github.com/apache/incubator-mxnet/issues/16830,1
+v2.0.0.alpha.rc2,TODO(szha): replace with flaky,1
+v2.0.0.alpha.rc2,This is outdated and need to be completely redone.,1
+v2.0.0.alpha.rc2,TODO: correctness of layernorm,1
+v2.0.0.alpha.rc2,TODO: correctness of batchnorm,1
+v2.0.0.alpha.rc2,TODO: correctness of prelu (currently flaky),1
+v2.0.0.alpha.rc2,TODO: correctness of dropout,1
+v2.0.0.alpha.rc2,TODO: correctness of batchnorm,1
+v2.0.0.alpha.rc2,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+v2.0.0.alpha.rc2,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+v2.0.0.alpha.rc2,TODO(szha): disabled due to repeated failures. tracked in #18098,1
+v2.0.0.alpha.rc1,TODO(anisub): add support for other models from gluoncv,1
+v2.0.0.alpha.rc1,(TODO) maybe we can add another Formatter for FileHandler.,1
+v2.0.0.alpha.rc1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v2.0.0.alpha.rc1,"state for the same index but on diff devs, TODO(mli)",1
+v2.0.0.alpha.rc1,use a better solution later,1
+v2.0.0.alpha.rc1,"pylint: disable=invalid-name, too-many-locals, fixme",1
+v2.0.0.alpha.rc1,todo add shape support,1
+v2.0.0.alpha.rc1,_TODO: get context from environment variable to support,1
+v2.0.0.alpha.rc1,_TODO: get default dtype from environment variable,1
+v2.0.0.alpha.rc1,"_TODO: get from env variable, different threshold might",1
+v2.0.0.alpha.rc1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v2.0.0.alpha.rc1,TODO(junwu): This is a temp solution for allowing converting,1
+v2.0.0.alpha.rc1,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+v2.0.0.alpha.rc1,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+v2.0.0.alpha.rc1,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+v2.0.0.alpha.rc1,TODO(leodirac): There's got to be a better way to,1
+v2.0.0.alpha.rc1,ToDo: Maybe do something more sane after Issue #17621 gets resolved,1
+v2.0.0.alpha.rc1,"ToDo: Use Constant or ConstantOfShape, when Issue #15101 is resolved?",1
+v2.0.0.alpha.rc1,"Convert ""0""s dimensions to ""1""s. This is a workaround for the case, where",1
+v2.0.0.alpha.rc1,use the name hack defined in __init__() of estimator class,1
+v2.0.0.alpha.rc1,TODO: Implement sampling op in the backend.,1
+v2.0.0.alpha.rc1,TODO: Implement implicit reparameterization gradient for Gamma.,1
+v2.0.0.alpha.rc1,TODO(junwu): Add doc,1
+v2.0.0.alpha.rc1,TODO(junwu): no need to call asnumpy() on the whole array.,1
+v2.0.0.alpha.rc1,TODO(ptredak): make it work with the optimizer,1
+v2.0.0.alpha.rc1,TODO (lnyuan): need to copy data to each device memory,1
+v2.0.0.alpha.rc1,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+v2.0.0.alpha.rc1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+v2.0.0.alpha.rc1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+v2.0.0.alpha.rc1,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+v2.0.0.alpha.rc1,"TODO(yzhliu): elif sys.platform == ""win32"":",1
+v2.0.0.alpha.rc1,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+v2.0.0.alpha.rc1,Note that `b.dtype` is hard-coded as 'float64'.,1
+v2.0.0.alpha.rc1,TODO,1
+v2.0.0.alpha.rc1,TODO: Use logging later,1
+v2.0.0.alpha.rc1,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+v2.0.0.alpha.rc1,TODO(haibin) make these runtime options,1
+v2.0.0.alpha.rc1,TODO(haibin) test with more than 2 dimensions,1
+v2.0.0.alpha.rc1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc1,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc1,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc1,TODO: move more test cases from numpy to here,1
+v2.0.0.alpha.rc1,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc1,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc1,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc1,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc1,TODO(leezu): Should raise NotImplementedError https://github.com/apache/incubator-mxnet/issues/17522,1
+v2.0.0.alpha.rc1,TODO(leezu): Should raise ValueError https://github.com/apache/incubator-mxnet/issues/17522,1
+v2.0.0.alpha.rc1,TODO: Fix Bug #15032 when bias has ndim > 1,1
+v2.0.0.alpha.rc1,TODO(szha): replace with flaky,1
+v2.0.0.alpha.rc1,TODO(Joshua Zhang): verify the augmenter outputs,1
+v2.0.0.alpha.rc1,TODO(Joshua Zhang): verify the augmenter outputs,1
+v2.0.0.alpha.rc1,TODO(Joshua Zhang): verify the augmenter outputs,1
+v2.0.0.alpha.rc1,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+v2.0.0.alpha.rc1,"(""softrelu"", True), #TODO(bgawrych): failing fusion check - difference in random single element",1
+v2.0.0.alpha.rc1,(TODO)Xinyu: https://github.com/apache/incubator-mxnet/issues/16830,1
+v2.0.0.alpha.rc1,TODO(szha): replace with flaky,1
+v2.0.0.alpha.rc1,This is outdated and need to be completely redone.,1
+v2.0.0.alpha.rc1,TODO: correctness of layernorm,1
+v2.0.0.alpha.rc1,TODO: correctness of batchnorm,1
+v2.0.0.alpha.rc1,TODO: correctness of prelu (currently flaky),1
+v2.0.0.alpha.rc1,TODO: correctness of dropout,1
+v2.0.0.alpha.rc1,TODO: correctness of batchnorm,1
+v2.0.0.alpha.rc1,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+v2.0.0.alpha.rc1,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+v2.0.0.alpha.rc1,TODO(szha): disabled due to repeated failures. tracked in #18098,1
+v2.0.0.alpha.rc0,TODO(anisub): add support for other models from gluoncv,1
+v2.0.0.alpha.rc0,(TODO) maybe we can add another Formatter for FileHandler.,1
+v2.0.0.alpha.rc0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v2.0.0.alpha.rc0,"state for the same index but on diff devs, TODO(mli)",1
+v2.0.0.alpha.rc0,use a better solution later,1
+v2.0.0.alpha.rc0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+v2.0.0.alpha.rc0,todo add shape support,1
+v2.0.0.alpha.rc0,_TODO: get context from environment variable to support,1
+v2.0.0.alpha.rc0,_TODO: get default dtype from environment variable,1
+v2.0.0.alpha.rc0,"_TODO: get from env variable, different threshold might",1
+v2.0.0.alpha.rc0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v2.0.0.alpha.rc0,TODO(junwu): This is a temp solution for allowing converting,1
+v2.0.0.alpha.rc0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+v2.0.0.alpha.rc0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+v2.0.0.alpha.rc0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+v2.0.0.alpha.rc0,TODO(leodirac): There's got to be a better way to,1
+v2.0.0.alpha.rc0,ToDo: Maybe do something more sane after Issue #17621 gets resolved,1
+v2.0.0.alpha.rc0,"ToDo: Use Constant or ConstantOfShape, when Issue #15101 is resolved?",1
+v2.0.0.alpha.rc0,"Convert ""0""s dimensions to ""1""s. This is a workaround for the case, where",1
+v2.0.0.alpha.rc0,use the name hack defined in __init__() of estimator class,1
+v2.0.0.alpha.rc0,TODO: Implement sampling op in the backend.,1
+v2.0.0.alpha.rc0,TODO: Implement implicit reparameterization gradient for Gamma.,1
+v2.0.0.alpha.rc0,TODO(junwu): Add doc,1
+v2.0.0.alpha.rc0,TODO(junwu): no need to call asnumpy() on the whole array.,1
+v2.0.0.alpha.rc0,TODO(ptredak): make it work with the optimizer,1
+v2.0.0.alpha.rc0,TODO (lnyuan): need to copy data to each device memory,1
+v2.0.0.alpha.rc0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+v2.0.0.alpha.rc0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+v2.0.0.alpha.rc0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+v2.0.0.alpha.rc0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+v2.0.0.alpha.rc0,"TODO(yzhliu): elif sys.platform == ""win32"":",1
+v2.0.0.alpha.rc0,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+v2.0.0.alpha.rc0,Note that `b.dtype` is hard-coded as 'float64'.,1
+v2.0.0.alpha.rc0,TODO,1
+v2.0.0.alpha.rc0,TODO: Use logging later,1
+v2.0.0.alpha.rc0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+v2.0.0.alpha.rc0,TODO(haibin) make these runtime options,1
+v2.0.0.alpha.rc0,TODO(haibin) test with more than 2 dimensions,1
+v2.0.0.alpha.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+v2.0.0.alpha.rc0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+v2.0.0.alpha.rc0,TODO: move more test cases from numpy to here,1
+v2.0.0.alpha.rc0,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc0,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc0,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc0,TODO(kshitij12345): Remove,1
+v2.0.0.alpha.rc0,TODO(leezu): Should raise NotImplementedError https://github.com/apache/incubator-mxnet/issues/17522,1
+v2.0.0.alpha.rc0,TODO(leezu): Should raise ValueError https://github.com/apache/incubator-mxnet/issues/17522,1
+v2.0.0.alpha.rc0,TODO: Fix Bug #15032 when bias has ndim > 1,1
+v2.0.0.alpha.rc0,TODO(szha): replace with flaky,1
+v2.0.0.alpha.rc0,TODO(Joshua Zhang): verify the augmenter outputs,1
+v2.0.0.alpha.rc0,TODO(Joshua Zhang): verify the augmenter outputs,1
+v2.0.0.alpha.rc0,TODO(Joshua Zhang): verify the augmenter outputs,1
+v2.0.0.alpha.rc0,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+v2.0.0.alpha.rc0,"(""softrelu"", True), #TODO(bgawrych): failing fusion check - difference in random single element",1
+v2.0.0.alpha.rc0,(TODO)Xinyu: https://github.com/apache/incubator-mxnet/issues/16830,1
+v2.0.0.alpha.rc0,TODO(szha): replace with flaky,1
+v2.0.0.alpha.rc0,This is outdated and need to be completely redone.,1
+v2.0.0.alpha.rc0,TODO: correctness of layernorm,1
+v2.0.0.alpha.rc0,TODO: correctness of batchnorm,1
+v2.0.0.alpha.rc0,TODO: correctness of prelu (currently flaky),1
+v2.0.0.alpha.rc0,TODO: correctness of dropout,1
+v2.0.0.alpha.rc0,TODO: correctness of batchnorm,1
+v2.0.0.alpha.rc0,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+v2.0.0.alpha.rc0,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+v2.0.0.alpha.rc0,TODO(szha): disabled due to repeated failures. tracked in #18098,1
+1.7.0,This doesn't work with multi head docker files.,1
+1.7.0,HACK: ignore op.h which is automatically generated,1
+1.7.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.7.0,TODO Profiling the speed of this part!,1
+1.7.0,TODO Update logging patterns in other files,1
+1.7.0,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+1.7.0,TODO Possibly states + inds for less memory access,1
+1.7.0,TODO Optimize the reshaping functionality!,1
+1.7.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.7.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.7.0,TODO Profiling the speed of this part!,1
+1.7.0,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.7.0,"TODO(tofix): we make a transpose of label here, because when",1
+1.7.0,TODO(tofix),1
+1.7.0,TODO(tofix),1
+1.7.0,TODO(tofix),1
+1.7.0,or anything familiar. Here we just use a temp workaround,1
+1.7.0,workarounds mentioned above,1
+1.7.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.7.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.7.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.7.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.7.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.7.0,TODO(anisub): add support for other models from gluoncv,1
+1.7.0,TODO: better way to shape the anchors??,1
+1.7.0,Todo: Ensure skip connection implementation is correct,1
+1.7.0,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.7.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.7.0,"state for the same index but on diff devs, TODO(mli)",1
+1.7.0,use a better solution later,1
+1.7.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.7.0,todo add shape support,1
+1.7.0,_TODO: get context from environment variable to support,1
+1.7.0,_TODO: get default dtype from environment variable,1
+1.7.0,"_TODO: get from env variable, different threshold might",1
+1.7.0,"_TODO: get from env variable, different threshold might",1
+1.7.0,"_TODO: get from env variable, different threshold might",1
+1.7.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.7.0,TODO(junwu): This is a temp solution for allowing converting,1
+1.7.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.7.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.7.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.7.0,TODO(leodirac): There's got to be a better way to,1
+1.7.0,"pylint: disable=fixme, too-many-arguments, too-many-locals, no-else-raise",1
+1.7.0,In the future we should have a better way to profile memory per device (haibin),1
+1.7.0,"TODO(xinyu-intel): little tricky here, need to refactor.",1
+1.7.0,TODO(xinyu-intel): tmp solution to save and reload for mxnet.mod.Module.,1
+1.7.0,TODO(xinyu-intel): tmp solution to save param_dict and reload for SymbolBlock,1
+1.7.0,TODO(ptredak): make it work with the optimizer,1
+1.7.0,TODO(ptredak): make it work with the optimizer,1
+1.7.0,TODO: replace with mx.nd.eye(batch_size) with mxnet 1.2,1
+1.7.0,use the name hack defined in __init__() of estimator class,1
+1.7.0,TODO(junwu): Add doc,1
+1.7.0,TODO(junwu): no need to call asnumpy() on the whole array.,1
+1.7.0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.7.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.7.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.7.0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.7.0,"TODO(yzhliu): elif sys.platform == ""win32"":",1
+1.7.0,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+1.7.0,Note that `b.dtype` is hard-coded as 'float64'.,1
+1.7.0,TODO,1
+1.7.0,TODO These operators still need to be converted (listing in order of priority):,1
+1.7.0,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.7.0,"TODO handling - ""identity"" : ""_copy""",1
+1.7.0,TODO,1
+1.7.0,TODO(junwu):,1
+1.7.0,TODO: Use logging later,1
+1.7.0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.7.0,TODO(haibin) make these runtime options,1
+1.7.0,TODO(haibin) test with more than 2 dimensions,1
+1.7.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.7.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.7.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.7.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.7.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.7.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.7.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.7.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.7.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.7.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.7.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.7.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.7.0,TODO: move more test cases from numpy to here,1
+1.7.0,TODO(kshitij12345): Remove,1
+1.7.0,TODO(kshitij12345): Remove,1
+1.7.0,TODO(kshitij12345): Remove,1
+1.7.0,TODO(kshitij12345): Remove,1
+1.7.0,TODO: Fix Bug #15032 when bias has ndim > 1,1
+1.7.0,# TODO: test fails intermittently when cudnn on. temporarily disabled cudnn until gets fixed.,1
+1.7.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.7.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.7.0,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.7.0,"TODO(ciyong), since quantized fc save its params in int8, while gluon treat the default",1
+1.7.0,TODO(cfujitsang): is atol_fp16 ok ?,1
+1.7.0,(TODO)Xinyu: https://github.com/apache/incubator-mxnet/issues/16830,1
+1.7.0,This is outdated and need to be completely redone.,1
+1.7.0,TODO: correctness of layernorm,1
+1.7.0,TODO: correctness of batchnorm,1
+1.7.0,TODO: correctness of prelu (currently flaky),1
+1.7.0,TODO: correctness of dropout,1
+1.7.0,TODO: correctness of batchnorm,1
+1.7.0,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+1.7.0,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+1.6.0,This doesn't work with multi head docker files.,1
+1.6.0,HACK: ignore op.h which is automatically generated,1
+1.6.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.6.0,TODO Profiling the speed of this part!,1
+1.6.0,TODO Update logging patterns in other files,1
+1.6.0,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+1.6.0,TODO Possibly states + inds for less memory access,1
+1.6.0,TODO Optimize the reshaping functionality!,1
+1.6.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.6.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.6.0,TODO Profiling the speed of this part!,1
+1.6.0,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.6.0,"TODO(tofix): we make a transpose of label here, because when",1
+1.6.0,TODO(tofix),1
+1.6.0,TODO(tofix),1
+1.6.0,TODO(tofix),1
+1.6.0,or anything familiar. Here we just use a temp workaround,1
+1.6.0,workarounds mentioned above,1
+1.6.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.6.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.6.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.6.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.6.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.6.0,TODO(anisub): add support for other models from gluoncv,1
+1.6.0,TODO: better way to shape the anchors??,1
+1.6.0,Todo: Ensure skip connection implementation is correct,1
+1.6.0,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.6.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.6.0,"state for the same index but on diff devs, TODO(mli)",1
+1.6.0,use a better solution later,1
+1.6.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.6.0,todo add shape support,1
+1.6.0,_TODO: get context from environment variable to support,1
+1.6.0,_TODO: get default dtype from environment variable,1
+1.6.0,"_TODO: get from env variable, different threshold might",1
+1.6.0,"_TODO: get from env variable, different threshold might",1
+1.6.0,"_TODO: get from env variable, different threshold might",1
+1.6.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.6.0,TODO(junwu): This is a temp solution for allowing converting,1
+1.6.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.6.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.6.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.6.0,TODO(leodirac): There's got to be a better way to,1
+1.6.0,"pylint: disable=fixme, too-many-arguments, too-many-locals, no-else-raise",1
+1.6.0,In the future we should have a better way to profile memory per device (haibin),1
+1.6.0,TODO(xinyu-intel): tmp solution to save and reload for mxnet.mod.Module.,1
+1.6.0,TODO(xinyu-intel): tmp solution to save param_dict and reload for SymbolBlock,1
+1.6.0,TODO(ptredak): make it work with the optimizer,1
+1.6.0,TODO(ptredak): make it work with the optimizer,1
+1.6.0,use the name hack defined in __init__() of estimator class,1
+1.6.0,TODO(junwu): Add doc,1
+1.6.0,TODO(junwu): no need to call asnumpy() on the whole array.,1
+1.6.0,"TODO(junwu): When ord = 'fro', axis = None, and x.ndim > 2, raise exception",1
+1.6.0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.6.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.6.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.6.0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.6.0,"TODO: attach instruction features to the library, e.g., avx-512, etc.",1
+1.6.0,Note that `b.dtype` is hard-coded as 'float64'.,1
+1.6.0,TODO,1
+1.6.0,TODO These operators still need to be converted (listing in order of priority):,1
+1.6.0,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.6.0,"TODO handling - ""identity"" : ""_copy""",1
+1.6.0,TODO,1
+1.6.0,TODO(junwu):,1
+1.6.0,TODO: Use logging later,1
+1.6.0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.6.0,TODO(haibin) make these runtime options,1
+1.6.0,TODO(haibin) test with more than 2 dimensions,1
+1.6.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.6.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.6.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.6.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.6.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.6.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.6.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.6.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.6.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.6.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.6.0,TODO(junwu): fp16 does not work yet with TVM generated ops,1
+1.6.0,TODO(junwu): mxnet currently does not have a consistent behavior as NumPy in dealing with np.nan,1
+1.6.0,TODO(kshitij12345): Remove,1
+1.6.0,TODO(kshitij12345): Remove,1
+1.6.0,TODO(kshitij12345): Remove,1
+1.6.0,TODO(kshitij12345): Remove,1
+1.6.0,TODO: Fix Bug #15032 when bias has ndim > 1,1
+1.6.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.6.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.6.0,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.6.0,"TODO(ciyong), since quantized fc save its params in int8, while gluon treat the default",1
+1.6.0,TODO(cfujitsang): is atol_fp16 ok ?,1
+1.6.0,This is outdated and need to be completely redone.,1
+1.6.0,TODO: correctness of layernorm,1
+1.6.0,TODO: correctness of batchnorm,1
+1.6.0,"TODO: Once PR #15772 for randn ndarray dtype for loc,scale param merged",1
+1.6.0,TODO: correctness of prelu (currently flaky),1
+1.6.0,TODO: correctness of dropout,1
+1.6.0,TODO: correctness of batchnorm,1
+1.6.0,TODO(access2rohit): merge similar tests in large vector and array into one file.,1
+1.6.0,TODO(vishaalk): Find a cleaner way to import this notebook.,1
+1.5.1,This doesn't work with multi head docker files.,1
+1.5.1,HACK: ignore op.h which is automatically generated,1
+1.5.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.5.1,TODO Profiling the speed of this part!,1
+1.5.1,TODO Update logging patterns in other files,1
+1.5.1,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+1.5.1,TODO Possibly states + inds for less memory access,1
+1.5.1,TODO Optimize the reshaping functionality!,1
+1.5.1,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.5.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.5.1,TODO Profiling the speed of this part!,1
+1.5.1,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.5.1,"TODO(tofix): we make a transpose of label here, because when",1
+1.5.1,TODO(tofix),1
+1.5.1,TODO(tofix),1
+1.5.1,TODO(tofix),1
+1.5.1,or anything familiar. Here we just use a temp workaround,1
+1.5.1,workarounds mentioned above,1
+1.5.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.5.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.5.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.5.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.5.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.5.1,TODO: better way to shape the anchors??,1
+1.5.1,Todo: Ensure skip connection implementation is correct,1
+1.5.1,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.5.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.5.1,"state for the same index but on diff devs, TODO(mli)",1
+1.5.1,use a better solution later,1
+1.5.1,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.5.1,todo add shape support,1
+1.5.1,_TODO: get context from environment variable to support,1
+1.5.1,_TODO: get default dtype from environment variable,1
+1.5.1,"_TODO: get from env variable, different threshold might",1
+1.5.1,"_TODO: get from env variable, different threshold might",1
+1.5.1,"_TODO: get from env variable, different threshold might",1
+1.5.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.5.1,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.5.1,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.5.1,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.5.1,TODO(leodirac): There's got to be a better way to,1
+1.5.1,"pylint: disable=fixme, too-many-arguments, too-many-locals, no-else-raise",1
+1.5.1,In the future we should have a better way to profile memory per device (haibin),1
+1.5.1,TODO(ptredak): make it work with the optimizer,1
+1.5.1,TODO(ptredak): make it work with the optimizer,1
+1.5.1,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.5.1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.5.1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.5.1,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.5.1,TODO(junwu): Add support for nested lists besides integer list,1
+1.5.1,TODO,1
+1.5.1,TODO These operators still need to be converted (listing in order of priority):,1
+1.5.1,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.5.1,TODO,1
+1.5.1,TODO(junwu):,1
+1.5.1,TODO: Use logging later,1
+1.5.1,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.5.1,TODO(haibin) make these runtime options,1
+1.5.1,TODO(haibin) test with more than 2 dimensions,1
+1.5.1,TODO: Fix Bug #15032 when bias has ndim > 1,1
+1.5.1,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.5.1,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.5.1,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.5.1,"TODO(ciyong), since quantized fc save its params in int8, while gluon treat the default",1
+1.5.1,TODO(vishaalk): Find a cleaner way to import this notebook.,1
+1.5.0,This doesn't work with multi head docker files.,1
+1.5.0,HACK: ignore op.h which is automatically generated,1
+1.5.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.5.0,TODO Profiling the speed of this part!,1
+1.5.0,TODO Update logging patterns in other files,1
+1.5.0,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+1.5.0,TODO Possibly states + inds for less memory access,1
+1.5.0,TODO Optimize the reshaping functionality!,1
+1.5.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.5.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.5.0,TODO Profiling the speed of this part!,1
+1.5.0,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.5.0,"TODO(tofix): we make a transpose of label here, because when",1
+1.5.0,TODO(tofix),1
+1.5.0,TODO(tofix),1
+1.5.0,TODO(tofix),1
+1.5.0,or anything familiar. Here we just use a temp workaround,1
+1.5.0,workarounds mentioned above,1
+1.5.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.5.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.5.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.5.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.5.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.5.0,TODO: better way to shape the anchors??,1
+1.5.0,Todo: Ensure skip connection implementation is correct,1
+1.5.0,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.5.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.5.0,"state for the same index but on diff devs, TODO(mli)",1
+1.5.0,use a better solution later,1
+1.5.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.5.0,todo add shape support,1
+1.5.0,_TODO: get context from environment variable to support,1
+1.5.0,_TODO: get default dtype from environment variable,1
+1.5.0,"_TODO: get from env variable, different threshold might",1
+1.5.0,"_TODO: get from env variable, different threshold might",1
+1.5.0,"_TODO: get from env variable, different threshold might",1
+1.5.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.5.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.5.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.5.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.5.0,TODO(leodirac): There's got to be a better way to,1
+1.5.0,"pylint: disable=fixme, too-many-arguments, too-many-locals, no-else-raise",1
+1.5.0,In the future we should have a better way to profile memory per device (haibin),1
+1.5.0,TODO(ptredak): make it work with the optimizer,1
+1.5.0,TODO(ptredak): make it work with the optimizer,1
+1.5.0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.5.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.5.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.5.0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.5.0,TODO(junwu): Add support for nested lists besides integer list,1
+1.5.0,TODO,1
+1.5.0,TODO These operators still need to be converted (listing in order of priority):,1
+1.5.0,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.5.0,TODO,1
+1.5.0,TODO(junwu):,1
+1.5.0,TODO: Use logging later,1
+1.5.0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.5.0,TODO(haibin) make these runtime options,1
+1.5.0,TODO(haibin) test with more than 2 dimensions,1
+1.5.0,TODO: Fix Bug #15032 when bias has ndim > 1,1
+1.5.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.5.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.5.0,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.5.0,"TODO(ciyong), since quantized fc save its params in int8, while gluon treat the default",1
+1.5.0,TODO(vishaalk): Find a cleaner way to import this notebook.,1
+1.4.1,This doesn't work with multi head docker files.,1
+1.4.1,HACK: ignore op.h which is automatically generated,1
+1.4.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.4.1,TODO Profiling the speed of this part!,1
+1.4.1,TODO Update logging patterns in other files,1
+1.4.1,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+1.4.1,TODO Possibly states + inds for less memory access,1
+1.4.1,TODO Optimize the reshaping functionality!,1
+1.4.1,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.4.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.4.1,TODO Profiling the speed of this part!,1
+1.4.1,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.4.1,"TODO(tofix): we make a transpose of label here, because when",1
+1.4.1,TODO(tofix),1
+1.4.1,TODO(tofix),1
+1.4.1,TODO(tofix),1
+1.4.1,or anything familiar. Here we just use a temp workaround,1
+1.4.1,workarounds mentioned above,1
+1.4.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.4.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.4.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.4.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.4.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.4.1,TODO: better way to shape the anchors??,1
+1.4.1,Todo: Ensure skip connection implementation is correct,1
+1.4.1,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.4.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.4.1,"state for the same index but on diff devs, TODO(mli)",1
+1.4.1,use a better solution later,1
+1.4.1,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.4.1,todo add shape support,1
+1.4.1,_TODO: get context from environment variable to support,1
+1.4.1,_TODO: get default dtype from environment variable,1
+1.4.1,"_TODO: get from env variable, different threshold might",1
+1.4.1,"_TODO: get from env variable, different threshold might",1
+1.4.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.4.1,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.4.1,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.4.1,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.4.1,TODO(leodirac): There's got to be a better way to,1
+1.4.1,"pylint: disable=fixme, too-many-arguments, too-many-locals",1
+1.4.1,In the future we should have a better way to profile memory per device (haibin),1
+1.4.1,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.4.1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.4.1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.4.1,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.4.1,TODO(junwu): Add support for nested lists besides integer list,1
+1.4.1,TODO,1
+1.4.1,TODO These operators still need to be converted (listing in order of priority):,1
+1.4.1,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.4.1,TODO(junwu):,1
+1.4.1,TODO: Use logging later,1
+1.4.1,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.4.1,TODO(haibin) make these runtime options,1
+1.4.1,TODO(haibin) test with more than 2 dimensions,1
+1.4.1,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.4.1,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.4.1,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.4.1,TODO(vishaalk): Find a cleaner way to import this notebook.,1
+1.4.0,This doesn't work with multi head docker files.,1
+1.4.0,HACK: ignore op.h which is automatically generated,1
+1.4.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.4.0,TODO Profiling the speed of this part!,1
+1.4.0,TODO Update logging patterns in other files,1
+1.4.0,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+1.4.0,TODO Possibly states + inds for less memory access,1
+1.4.0,TODO Optimize the reshaping functionality!,1
+1.4.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.4.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.4.0,TODO Profiling the speed of this part!,1
+1.4.0,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.4.0,"TODO(tofix): we make a transpose of label here, because when",1
+1.4.0,TODO(tofix),1
+1.4.0,TODO(tofix),1
+1.4.0,TODO(tofix),1
+1.4.0,or anything familiar. Here we just use a temp workaround,1
+1.4.0,workarounds mentioned above,1
+1.4.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.4.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.4.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.4.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.4.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.4.0,TODO: better way to shape the anchors??,1
+1.4.0,Todo: Ensure skip connection implementation is correct,1
+1.4.0,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.4.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.4.0,"state for the same index but on diff devs, TODO(mli)",1
+1.4.0,use a better solution later,1
+1.4.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.4.0,todo add shape support,1
+1.4.0,_TODO: get context from environment variable to support,1
+1.4.0,_TODO: get default dtype from environment variable,1
+1.4.0,"_TODO: get from env variable, different threshold might",1
+1.4.0,"_TODO: get from env variable, different threshold might",1
+1.4.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.4.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.4.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.4.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.4.0,TODO(leodirac): There's got to be a better way to,1
+1.4.0,"pylint: disable=fixme, too-many-arguments, too-many-locals",1
+1.4.0,In the future we should have a better way to profile memory per device (haibin),1
+1.4.0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.4.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.4.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.4.0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.4.0,TODO(junwu): Add support for nested lists besides integer list,1
+1.4.0,TODO,1
+1.4.0,TODO These operators still need to be converted (listing in order of priority):,1
+1.4.0,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.4.0,TODO(junwu):,1
+1.4.0,TODO: Use logging later,1
+1.4.0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.4.0,TODO(haibin) make these runtime options,1
+1.4.0,TODO(haibin) test with more than 2 dimensions,1
+1.4.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.4.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.4.0,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.4.0,TODO(vishaalk): Find a cleaner way to import this notebook.,1
+1.3.1,This doesn't work with multi head docker files.,1
+1.3.1,HACK: ignore op.h which is automatically generated,1
+1.3.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.1,TODO(tofix),1
+1.3.1,or anything familiar. Here we just use a temp workaround,1
+1.3.1,workarounds mentioned above,1
+1.3.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.3.1,TODO Profiling the speed of this part!,1
+1.3.1,TODO Update logging patterns in other files,1
+1.3.1,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+1.3.1,TODO Possibly states + inds for less memory access,1
+1.3.1,TODO Optimize the reshaping functionality!,1
+1.3.1,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.3.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.3.1,TODO Profiling the speed of this part!,1
+1.3.1,NOTE: This naive implementation is slow and uses lots of memory.,1
+1.3.1,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.1,"TODO(tofix): we make a transpose of label here, because when",1
+1.3.1,TODO(tofix),1
+1.3.1,TODO(tofix),1
+1.3.1,TODO(tofix),1
+1.3.1,or anything familiar. Here we just use a temp workaround,1
+1.3.1,workarounds mentioned above,1
+1.3.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.1,TODO: better way to shape the anchors??,1
+1.3.1,Todo: Ensure skip connection implementation is correct,1
+1.3.1,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.3.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.3.1,"state for the same index but on diff devs, TODO(mli)",1
+1.3.1,use a better solution later,1
+1.3.1,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.3.1,todo add shape support,1
+1.3.1,_TODO: get context from environment variable to support,1
+1.3.1,_TODO: get default dtype from environment variable,1
+1.3.1,"_TODO: get from env variable, different threshold might",1
+1.3.1,"_TODO: get from env variable, different threshold might",1
+1.3.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.3.1,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.3.1,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.3.1,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.3.1,TODO(leodirac): There's got to be a better way to,1
+1.3.1,"pylint: disable=fixme, too-many-arguments, too-many-locals",1
+1.3.1,In the future we should have a better way to profile memory per device (haibin),1
+1.3.1,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.3.1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.3.1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.3.1,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.3.1,TODO(junwu): Add support for nested lists besides integer list,1
+1.3.1,TODO,1
+1.3.1,TODO These operators still need to be converted (listing in order of priority):,1
+1.3.1,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.3.1,TODO(junwu):,1
+1.3.1,TODO: Use logging later,1
+1.3.1,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.3.1,TODO(haibin) make these runtime options,1
+1.3.1,TODO(haibin) test with more than 2 dimensions,1
+1.3.1,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.3.1,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.3.1,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.3.1,"not, we rethrow to prevent the notebook from erring RETRIES times. It is not ideal",1
+1.3.1,TODO(vishaalk): Find a cleaner way to import this notebook.,1
+1.3.0,This doesn't work with multi head docker files.,1
+1.3.0,HACK: ignore op.h which is automatically generated,1
+1.3.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.0,TODO(tofix),1
+1.3.0,or anything familiar. Here we just use a temp workaround,1
+1.3.0,workarounds mentioned above,1
+1.3.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.3.0,TODO Profiling the speed of this part!,1
+1.3.0,TODO Update logging patterns in other files,1
+1.3.0,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+1.3.0,TODO Possibly states + inds for less memory access,1
+1.3.0,TODO Optimize the reshaping functionality!,1
+1.3.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.3.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.3.0,TODO Profiling the speed of this part!,1
+1.3.0,NOTE: This naive implementation is slow and uses lots of memory.,1
+1.3.0,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.0,"TODO(tofix): we make a transpose of label here, because when",1
+1.3.0,TODO(tofix),1
+1.3.0,TODO(tofix),1
+1.3.0,TODO(tofix),1
+1.3.0,or anything familiar. Here we just use a temp workaround,1
+1.3.0,workarounds mentioned above,1
+1.3.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.3.0,TODO: better way to shape the anchors??,1
+1.3.0,Todo: Ensure skip connection implementation is correct,1
+1.3.0,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.3.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.3.0,"state for the same index but on diff devs, TODO(mli)",1
+1.3.0,use a better solution later,1
+1.3.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.3.0,todo add shape support,1
+1.3.0,_TODO: get context from environment variable to support,1
+1.3.0,_TODO: get default dtype from environment variable,1
+1.3.0,"_TODO: get from env variable, different threshold might",1
+1.3.0,"_TODO: get from env variable, different threshold might",1
+1.3.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.3.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.3.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.3.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.3.0,TODO(leodirac): There's got to be a better way to,1
+1.3.0,"pylint: disable=fixme, too-many-arguments, too-many-locals",1
+1.3.0,In the future we should have a better way to profile memory per device (haibin),1
+1.3.0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.3.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.3.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.3.0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.3.0,TODO(junwu): Add support for nested lists besides integer list,1
+1.3.0,TODO,1
+1.3.0,TODO These operators still need to be converted (listing in order of priority):,1
+1.3.0,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.3.0,TODO(junwu):,1
+1.3.0,TODO: Use logging later,1
+1.3.0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.3.0,TODO(haibin) make these runtime options,1
+1.3.0,TODO(haibin) test with more than 2 dimensions,1
+1.3.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.3.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.3.0,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.3.0,"not, we rethrow to prevent the notebook from erring RETRIES times. It is not ideal",1
+1.3.0,TODO(vishaalk): Find a cleaner way to import this notebook.,1
+1.2.1,HACK: ignore op.h which is automatically generated,1
+1.2.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.1,TODO(tofix),1
+1.2.1,or anything familiar. Here we just use a temp workaround,1
+1.2.1,workarounds mentioned above,1
+1.2.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.2.1,TODO Profiling the speed of this part!,1
+1.2.1,TODO Update logging patterns in other files,1
+1.2.1,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+1.2.1,TODO Possibly states + inds for less memory access,1
+1.2.1,TODO Optimize the reshaping functionality!,1
+1.2.1,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.2.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.2.1,TODO Profiling the speed of this part!,1
+1.2.1,NOTE: This naive implementation is slow and uses lots of memory.,1
+1.2.1,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.1,"TODO(tofix): we make a transpose of label here, because when",1
+1.2.1,TODO(tofix),1
+1.2.1,TODO(tofix),1
+1.2.1,TODO(tofix),1
+1.2.1,or anything familiar. Here we just use a temp workaround,1
+1.2.1,workarounds mentioned above,1
+1.2.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.1,TODO: better way to shape the anchors??,1
+1.2.1,"So, workaround for now to fix this example",1
+1.2.1,"So, workaround for now to fix this example",1
+1.2.1,Todo: Ensure skip connection implementation is correct,1
+1.2.1,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.2.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.2.1,"state for the same index but on diff devs, TODO(mli)",1
+1.2.1,use a better solution later,1
+1.2.1,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.2.1,todo add shape support,1
+1.2.1,_TODO: get context from environment variable to support,1
+1.2.1,_TODO: get default dtype from environment variable,1
+1.2.1,"_TODO: get from env variable, different threshold might",1
+1.2.1,"_TODO: get from env variable, different threshold might",1
+1.2.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.2.1,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.2.1,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.2.1,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.2.1,TODO(leodirac): There's got to be a better way to,1
+1.2.1,"pylint: disable=fixme, too-many-arguments, too-many-locals",1
+1.2.1,In the future we should have a better way to profile memory per device (haibin),1
+1.2.1,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.2.1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.2.1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.2.1,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.2.1,TODO(junwu): Add support for nested lists besides integer list,1
+1.2.1,TODO,1
+1.2.1,TODO These operators still need to be converted (listing in order of priority):,1
+1.2.1,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.2.1,TODO(junwu):,1
+1.2.1,TODO: Use logging later,1
+1.2.1,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.2.1,TODO(haibin) make these runtime options,1
+1.2.1,TODO(haibin) test with more than 2 dimensions,1
+1.2.1,TODO(szha): Seeding this masks failures. We need to do a deep dive for failures without this seed.,1
+1.2.1,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.2.1,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.2.1,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.2.1,TODO: Fix Train and Test accuracy numbers in multiple gpu mode. Setting it to 0 for now to get whole integration set up done,1
+1.2.0,HACK: ignore op.h which is automatically generated,1
+1.2.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.0,TODO(tofix),1
+1.2.0,or anything familiar. Here we just use a temp workaround,1
+1.2.0,workarounds mentioned above,1
+1.2.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.2.0,TODO Profiling the speed of this part!,1
+1.2.0,TODO Update logging patterns in other files,1
+1.2.0,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+1.2.0,TODO Possibly states + inds for less memory access,1
+1.2.0,TODO Optimize the reshaping functionality!,1
+1.2.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.2.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.2.0,TODO Profiling the speed of this part!,1
+1.2.0,NOTE: This naive implementation is slow and uses lots of memory.,1
+1.2.0,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.0,"TODO(tofix): we make a transpose of label here, because when",1
+1.2.0,TODO(tofix),1
+1.2.0,TODO(tofix),1
+1.2.0,TODO(tofix),1
+1.2.0,or anything familiar. Here we just use a temp workaround,1
+1.2.0,workarounds mentioned above,1
+1.2.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.2.0,TODO: better way to shape the anchors??,1
+1.2.0,"So, workaround for now to fix this example",1
+1.2.0,"So, workaround for now to fix this example",1
+1.2.0,Todo: Ensure skip connection implementation is correct,1
+1.2.0,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.2.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.2.0,"state for the same index but on diff devs, TODO(mli)",1
+1.2.0,use a better solution later,1
+1.2.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.2.0,todo add shape support,1
+1.2.0,_TODO: get context from environment variable to support,1
+1.2.0,_TODO: get default dtype from environment variable,1
+1.2.0,"_TODO: get from env variable, different threshold might",1
+1.2.0,"_TODO: get from env variable, different threshold might",1
+1.2.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.2.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.2.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.2.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.2.0,TODO(leodirac): There's got to be a better way to,1
+1.2.0,"pylint: disable=fixme, too-many-arguments, too-many-locals",1
+1.2.0,In the future we should have a better way to profile memory per device (haibin),1
+1.2.0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.2.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.2.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.2.0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.2.0,TODO(junwu): Add support for nested lists besides integer list,1
+1.2.0,TODO,1
+1.2.0,TODO These operators still need to be converted (listing in order of priority):,1
+1.2.0,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.2.0,TODO(junwu):,1
+1.2.0,TODO: Use logging later,1
+1.2.0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.2.0,TODO(haibin) make these runtime options,1
+1.2.0,TODO(haibin) test with more than 2 dimensions,1
+1.2.0,TODO(szha): Seeding this masks failures. We need to do a deep dive for failures without this seed.,1
+1.2.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.2.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.2.0,TODO(zhengda) mobilenet can't pass this test even without MKLDNN.,1
+1.2.0,TODO: Fix Train and Test accuracy numbers in multiple gpu mode. Setting it to 0 for now to get whole integration set up done,1
+1.1.0,HACK: ignore op.h which is automatically generated,1
+1.1.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.1.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.1.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.1.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.1.0,TODO(tofix),1
+1.1.0,or anything familiar. Here we just use a temp workaround,1
+1.1.0,workarounds mentioned above,1
+1.1.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.1.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.1.0,TODO Profiling the speed of this part!,1
+1.1.0,TODO Update logging patterns in other files,1
+1.1.0,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+1.1.0,TODO Possibly states + inds for less memory access,1
+1.1.0,TODO Optimize the reshaping functionality!,1
+1.1.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.1.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.1.0,TODO Profiling the speed of this part!,1
+1.1.0,NOTE: This naive implementation is slow and uses lots of memory.,1
+1.1.0,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.1.0,"TODO(tofix): we make a transpose of label here, because when",1
+1.1.0,TODO(tofix),1
+1.1.0,TODO(tofix),1
+1.1.0,TODO(tofix),1
+1.1.0,or anything familiar. Here we just use a temp workaround,1
+1.1.0,workarounds mentioned above,1
+1.1.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.1.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.1.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.1.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.1.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.1.0,TODO: better way to shape the anchors??,1
+1.1.0,"So, workaround for now to fix this example",1
+1.1.0,"So, workaround for now to fix this example",1
+1.1.0,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.1.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.1.0,"state for the same index but on diff devs, TODO(mli)",1
+1.1.0,use a better solution later,1
+1.1.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.1.0,todo add shape support,1
+1.1.0,_TODO: get context from environment variable to support,1
+1.1.0,_TODO: get default dtype from environment variable,1
+1.1.0,"_TODO: get from env variable, different threshold might",1
+1.1.0,"_TODO: get from env variable, different threshold might",1
+1.1.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.1.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.1.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.1.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.1.0,TODO(leodirac): There's got to be a better way to,1
+1.1.0,"pylint: disable=fixme, too-many-arguments, too-many-locals, too-many-public-methods, too-many-branches",1
+1.1.0,In the future we should have a better way to profile memory per device (haibin),1
+1.1.0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.1.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.1.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.1.0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.1.0,TODO(junwu): Add support for nested lists besides integer list,1
+1.1.0,TODO,1
+1.1.0,TODO These operators still need to be converted (listing in order of priority):,1
+1.1.0,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.1.0,TODO(junwu):,1
+1.1.0,TODO: Use logging later,1
+1.1.0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.1.0,TODO(haibin) make these runtime options,1
+1.1.0,TODO(haibin) test with more than 2 dimensions,1
+1.1.0,TODO(szha): Seeding this masks failures. We need to do a deep dive for failures without this seed.,1
+1.1.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.1.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.1.0,TODO: Fix Train and Test accuracy numbers in multiple gpu mode. Setting it to 0 for now to get whole integration set up done,1
+1.0.0,HACK: ignore op.h which is automatically generated,1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,TODO: add checkpoint back in,1
+1.0.0,TODO(tofix),1
+1.0.0,or anything familiar. Here we just use a temp workaround,1
+1.0.0,workarounds mentioned above,1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.0.0,TODO Profiling the speed of this part!,1
+1.0.0,TODO Update logging patterns in other files,1
+1.0.0,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+1.0.0,TODO Possibly states + inds for less memory access,1
+1.0.0,TODO Optimize the reshaping functionality!,1
+1.0.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+1.0.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+1.0.0,TODO Profiling the speed of this part!,1
+1.0.0,NOTE: This naive implementation is slow and uses lots of memory.,1
+1.0.0,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,"TODO(tofix): we make a transpose of label here, because when",1
+1.0.0,TODO(tofix),1
+1.0.0,TODO(tofix),1
+1.0.0,TODO(tofix),1
+1.0.0,or anything familiar. Here we just use a temp workaround,1
+1.0.0,workarounds mentioned above,1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,TODO: better way to shape the anchors??,1
+1.0.0,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+1.0.0,TODO: should we group utterances of similar length together?,1
+1.0.0,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+1.0.0,a better way to handle that,1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+1.0.0,(TODO) maybe we can add another Formatter for FileHandler.,1
+1.0.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.0.0,"state for the same index but on diff devs, TODO(mli)",1
+1.0.0,use a better solution later,1
+1.0.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+1.0.0,todo add shape support,1
+1.0.0,_TODO: get context from environment variable to support,1
+1.0.0,_TODO: get default dtype from environment variable,1
+1.0.0,"_TODO: get from env variable, different threshold might",1
+1.0.0,"_TODO: get from env variable, different threshold might",1
+1.0.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+1.0.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+1.0.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+1.0.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+1.0.0,TODO(leodirac): There's got to be a better way to,1
+1.0.0,"pylint: disable=fixme, too-many-arguments, too-many-locals, too-many-public-methods, too-many-branches",1
+1.0.0,In the future we should have a better way to profile memory per device (haibin),1
+1.0.0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+1.0.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.0.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+1.0.0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+1.0.0,TODO(junwu): Add support for nested lists besides integer list,1
+1.0.0,Workarounds based on findings by Jim Driscoll,1
+1.0.0,"Workaround erroneous numeric interpretation of +""0x""",1
+1.0.0,"The broken getElementById methods don't pick up programatically-set names,",1
+1.0.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+1.0.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+1.0.0,From the awesome hack by Dean Edwards,1
+1.0.0,Work around by temporarily setting element display to inline-block,1
+1.0.0,force reflow of newly added node in order to workaround delay,1
+1.0.0,Workaround failure to string-cast null input,1
+1.0.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+1.0.0,TODO,1
+1.0.0,TODO These operators still need to be converted (listing in order of priority):,1
+1.0.0,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+1.0.0,TODO(junwu):,1
+1.0.0,TODO: Use logging later,1
+1.0.0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+1.0.0,TODO(haibin) make these runtime options,1
+1.0.0,TODO(haibin) test with more than 2 dimensions,1
+1.0.0,TODO(szha): Seeding this masks failures. We need to do a deep dive for failures without this seed.,1
+1.0.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.0.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+1.0.0,TODO: Fix Train and Test accuracy numbers in multiple gpu mode. Setting it to 0 for now to get whole integration set up done,1
+0.12.1,HACK: ignore op.h which is automatically generated,1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,TODO: add checkpoint back in,1
+0.12.1,TODO(tofix),1
+0.12.1,or anything familiar. Here we just use a temp workaround,1
+0.12.1,workarounds mentioned above,1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+0.12.1,TODO Profiling the speed of this part!,1
+0.12.1,TODO Update logging patterns in other files,1
+0.12.1,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+0.12.1,TODO Possibly states + inds for less memory access,1
+0.12.1,TODO Optimize the reshaping functionality!,1
+0.12.1,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+0.12.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+0.12.1,TODO Profiling the speed of this part!,1
+0.12.1,NOTE: This naive implementation is slow and uses lots of memory.,1
+0.12.1,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,"TODO(tofix): we make a transpose of label here, because when",1
+0.12.1,TODO(tofix),1
+0.12.1,TODO(tofix),1
+0.12.1,TODO(tofix),1
+0.12.1,or anything familiar. Here we just use a temp workaround,1
+0.12.1,workarounds mentioned above,1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,TODO: better way to shape the anchors??,1
+0.12.1,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+0.12.1,TODO: should we group utterances of similar length together?,1
+0.12.1,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+0.12.1,a better way to handle that,1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.1,(TODO) maybe we can add another Formatter for FileHandler.,1
+0.12.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+0.12.1,"state for the same index but on diff devs, TODO(mli)",1
+0.12.1,use a better solution later,1
+0.12.1,"pylint: disable=invalid-name, too-many-locals, fixme",1
+0.12.1,todo add shape support,1
+0.12.1,_TODO: get context from environment variable to support,1
+0.12.1,_TODO: get default dtype from environment variable,1
+0.12.1,"_TODO: get from env variable, different threshold might",1
+0.12.1,"_TODO: get from env variable, different threshold might",1
+0.12.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+0.12.1,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+0.12.1,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+0.12.1,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+0.12.1,TODO(leodirac): There's got to be a better way to,1
+0.12.1,"pylint: disable=fixme, too-many-arguments, too-many-locals, too-many-public-methods, too-many-branches",1
+0.12.1,In the future we should have a better way to profile memory per device (haibin),1
+0.12.1,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+0.12.1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+0.12.1,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+0.12.1,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+0.12.1,Workarounds based on findings by Jim Driscoll,1
+0.12.1,"Workaround erroneous numeric interpretation of +""0x""",1
+0.12.1,"The broken getElementById methods don't pick up programatically-set names,",1
+0.12.1,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.12.1,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.12.1,From the awesome hack by Dean Edwards,1
+0.12.1,Work around by temporarily setting element display to inline-block,1
+0.12.1,force reflow of newly added node in order to workaround delay,1
+0.12.1,Workaround failure to string-cast null input,1
+0.12.1,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.12.1,TODO,1
+0.12.1,TODO These operators still need to be converted (listing in order of priority):,1
+0.12.1,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+0.12.1,TODO(junwu):,1
+0.12.1,TODO: Use logging later,1
+0.12.1,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+0.12.1,TODO(haibin) make these runtime options,1
+0.12.1,TODO(haibin) test with more than 2 dimensions,1
+0.12.1,TODO(szha): Seeding this masks failures. We need to do a deep dive for failures without this seed.,1
+0.12.1,TODO(Joshua Zhang): verify the augmenter outputs,1
+0.12.1,TODO(Joshua Zhang): verify the augmenter outputs,1
+0.12.1,TODO: Fix Train and Test accuracy numbers in multiple gpu mode. Setting it to 0 for now to get whole integration set up done,1
+0.12.0,HACK: ignore op.h which is automatically generated,1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,TODO: add checkpoint back in,1
+0.12.0,TODO(tofix),1
+0.12.0,or anything familiar. Here we just use a temp workaround,1
+0.12.0,workarounds mentioned above,1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+0.12.0,TODO Profiling the speed of this part!,1
+0.12.0,TODO Update logging patterns in other files,1
+0.12.0,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+0.12.0,TODO Possibly states + inds for less memory access,1
+0.12.0,TODO Optimize the reshaping functionality!,1
+0.12.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+0.12.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+0.12.0,TODO Profiling the speed of this part!,1
+0.12.0,NOTE: This naive implementation is slow and uses lots of memory.,1
+0.12.0,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,"TODO(tofix): we make a transpose of label here, because when",1
+0.12.0,TODO(tofix),1
+0.12.0,TODO(tofix),1
+0.12.0,TODO(tofix),1
+0.12.0,or anything familiar. Here we just use a temp workaround,1
+0.12.0,workarounds mentioned above,1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,TODO: better way to shape the anchors??,1
+0.12.0,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+0.12.0,TODO: should we group utterances of similar length together?,1
+0.12.0,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+0.12.0,a better way to handle that,1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.12.0,(TODO) maybe we can add another Formatter for FileHandler.,1
+0.12.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+0.12.0,"state for the same index but on diff devs, TODO(mli)",1
+0.12.0,use a better solution later,1
+0.12.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+0.12.0,todo add shape support,1
+0.12.0,_TODO: get context from environment variable to support,1
+0.12.0,_TODO: get default dtype from environment variable,1
+0.12.0,"_TODO: get from env variable, different threshold might",1
+0.12.0,"_TODO: get from env variable, different threshold might",1
+0.12.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+0.12.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+0.12.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+0.12.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+0.12.0,TODO(leodirac): There's got to be a better way to,1
+0.12.0,"pylint: disable=fixme, too-many-arguments, too-many-locals, too-many-public-methods, too-many-branches",1
+0.12.0,In the future we should have a better way to profile memory per device (haibin),1
+0.12.0,TODO(haibin/anisub) check scipy.sparse and use _sync_copy_from to,1
+0.12.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+0.12.0,"TODO(junwu): Convert data, indptr, and indices to mxnet NDArrays",1
+0.12.0,TODO(haibin) implement `_sync_copy_from` with scipy csr object to reduce a copy,1
+0.12.0,Workarounds based on findings by Jim Driscoll,1
+0.12.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.12.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.12.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.12.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.12.0,From the awesome hack by Dean Edwards,1
+0.12.0,Work around by temporarily setting element display to inline-block,1
+0.12.0,force reflow of newly added node in order to workaround delay,1
+0.12.0,Workaround failure to string-cast null input,1
+0.12.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.12.0,TODO,1
+0.12.0,TODO These operators still need to be converted (listing in order of priority):,1
+0.12.0,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+0.12.0,TODO(junwu):,1
+0.12.0,TODO: Use logging later,1
+0.12.0,TODO(anirudh): make the data dicts to config which can be passed at runtime,1
+0.12.0,TODO(haibin) make these runtime options,1
+0.12.0,TODO(haibin) test with more than 2 dimensions,1
+0.12.0,TODO(szha): Seeding this masks failures. We need to do a deep dive for failures without this seed.,1
+0.12.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+0.12.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+0.12.0,TODO: Fix Train and Test accuracy numbers in multiple gpu mode. Setting it to 0 for now to get whole integration set up done,1
+0.11.0,HACK: ignore op.h which is automatically generated,1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,TODO: add checkpoint back in,1
+0.11.0,TODO(tofix),1
+0.11.0,or anything familiar. Here we just use a temp workaround,1
+0.11.0,workarounds mentioned above,1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+0.11.0,TODO Profiling the speed of this part!,1
+0.11.0,TODO Update logging patterns in other files,1
+0.11.0,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+0.11.0,TODO Possibly states + inds for less memory access,1
+0.11.0,TODO Optimize the reshaping functionality!,1
+0.11.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+0.11.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+0.11.0,TODO Profiling the speed of this part!,1
+0.11.0,NOTE: This naive implementation is slow and uses lots of memory.,1
+0.11.0,"pylint: too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,"TODO(tofix): we make a transpose of label here, because when",1
+0.11.0,TODO(tofix),1
+0.11.0,TODO(tofix),1
+0.11.0,TODO(tofix),1
+0.11.0,or anything familiar. Here we just use a temp workaround,1
+0.11.0,workarounds mentioned above,1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,TODO: better way to shape the anchors??,1
+0.11.0,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+0.11.0,TODO: should we group utterances of similar length together?,1
+0.11.0,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+0.11.0,a better way to handle that,1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+0.11.0,(TODO) maybe we can add another Formatter for FileHandler.,1
+0.11.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+0.11.0,"state for the same index but on diff devs, TODO(mli)",1
+0.11.0,use a better solution latter,1
+0.11.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+0.11.0,todo add shape support,1
+0.11.0,_TODO: get context from environment variable to support,1
+0.11.0,_TODO: get default dtype from environment variable,1
+0.11.0,"_TODO: get from env variable, different threshold might",1
+0.11.0,"_TODO: get from env variable, different threshold might",1
+0.11.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+0.11.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+0.11.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+0.11.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+0.11.0,TODO(leodirac): There's got to be a better way to,1
+0.11.0,"pylint: disable=fixme, too-many-arguments, too-many-locals, too-many-public-methods, too-many-branches",1
+0.11.0,In the future we should have a better way to profile memory per device (haibin),1
+0.11.0,Workarounds based on findings by Jim Driscoll,1
+0.11.0,"Workaround erroneous numeric interpretation of +""0x""",1
+0.11.0,"The broken getElementById methods don't pick up programatically-set names,",1
+0.11.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+0.11.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+0.11.0,From the awesome hack by Dean Edwards,1
+0.11.0,Work around by temporarily setting element display to inline-block,1
+0.11.0,force reflow of newly added node in order to workaround delay,1
+0.11.0,Workaround failure to string-cast null input,1
+0.11.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+0.11.0,TODO,1
+0.11.0,TODO These operators still need to be converted (listing in order of priority):,1
+0.11.0,"TODO add SCALED_TANH, SOFTPLUS, SOFTSIGN, SIGMOID_HARD, LEAKYRELU, PRELU, ELU, PARAMETRICSOFTPLUS, THRESHOLDEDRELU, LINEAR",1
+0.11.0,TODO(szha): Seeding this masks failures. We need to do a deep dive for failures without this seed.,1
+0.11.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+0.11.0,TODO(Joshua Zhang): verify the augmenter outputs,1
+0.11.0,TODO: Fix Train and Test accuracy numbers in multiple gpu mode. Setting it to 0 for now to get whole integration set up done,1
+v0.10.0,HACK: ignore op.h which is automatically generated,1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,TODO: add checkpoint back in,1
+v0.10.0,TODO(tofix),1
+v0.10.0,or anything familiar. Here we just use a temp workaround,1
+v0.10.0,workarounds mentioned above,1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+v0.10.0,TODO Profiling the speed of this part!,1
+v0.10.0,TODO Update logging patterns in other files,1
+v0.10.0,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+v0.10.0,TODO Possibly states + inds for less memory access,1
+v0.10.0,TODO Optimize the reshaping functionality!,1
+v0.10.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+v0.10.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+v0.10.0,TODO Profiling the speed of this part!,1
+v0.10.0,NOTE: This naive implementation is slow and uses lots of memory.,1
+v0.10.0,"TODO(tofix): we make a transpose of label here, because when",1
+v0.10.0,TODO(tofix),1
+v0.10.0,TODO(tofix),1
+v0.10.0,TODO(tofix),1
+v0.10.0,or anything familiar. Here we just use a temp workaround,1
+v0.10.0,workarounds mentioned above,1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,TODO: better way to shape the anchors??,1
+v0.10.0,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.10.0,TODO: should we group utterances of similar length together?,1
+v0.10.0,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.10.0,a better way to handle that,1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.10.0,(TODO) maybe we can add another Formatter for FileHandler.,1
+v0.10.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v0.10.0,"state for the same index but on diff devs, TODO(mli)",1
+v0.10.0,use a better solution latter,1
+v0.10.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+v0.10.0,todo add shape support,1
+v0.10.0,_TODO: get context from environment variable to support,1
+v0.10.0,_TODO: get default dtype from environment variable,1
+v0.10.0,"_TODO: get from env variable, different threshold might",1
+v0.10.0,"_TODO: get from env variable, different threshold might",1
+v0.10.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v0.10.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+v0.10.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+v0.10.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+v0.10.0,TODO(leodirac): There's got to be a better way to,1
+v0.10.0,"pylint: disable=fixme, too-many-arguments, too-many-locals, too-many-public-methods, too-many-branches",1
+v0.10.0,In the future we should have a better way to profile memory per device (haibin),1
+v0.10.0,Workarounds based on findings by Jim Driscoll,1
+v0.10.0,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.10.0,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.10.0,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.10.0,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.10.0,From the awesome hack by Dean Edwards,1
+v0.10.0,Work around by temporarily setting element display to inline-block,1
+v0.10.0,force reflow of newly added node in order to workaround delay,1
+v0.10.0,Workaround failure to string-cast null input,1
+v0.10.0,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.10.0,TODO: Fix Train and Test accuracy numbers in multiple gpu mode. Setting it to 0 for now to get whole integration set up done,1
+v0.9.5,HACK: ignore op.h which is automatically generated,1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,TODO: add checkpoint back in,1
+v0.9.5,TODO(tofix),1
+v0.9.5,or anything familiar. Here we just use a temp workaround,1
+v0.9.5,workarounds mentioned above,1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+v0.9.5,TODO Profiling the speed of this part!,1
+v0.9.5,TODO Update logging patterns in other files,1
+v0.9.5,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+v0.9.5,TODO Possibly states + inds for less memory access,1
+v0.9.5,TODO Optimize the reshaping functionality!,1
+v0.9.5,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+v0.9.5,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+v0.9.5,TODO Profiling the speed of this part!,1
+v0.9.5,NOTE: This naive implementation is slow and uses lots of memory.,1
+v0.9.5,"TODO(tofix): we make a transpose of label here, because when",1
+v0.9.5,TODO(tofix),1
+v0.9.5,TODO(tofix),1
+v0.9.5,TODO(tofix),1
+v0.9.5,or anything familiar. Here we just use a temp workaround,1
+v0.9.5,workarounds mentioned above,1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,TODO: better way to shape the anchors??,1
+v0.9.5,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.9.5,TODO: should we group utterances of similar length together?,1
+v0.9.5,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.9.5,a better way to handle that,1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.5,(TODO) maybe we can add another Formatter for FileHandler.,1
+v0.9.5,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v0.9.5,"state for the same index but on diff devs, TODO(mli)",1
+v0.9.5,use a better solution latter,1
+v0.9.5,"pylint: disable=invalid-name, too-many-locals, fixme",1
+v0.9.5,todo add shape support,1
+v0.9.5,_TODO: get context from environment variable to support,1
+v0.9.5,_TODO: get default dtype from environment variable,1
+v0.9.5,"_TODO: get from env variable, different threshold might",1
+v0.9.5,"_TODO: get from env variable, different threshold might",1
+v0.9.5,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v0.9.5,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+v0.9.5,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+v0.9.5,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+v0.9.5,TODO(leodirac): There's got to be a better way to,1
+v0.9.5,"pylint: disable=fixme, too-many-arguments, too-many-locals, too-many-public-methods, too-many-branches",1
+v0.9.5,In the future we should have a better way to profile memory per device (haibin),1
+v0.9.5,Workarounds based on findings by Jim Driscoll,1
+v0.9.5,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.9.5,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.9.5,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.9.5,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.9.5,From the awesome hack by Dean Edwards,1
+v0.9.5,Work around by temporarily setting element display to inline-block,1
+v0.9.5,force reflow of newly added node in order to workaround delay,1
+v0.9.5,Workaround failure to string-cast null input,1
+v0.9.5,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.9.5,TODO: Fix Train and Test accuracy numbers in multiple gpu mode. Setting it to 0 for now to get whole integration set up done,1
+v0.9.3,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.3,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.3,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.3,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.3,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.3,TODO: add checkpoint back in,1
+v0.9.3,TODO(tofix),1
+v0.9.3,or anything familiar. Here we just use a temp workaround,1
+v0.9.3,workarounds mentioned above,1
+v0.9.3,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.3,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+v0.9.3,TODO Profiling the speed of this part!,1
+v0.9.3,TODO Update logging patterns in other files,1
+v0.9.3,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+v0.9.3,TODO Possibly states + inds for less memory access,1
+v0.9.3,TODO Optimize the reshaping functionality!,1
+v0.9.3,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+v0.9.3,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+v0.9.3,TODO Profiling the speed of this part!,1
+v0.9.3,NOTE: This naive implementation is slow and uses lots of memory.,1
+v0.9.3,"TODO(tofix): we make a transpose of label here, because when",1
+v0.9.3,TODO(tofix),1
+v0.9.3,TODO(tofix),1
+v0.9.3,TODO(tofix),1
+v0.9.3,or anything familiar. Here we just use a temp workaround,1
+v0.9.3,workarounds mentioned above,1
+v0.9.3,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.3,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.3,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.3,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.3,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.3,TODO: design a better way to handle label padding,1
+v0.9.3,TODO: better way to shape the anchors??,1
+v0.9.3,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.9.3,TODO: should we group utterances of similar length together?,1
+v0.9.3,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.9.3,a better way to handle that,1
+v0.9.3,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.3,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.3,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v0.9.3,"state for the same index but on diff devs, TODO(mli)",1
+v0.9.3,use a better solution latter,1
+v0.9.3,"pylint: disable=invalid-name, too-many-locals, fixme",1
+v0.9.3,todo add shape support,1
+v0.9.3,_TODO: get context from environment variable to support,1
+v0.9.3,_TODO: get default dtype from environment variable,1
+v0.9.3,"_TODO: get from env variable, different threshold might",1
+v0.9.3,"pylint: disable=invalid-name, protected-access, fixme, too-many-arguments, no-member",1
+v0.9.3,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v0.9.3,"pylint: disable=invalid-name, protected-access, fixme, too-many-arguments, W0221, W0201, no-self-use, no-member",1
+v0.9.3,"pylint: disable=fixme, invalid-name, unused-argument, too-many-arguments, no-name-in-module",1
+v0.9.3,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+v0.9.3,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+v0.9.3,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+v0.9.3,TODO(leodirac): There's got to be a better way to,1
+v0.9.3,"pylint: disable=fixme, too-many-arguments, too-many-locals, too-many-public-methods, too-many-branches",1
+v0.9.3,Workarounds based on findings by Jim Driscoll,1
+v0.9.3,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.9.3,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.9.3,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.9.3,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.9.3,From the awesome hack by Dean Edwards,1
+v0.9.3,Work around by temporarily setting element display to inline-block,1
+v0.9.3,force reflow of newly added node in order to workaround delay,1
+v0.9.3,Workaround failure to string-cast null input,1
+v0.9.3,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.9.2,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.2,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.2,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.2,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.2,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.2,TODO: add checkpoint back in,1
+v0.9.2,TODO(tofix),1
+v0.9.2,or anything familiar. Here we just use a temp workaround,1
+v0.9.2,workarounds mentioned above,1
+v0.9.2,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.2,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+v0.9.2,TODO Profiling the speed of this part!,1
+v0.9.2,TODO Update logging patterns in other files,1
+v0.9.2,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+v0.9.2,TODO Possibly states + inds for less memory access,1
+v0.9.2,TODO Optimize the reshaping functionality!,1
+v0.9.2,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+v0.9.2,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+v0.9.2,TODO Profiling the speed of this part!,1
+v0.9.2,NOTE: This naive implementation is slow and uses lots of memory.,1
+v0.9.2,"TODO(tofix): we make a transpose of label here, because when",1
+v0.9.2,TODO(tofix),1
+v0.9.2,TODO(tofix),1
+v0.9.2,TODO(tofix),1
+v0.9.2,or anything familiar. Here we just use a temp workaround,1
+v0.9.2,workarounds mentioned above,1
+v0.9.2,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.2,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.2,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.2,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.2,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.2,TODO: design a better way to handle label padding,1
+v0.9.2,TODO: better way to shape the anchors??,1
+v0.9.2,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.9.2,TODO: should we group utterances of similar length together?,1
+v0.9.2,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.9.2,a better way to handle that,1
+v0.9.2,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.2,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.2,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v0.9.2,"state for the same index but on diff devs, TODO(mli)",1
+v0.9.2,use a better solution latter,1
+v0.9.2,"pylint: disable=invalid-name, too-many-locals, fixme",1
+v0.9.2,todo add shape support,1
+v0.9.2,_TODO: get context from environment variable to support,1
+v0.9.2,_TODO: get default dtype from environment variable,1
+v0.9.2,"_TODO: get from env variable, different threshold might",1
+v0.9.2,"pylint: disable=invalid-name, protected-access, fixme, too-many-arguments, no-member",1
+v0.9.2,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v0.9.2,"pylint: disable=invalid-name, protected-access, fixme, too-many-arguments, W0221, W0201, no-self-use, no-member",1
+v0.9.2,"pylint: disable=fixme, invalid-name, unused-argument, too-many-arguments, no-name-in-module",1
+v0.9.2,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+v0.9.2,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+v0.9.2,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+v0.9.2,TODO(leodirac): There's got to be a better way to,1
+v0.9.2,"pylint: disable=fixme, too-many-arguments, too-many-locals, too-many-public-methods, too-many-branches",1
+v0.9.2,Workarounds based on findings by Jim Driscoll,1
+v0.9.2,"Workaround erroneous numeric interpretation of +""0x""",1
+v0.9.2,"The broken getElementById methods don't pick up programatically-set names,",1
+v0.9.2,"Use of this method is a temporary fix (more like optmization) until something better comes along,",1
+v0.9.2,"A tribute to the ""awesome hack by Dean Edwards""",1
+v0.9.2,From the awesome hack by Dean Edwards,1
+v0.9.2,Work around by temporarily setting element display to inline-block,1
+v0.9.2,force reflow of newly added node in order to workaround delay,1
+v0.9.2,Workaround failure to string-cast null input,1
+v0.9.2,"unfortunately, this causes bug #3838 in IE6/8 only, but there is currently no good, small way to fix it.",1
+v0.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.1,TODO: add checkpoint back in,1
+v0.9.1,TODO(tofix),1
+v0.9.1,or anything familiar. Here we just use a temp workaround,1
+v0.9.1,workarounds mentioned above,1
+v0.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+v0.9.1,TODO Profiling the speed of this part!,1
+v0.9.1,TODO Update logging patterns in other files,1
+v0.9.1,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+v0.9.1,TODO Possibly states + inds for less memory access,1
+v0.9.1,TODO Optimize the reshaping functionality!,1
+v0.9.1,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+v0.9.1,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+v0.9.1,TODO Profiling the speed of this part!,1
+v0.9.1,NOTE: This naive implementation is slow and uses lots of memory.,1
+v0.9.1,"TODO(tofix): we make a transpose of label here, because when",1
+v0.9.1,TODO(tofix),1
+v0.9.1,TODO(tofix),1
+v0.9.1,TODO(tofix),1
+v0.9.1,or anything familiar. Here we just use a temp workaround,1
+v0.9.1,workarounds mentioned above,1
+v0.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.1,TODO: design a better way to handle label padding,1
+v0.9.1,TODO: better way to shape the anchors??,1
+v0.9.1,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.9.1,TODO: should we group utterances of similar length together?,1
+v0.9.1,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.9.1,a better way to handle that,1
+v0.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.1,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.9.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v0.9.1,"state for the same index but on diff devs, TODO(mli)",1
+v0.9.1,use a better solution latter,1
+v0.9.1,"pylint: disable=invalid-name, too-many-locals, fixme",1
+v0.9.1,todo add shape support,1
+v0.9.1,_TODO: get context from environment variable to support,1
+v0.9.1,_TODO: get default dtype from environment variable,1
+v0.9.1,"_TODO: get from env variable, different threshold might",1
+v0.9.1,"pylint: disable=invalid-name, protected-access, fixme, too-many-arguments, no-member",1
+v0.9.1,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v0.9.1,"pylint: disable=invalid-name, protected-access, fixme, too-many-arguments, W0221, W0201, no-self-use, no-member",1
+v0.9.1,"pylint: disable=fixme, invalid-name, unused-argument, too-many-arguments, no-name-in-module",1
+v0.9.1,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+v0.9.1,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+v0.9.1,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+v0.9.1,TODO(leodirac): There's got to be a better way to,1
+v0.9.1,"pylint: disable=fixme, too-many-arguments, too-many-locals, too-many-public-methods, too-many-branches",1
+v0.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.8.0,TODO: add checkpoint back in,1
+v0.8.0,TODO(tofix),1
+v0.8.0,or anything familiar. Here we just use a temp workaround,1
+v0.8.0,workarounds mentioned above,1
+v0.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.8.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+v0.8.0,TODO Profiling the speed of this part!,1
+v0.8.0,TODO Update logging patterns in other files,1
+v0.8.0,TODO Backward using NDArray will cause some troubles see `https://github.com/dmlc/mxnet/issues/1720',1
+v0.8.0,TODO Possibly states + inds for less memory access,1
+v0.8.0,TODO Optimize the reshaping functionality!,1
+v0.8.0,"TODO `wait_to_read()` here seems unnecessary, remove it in the future!",1
+v0.8.0,TODO Here we can in fact play multiple gaming instances simultaneously and make actions for each,1
+v0.8.0,TODO Profiling the speed of this part!,1
+v0.8.0,NOTE: This naive implementation is slow and uses lots of memory.,1
+v0.8.0,"TODO(tofix): we make a transpose of label here, because when",1
+v0.8.0,TODO(tofix),1
+v0.8.0,TODO(tofix),1
+v0.8.0,TODO(tofix),1
+v0.8.0,or anything familiar. Here we just use a temp workaround,1
+v0.8.0,workarounds mentioned above,1
+v0.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.8.0,TODO: design a better way to handle label padding,1
+v0.8.0,TODO: better way to shape the anchors??,1
+v0.8.0,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.8.0,TODO: should we group utterances of similar length together?,1
+v0.8.0,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.8.0,a better way to handle that,1
+v0.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.8.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.8.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v0.8.0,"state for the same index but on diff devs, TODO(mli)",1
+v0.8.0,use a better solution latter,1
+v0.8.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+v0.8.0,todo add shape support,1
+v0.8.0,_TODO: get context from environment variable to support,1
+v0.8.0,_TODO: get default dtype from environment variable,1
+v0.8.0,"_TODO: get from env variable, different threshold might",1
+v0.8.0,"pylint: disable=invalid-name, protected-access, fixme, too-many-arguments, no-member",1
+v0.8.0,"pylint: disable=invalid-name, protected-access, fixme, too-many-arguments, W0221, W0201, no-self-use, no-member",1
+v0.8.0,"pylint: disable=fixme, invalid-name, unused-argument, too-many-arguments, no-name-in-module",1
+v0.8.0,"pylint: disable=fixme, invalid-name, missing-docstring, no-init, old-style-class, multiple-statements",1
+v0.8.0,TODO(leodirac): we don't really need to do this on every update.  Optimize,1
+v0.8.0,NOTE: would be nice to auto-detect the metric_name if there's only one.,1
+v0.8.0,TODO(leodirac): There's got to be a better way to,1
+v0.8.0,"pylint: disable=fixme, too-many-arguments, too-many-locals, too-many-public-methods, too-many-branches",1
+v0.7.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.7.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.7.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.7.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.7.0,not very good way of measuring the memory usage here.,1
+v0.7.0,"TODO(Answeror): Don't know why (1, 1) got much lower accuracy",1
+v0.7.0,"Same with above, but ugly",1
+v0.7.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.7.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.7.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.7.0,"pylint: disable=C0111,too-many-arguments,too-many-instance-attributes,too-many-locals,redefined-outer-name,fixme",1
+v0.7.0,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.7.0,TODO: should we group utterances of similar length together?,1
+v0.7.0,borrow this place to pass in sentence length. TODO: use a less hacky way.,1
+v0.7.0,a better way to handle that,1
+v0.7.0,"pylint: disable=fixme, invalid-name, too-many-arguments, too-many-locals, too-many-lines",1
+v0.7.0,"state for the same index but on diff devs, TODO(mli)",1
+v0.7.0,use a better solution latter,1
+v0.7.0,"pylint: disable=invalid-name, too-many-locals, fixme",1
+v0.7.0,todo add shape support,1
+v0.7.0,"pylint: disable=invalid-name, protected-access, fixme, too-many-arguments, no-member",1
+v0.7.0,"pylint: disable=invalid-name, protected-access, fixme, too-many-arguments, W0221, W0201, no-self-use",1
+v0.7.0,"pylint: disable=fixme, invalid-name, unused-argument, too-many-arguments, no-name-in-module",1
