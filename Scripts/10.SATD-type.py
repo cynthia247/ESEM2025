@@ -1,23 +1,22 @@
 import pandas as pd
 
 def merge_SATD_result(repo):
+    
     df1 = pd.read_csv(f'mt-bert-satd-tool/results/predict_{repo}_filtered_comments.csv')
     df2 = pd.read_csv(f'comments/{repo}_filtered_comments.csv')
-    df3 = pd.read_csv(f'Scripts/{repo}.csv')  # Fixed: actually read the CSV
-
     df2['SATD'] = df1['predict'].values
-
-    # Filter rows where predicted SATD == 1
     satd_df = df2[df2['SATD'] == 1]
+    satd_df.to_csv(f'satd-datasets/{repo}_satd.csv', index=False)
 
-    # Now safe to access the column
-    # print(df3['predicted_satd_type'].values)
+    satd_data_type_predicted = True
+    if satd_data_type_predicted:
+        df3 = pd.read_csv(f'satd-datasets/{repo}_satd_type.csv')  # Fixed: actually read the CSV
+        # print('merged result to: ', f'Scripts/{repo}_satd.csv')
 
-    # Add the SATD type to the filtered DataFrame
-    satd_df['type'] = df3['predicted_satd_type'].values
+        # # Add the SATD type to the filtered DataFrame
+        satd_df['type'] = df3['predicted_satd_type'].values
 
-    satd_df.to_csv(f'Scripts/{repo}_satd.csv', index=False)
-    print('merged result to: ', f'Scripts/{repo}_satd.csv')
+
 
     return satd_df
 
@@ -56,11 +55,28 @@ def grouping_SATD(df):
     return result
 
 
+def merge_community_smell_SATD(satd_df,repo):
+    cs_df = pd.read_csv(f'csDetector-Result/{repo}_combined-result.csv')
+
+    merged_df = cs_df.merge(satd_df, on="Release", how="left")
+
+    smell_columns = ['OSE', 'BCE', 'PDE', 'SV', 'OS', 'SD', 'RS', 'TF', 'UI', 'TC']
+    merged_df['CommunitySmells'] = merged_df[smell_columns].sum(axis=1)
+
+    cols = merged_df.columns.tolist()
+    tc_index = cols.index('TC')
+    cols = cols[:tc_index+1] + ['CommunitySmells'] + cols[tc_index+1:-1]
+    merged_df = merged_df[cols + ['SATD']]
+
+    merged_df.to_csv(f'satd-datasets/{repo}_satd_type.csv', index=False)
+    print('merged result to: ', f'satd-datasets/{repo}_satd_type.csv')
+    return merged_df
+
 
 if __name__ == "__main__":
     df = pd.read_csv('csDetector-Result/Repos-with-release.csv')
     for i, row in df.iterrows():
-        if i == 1: break
+        # if i == 1: break
         owner = row['owner']
         repo = row['repo']
         
@@ -76,3 +92,8 @@ if __name__ == "__main__":
         print("######### Grouping SATD #########")
         satd_summary = grouping_SATD(new_satd_df)
         print(satd_summary.head())
+
+        print("\n")
+        print("######### Merging community-smell+SATD #########")
+        cs_satd_df = merge_community_smell_SATD(satd_summary, repo)
+        print(cs_satd_df.head())
