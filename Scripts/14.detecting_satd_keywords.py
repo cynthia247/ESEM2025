@@ -35,12 +35,12 @@ def analyze_satd_comments(folder_path):
             file_path = os.path.join(folder_path, filename)
             df = pd.read_csv(file_path)
 
-            if 'Comment' not in df.columns:
+            if 'Commit Message' not in df.columns:
                 print(f"⚠️ Skipping {filename}: 'Comment' column not found.")
                 continue
 
             for index, row in df.iterrows():
-                comment = str(row['Comment'])
+                comment = str(row['Commit Message'])  # Ensure it's a string
                 matched_smells = detect_smell_keywords(comment, COMMUNITY_SMELL_KEYWORDS)
                 if matched_smells:
                     results.append({
@@ -56,6 +56,6 @@ def analyze_satd_comments(folder_path):
 if __name__ == "__main__":
     folder = "satd-datasets/only-satd-comments"
     result_df = analyze_satd_comments(folder)
-    # result_df.to_csv("community_smell_satd_matches.csv", index=False)
+    result_df.to_csv("community_smell_satd_matches.csv", index=False)
     print("✅ Analysis complete. Results saved to 'community_smell_satd_matches.csv'.")
     print(result_df.head())

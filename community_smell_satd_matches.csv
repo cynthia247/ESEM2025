@@ -1,0 +1,229 @@
+File,Index,Comment,Detected Smells
+mne-python_satd.csv,44,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,310,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,566,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,815,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,1065,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,1308,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,1545,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,1774,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,2001,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,2230,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,2459,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,2688,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,2914,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,3138,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,3361,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,3580,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,3802,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,4027,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,4234,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,4440,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,4642,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,4845,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,5064,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,5288,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,5508,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,5716,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,5924,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,6132,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,6340,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,6545,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,6741,make things complex again...?,Black Cloud Effect
+mne-python_satd.csv,9898,"This is a bit ugly, but it avoids running this again.",Black Cloud Effect
+mne-python_satd.csv,10038,"This is a bit ugly, but it avoids running this again.",Black Cloud Effect
+mne-python_satd.csv,10162,"This is a bit ugly, but it avoids running this again.",Black Cloud Effect
+mne-python_satd.csv,10286,"This is a bit ugly, but it avoids running this again.",Black Cloud Effect
+mne-python_satd.csv,10404,"This is a bit ugly, but it avoids running this again.",Black Cloud Effect
+mne-python_satd.csv,10516,"This is a bit ugly, but it avoids running this again.",Black Cloud Effect
+mne-python_satd.csv,10621,"This is a bit ugly, but it avoids running this again.",Black Cloud Effect
+mne-python_satd.csv,10710,"This is a bit ugly, but it avoids running this again.",Black Cloud Effect
+mne-python_satd.csv,10786,"This is a bit ugly, but it avoids running this again.",Black Cloud Effect
+mne-python_satd.csv,10855,"This is a bit ugly, but it avoids running this again.",Black Cloud Effect
+mne-python_satd.csv,10913,"This is a bit ugly, but it avoids running this again.",Black Cloud Effect
+PyKEEN_satd.csv,120,TODO: checkpoint_dict not further used; later loaded again by TrainingLoop.train,Black Cloud Effect
+PyKEEN_satd.csv,261,TODO: checkpoint_dict not further used; later loaded again by TrainingLoop.train,Black Cloud Effect
+PyKEEN_satd.csv,381,TODO: checkpoint_dict not further used; later loaded again by TrainingLoop.train,Black Cloud Effect
+PyKEEN_satd.csv,501,TODO: checkpoint_dict not further used; later loaded again by TrainingLoop.train,Black Cloud Effect
+pyro_satd.csv,57,XXX replay against an empty Trace to ensure densities are not double-counted,Black Cloud Effect
+pyro_satd.csv,158,XXX replay against an empty Trace to ensure densities are not double-counted,Black Cloud Effect
+pyro_satd.csv,259,XXX replay against an empty Trace to ensure densities are not double-counted,Black Cloud Effect
+pyro_satd.csv,360,XXX replay against an empty Trace to ensure densities are not double-counted,Black Cloud Effect
+pyro_satd.csv,461,XXX replay against an empty Trace to ensure densities are not double-counted,Black Cloud Effect
+pyro_satd.csv,563,XXX replay against an empty Trace to ensure densities are not double-counted,Black Cloud Effect
+pyro_satd.csv,666,XXX replay against an empty Trace to ensure densities are not double-counted,Black Cloud Effect
+pyro_satd.csv,769,XXX replay against an empty Trace to ensure densities are not double-counted,Black Cloud Effect
+pyro_satd.csv,872,XXX replay against an empty Trace to ensure densities are not double-counted,Black Cloud Effect
+pyro_satd.csv,969,XXX replay against an empty Trace to ensure densities are not double-counted,Black Cloud Effect
+tesseract_satd.csv,76,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,276,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,476,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,674,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,872,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,1071,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,1268,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,1465,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,1662,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,1859,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,2056,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,2253,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,2450,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,2646,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,2841,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,3036,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,3229,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,3422,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,3615,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,3806,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,4001,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,4196,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,4389,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,4579,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,4765,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,4954,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,5143,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,5323,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,5495,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,5670,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,5844,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,6021,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+tesseract_satd.csv,6203,TODO(nbeato): Need to find good numbers again.,Black Cloud Effect
+ludwig_satd.csv,141,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,235,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,425,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,518,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,708,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,801,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,991,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,1084,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,1274,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,1367,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,1554,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,1645,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,1832,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,1922,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,2109,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,2197,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,2387,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,2475,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,2662,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,2753,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,2935,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,3022,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,3201,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,3284,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,3461,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,3545,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,3717,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,3798,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,3970,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,4049,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,4221,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,4300,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,4472,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,4550,"TODO(Arnav): Seems like doing this again and going between these format types in unnecessary, but",Black Cloud Effect
+ludwig_satd.csv,4702,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,4897,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,5092,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,5285,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,5478,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,5671,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,5863,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,6032,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,6186,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,6340,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,6493,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,6643,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,6794,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,6945,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,7090,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,7214,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,7338,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,7462,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,7587,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+ludwig_satd.csv,7731,TODO(#1673): Need some more logic here for validating against output features,Black Cloud Effect
+OpenVINO-model-server_satd.csv,353,TODO test against maximum values,Black Cloud Effect
+interpret_satd.csv,127,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,425,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,724,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,1017,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,1309,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,1595,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,1888,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,2181,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,2470,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,2752,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,3029,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,3305,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,3586,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,3874,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,4162,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,4455,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,4745,"TODO: bump this up to something like 10 again, but ONLY after we've standardized",Black Cloud Effect
+interpret_satd.csv,5767,TODO PK do this once during construction so that we don't have to do it again,Black Cloud Effect
+interpret_satd.csv,6016,TODO PK do this once during construction so that we don't have to do it again,Black Cloud Effect
+interpret_satd.csv,6263,TODO PK do this once during construction so that we don't have to do it again,Black Cloud Effect
+interpret_satd.csv,6494,TODO PK do this once during construction so that we don't have to do it again,Black Cloud Effect
+interpret_satd.csv,6707,TODO PK do this once during construction so that we don't have to do it again,Black Cloud Effect
+interpret_satd.csv,6919,TODO PK do this once during construction so that we don't have to do it again,Black Cloud Effect
+interpret_satd.csv,7126,TODO PK do this once during construction so that we don't have to do it again,Black Cloud Effect
+interpret_satd.csv,7347,TODO PK do this once during construction so that we don't have to do it again,Black Cloud Effect
+interpret_satd.csv,7555,TODO PK do this once during construction so that we don't have to do it again,Black Cloud Effect
+interpret_satd.csv,7683,TODO PK do this once during construction so that we don't have to do it again,Black Cloud Effect
+interpret_satd.csv,7814,TODO PK do this once during construction so that we don't have to do it again,Black Cloud Effect
+interpret_satd.csv,7885,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,7890,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,7967,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,7972,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8053,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8058,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8142,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8147,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8226,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8231,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8306,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8311,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8388,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8393,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8464,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8469,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8535,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8540,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8609,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8614,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+interpret_satd.csv,8680,"TODO : we're calculating exp(predictionScore) above, and then again in ComputeClassificationResidualErrorMulticlass.  exp(..) is expensive so we should just do it once instead and store the result in a small memory array here",Black Cloud Effect
+EconML_satd.csv,31,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,113,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,195,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,276,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,357,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,435,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,514,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,591,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,665,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,739,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,813,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,887,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,960,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1033,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1104,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1174,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1244,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1301,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1361,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1421,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1481,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1561,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1621,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1679,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1735,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1790,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1838,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1881,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1926,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,1969,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,2004,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,2038,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+EconML_satd.csv,2072,For some reason this doesn't work at all when run against the CNTK backend...,Black Cloud Effect
+compromise_satd.csv,1704,"[""twenty hundred"", null], //? there's an idiomatic rule against this, though technically fine.",Black Cloud Effect
+compromise_satd.csv,1706,"[""twenty hundred"", null], //? there's an idiomatic rule against this, though technically fine.",Black Cloud Effect
