@@ -8,3 +8,4 @@
 <ul>
     <li> python3 predict.py --task 4 --data_dir 4_unclassified --output_dir predict_files </li>
 </ul>
+test
