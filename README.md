@@ -23,7 +23,7 @@ Our findings emphasize the importance of early detection and mitigation of socio
 
 ## Exploring the association between SATD types and Community Smells
 <ul>
-    <li>Please consider <a> [https://github.com/RISElabQueens/SATD_LLM] </a> model to detect the SATD types of the SATD instances </li>
+    <li>Please consider [https://github.com/RISElabQueens/SATD_LLM]  model to detect the SATD types of the SATD instances </li>
     <li>Please consider **Scripts #9 - #11** for exploring the association between SATD types and Community Smells. </li>
 </ul>
 
