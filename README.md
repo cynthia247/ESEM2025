@@ -11,7 +11,7 @@ Our findings emphasize the importance of early detection and mitigation of socio
 ## Analyzing the Prevalence of Community Smells in ML projects
 <ul>
     <li>Please consider Datasets/Selected_Repos-with-release.csv file to get the selected projects</li>
-    <li>Apply csDetector_New_Param on the selected repositories. Details of running csDetector is available here - <a> https://github.com/Nuri22/csDetector </a> For the modified version, please provide the <i>start_date</i> and <i>end_date</i> to analyze within a defined time period.  </li>
+    <li>Apply **csDetector_New_Param** on the selected repositories. Details of running csDetector is available here - [https://github.com/Nuri22/csDetector](url). For the modified version, please provide the <i>start_date</i> and <i>end_date</i> to analyze within a defined time period.  </li>
 </ul>
 
 ## Investigating the Correlations between Community Smells and SATD
