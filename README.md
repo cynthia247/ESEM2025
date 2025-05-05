@@ -17,7 +17,7 @@ Our findings emphasize the importance of early detection and mitigation of socio
 ## Investigating the Correlations between Community Smells and SATD
 <ul>
     <li>Please consider **Scripts/1.extract_releases.py, Scripts/2.extract_comments.py and Scripts/3.SATD_detection.py** files to extract comments from the repositories for all the releases and detect the SATD instances. </li>
-    <li>Apply mt-bert-satd-tool to detect the SATD instances from the extracted comments. Find details here - <a> [https://github.com/zscszndxdxs/2023-MT-BERT-SATD] </a> </li>
+    <li>Apply mt-bert-satd-tool to detect the SATD instances from the extracted comments. Find details here - [https://github.com/zscszndxdxs/2023-MT-BERT-SATD] </li>
     <li>Please consider **Scripts #4 - #6** for investigating the correlations between community smells and SATD. </li>
 </ul>
 
