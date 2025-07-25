@@ -1,4 +1,4 @@
-Project_names,Release,Date,OSE,BCE,PDE,SV,OS,SD,RS,TF,UI,TC,CommunitySmells,SATD,Code,Defect,Design,Documentation,M&T,Requirement,SATD
+Project_names,Release,Date,OSE,BCE,PDE,SV,OS,SD,RS,TF,UI,TC,CommunitySmells,SATD,Code,Defect,Design,Documentation,Test,Requirement,SATD
 bigartm,v0.5.1,2014-09-20,0,1,1,0,0,0,1,1,0,1,5,107,11,20,5,11,8,52,107
 bigartm,v0.5.2,2014-09-28,0,1,1,0,0,0,1,1,0,1,5,107,11,20,5,11,8,52,107
 bigartm,v0.5.3,2014-10-21,0,1,1,0,0,0,1,1,0,1,5,107,11,20,5,11,8,52,107

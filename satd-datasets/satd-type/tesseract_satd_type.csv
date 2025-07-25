@@ -1,4 +1,4 @@
-Project_names,Release,Date,OSE,BCE,PDE,SV,OS,SD,RS,TF,UI,TC,CommunitySmells,SATD,Code,Defect,Design,Documentation,M&T,Requirement,SATD
+Project_names,Release,Date,OSE,BCE,PDE,SV,OS,SD,RS,TF,UI,TC,CommunitySmells,SATD,Code,Defect,Design,Documentation,Test,Requirement,SATD
 tesseract,3.04.00,2015-07-24,1,1,0,1,0,0,0,1,0,1,5,181,22,38,7,27,16,71,181
 tesseract,3.04.01,2016-02-16,0,0,0,1,0,1,0,1,1,0,4,180,21,38,7,26,16,72,180
 tesseract,3.05.00,2017-02-16,0,0,1,1,0,0,0,1,0,0,3,175,21,38,7,25,15,69,175

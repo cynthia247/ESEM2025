@@ -1,4 +1,4 @@
-Project_names,Release,Date,OSE,BCE,PDE,SV,OS,SD,RS,TF,UI,TC,CommunitySmells,SATD,Code,Defect,Design,Documentation,M&T,Requirement,SATD
+Project_names,Release,Date,OSE,BCE,PDE,SV,OS,SD,RS,TF,UI,TC,CommunitySmells,SATD,Code,Defect,Design,Documentation,Test,Requirement,SATD
 OpenVINO-model-server,v2020.1,2020-03-23,0,1,1,0,0,0,0,0,1,1,4,,,,,,,,
 OpenVINO-model-server,v2020.3,2020-08-06,0,1,1,0,0,0,0,1,0,1,4,,,,,,,,
 OpenVINO-model-server,v2020.4,2020-08-07,0,1,1,0,0,0,1,1,1,1,6,,,,,,,,

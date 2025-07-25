@@ -1,4 +1,4 @@
-Project_names,Release,Date,OSE,BCE,PDE,SV,OS,SD,RS,TF,UI,TC,CommunitySmells,SATD,Code,Defect,Design,Documentation,M&T,Requirement,SATD
+Project_names,Release,Date,OSE,BCE,PDE,SV,OS,SD,RS,TF,UI,TC,CommunitySmells,SATD,Code,Defect,Design,Documentation,Test,Requirement,SATD
 interpret,v0.1.0,2019-05-15,0,1,1,0,0,0,1,1,0,1,5,56,5,9,4,3,2,33,56
 interpret,v0.1.1,2019-05-17,0,1,1,0,0,0,1,1,0,1,5,58,5,9,4,4,3,33,58
 interpret,v0.1.2,2019-05-22,0,1,1,0,0,0,0,1,0,1,4,59,5,9,4,4,3,34,59

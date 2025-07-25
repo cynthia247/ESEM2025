@@ -1,4 +1,4 @@
-Project_names,Release,Date,OSE,BCE,PDE,SV,OS,SD,RS,TF,UI,TC,CommunitySmells,SATD,Code,Defect,Design,Documentation,M&T,Requirement,SATD
+Project_names,Release,Date,OSE,BCE,PDE,SV,OS,SD,RS,TF,UI,TC,CommunitySmells,SATD,Code,Defect,Design,Documentation,Test,Requirement,SATD
 deepchem,0.0.1,2016-01-29,0,1,1,0,0,0,0,1,0,1,4,31,0,6,1,6,1,17,31
 deepchem,0.0.2,2016-01-30,0,0,1,1,0,0,0,0,1,1,4,31,0,6,1,6,1,17,31
 deepchem,0.0.3,2016-01-30,0,0,1,1,0,0,0,0,1,1,4,31,0,6,1,6,1,17,31
