@@ -8,7 +8,7 @@ project_files = [f for f in os.listdir(data_dir) if f.endswith(".csv")]
 
 # Define column categories
 smell_columns = ['OSE', 'BCE', 'PDE', 'SV', 'OS', 'SD', 'RS', 'TF', 'UI', 'TC']
-satd_columns = ['Code', 'Defect', 'Design', 'Documentation', 'M&T', 'Requirement']
+satd_columns = ['Code', 'Defect', 'Design', 'Documentation', 'Test', 'Requirement']
 all_columns = smell_columns + satd_columns
 
 # Initialize results table
@@ -45,5 +45,5 @@ for file in project_files:
     results_df[project_name] = col_results
 
 # Save result
-results_df.to_csv("mk_trend_summary.csv")
+results_df.to_csv("mk_trend_summary2.csv")
 print("✅ Saved to mk_trend_summary.csv")
